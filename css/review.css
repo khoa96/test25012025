@@ -1,0 +1,222 @@
+.page-review-wrapper .mr-b-8 {
+  margin-bottom: 8px;
+}
+.page-review-wrapper .mr-b-12 {
+  margin-bottom: 12px;
+}
+.page-review-wrapper .mr-b-24 {
+  margin-bottom: 24px;
+}
+.page-review-wrapper .mr-b-44 {
+  margin-bottom: 44px;
+}
+.page-review-wrapper .mr-b-16 {
+  margin-bottom: 16px;
+}
+.page-review-wrapper .max-width-730 {
+  max-width: 730px;
+}
+.page-review-wrapper .review-title-block {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-review-wrapper .review-title-block .review-title-image {
+  object-fit: cover;
+}
+.page-review-wrapper .review-title-block .title-1 {
+  min-width: 905px;
+  max-width: 905px;
+  height: 113px;
+}
+.page-review-wrapper .real-people-and-things-block {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 80px 0px 90px;
+}
+.page-review-wrapper .real-people-and-things-block .background-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  z-index: 2;
+  background: linear-gradient(95deg, #ff6d03 0%, #9591ec 100%);
+}
+.page-review-wrapper .real-people-and-things-block .real-people-and-things-content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  position: relative;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper {
+  width: 100%;
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+}
+@media only screen and (max-width: 991px) {
+  .page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper {
+    margin-top: 32px;
+  }
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item {
+  min-width: 300px;
+  max-width: 300px;
+  border: 1px solid green;
+  height: 100%;
+  margin-right: 24px;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item:last-child {
+  margin-right: 0;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item .user-info-wrapper {
+  width: 100%;
+  height: auto;
+  border: 1px solid green;
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-size: 14px;
+  font-style: normal;
+  color: #1a202c;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item .username {
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item .info p {
+  margin: 0;
+  padding: 0;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item .feed-back-content {
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+  border-radius: 16px;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item .feed-back-content .user-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 16px 16px 0px 0px;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item .feed-back-content .user-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px 16px 0px 0px;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item .feed-back-content .feed-back-detail-wrapper {
+  padding: 12px 16px 16px 16px;
+  min-height: 170px;
+  background-color: #ff6d03;
+  border-radius: 0px 0px 16px 16px;
+  font-family: SF Pro Rounded;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item .feed-back-content .feed-back-detail-wrapper .feed-back-detail {
+  margin-bottom: 36px;
+}
+.page-review-wrapper .success-story-block {
+  width: 100%;
+  min-height: 800px;
+  border: 1px solid red;
+  background-image: url("../images/banner-teacher-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  padding: 90px 0px;
+}
+.page-review-wrapper .success-story-block .title-2 {
+  min-width: 980px;
+  max-width: 100px;
+  border: 1px solid red;
+}
+.page-review-wrapper .success-story-block .list-story {
+  margin-top: 90px;
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 85px 24px;
+}
+.page-review-wrapper .success-story-block .list-story .story-item {
+  min-width: 408px;
+  height: auto;
+  border: 1px solid red;
+  max-width: 408px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-review-wrapper .success-story-block .list-story .story-item .story-image {
+  width: 100%;
+  height: 297px;
+  border-radius: 24px;
+  border: 1px solid #cbd5e0;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+.page-review-wrapper .success-story-block .list-story .story-item .story-title {
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #1a202c;
+}
+.page-review-wrapper .success-story-block .list-story .story-item .btn-view-more {
+  padding: 12px 24px;
+  border-radius: 1000px;
+  border: 1px solid #ff6d03;
+  background: #fff;
+  font-family: SF Pro Rounded;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #ff6d03;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.page-review-wrapper .success-story-block .list-story .story-item .btn-view-more span {
+  margin-right: 4px;
+}
+
+/*# sourceMappingURL=review.css.map */
