@@ -154,30 +154,6 @@
       display: flex;
       margin-top: 40px;
       align-items: center;
-
-      .btn-slider {
-        min-width: 40px;
-        max-width: 40px;
-        height: 40px;
-        border: 2px solid #fff;
-        background-color: #ffb700;
-        position: relative;
-        display: flex;
-        z-index: 999;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        cursor: pointer;
-      }
-
-      .btn-prev {
-        left: 30px;
-      }
-
-      .btn-next {
-        right: 30px;
-      }
-
       .native-teacher-list {
         max-width: 1296px;
         display: flex;

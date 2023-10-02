@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import "variables";
+@import "fonts";
 @import "mixins";
 
 /* -----------------------------------------------------------
@@ -61,4 +62,26 @@ button,
   text-transform: uppercase;
   -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: #1a202c;
+}
+.btn-slider {
+  min-width: 40px;
+  max-width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  background-color: #ffb700;
+  position: relative;
+  display: flex;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn-prev {
+  left: 30px;
+}
+
+.btn-next {
+  right: 30px;
 }
