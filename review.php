@@ -292,14 +292,26 @@
 
           <div class="parents-feed-back-list-wrapper">
             <div class="parents-feed-back-list">
-              <div class="parents-feed-back-item">1</div>
-              <div class="parents-feed-back-item">2</div>
-              <div class="parents-feed-back-item">3</div>
-              <div class="parents-feed-back-item">4</div>
-              <div class="parents-feed-back-item">5</div>
-              <div class="parents-feed-back-item">6</div>
-              <div class="parents-feed-back-item">7</div>
-              <div class="parents-feed-back-item">8</div>
+              <div class="parents-feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+
+              <div class="parents-feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+              <div class="parents-feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+              <div class="parents-feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+              <div class="parents-feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+              <div class="parents-feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+
             </div>
             <button class="btn-slider btn-next">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -323,24 +335,23 @@
 
   <?php include "templates/footer.php"; ?>
   <script>
-  /* -----------------------------------------------------------
-                                                                                                        Effective slider
-                                                                                                  --    --------------------------------------------------------- */
-  $(function() {
-    // PC
-    var parentsFeedBackList = $('.parents-feed-back-list').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: true,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      initialSlide: 1,
-      responsive: [{
+    /* -----------------------------------------------------------
+                                                                                                                      Effective slider
+                                                                                                                --    --------------------------------------------------------- */
+    $(function () {
+      // PC
+      var parentsFeedBackList = $('.parents-feed-back-list').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -352,13 +363,13 @@
             slidesToShow: 1
           }
         }
-      ]
+        ]
+      });
+      $('.parents-feed-back-list-wrapper .btn-next').on('click', function () {
+        parentsFeedBackList.slick('next');
+      });
+      parentsFeedBackList.slick('slickGoTo', 0)
     });
-    $('.parents-feed-back-list-wrapper .btn-next').on('click', function() {
-      parentsFeedBackList.slick('next');
-    });
-    parentsFeedBackList.slick('slickGoTo', 0)
-  });
   </script>
 
 </body>

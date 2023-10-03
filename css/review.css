@@ -87,7 +87,7 @@
   font-size: 14px;
   font-style: normal;
   color: #1a202c;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   display: flex;
   flex-direction: column;
@@ -137,7 +137,7 @@
   font-family: SF Pro Rounded;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 20px;
   color: #fff;
   display: flex;
@@ -236,24 +236,33 @@
 .page-review-wrapper .parents-block .parents-feed-back-list-wrapper {
   margin-top: 55px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid blue;
+  position: relative;
 }
 .page-review-wrapper .parents-block .parents-feed-back-list {
-  max-width: 1200px;
+  max-width: 1287px;
+  max-height: 540px;
   display: flex;
-  border: 1px solid red;
+  overflow-y: hidden;
+  border: 2px solid green;
 }
 .page-review-wrapper .parents-block .parents-feed-back-list .parents-feed-back-item {
-  min-width: 320px;
-  max-width: 320px;
-  height: 300px;
+  min-width: 315px;
+  max-width: 315px;
+  height: fit-content;
   background-color: #fff;
   border-radius: 16px;
-  border: 10px solid #FFF;
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.18);
-  margin: 0px 16px;
+  margin-right: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 26px 0px;
+  margin-bottom: 20px;
+}
+.page-review-wrapper .parents-block .parents-feed-back-list .parents-feed-back-item .feed-back-image {
+  min-width: 269px;
+  max-width: 269px;
+  height: 480px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=review.css.map */

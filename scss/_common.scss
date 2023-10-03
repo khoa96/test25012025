@@ -69,7 +69,8 @@ button,
   height: 40px;
   border: 2px solid #fff;
   background-color: #ffb700;
-  position: relative;
+  position: absolute;
+  top: 50%;
   display: flex;
   z-index: 999;
   align-items: center;

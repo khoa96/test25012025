@@ -231,20 +231,20 @@
 
     <script>
       /* -----------------------------------------------------------
-                                                                                                        Effective slider
-                                                                                                  --    --------------------------------------------------------- */
+                                                                                                            Effective slider
+                                                                                                      --    --------------------------------------------------------- */
       $(function () {
         // PC
         var nativeTeacherSlider = $('.native-teacher-list').slick({
           speed: 600,
           autoplaySpeed: 6000,
           autoplay: true,
-          infinite: true,
+          infinite: false,
           swipe: true,
           fade: false,
           dots: false,
           arrows: false,
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
           responsive: [{
             breakpoint: 992,
