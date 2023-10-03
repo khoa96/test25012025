@@ -280,35 +280,35 @@
     </div>
     <!-- END SUCCESS STORY  -->
 
-    <!-- START PARENTS BLOCK -->
-    <div class="parents-block">
+    <!-- START PARENTS  FEEDBACK BLOCK -->
+    <div class="feedback-block parents-feed-back-block">
       <div class="container">
-        <div class="parents-content-wrapper">
+        <div class="feeback-content-wrapper">
           <div class="review-title-block">
             <img src="./images/parent-title.png" class="review-title-image title-3 mr-b-12" />
             <h2 class="review-title common-primary-title ">Khẳng Định Con Tiến Bộ Kỹ Năng Giao Tiếp <br /> Nhờ Sử Dụng
               Bitu</h2>
           </div>
 
-          <div class="parents-feed-back-list-wrapper">
-            <div class="parents-feed-back-list">
-              <div class="parents-feed-back-item">
+          <div class="feed-back-list-wrapper parents-feed-back-list-wrapper">
+            <div class="feed-back-list parents-feedback-list">
+              <div class="feed-back-item">
                 <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
               </div>
 
-              <div class="parents-feed-back-item">
+              <div class="feed-back-item">
                 <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
               </div>
-              <div class="parents-feed-back-item">
+              <div class="feed-back-item">
                 <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
               </div>
-              <div class="parents-feed-back-item">
+              <div class="feed-back-item">
                 <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
               </div>
-              <div class="parents-feed-back-item">
+              <div class="feed-back-item">
                 <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
               </div>
-              <div class="parents-feed-back-item">
+              <div class="feed-back-item">
                 <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
               </div>
 
@@ -330,28 +330,81 @@
         </div>
       </div>
     </div>
-    <!-- END PARENTS BLOCK -->
+    <!-- END PARENTS FEEDBACK BLOCK -->
+
+
+    <!-- START STUDENT  FEEDBACK BLOCK -->
+    <div class="feedback-block student-feed-back-block">
+      <div class="container">
+        <div class="feeback-content-wrapper">
+          <div class="review-title-block">
+            <img src="./images/parent-title.png" class="review-title-image title-3 mr-b-12" />
+            <h2 class="review-title common-primary-title ">luyện nói tiếng Anh thành công nói gì về Bitu?</h2>
+          </div>
+
+          <div class="feed-back-list-wrapper student-feed-back-list-wrapper">
+            <div class="feed-back-list student-feedback-list">
+              <div class="feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+
+              <div class="feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+              <div class="feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+              <div class="feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+              <div class="feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+              <div class="feed-back-item">
+                <img src="./images/feedback-1.png" class="feed-back-image" alt="" />
+              </div>
+
+            </div>
+            <button class="btn-slider btn-next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0_5934_5832)">
+                  <path d="M9 6L15 12L9 18" stroke="#1A202C" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_5934_5832">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END STUDENT FEEDBACK BLOCK -->
+
   </div>
 
   <?php include "templates/footer.php"; ?>
   <script>
-    /* -----------------------------------------------------------
+  /* -----------------------------------------------------------
                                                                                                                       Effective slider
                                                                                                                 --    --------------------------------------------------------- */
-    $(function () {
-      // PC
-      var parentsFeedBackList = $('.parents-feed-back-list').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: true,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [{
+  $(function() {
+    // PC
+    var parentsFeedBackList = $('.parents-feedback-list').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -363,13 +416,41 @@
             slidesToShow: 1
           }
         }
-        ]
-      });
-      $('.parents-feed-back-list-wrapper .btn-next').on('click', function () {
-        parentsFeedBackList.slick('next');
-      });
-      parentsFeedBackList.slick('slickGoTo', 0)
+      ]
     });
+    $('.parents-feed-back-list-wrapper .btn-next').on('click', function() {
+      parentsFeedBackList.slick('next');
+    });
+
+    var studentFeedBackList = $('.student-feedback-list').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+    $('.student-feed-back-list-wrapper .btn-next').on('click', function() {
+      studentFeedBackList.slick('next');
+    });
+  });
   </script>
 
 </body>

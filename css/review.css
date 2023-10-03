@@ -218,47 +218,56 @@
 .page-review-wrapper .success-story-block .list-story .story-item .btn-view-more span {
   margin-right: 4px;
 }
-.page-review-wrapper .parents-block {
+.page-review-wrapper .parents-feed-back-block {
+  background-image: url("../images/grid-background.png");
+  padding: 80px 0px 68px;
+}
+.page-review-wrapper .student-feed-back-block {
+  background-image: url("../images/banner-teacher-background.png");
+  padding: 150px 0px 180px;
+}
+.page-review-wrapper .feedback-block {
   width: 100%;
   height: auto;
-  background-image: url("../images/grid-background.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 80px 0px 68px;
 }
-.page-review-wrapper .parents-block .title-3 {
+.page-review-wrapper .feedback-block .title-3 {
   min-width: 820px;
   max-width: 820px;
   height: 100px;
   object-fit: cover;
 }
-.page-review-wrapper .parents-block .parents-feed-back-list-wrapper {
+.page-review-wrapper .feedback-block .feed-back-list-wrapper {
   margin-top: 55px;
   display: flex;
+  border: 1px solid green;
+  justify-content: center;
   position: relative;
 }
-.page-review-wrapper .parents-block .parents-feed-back-list {
-  max-width: 1287px;
+.page-review-wrapper .feedback-block .feed-back-list {
+  max-width: 1296px;
   max-height: 540px;
   display: flex;
   overflow-y: hidden;
-  border: 2px solid green;
+  justify-content: center;
+  border: 1px solid red;
 }
-.page-review-wrapper .parents-block .parents-feed-back-list .parents-feed-back-item {
-  min-width: 315px;
-  max-width: 315px;
+.page-review-wrapper .feedback-block .feed-back-list .feed-back-item {
+  min-width: 300px;
+  max-width: 300px;
   height: fit-content;
   background-color: #fff;
   border-radius: 16px;
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.18);
-  margin-right: 32px;
+  margin: 0px 12px;
   display: flex;
   justify-content: center;
   padding: 26px 0px;
   margin-bottom: 20px;
 }
-.page-review-wrapper .parents-block .parents-feed-back-list .parents-feed-back-item .feed-back-image {
+.page-review-wrapper .feedback-block .feed-back-list .feed-back-item .feed-back-image {
   min-width: 269px;
   max-width: 269px;
   height: 480px;
