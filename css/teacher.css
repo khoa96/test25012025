@@ -137,27 +137,7 @@
   position: relative;
   display: flex;
   margin-top: 40px;
-  align-items: center;
-}
-.page-teacher-wrapper .list-teach-block .slider-wrapper .btn-slider {
-  min-width: 40px;
-  max-width: 40px;
-  height: 40px;
-  border: 2px solid #fff;
-  background-color: #ffb700;
-  position: relative;
-  display: flex;
-  z-index: 999;
-  align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.page-teacher-wrapper .list-teach-block .slider-wrapper .btn-prev {
-  left: 30px;
-}
-.page-teacher-wrapper .list-teach-block .slider-wrapper .btn-next {
-  right: 30px;
 }
 .page-teacher-wrapper .list-teach-block .slider-wrapper .native-teacher-list {
   max-width: 1296px;
