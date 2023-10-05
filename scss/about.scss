@@ -3,6 +3,28 @@
 @import "fonts";
 @import "mixins";
 
+// common
+
+.btn-join-to-us {
+  min-width: max-content;
+  max-width: max-content;
+  padding: 14px 22px;
+  border-radius: 1000px;
+  background: #ff6d03;
+  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+  font-family: SF Pro Rounded Medium;
+  font-size: 20px;
+  font-style: normal;
+  border: none;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
+// block 1
 .con-about-intro {
   border: 1px solid red;
   margin: 0 0 !important;
@@ -117,36 +139,269 @@
         }
       }
     }
+  }
+}
 
-    .btn-join-to-us {
-      min-width: max-content;
-      max-width: max-content;
-      padding: 14px 22px;
-      border-radius: 1000px;
-      background: #ff6d03;
-      box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
-      font-family: SF Pro Rounded Medium;
-      font-size: 20px;
-      font-style: normal;
-      border: none;
-      font-weight: 700;
-      line-height: normal;
-      color: #fff;
-      outline: none;
-      &:focus {
-        outline: none;
+// block 2
+.vision-block-wrapper {
+  width: 100%;
+  border: 1px solid;
+  height: auto;
+  padding: 98px 0px 72px;
+
+  @include mq(max_md) {
+    padding: 66px 0px 72px;
+  }
+
+  .vision-content-wrapper {
+    .list-vision-and-mission {
+      width: 100%;
+      height: auto;
+      border: 1px solid blue;
+      display: flex;
+      justify-content: center;
+
+      @include mq(max_md) {
+        flex-direction: column;
+      }
+
+      .vision-and-mission-item {
+        min-width: 360px;
+        max-width: 360px;
+        height: auto;
+        border: 1px solid;
+        margin-right: 72px;
+
+        @include mq(max_md) {
+          min-width: 100%;
+          max-width: 100%;
+          margin-right: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 40px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        .vision-image {
+          min-width: 180px;
+          max-width: 180px;
+          height: 180px;
+          object-fit: cover;
+        }
+
+        .vision-title {
+          margin: 40px 0px 32px;
+          text-align: left;
+
+          @include mq(max_md) {
+            font-size: 32px;
+            margin: 24px 0px 20px;
+          }
+        }
+
+        .vision-description {
+          color: #1a202c;
+          font-family: SF Pro Rounded Regular;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+          margin: 0;
+          padding: 0;
+
+          @include mq(max_md) {
+            text-align: center;
+          }
+        }
+
+        .list-option {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          border: 1px solid red;
+          width: 100%;
+
+          @include mq(max_md) {
+            text-align: center;
+          }
+
+          .option-item {
+            margin-bottom: 12px;
+
+            @include mq(max_md) {
+              margin-bottom: 8px;
+            }
+
+            color: #1a202c;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            .option-title {
+              font-family: SF Pro Rounded;
+              font-weight: 700;
+              margin: 0;
+              padding: 0;
+            }
+
+            .option-description {
+              font-family: SF Pro Rounded Regular;
+              margin: 0;
+              padding: 0;
+            }
+          }
+        }
       }
     }
   }
 }
 
-.vision-block-wrapper {
-  width: 100%;
-  border: 1px solid;
-  height: auto;
+// block 3
+.con-about-core {
+  border: 1px solid red;
+  padding: 80px 0px 160px;
 
-  .vision-content-wrapper {
-    display: flex;
-    justify-content: center;
+  @include mq(max_md) {
+    padding: 72px 0px 60px;
+  }
+
+  .core-value-title {
+    text-align: left;
+    margin-bottom: 50px;
+
+    @include mq(max_md) {
+      margin-bottom: 32px;
+    }
+  }
+}
+
+//block 4
+
+.con-about-core {
+  @include mq(max_md) {
+    padding-bottom: 0;
+  }
+}
+
+// block 5
+.con-about-maxim {
+  position: relative;
+  width: 100%;
+  height: 365px;
+  background-image: url("../images/about-us/dot-grid-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 233px;
+  margin-top: 0;
+  @include mq(max_md) {
+    min-width: 100%;
+    max-width: 100%;
+    height: fit-content;
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+
+  &::after {
+    display: none;
+  }
+
+  &::before {
+    display: none;
+  }
+  .con-about-maxim-title {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: SF Pro Rounded Medium;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 47px;
+
+    @include mq(max_md) {
+      font-size: 28px;
+      max-width: 230px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.con-about-core {
+  padding-top: 0;
+}
+
+// block 6
+.con-about-creative {
+  width: 100%;
+  border: 1px solid red;
+
+  .img {
+    box-shadow: none;
+  }
+
+  .con-about-creative-title {
+    margin-bottom: 32px;
+    text-align: left;
+
+    @include mq(max_md) {
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+  }
+
+  .con-about-creative-description {
+    color: #4a5568;
+    font-family: SF Pro Rounded Regular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin-bottom: 40px;
+
+    @include mq(max_md) {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+// block milestone
+.con-about-milestone {
+  .con-about-milestone-title {
+    text-align: left;
+    margin-bottom: 68px;
+
+    @include mq(max_md) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// block life of bitu
+.con-about-life {
+  .con-about-life-title {
+    text-align: left;
+    margin-bottom: 78px;
+
+    @include mq(max_md) {
+      margin-bottom: 30px;
+    }
   }
 }

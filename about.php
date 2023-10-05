@@ -30,15 +30,53 @@
   <div class="vision-block-wrapper">
     <div class="container">
       <div class="vision-content-wrapper">
+        <div class="list-vision-and-mission">
+          <div class="vision-and-mission-item">
+            <img src="./images/vision-1.png" class="vision-image" alt="">
+            <h3 class="vision-title common-primary-title">Tầm nhìn</h3>
+            <p class="vision-description">
+              Nâng tầm khả năng nói tiếng Anh của người Việt. Từ đó tìm cơ hội vươn ra khu vực và các nước khác trên thế
+              giới
+            </p>
+          </div>
+          <div class="vision-and-mission-item">
+            <img src="./images/vision-2.png" class="vision-image" alt="">
+            <h3 class="vision-title common-primary-title">sứ mệnh</h3>
+            <p class="vision-description">
+              Bitu được tạo ra với sứ mệnh mang đến môi trường luyện nói tiếng Anh chuyên nghiệp, chuẩn quốc tế, dành
+              cho tất cả người dùng.
+            </p>
+          </div>
+          <div class="vision-and-mission-item">
+            <img src="./images/vision-3.png" class="vision-image" alt="">
+            <h3 class="vision-title common-primary-title">Giá trị cốt lõi</h3>
+            <ul class="list-option">
+              <li class="option-item">
+                <h4 class="option-title">Customer-Orientation</h4>
+                <p class="option-description">Tập trung vào khách hàng</p>
+              </li>
+              <li class="option-item">
+                <h4 class="option-title">Novelty</h4>
+                <p class="option-description">Đổi mới, sáng tạo</p>
+              </li>
+              <li class="option-item">
+                <h4 class="option-title">Practical values</h4>
+                <p class="option-description">Giá trị thực tiễn</p>
+              </li>
+            </ul>
 
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <!-- END VISION AND MISSION -->
 
+  <!-- START  CORE VALUE  -->
+
   <div class="con-about-core">
     <div class="container">
-      <h3 class="title-lg">Core Value</h3>
+      <h3 class="common-primary-title core-value-title">Core Value</h3>
       <div class="row">
         <div class="col-md-3 mt-md-4 pt-md-1">
           <div class="d-flex">
@@ -91,11 +129,11 @@
       </div>
     </div>
   </div>
-  <!-- /END .con-about-core -->
+  <!--  START  CORE VALUE  -->
 
   <div class="con-about-maxim">
     <div class="container">
-      <h3 class="title-lg">Phương châm của chúng tôi</h3>
+      <h3 class="con-about-maxim-title">Phương châm của chúng tôi</h3>
       <div class="row box-maxim">
         <div class="col-md-6">
           <div class="col-maxim d-flex justify-content-between">
@@ -132,10 +170,11 @@
       <div class="box-wrapper">
         <div class="row align-items-center">
           <div class="box-text col-md-5">
-            <h3 class="title-lg">Gặp đội ngũ sáng tạo của Bitu</h3>
-            <p class="des">Bituer là những người đam mê, sáng tạo và luôn tập trung vào sứ mệnh giúp mọi người nói tiếng
+            <h3 class="common-primary-title con-about-creative-title ">Gặp đội ngũ sáng tạo của Bitu</h3>
+            <p class="con-about-creative-description">Bituer là những người đam mê, sáng tạo và luôn tập trung vào sứ
+              mệnh giúp mọi người nói tiếng
               Anh tốt hơn.</p>
-            <button class="btn btn-orange btn-advisory"><span>Gia nhập với chúng tôi</span></button>
+            <button class="btn-join-to-us">Gia nhập với chúng tôi</button>
           </div>
 
           <div class="box-photo col-md-7 px-md-0">
@@ -147,9 +186,10 @@
   </div>
   <!-- /END .con-about-creative -->
 
+  <!-- START MILESTONE BLOCK  -->
   <div class="con-about-milestone">
     <div class="container">
-      <h3 class="title-lg">Milestone</h3>
+      <h3 class="common-primary-title con-about-milestone-title">Milestone</h3>
       <div class="box-pc d-none d-md-block">
 
         <ul class="box-lines">
@@ -270,11 +310,13 @@
 
     </div>
   </div>
-  <!-- /END .con-about-milestone -->
+  <!-- END MILESTONE BLOCK  -->
+
+  <!-- START LIFE OF Bitu -->
 
   <div class="con-about-life">
     <div class="container">
-      <h3 class="title-lg">Cuộc sống tại Bitu</h3>
+      <h3 class="common-primary-title con-about-life-title">Cuộc sống tại Bitu</h3>
       <div class="box-pc d-none d-md-block">
         <div class="row">
           <div class="col col-1">
@@ -338,7 +380,8 @@
         </div>
       </div>
     </div>
-  </div><!-- /END .con-about-life -->
+  </div>
+  <!-- END LIFE OF Bitu -->
   <?php include "templates/footer.php"; ?>
 
 </body>

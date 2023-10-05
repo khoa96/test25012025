@@ -3,8 +3,8 @@
 ----------------------------------------------------------- */
 @font-face {
   font-family: "Circular Std";
-  src: url("../fonts/CircularStd-Medium.otf");
-  font-weight: 400;
+  src: url("../fonts/CircularStd-Book.otf");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: "Circular Std";
-  src: url("../fonts/CircularStd-Medium.otf");
+  src: url("../fonts/CircularStd-Bold.otf");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -26,25 +26,25 @@
 	font-face SF Pro Rounded
 ----------------------------------------------------------- */
 @font-face {
-  font-family: "SF Pro Rounded";
-  src: url("../fonts/SF-Pro-Rounded-Black.otf");
-  font-weight: 400;
+  font-family: "SF Pro Rounded Regular";
+  src: url("../fonts/SF-Pro-Rounded-Regular.otf");
   font-style: normal;
   font-display: swap;
+  font-weight: 400;
 }
 @font-face {
-  font-family: "SF Pro Rounded";
+  font-family: "SF Pro Rounded Medium";
   src: url("../fonts/SF-Pro-Rounded-Medium.otf");
-  font-weight: 500;
   font-style: normal;
   font-display: swap;
+  font-weight: 500;
 }
 @font-face {
   font-family: "SF Pro Rounded";
   src: url("../fonts/SF-Pro-Rounded-Bold.otf");
-  font-weight: bold;
   font-style: normal;
   font-display: swap;
+  font-weight: 700;
 }
 /* -----------------------------------------------------------
 	common
@@ -103,7 +103,7 @@ button,
 
 .common-primary-title {
   font-size: 44px;
-  color: #FFC700;
+  color: #ffc700;
   text-align: center;
   font-family: SF Pro Rounded;
   font-size: 45px;
@@ -112,6 +112,12 @@ button,
   line-height: 64px; /* 145.455% */
   text-transform: uppercase;
   text-shadow: -2px -2px 0 #000, 0 -2px 0 #000, 2px -2px 0 #000, 2px 0 0 #000, 2px 2px 0 #000, 0 2px 0 #000, -2px 2px 0 #000, -2px 0 0 #000, 2px 2px #000, 4px 4px 4px rgba(0, 0, 0, 0.45);
+}
+@media only screen and (max-width: 991px) {
+  .common-primary-title {
+    font-size: 32px;
+    line-height: 44px;
+  }
 }
 
 .btn-slider {

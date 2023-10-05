@@ -52,25 +52,23 @@ button,
 
 .common-primary-title {
   // -webkit-text-stroke: 1.5px #000; /* Điều chỉnh kích thước và màu stroke ở đây */
-   font-size: 44px;
-  color: #FFC700;
-text-align: center;
-font-family: SF Pro Rounded;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: 64px; /* 145.455% */
-text-transform: uppercase;
-  text-shadow:
-    -2px -2px 0 #000,
-     0   -2px 0 #000,
-     2px -2px 0 #000,
-     2px  0   0 #000,
-     2px  2px 0 #000,
-     0    2px 0 #000,
-    -2px  2px 0 #000,
-    -2px  0   0 #000,
-    2px 2px #000, 4px 4px 4px rgba(0, 0, 0, 0.45);
+  font-size: 44px;
+  color: #ffc700;
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px; /* 145.455% */
+  text-transform: uppercase;
+  text-shadow: -2px -2px 0 #000, 0 -2px 0 #000, 2px -2px 0 #000, 2px 0 0 #000,
+    2px 2px 0 #000, 0 2px 0 #000, -2px 2px 0 #000, -2px 0 0 #000, 2px 2px #000,
+    4px 4px 4px rgba(0, 0, 0, 0.45);
+
+  @include mq(max_md) {
+    font-size: 32px;
+    line-height: 44px;
+  }
 }
 .btn-slider {
   min-width: 40px;
