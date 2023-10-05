@@ -369,13 +369,31 @@
       <div class="box-mobile d-block d-md-none">
         <div class="box-slider">
           <div class="slide-item">
-            <img src="images/about-us/img-life-peoples.png" alt="Cuộc sống tại Bitu">
+            <img src="images/about-us/img-life-1.png" alt="Cuộc sống tại Bitu">
           </div>
           <div class="slide-item">
-            <img src="images/about-us/img-life-peoples.png" alt="Cuộc sống tại Bitu">
+            <img src="images/about-us/img-life-2.png" alt="Cuộc sống tại Bitu">
           </div>
           <div class="slide-item">
-            <img src="images/about-us/img-life-peoples.png" alt="Cuộc sống tại Bitu">
+            <img src="images/about-us/img-life-3.png" alt="Cuộc sống tại Bitu">
+          </div>
+          <div class="slide-item">
+            <img src="images/about-us/img-life-4.png" alt="Cuộc sống tại Bitu">
+          </div>
+          <div class="slide-item">
+            <img src="images/about-us/img-life-5.png" alt="Cuộc sống tại Bitu">
+          </div>
+          <div class="slide-item">
+            <img src="images/about-us/img-life-6.png" alt="Cuộc sống tại Bitu">
+          </div>
+          <div class="slide-item">
+            <img src="images/about-us/img-life-7.png" alt="Cuộc sống tại Bitu">
+          </div>
+          <div class="slide-item">
+            <img src="images/about-us/img-life-8.png" alt="Cuộc sống tại Bitu">
+          </div>
+          <div class="slide-item">
+            <img src="images/about-us/img-life-9.png" alt="Cuộc sống tại Bitu">
           </div>
         </div>
       </div>
@@ -383,6 +401,63 @@
   </div>
   <!-- END LIFE OF Bitu -->
   <?php include "templates/footer.php"; ?>
+  <script>
+  /* -----------------------------------------------------------
+      Milestone slider
+      ----------------------------------------------------------- */
+  $(function() {
+    let milestoneSlider = $('.con-about-milestone .box-mobile .box-slider');
+    milestoneSlider.slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 2,
+      slidesToScroll: 1
+    });
+
+    let maxH = 0;
+
+    const setHeight = () => {
+      let item = milestoneSlider.find('.slide-item');
+      for (let i = 0; i < item.length; i++) {
+        let h = item[i].clientHeight;
+        if (h > maxH) maxH = h;
+      }
+      if (maxH > 100) {
+        item.css('height', maxH);
+      }
+      // console.log(maxH)
+    }
+    setHeight();
+
+    window.resize(() => {
+      setHeight();
+    });
+  });
+
+  /* -----------------------------------------------------------
+  Life slider
+  ----------------------------------------------------------- */
+  $(function() {
+    $('.con-about-life .box-mobile .box-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  });
+  </script>
 
 </body>
 
