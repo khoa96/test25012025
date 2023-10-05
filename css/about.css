@@ -1,0 +1,193 @@
+/* -----------------------------------------------------------
+	font-face Circular Std
+----------------------------------------------------------- */
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-Black.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/* -----------------------------------------------------------
+	font-face SF Pro Rounded
+----------------------------------------------------------- */
+@font-face {
+  font-family: "SF Pro Rounded Regular";
+  src: url("../fonts/SF-Pro-Rounded-Regular.otf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SF Pro Rounded Medium";
+  src: url("../fonts/SF-Pro-Rounded-Medium.otf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SF Pro Rounded";
+  src: url("../fonts/SF-Pro-Rounded-Bold.otf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+}
+.con-about-intro {
+  border: 1px solid red;
+  margin: 0 0 !important;
+}
+@media only screen and (max-width: 991px) {
+  .con-about-intro .container {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0 !important;
+    border: 2px solid green;
+  }
+}
+.con-about-intro .intro-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 92px 0px 0px;
+  min-height: 755px;
+  background-image: url("../images/about-background-image.png");
+  width: 100%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid green;
+}
+@media only screen and (max-width: 991px) {
+  .con-about-intro .intro-wrapper {
+    padding: 22px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.con-about-intro .intro-wrapper .intro-content {
+  border: 1px solid green;
+  margin-right: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .con-about-intro .intro-wrapper .intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+    margin-right: 0;
+  }
+}
+.con-about-intro .intro-wrapper .intro-content .about-bitu-text {
+  font-family: SF Pro Rounded Medium;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #1a202c;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 991px) {
+  .con-about-intro .intro-wrapper .intro-content .about-bitu-text {
+    font-size: 32px;
+  }
+}
+.con-about-intro .intro-wrapper .intro-content .branch-name-image {
+  min-width: 297px;
+  max-width: 297px;
+  height: 143px;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .con-about-intro .intro-wrapper .intro-content .branch-name-image {
+    min-width: 208px;
+    max-width: 208px;
+    height: 100px;
+    margin: 6px 0px;
+  }
+}
+.con-about-intro .intro-wrapper .intro-content .intro-description {
+  font-family: SF Pro Rounded Regular;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  min-width: 440px;
+  line-height: 28px; /* 140% */
+  color: #1a202c;
+  max-width: 439px;
+  text-align: left;
+  margin-bottom: 34px;
+}
+@media only screen and (max-width: 991px) {
+  .con-about-intro .intro-wrapper .intro-content .intro-description {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    max-width: 309px;
+  }
+}
+.con-about-intro .intro-wrapper .intro-image img {
+  min-width: 957px;
+  max-width: 957px;
+  height: 626px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 991px) {
+  .con-about-intro .intro-wrapper .intro-image img {
+    min-width: 100%;
+    max-width: 100%;
+    height: 330px;
+  }
+}
+.con-about-intro .intro-wrapper .btn-join-to-us {
+  min-width: max-content;
+  max-width: max-content;
+  padding: 14px 22px;
+  border-radius: 1000px;
+  background: #ff6d03;
+  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+  font-family: SF Pro Rounded Medium;
+  font-size: 20px;
+  font-style: normal;
+  border: none;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  outline: none;
+}
+.con-about-intro .intro-wrapper .btn-join-to-us:focus {
+  outline: none;
+}
+
+.vision-block-wrapper {
+  width: 100%;
+  border: 1px solid;
+  height: auto;
+}
+.vision-block-wrapper .vision-content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=about.css.map */

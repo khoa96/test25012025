@@ -19,6 +19,7 @@
   <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" type="text/css" href="css/teacher.css">
   <link rel="stylesheet" type="text/css" href="css/review.css">
+  <link rel="stylesheet" type="text/css" href="css/about.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
 
 

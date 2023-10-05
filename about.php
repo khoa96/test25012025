@@ -2,52 +2,39 @@
 
 <body>
   <?php include "templates/header.php"; ?>
+  <!-- START INTRO BLOCK  -->
   <div class="con-about-intro">
     <div class="container">
-      <div class="row box-intro">
-        <div class="col-md-6 col-lg-5 col-xl-4">
-          <h3 class="title-lg">
+      <div class="intro-wrapper">
+        <div class="intro-content">
+          <h3 class="about-bitu-text">
             Chúng tôi là
-            <br class="d-inline d-sm-none">
-            <span class="text-primary">Bitu</span>
           </h3>
-          <p class="description">Một nơi làm việc tuyệt vời dành những người xuất sắc thích thử thách trong công việc
+          <img src="./images/about-us/branch-name-image.png" class="branch-name-image" alt="" />
+          <p class="intro-description">Một nơi làm việc tuyệt vời dành những người xuất sắc thích thử thách trong công
+            việc
           </p>
-          <button type="submit" class="btn btn-orange btn-advisory"><span>Gia nhập với chúng tôi</span></button>
+          <button type="button" class="btn-join-to-us">Gia nhập với chúng tôi</button>
         </div>
-        <div class="col-md-6 col-lg-7 col-xl-8 ps-xl-3 box-image">
-          <p class="img-intro"><img src="images/about-us/img-intro.png" alt="Chúng tôi là Bitu"></p>
-        </div>
-      </div>
-    </div>
-  </div><!-- /END .con-intro -->
 
-  <div class="con-about-post">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5 box-text">
-          <h3 class="title-lg">Giúp mọi người nói tiếng Anh tốt hơn bằng cách tập trung vào thực hành</h3>
-          <p class="txt">Chúng tôi tin rằng, trong 4 kỹ năng Nghe, nói, đọc, viết thì kỹ năng nghe nói là quan trọng
-            nhất. Nhưng đó lại là kỹ năng thường bị bỏ qua nhiều nhất.
-            <br />
-            Các mô hình lớp học tiếng Anh truyền thống chỉ cung cấp cho bạn những kiến thức cơ bản, nhưng lại thiếu môi
-            trường thực hành.
-            <br /><br />
-            Bitu được tạo ra với sứ mệnh giúp người học khắp nơi trên thế giới có cơ hội được nói chuyện với người nước
-            ngoài bằng tiếng Anh.
-            <br /><br />
-            Hãy luôn tin rằng, bạn hoàn toàn có thể nói tiếng Anh lưu loát mà không cần giỏi ngữ pháp"
-          </p>
-        </div>
-        <div class="col-md-7 box-photos">
-          <div class="inner">
-            <img src="images/about-us/img-peoples.png" alt="Giúp mọi người nói tiếng Anh tốt hơn">
-          </div>
+        <div class="intro-image">
+          <img src="images/about-us/img-intro.png" alt="Chúng tôi là Bitu">
         </div>
       </div>
     </div>
   </div>
-  <!-- /END .con-about-post -->
+  <!-- END INTRO BLOCK  -->
+
+
+  <!-- START VISION AND MISSION -->
+  <div class="vision-block-wrapper">
+    <div class="container">
+      <div class="vision-content-wrapper">
+
+      </div>
+    </div>
+  </div>
+  <!-- END VISION AND MISSION -->
 
   <div class="con-about-core">
     <div class="container">
@@ -148,7 +135,7 @@
             <h3 class="title-lg">Gặp đội ngũ sáng tạo của Bitu</h3>
             <p class="des">Bituer là những người đam mê, sáng tạo và luôn tập trung vào sứ mệnh giúp mọi người nói tiếng
               Anh tốt hơn.</p>
-            <button type="submit" class="btn btn-orange btn-advisory"><span>Gia nhập với chúng tôi</span></button>
+            <button class="btn btn-orange btn-advisory"><span>Gia nhập với chúng tôi</span></button>
           </div>
 
           <div class="box-photo col-md-7 px-md-0">

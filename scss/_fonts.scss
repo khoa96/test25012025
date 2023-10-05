@@ -3,7 +3,7 @@
 ----------------------------------------------------------- */
 @font-face {
   font-family: "Circular Std";
-  src: url("../fonts/CircularStd-Medium.otf");
+  src: url("../fonts/CircularStd-Black.otf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: "Circular Std";
-  src: url("../fonts/CircularStd-Medium.otf");
+  src: url("../fonts/CircularStd-Bold.otf");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -28,26 +28,27 @@
 /* -----------------------------------------------------------
 	font-face SF Pro Rounded
 ----------------------------------------------------------- */
+
 @font-face {
-  font-family: "SF Pro Rounded";
-  src: url("../fonts/SF-Pro-Rounded-Black.otf");
-  font-weight: 400;
+  font-family: "SF Pro Rounded Regular";
+  src: url("../fonts/SF-Pro-Rounded-Regular.otf");
   font-style: normal;
   font-display: swap;
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "SF Pro Rounded";
+  font-family: "SF Pro Rounded Medium";
   src: url("../fonts/SF-Pro-Rounded-Medium.otf");
-  font-weight: 500;
   font-style: normal;
   font-display: swap;
+  font-weight: 500;
 }
 
 @font-face {
   font-family: "SF Pro Rounded";
   src: url("../fonts/SF-Pro-Rounded-Bold.otf");
-  font-weight: bold;
   font-style: normal;
   font-display: swap;
+  font-weight: 700;
 }
