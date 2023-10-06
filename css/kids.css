@@ -1,7 +1,33 @@
 .page-kids-wrapper .banner-block-wrapper {
   width: 100%;
   height: auto;
-  border: 1px solid red;
+  background-image: url("../images/kids-banner-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 1230px;
+  padding-top: 72px;
+}
+.page-kids-wrapper .banner-block-wrapper .banner-kids-title {
+  color: #2971F0;
+  text-align: center;
+  font-family: SF Pro Rounded Medium;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px; /* 144% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 8px 8px 14px rgba(0, 0, 0, 0.35);
+  letter-spacing: 0.5px;
+  max-width: 1010px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .banner-block-wrapper .banner-kids-title {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=kids.css.map */
