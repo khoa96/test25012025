@@ -1,42 +1,1087 @@
 @charset "utf-8";
 @import "variables";
 @import "mixins";
+@import "fonts";
 
 .page-kids-wrapper {
-  // block 1
+  .btn-register {
+    min-width: max-content;
+    max-width: max-content;
+    padding: 14px 22px;
+    border-radius: 1000px;
+    background: #ff6d03;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+    font-family: SF Pro Rounded Medium;
+    font-size: 19px;
+    font-style: normal;
+    border: none;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    display: block;
+    margin: auto;
+    outline: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  .btn-slider {
+    display: none;
+
+    @include mq(max_md) {
+      display: block;
+      top: 45%;
+      right: 20px;
+    }
+  }
+
+  .common-title-with-background {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/text-background.png");
+
+    .title-text {
+      color: #1a1a2c;
+      position: relative;
+      top: 4px;
+    }
+
+    .txt-uppercase {
+      text-transform: uppercase;
+    }
+  }
+  // block 1 (banner + register)
+  .banner-block-content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include mq(max_md) {
+      justify-content: flex-start;
+    }
+  }
 
   .banner-block-wrapper {
     width: 100%;
     height: auto;
-    background-image: url('../images/kids-banner-background.png');
+    background-image: url("../images/kids-banner-background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 1230px;
+    height: 1130px;
     padding-top: 72px;
 
     @include mq(max_md) {
       // code mobile
+      padding-top: 40px;
+      height: auto;
+      min-height: 1500px;
+      background-image: url("../images/kids-banner-background-mb.png");
     }
 
     .banner-kids-title {
-      color: #2971F0;
+      color: #2971f0;
       text-align: center;
-      font-family: SF Pro Rounded Medium;
-      font-size: 50px;
+      font-family: SF Pro Rounded Black;
+      font-size: 55px;
       font-style: normal;
-      font-weight: 900;
       line-height: 72px; /* 144% */
-      letter-spacing: 0.5px;
+      letter-spacing: 2px;
       text-transform: uppercase;
       text-align: center;
-      text-shadow: 8px 8px 14px rgba(0, 0, 0, 0.35);
-      letter-spacing: 0.5px;
-      max-width: 1010px;
+      max-width: 100%;
       margin: 0 auto;
+      filter: drop-shadow(-3px 0 0 #fff) drop-shadow(3px 0 0 #fff)
+        drop-shadow(0 -3px 0 #fff) drop-shadow(0 3px 0 #fff)
+        drop-shadow(-3px 0 0 #ffb700) drop-shadow(3px 0 0 #ffb700)
+        drop-shadow(0 -3px 0 #ffb700) drop-shadow(0 3px 0 #ffb700)
+        drop-shadow(8px 8px rgba(0, 0, 0, 0.15));
 
       @include mq(max_md) {
         max-width: 100%;
+        font-size: 28px;
+        line-height: 44px;
+        letter-spacing: 1px;
+
+        filter: drop-shadow(-2px 0 0 #fff) drop-shadow(2px 0 0 #fff)
+          drop-shadow(0 -2px 0 #fff) drop-shadow(0 2px 0 #fff)
+          drop-shadow(-2px 0 0 #ffb700) drop-shadow(2px 0 0 #ffb700)
+          drop-shadow(0 -2px 0 #ffb700) drop-shadow(0 2px 0 #ffb700);
+        // drop-shadow(8px 8px rgba(0, 0, 0, 0.15));
+      }
+    }
+
+    .title-for-pc {
+      display: block;
+
+      @include mq(max_md) {
+        display: none;
+      }
+    }
+
+    .title-for-mb {
+      display: none;
+
+      @include mq(max_md) {
+        display: block;
+      }
+    }
+
+    .banner-content {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      padding-top: 80px;
+
+      @include mq(max_md) {
+        flex-direction: column;
+        padding-top: 20px;
+      }
+      .left-content {
+        min-width: 580px;
+        max-width: 580px;
+        height: 600px;
+        position: relative;
+        position: relative;
+
+        @include mq(max_md) {
+          min-width: 100%;
+          max-width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .kid-image-for-pc {
+          display: block;
+          @include mq(max_md) {
+            display: none;
+          }
+        }
+        .kid-image-for-mb {
+          display: none;
+          position: relative;
+          top: 20px;
+          @include mq(max_md) {
+            display: block;
+          }
+        }
+        .image-background {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 2;
+          display: flex;
+          justify-content: center;
+
+          @include mq(max_md) {
+            position: relative;
+          }
+        }
+        .content {
+          width: 100%;
+          min-height: 700px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 3;
+          display: flex;
+          justify-content: flex-end;
+          flex-direction: column;
+
+          @include mq(max_md) {
+            position: relative;
+            width: 100%;
+            height: auto;
+            min-height: max-content;
+          }
+
+          .list-option {
+            list-style: none;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            transform: rotate(-5deg);
+
+            @include mq(max_md) {
+              transform: rotate(0deg);
+              position: relative;
+              top: -20px;
+            }
+
+            .option-item {
+              max-width: fit-content;
+              display: flex;
+              align-items: center;
+              padding: 8px 20px 8px 24px;
+              border-radius: 1000px;
+              border: none;
+              background-color: #2971f0;
+              color: #fff;
+              font-family: SF Pro Rounded Regular;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
+              margin-bottom: 10px;
+
+              @include mq(max_md) {
+                padding: 8px 10px;
+              }
+
+              &:last-child {
+                margin-bottom: 0;
+              }
+              .icon-tick {
+                min-width: 32px;
+                max-width: 32px;
+                height: 32px;
+              }
+
+              .option-text {
+                margin: 0;
+                padding: 0;
+              }
+
+              .hight-light {
+                font-weight: 700;
+                color: #ffd600;
+                font-family: SF Pro Rounded Medium;
+              }
+            }
+          }
+        }
+      }
+
+      .right-content {
+        position: relative;
+        left: -10px;
+        min-width: 450px;
+        max-width: 450px;
+        min-height: 740px;
+        position: relative;
+        z-index: 10;
+        background-image: url("../images/form-background.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        padding: 60px 30px;
+        @include mq(max_md) {
+          left: 0;
+          margin: auto;
+          min-width: 343px;
+          max-width: 343px;
+          min-height: 530px;
+          padding: 40px 24px;
+          background-image: url("../images/form-background-mb.png");
+        }
+
+        .count-down-timer {
+          width: 100%;
+          height: auto;
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          margin-bottom: 16px;
+
+          @include mq(max_md) {
+            margin-bottom: 24px;
+          }
+
+          .timer-item {
+            min-width: 90px;
+            max-width: max-content;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            border-radius: 16px;
+            border: 2px solid #1656c7;
+            background: #2971f0;
+            padding: 16px;
+            margin-right: 12px;
+
+            @include mq(max_md) {
+              min-width: 64px;
+              padding: 12px;
+            }
+
+            &:last-child {
+              margin-right: 0;
+            }
+
+            .number {
+              color: #fff;
+              text-align: center;
+              font-family: SF Pro Rounded Medium;
+              font-size: 40px;
+              font-style: normal;
+              font-weight: 800;
+              line-height: normal;
+              margin-bottom: 6px;
+
+              @include mq(max_md) {
+                font-size: 32px;
+                margin-bottom: 0;
+              }
+            }
+
+            .label {
+              color: #fff;
+              text-align: center;
+              font-family: SF Pro Rounded Regular;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+
+              @include mq(max_md) {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        .register-title {
+          color: #fff;
+          font-family: SF Pro Rounded Medium;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: normal;
+          letter-spacing: 0.5px;
+          filter: drop-shadow(-2px 0 0 #876100) drop-shadow(2px 0 0 #876100)
+            drop-shadow(0 -2px 0 #876100) drop-shadow(0 2px 0 #876100);
+
+          @include mq(max_md) {
+            font-size: 32px;
+          }
+        }
+
+        .register-form {
+          margin-top: 24px;
+          padding: 24px;
+          background-color: #fff;
+          border-radius: 24px 24px 40px 40px;
+          width: 100%;
+          height: 400px;
+
+          @include mq(max_md) {
+            background-color: transparent;
+            height: auto;
+            border-radius: 0;
+            padding: 0;
+          }
+
+          .input-form {
+            width: 100%;
+            height: auto;
+            padding: 14px 24px;
+            border-radius: 100px;
+            background: #edf2f7;
+            border: none;
+            outline: none;
+            margin-bottom: 12px;
+            cursor: pointer;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+            &:focus {
+              outline: none;
+            }
+
+            &::placeholder {
+              color: #718096;
+              text-align: justify;
+              font-family: SF Pro Rounded Regular;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+
+        .bottom-image {
+          position: absolute;
+          width: 100%;
+          height: fit-content;
+          left: 0;
+          bottom: 60px;
+
+          @include mq(max_md) {
+            display: none;
+          }
+
+          img {
+            min-width: 100%;
+            max-width: 380px;
+            height: 133px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+
+  // block2 (bitu for)
+
+  .title-block-common {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+  }
+  .bitu-for-block-wrapper {
+    width: 100%;
+    border: 1px solid;
+    height: 1234px;
+    position: relative;
+
+    @include mq(max_md) {
+      width: 100%;
+      height: 1330px;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: #ffca00;
+      z-index: 1;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: -100px;
+      left: 0;
+      background-image: url("../images/bitu-for-background.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center center;
+      z-index: 2;
+    }
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .bitu-for-content-wrapper {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 3;
+      align-items: center;
+
+      @include mq(max_md) {
+        margin-top: 48px;
+      }
+
+      .bitu-for-title {
+        margin-bottom: 140px;
+        width: 748px;
+        padding: 16px 0px;
+        background-size: 100%;
+
+        @include mq(max_md) {
+          width: 343px;
+          margin-bottom: 18px;
+          font-size: 20px;
+          font-weight: bold;
+          word-spacing: 5px;
+        }
+
+        .title-text {
+          font-size: 40px;
+          font-weight: bold;
+          word-spacing: 10px;
+          font-family: SVN-Bango;
+
+          @include mq(max_md) {
+            font-size: 20px;
+            font-weight: bold;
+            word-spacing: 5px;
+          }
+        }
+      }
+
+      .bitu-for-main {
+        width: 434px;
+        height: 525px;
+        border: 1px solid red;
+        position: relative;
+
+        @include mq(max_md) {
+          width: 100%;
+          height: auto;
+        }
+
+        .list-option {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          z-index: 3;
+
+          @include mq(max_md) {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+          }
+
+          .option-item {
+            position: absolute;
+            @include mq(max_md) {
+              position: relative;
+            }
+
+            &:first-child {
+              top: -50px;
+              left: -80%;
+
+              @include mq(max_md) {
+                top: 0;
+                left: 0;
+              }
+            }
+
+            &:nth-child(2) {
+              top: -100px;
+              right: -80%;
+              @include mq(max_md) {
+                top: 0;
+                left: 0;
+              }
+            }
+            &:nth-child(3) {
+              left: -80%;
+              bottom: 100px;
+              @include mq(max_md) {
+                top: 0;
+                left: 0;
+              }
+            }
+
+            &:last-child {
+              bottom: 150px;
+              right: -80%;
+              @include mq(max_md) {
+                top: 0;
+                left: 0;
+              }
+            }
+          }
+        }
+
+        .main-image-wrapper {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          z-index: 2;
+
+          @include mq(max_md) {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+          }
+
+          .girl-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            @include mq(max_md) {
+              margin: auto;
+              display: block;
+              width: 321px;
+              height: 389px;
+            }
+          }
+        }
+      }
+
+      .bottom-icon-wrapper {
+        width: 50%;
+        height: auto;
+        border: 1px solid;
+        display: flex;
+        justify-content: flex-end;
+
+        @include mq(max_md) {
+          width: 100%;
+          justify-content: center;
+        }
+
+        img {
+          width: 227px;
+          height: 332px;
+          object-fit: cover;
+          @include mq(max_md) {
+            width: 116px;
+            height: 168px;
+          }
+        }
+      }
+    }
+  }
+
+  // block 3 (learn with foreigner teacher)
+
+  .learn-with-foreigner-teacher-wrapper {
+    width: 100%;
+    border: 2px solid red;
+
+    padding: 32px 0px;
+
+    @include mq(max_md) {
+      padding: 50px 0px 48px;
+    }
+
+    .title-block {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      border: 2px solid;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+
+      @include mq(max_md) {
+        display: block;
+      }
+    }
+
+    .icon-rocket {
+      position: absolute;
+      width: 171px;
+      height: 81px;
+      object-fit: cover;
+      top: 0;
+      left: 67%;
+      z-index: 20;
+      @include mq(max_md) {
+        display: none;
+      }
+    }
+    .title-1 {
+      width: 457px;
+      height: 84px;
+      border: 1px solid red;
+      background-image: url("../images/text-background-2.png");
+      transform: rotate(-4deg);
+      top: 16px;
+      z-index: 10;
+      position: relative;
+      @include mq(max_md) {
+        width: 230px;
+        height: 42px;
+        top: 8px;
+      }
+      .title-text {
+        font-size: 44px;
+        line-height: 62px;
+        font-family: SVN-Bango;
+
+        @include mq(max_md) {
+          font-size: 22px;
+          line-height: 32px;
+        }
+      }
+    }
+
+    .title-2 {
+      width: 608px;
+      height: 92px;
+      position: relative;
+      background-image: url("../images/text-background-3.png");
+      border: 1px solid green;
+      left: 160px;
+
+      @include mq(max_md) {
+        width: 300px;
+        height: 46px;
+        left: 70px;
+      }
+
+      .title-text {
+        font-size: 42px;
+        line-height: 60px;
+        font-family: SVN-Bango;
+
+        @include mq(max_md) {
+          font-size: 21px;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .list-feature-of-class {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      border: 2px solid green;
+      margin: 56px 0px 51px;
+
+      @include mq(max_md) {
+        margin: 28px 0px 16px;
+        flex-direction: column;
+      }
+
+      .left-content {
+        margin-right: 0;
+        min-width: 536px;
+        height: 322px;
+        border: 2px solid red;
+        background-image: url("../images/video-1-background.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+
+        @include mq(max_md) {
+          margin-right: 0;
+          margin-bottom: 16px;
+          min-width: 343px;
+          height: 210px;
+        }
+      }
+
+      .right-content {
+        .list-option-of-class {
+          list-style: none;
+
+          .option-of-class-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 12px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            @include mq(max_md) {
+              align-items: center;
+            }
+
+            .icon-tick {
+              min-width: 40px;
+              height: 40px;
+              object-fit: cover;
+              margin-right: 12px;
+
+              @include mq(max_md) {
+                min-width: 32px;
+                max-width: 32px;
+                height: 32px;
+              }
+            }
+
+            .text {
+              color: #1a202c;
+              font-family: SF Pro Rounded Medium;
+              font-size: 28px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 36px;
+              max-width: 356px;
+
+              @include mq(max_md) {
+                font-size: 20px;
+                line-height: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // block 4 ( (learn with foreigner teacher 2)
+  .list-kid-student-wrapper {
+    width: 100%;
+    height: 832px;
+    background-image: url("../images/list-kid-student-background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px 66px;
+    position: relative;
+    z-index: 2;
+    @include mq(max_md) {
+      padding: 52px 0px 47px;
+      background-image: none;
+      background-color: #ff6d03;
+      height: auto;
+    }
+
+    .title-block-wrapper {
+      width: fit-content;
+      display: flex;
+      border: 2px solid;
+      flex-direction: column;
+      position: relative;
+      margin: auto;
+      margin-bottom: 60px;
+      @include mq(max_md) {
+        display: block;
+        margin-bottom: 32px;
+      }
+    }
+
+    .title-1 {
+      width: 460px;
+      height: 98px;
+      border: 1px solid red;
+      background-image: url("../images/text-background-4.png");
+      background-size: 100% 100%;
+      top: 28px;
+      transform: rotate(-1deg);
+      z-index: 9;
+      left: 48px;
+      position: relative;
+      @include mq(max_md) {
+        width: 280px;
+        height: 50px;
+        top: 8px;
+        left: 24px;
+      }
+      .title-text {
+        color: #1a1a2c;
+        text-align: center;
+        font-family: SF Pro Rounded;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        transform: rotate(-2deg);
+
+        @include mq(max_md) {
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+    }
+
+    .title-2 {
+      width: 870px;
+      height: 98px;
+      position: relative;
+      background-image: url("../images/text-background-5.png");
+      border: 1px solid green;
+      background-size: 100% 90%;
+      // left: 160px;
+      z-index: 10;
+
+      @include mq(max_md) {
+        width: 319px;
+        height: 71px;
+        // left: 70px;
+      }
+
+      .title-text {
+        color: #1a1a2c;
+        text-align: center;
+        font-family: SF Pro Rounded;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        @include mq(max_md) {
+          font-size: 21px;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .list-class-of-kid-wrapper {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      .list-class-of-student {
+        min-width: 1278px;
+        max-width: 1278px;
+        display: flex;
+
+        @include mq(max_md) {
+          min-width: 324px;
+          max-width: 324px;
+        }
+
+        .class-item {
+          min-width: 410px;
+          max-width: 410px;
+          height: 300px;
+          background-image: url("../images/video-background-2.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          @include mq(max_md) {
+            min-width: 320px;
+            max-width: 320px;
+            height: 218px;
+            margin-right: 0;
+          }
+
+          .video-item {
+            min-width: 319px;
+            max-width: 319px;
+            height: 217px;
+            border: 1px solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            @include mq(max_md) {
+              min-width: 229px;
+              max-width: 229px;
+              height: 159px;
+            }
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  // block 5 (bitu recommend)
+  .bitu-recommend-wrapper {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+
+    .title-block-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 60px;
+
+      @include mq(max_md) {
+        margin-bottom: 0;
+      }
+    }
+
+    .recommend-title {
+      width: 666px;
+      height: 100px;
+      background-image: url("../images/text-background-6.png");
+
+      .title-text {
+        color: #1a1a2c;
+        text-align: center;
+        font-family: SF Pro Rounded;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        @include mq(max_md) {
+          font-size: 21px;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .bitu-recommend-list-wrapper {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      .bitu-recommend-list {
+        min-width: 1273px;
+        max-width: 1273px;
+        display: flex;
+        border: 1px solid red;
+        @include mq(max_md) {
+          min-width: 324px;
+          max-width: 324px;
+        }
+
+        .class-item {
+          min-width: 634px;
+          max-width: 634px;
+          height: 419px;
+          background-image: url("../images/video-background-3.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          @include mq(max_md) {
+            min-width: 320px;
+            max-width: 320px;
+            height: 218px;
+            margin-right: 0;
+          }
+
+          .video-item {
+            min-width: 488px;
+            max-width: 488px;
+            height: 292px;
+            border: 1px solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            @include mq(max_md) {
+              min-width: 229px;
+              max-width: 229px;
+              height: 159px;
+            }
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
       }
     }
   }
