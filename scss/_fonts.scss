@@ -69,3 +69,54 @@
   font-display: swap;
   font-weight: bold;
 }
+
+/* -----------------------------------------------------------
+	font-face 
+----------------------------------------------------------- */
+
+@font-face {
+  font-family: "BeVietnamPro-Black";
+  src: url("../fonts/BeVietnamPro-Black.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "BeVietnamPro-Bold";
+  src: url("../fonts/BeVietnamPro-Bold.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "BeVietnamPro-Medium";
+  src: url("../fonts/BeVietnamPro-Medium.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "BeVietnamPro-Regular";
+  src: url("../fonts/BeVietnamPro-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SF Pro Rounded Black";
+  src: url("../fonts/SF-Pro-Rounded-Bold.otf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SF Pro Rounded Black";
+  src: url("../fonts/SF-Pro-Rounded-Black.otf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+}

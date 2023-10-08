@@ -37,7 +37,7 @@
                 <div class="country-flag">
                   <img src="./images/country-flag.png" class="flag-image" alt="">
                 </div>
-                <h1 class="common-primary-title"> Giáo Viên Bản xứ</h1>
+                <h1 class="text-title"> Giáo Viên Bản xứ</h1>
               </div>
               <div class="slider-wrapper native-teacher-slider">
 
@@ -230,23 +230,23 @@
     <?php include "templates/footer.php"; ?>
 
     <script>
-    /* -----------------------------------------------------------
-                                                                                                            Effective slider
-                                                                                                      --    --------------------------------------------------------- */
-    $(function() {
-      // PC
-      var nativeTeacherSlider = $('.native-teacher-list').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: true,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [{
+      /* -----------------------------------------------------------
+                                                                                                                Effective slider
+                                                                                                          --    --------------------------------------------------------- */
+      $(function () {
+        // PC
+        var nativeTeacherSlider = $('.native-teacher-list').slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: true,
+          infinite: true,
+          swipe: true,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          responsive: [{
             breakpoint: 992,
             settings: {
               slidesToShow: 2
@@ -258,16 +258,16 @@
               slidesToShow: 1
             }
           }
-        ]
-      });
+          ]
+        });
 
-      $('.native-teacher-slider .btn-prev').on('click', function() {
-        nativeTeacherSlider.slick('prev');
+        $('.native-teacher-slider .btn-prev').on('click', function () {
+          nativeTeacherSlider.slick('prev');
+        });
+        $('.native-teacher-slider .btn-next').on('click', function () {
+          nativeTeacherSlider.slick('next');
+        });
       });
-      $('.native-teacher-slider .btn-next').on('click', function() {
-        nativeTeacherSlider.slick('next');
-      });
-    });
     </script>
 </body>
 

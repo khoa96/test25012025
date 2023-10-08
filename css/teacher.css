@@ -50,6 +50,8 @@
 @media only screen and (max-width: 991px) {
   .page-teacher-wrapper .list-option {
     margin-top: 48px;
+    flex-direction: column;
+    margin-top: 24px;
   }
 }
 .page-teacher-wrapper .list-option .option-item {
@@ -65,11 +67,21 @@
   align-items: flex-start;
   margin-right: 24px;
 }
+@media only screen and (max-width: 991px) {
+  .page-teacher-wrapper .list-option .option-item {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: fit-content;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
 .page-teacher-wrapper .list-option .option-item:nth-child(2) {
   background-color: #daf6ff;
 }
 .page-teacher-wrapper .list-option .option-item:last-child {
   margin-right: 0;
+  margin-bottom: 0;
   background-color: #ffdade;
 }
 .page-teacher-wrapper .list-option .option-item .icon-tick {
@@ -109,6 +121,37 @@
 .page-teacher-wrapper .list-teach-block .title-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+  background-size: cover;
+  width: 740px;
+  height: 82px;
+  background-image: url("../images/text-background-9.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 991px) {
+  .page-teacher-wrapper .list-teach-block .title-wrapper {
+    width: 332px;
+    height: 68px;
+    background-image: url("../images/text-background-10.png");
+  }
+}
+.page-teacher-wrapper .list-teach-block .title-wrapper .text-title {
+  color: #1a1a2c;
+  text-align: center;
+  font-family: SF Pro Rounded Black;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .page-teacher-wrapper .list-teach-block .title-wrapper .text-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+  }
 }
 .page-teacher-wrapper .list-teach-block .title-wrapper .country-flag {
   min-width: 44px;

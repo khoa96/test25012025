@@ -226,8 +226,8 @@
           </div>
         </div>
 
-        <div class="bitu-recommend-list-wrapper">
-          <div class="bitu-recommend-list">
+        <div class="bitu-recommend-list-wrapper bitu-recommend-list-wrapper-1">
+          <div class="bitu-recommend-list bitu-recommend-list-1">
             <div class="class-item">
               <div class="video-item">1</div>
             </div>
@@ -252,26 +252,105 @@
         </div>
       </div>
     </div>
-    <!-- END RECOMMEND USING BLOCK -->
+    <!-- END RECOMMEND USING BLOCK 02 -->
+
+    <!-- BITU RECOMMEND USING BLOCK -->
+    <div class="bitu-recommend-wrapper bitu-recommend-wrapper-2">
+      <div class="container">
+        <div class="title-block-wrapper">
+          <div class="common-title-with-background title-1">
+            <h1 class="title-text txt-uppercase">Hot mom Hằng Nheo, MyanhLily </h1>
+          </div>
+          <div class="common-title-with-background title-2">
+            <h1 class="title-text txt-uppercase">Và hơn 480.000+ bố mẹ khác đã chọn Bitu cho con</h1>
+          </div>
+        </div>
+
+        <div class="bitu-recommend-list-wrapper bitu-recommend-list-wrapper-2">
+          <div class="bitu-recommend-list bitu-recommend-list-2">
+            <div class="item-wrapper">
+              <div class="class-item">
+                <div class="video-item">1</div>
+              </div>
+              <h3 class="text-description">Hot mom Hằng nheo</h3>
+            </div>
+            <div class="item-wrapper">
+              <div class="class-item">
+                <div class="video-item">2</div>
+              </div>
+              <h3 class="text-description">Hot mom MyanhLily</h3>
+            </div>
+          </div>
+          <button class="btn-slider btn-next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <g clip-path="url(#clip0_5877_8806)">
+                <path d="M9 6L15 12L9 18" stroke="#1A202C" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </g>
+              <defs>
+                <clipPath id="clip0_5877_8806">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+
+        </div>
+      </div>
+    </div>
+    <!-- END RECOMMEND USING BLOCK 02 -->
+
+    <!-- START LEARN ONLINE ENGLISH AT HOME -->
+    <div class="learn-at-home-wrapper">
+      <div class="learn-at-home-content">
+        <div class="container">
+          <h2 class="learn-at-home-title">Học online ngay tại nhà, <span class="text-highlight">chi phí bằng 1/3 trung
+              tâm</span></h2>
+          <div class="list-advantage">
+            <div class="advantage-content">
+              <div class="advantage-item">
+                <img src="./images/icon-bitu-3.png" alt="">
+                <p class="text">Không tốn thời gian đưa đón vì con học online ngay tại nhà.</p>
+              </div>
+              <div class="advantage-item">
+                <img src="./images/icon-bitu-4.png" alt="">
+                <p class="text">Không cần book lịch, tự do lựa chọn giờ học.</p>
+
+              </div>
+              <div class="advantage-item">
+                <img src="./images/icon-bitu-5.png" alt="">
+                <p class="text">Giá chỉ <span class="highlight">từ 83k/buổi</span>, tiết kiệm <span
+                    class="highlight">1/3</span> so với chi phí học trung tâm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-content">
+        <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
+      </div>
+    </div>
+  </div>
+  <!--  START LEARN ONLINE ENGLISH AT HOME -->
   </div>
 
 
   <?php include "templates/footer.php"; ?>
   <script>
-    $(function () {
-      // PC
-      var nativeTeacherSlider = $('.list-class-of-student').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: false,
-        swipe: false,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [{
+  $(function() {
+    // PC
+    var nativeTeacherSlider = $('.list-class-of-student').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: false,
+      swipe: false,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 1,
@@ -301,61 +380,109 @@
             arrows: false,
           }
         }
-        ]
-      });
-
-      $('.list-class-of-kid-wrapper .btn-next').on('click', function () {
-        nativeTeacherSlider.slick('next');
-      });
-
-      var bituRecommend = $('.bitu-recommend-list').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: false,
-        swipe: false,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            autoplay: true,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            slidesToScroll: 1,
-            autoplay: false,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        }
-        ]
-      });
-
-      $('.bitu-recommend-list-wrapper .btn-next').on('click', function () {
-        bituRecommend.slick('next');
-      });
+      ]
     });
+
+    $('.list-class-of-kid-wrapper .btn-next').on('click', function() {
+      nativeTeacherSlider.slick('next');
+    });
+
+    var bituRecommend = $('.bitu-recommend-list-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: false,
+      swipe: false,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            autoplay: true,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            slidesToScroll: 1,
+            autoplay: false,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        }
+      ]
+    });
+
+    $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function() {
+      bituRecommend.slick('next');
+    });
+
+    var bituRecommend2 = $('.bitu-recommend-list-2').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: false,
+      swipe: false,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            autoplay: true,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            slidesToScroll: 1,
+            autoplay: false,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        }
+      ]
+    });
+
+    $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function() {
+      bituRecommend2.slick('next');
+    });
+  });
   </script>
 </body>
 

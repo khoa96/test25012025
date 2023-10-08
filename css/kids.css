@@ -60,6 +60,51 @@
   font-display: swap;
   font-weight: bold;
 }
+/* -----------------------------------------------------------
+	font-face 
+----------------------------------------------------------- */
+@font-face {
+  font-family: "BeVietnamPro-Black";
+  src: url("../fonts/BeVietnamPro-Black.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "BeVietnamPro-Bold";
+  src: url("../fonts/BeVietnamPro-Bold.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "BeVietnamPro-Medium";
+  src: url("../fonts/BeVietnamPro-Medium.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "BeVietnamPro-Regular";
+  src: url("../fonts/BeVietnamPro-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SF Pro Rounded Black";
+  src: url("../fonts/SF-Pro-Rounded-Bold.otf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "SF Pro Rounded Black";
+  src: url("../fonts/SF-Pro-Rounded-Black.otf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+}
 .page-kids-wrapper .btn-register {
   min-width: max-content;
   max-width: max-content;
@@ -1036,6 +1081,12 @@
   border: 1px solid;
   position: relative;
   z-index: 1;
+  padding-bottom: 60px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper {
+    padding-bottom: 40px;
+  }
 }
 .page-kids-wrapper .bitu-recommend-wrapper .title-block-wrapper {
   display: flex;
@@ -1126,6 +1177,297 @@
 }
 .page-kids-wrapper .bitu-recommend-wrapper .bitu-recommend-list-wrapper .bitu-recommend-list .class-item:last-child {
   margin-right: 0;
+}
+.page-kids-wrapper .bitu-recommend-wrapper-2 {
+  background-image: url("../images/banner-teacher-background.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 979px;
+  padding-top: 105px;
+}
+.page-kids-wrapper .bitu-recommend-wrapper-2 .title-block-wrapper {
+  width: fit-content;
+  display: flex;
+  border: 2px solid;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  margin-bottom: 36px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper-2 .title-block-wrapper {
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+.page-kids-wrapper .bitu-recommend-wrapper-2 .title-1 {
+  width: 770px;
+  height: 98px;
+  border: 1px solid red;
+  background-image: url("../images/text-background-5.png");
+  background-size: 100% 100%;
+  z-index: 9;
+  position: relative;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper-2 .title-1 {
+    width: 350px;
+    height: 80px;
+  }
+}
+.page-kids-wrapper .bitu-recommend-wrapper-2 .title-1 .title-text {
+  color: #1a1a2c;
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  transform: rotate(-2deg);
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper-2 .title-1 .title-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.page-kids-wrapper .bitu-recommend-wrapper-2 .title-2 {
+  width: 758px;
+  height: 160px;
+  position: relative;
+  background-image: url("../images/text-background-6.png");
+  border: 1px solid green;
+  background-size: 100% 90%;
+  transform: rotate(2deg);
+  left: 86px;
+  z-index: 10;
+  top: -10px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper-2 .title-2 {
+    width: 350px;
+    height: 124px;
+    transform: rotate(4deg);
+    left: 0;
+    z-index: 10;
+    top: -10px;
+  }
+}
+.page-kids-wrapper .bitu-recommend-wrapper-2 .title-2 .title-text {
+  color: #1a1a2c;
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper-2 .title-2 .title-text {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+.page-kids-wrapper .bitu-recommend-wrapper-2 .item-wrapper {
+  border: 1px solid;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-kids-wrapper .bitu-recommend-wrapper-2 .item-wrapper .text-description {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-align: center;
+  font-family: SF Pro Rounded Medium;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper-2 .item-wrapper .text-description {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper-2 {
+    background-image: none;
+    min-height: auto;
+    padding-top: 0;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper {
+  width: 100%;
+  height: auto;
+}
+.page-kids-wrapper .learn-at-home-wrapper .learn-at-home-content {
+  height: 500px;
+  background-image: url("../images/learn-at-home-backgroun.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .learn-at-home-content {
+    height: auto;
+    padding-top: 40px;
+    background-image: none;
+    background-color: #385fca;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper .learn-at-home-title {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  line-height: 38px;
+  font-family: BeVietnamPro-Black;
+  text-transform: uppercase;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.page-kids-wrapper .learn-at-home-wrapper .learn-at-home-title .text-highlight {
+  color: #ffca00;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .learn-at-home-title .text-highlight {
+    display: block;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .learn-at-home-title {
+    text-align: center;
+    font-family: SF Pro Rounded Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px; /* 150% */
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper .bottom-content {
+  width: 100%;
+  padding-top: 24px;
+  background-color: #385fca;
+  padding-bottom: 66px;
+  position: relative;
+  z-index: 999;
+  top: -62px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .bottom-content {
+    top: 0;
+    padding: 0px 0px 40px;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper .list-advantage {
+  display: flex;
+  justify-content: center;
+}
+.page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content {
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content {
+    flex-direction: column;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item {
+  min-width: 300px;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-right: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item {
+    min-width: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    padding: 32px 20px 32px 32px;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .text {
+  font-size: 23px;
+  line-height: 34px;
+  margin-top: 8px;
+  font-family: BeVietnamPro-Medium;
+  max-width: 266px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .text {
+    color: #1a202c;
+    font-family: SF Pro Rounded Regular;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 136.364% */
+    margin-top: 0;
+    margin-left: 32px;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .highlight {
+  color: #385fca;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .highlight {
+    font-family: SF Pro Rounded Medium;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item:first-child img {
+  min-width: 85px;
+  max-width: 85px;
+  height: 121px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item:first-child img {
+    min-width: 80px;
+    max-width: 80px;
+    height: 114px;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item:nth-child(2) img {
+  min-width: 153px;
+  max-width: 153px;
+  height: 120px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item:nth-child(2) img {
+    min-width: 111px;
+    max-width: 111px;
+    height: 87px;
+  }
+}
+.page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item:last-child {
+  margin-right: 0;
+}
+.page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item:last-child img {
+  min-width: 89px;
+  max-width: 89px;
+  height: 119px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item:last-child img {
+    min-width: 76px;
+    max-width: 76px;
+    height: 103px;
+  }
 }
 
 /*# sourceMappingURL=kids.css.map */
