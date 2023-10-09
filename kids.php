@@ -330,8 +330,80 @@
         <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
       </div>
     </div>
-  </div>
-  <!--  START LEARN ONLINE ENGLISH AT HOME -->
+    <!--  START LEARN ONLINE ENGLISH AT HOME -->
+
+
+    <!--  START ENSURE BLOCK -->
+    <div class="ensure-block-wrapper">
+      <div class="container">
+        <div class="ensure-block-content">
+          <div class="title-block-wrapper">
+            <div class="common-title-with-background ensure-title">
+              <h1 class="title-text txt-uppercase">480.000 Bạn nhỏ đã học hiệu quả tại Bitu </h1>
+            </div>
+          </div>
+
+          <div class="ensure-description">
+            Cam Kết Lên Trình Độ Sau 36 Buổi <br /> Theo tiêu chuẩn CEFR và Cambridge
+          </div>
+
+          <div class="list-step-wrapper">
+            <div class="list-step">
+              <div class="step-item">
+                <p class="text">Bitu cam kết hiệu quả - Lên Level sau khi hoàn thành 1 lộ trình 36 buổi</p>
+              </div>
+              <div class="step-item">
+                <p class="text">Học viên đảm bảo đúng về tần suất học quy định</p>
+              </div>
+              <div class="step-item">
+                <p class="text">Hoàn thiện đầy đủ số buổi trong chương trình</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ensure-text-wrapper">
+            <p class="text-description">Nếu không lên được trình độ theo thang tính của Bitu, học viên sẽ được học lại
+              miễn phí cho đến khi lên được trình độ tiếp theo</p>
+            <img src="./images/icon-bitu-6.png" class="icon-bitu-6" alt="" />
+          </div>
+          <div class="register-block">
+            <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  END ENSURE BLOCK -->
+
+    <!-- START SURVEY IMAGE -->
+    <div class="survey-block-wrapper">
+      <div class="container">
+        <div class="survey-block-content">
+          <div class="title-block-wrapper">
+            <div class="common-title-with-background survey-title">
+              <h1 class="title-text txt-uppercase">Bảng đánh giá định kỳ cho ba mẹ thêm yên tâm</h1>
+            </div>
+          </div>
+
+          <div class="main-content">
+            <div class="left-content">
+              <p>Sau mỗi 6 buổi học Bitu sẽ gửi bảng đánh giá về kết quả học tập </p>
+              <ul>
+                <li>Cập nhật tiến độ học của bé</li>
+                <li>Giúp ba mẹ theo sát bé trong quá trình học tập</li>
+                <li>Đánh giá chi tiết kỹ năng nói</li>
+                <li>Xác định mục tiêu cụ thể sau khi con hoàn thành lộ trình</li>
+                <li>Cập nhật trình độ hiện tại của con</li>
+              </ul>
+            </div>
+            <div class="right-content">
+              <img src="./images/survey-image.png" alt="">
+              <img src="./images/icon-bitu-7.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SURVEY IMAGE -->
   </div>
 
 
