@@ -385,31 +385,36 @@
           </div>
 
           <div class="main-content">
-            <div class="left-content">
-              <div class="content-wrapper">
-                <p class="top-content">Sau mỗi 6 buổi học Bitu sẽ gửi bảng đánh giá về kết quả học tập </p>
-                <ul class="detail-content">
-                  <li>
-                    <span class="dot"></span>
-                    Cập nhật tiến độ học của bé
-                  </li>
-                  <li>
-                    <span class="dot"></span>
-                    Giúp ba mẹ theo sát bé trong quá trình học tập
-                  </li>
-                  <li>
-                    <span class="dot"></span>
-                    Đánh giá chi tiết kỹ năng nói
-                  </li>
-                  <li>
-                    <span class="dot"></span>
-                    Xác định mục tiêu cụ thể sau khi con hoàn thành lộ trình
-                  </li>
-                  <li>
-                    <span class="dot"></span>
-                    Cập nhật trình độ hiện tại của con
-                  </li>
-                </ul>
+            <div>
+              <div class="left-content">
+                <div class="content-wrapper">
+                  <p class="top-content">Sau mỗi 6 buổi học Bitu sẽ gửi bảng đánh giá về kết quả học tập </p>
+                  <ul class="detail-content">
+                    <li>
+                      <span class="dot"></span>
+                      Cập nhật tiến độ học của bé
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Giúp ba mẹ theo sát bé trong quá trình học tập
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Đánh giá chi tiết kỹ năng nói
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Xác định mục tiêu cụ thể sau khi con hoàn thành lộ trình
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Cập nhật trình độ hiện tại của con
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="register-bottom">
+                <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
               </div>
             </div>
             <div class="right-content">
@@ -421,25 +426,160 @@
       </div>
     </div>
     <!-- END SURVEY IMAGE -->
+
+    <!-- START PRICE BLOCK  -->
+    <div class="price-block-wrapper">
+      <div class="container">
+        <div class="price-content-block">
+          <div class="title-wrapper">
+            <h2 class="title-1 common-primary-title">các chương trình học 1 kèm 1 tại bitu</h2>
+            <h2 class="title-2 common-primary-title">cam kết đầu ra chuẩn cerf và cambridge</h2>
+          </div>
+          <ul class="list-option list-option-for-mb">
+            <div class="option-item">
+              <img src="./images/icon-tick.png" class="icon-tick" alt="">
+              <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+            </div>
+            <div class="option-item">
+              <img src="./images/icon-tick.png" class="icon-tick" alt="">
+              <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+            </div>
+          </ul>
+
+
+          <div class="list-price">
+            <div class="price-item">
+              <div class="month">
+                <span class="value">1 tháng</span>
+              </div>
+              <div class="list-detail">
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+              </div>
+
+              <ul class="list-option">
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+                </div>
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+                </div>
+              </ul>
+
+              <div class="item-footer">
+                <button class="btn-choose">chọn gói</button>
+              </div>
+            </div>
+            <div class="price-item">
+              <div class="month">
+                <span class="value">3 tháng</span>
+              </div>
+              <div class="list-detail">
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+              </div>
+
+              <ul class="list-option">
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+                </div>
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+                </div>
+              </ul>
+
+              <div class="item-footer">
+                <button class="btn-choose">chọn gói</button>
+              </div>
+            </div>
+            <div class="price-item">
+              <div class="month">
+                <span class="value">6 tháng</span>
+              </div>
+              <div class="list-detail">
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+              </div>
+
+              <ul class="list-option">
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+                </div>
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+                </div>
+              </ul>
+
+              <div class="item-footer">
+                <button class="btn-choose">chọn gói</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PRICE BLOCK  -->
   </div>
 
 
   <?php include "templates/footer.php"; ?>
   <script>
-  $(function() {
-    // PC
-    var nativeTeacherSlider = $('.list-class-of-student').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: false,
-      swipe: false,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      responsive: [{
+    $(function () {
+      // PC
+      var nativeTeacherSlider = $('.list-class-of-student').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: false,
+        swipe: false,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 1,
@@ -469,25 +609,25 @@
             arrows: false,
           }
         }
-      ]
-    });
+        ]
+      });
 
-    $('.list-class-of-kid-wrapper .btn-next').on('click', function() {
-      nativeTeacherSlider.slick('next');
-    });
+      $('.list-class-of-kid-wrapper .btn-next').on('click', function () {
+        nativeTeacherSlider.slick('next');
+      });
 
-    var bituRecommend = $('.bitu-recommend-list-1').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: false,
-      swipe: false,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      responsive: [{
+      var bituRecommend = $('.bitu-recommend-list-1').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: false,
+        swipe: false,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 1,
@@ -517,25 +657,25 @@
             arrows: false,
           }
         }
-      ]
-    });
+        ]
+      });
 
-    $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function() {
-      bituRecommend.slick('next');
-    });
+      $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function () {
+        bituRecommend.slick('next');
+      });
 
-    var bituRecommend2 = $('.bitu-recommend-list-2').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: false,
-      swipe: false,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      responsive: [{
+      var bituRecommend2 = $('.bitu-recommend-list-2').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: false,
+        swipe: false,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 1,
@@ -565,13 +705,13 @@
             arrows: false,
           }
         }
-      ]
-    });
+        ]
+      });
 
-    $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function() {
-      bituRecommend2.slick('next');
+      $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function () {
+        bituRecommend2.slick('next');
+      });
     });
-  });
   </script>
 </body>
 
