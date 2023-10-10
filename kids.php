@@ -386,18 +386,35 @@
 
           <div class="main-content">
             <div class="left-content">
-              <p>Sau mỗi 6 buổi học Bitu sẽ gửi bảng đánh giá về kết quả học tập </p>
-              <ul>
-                <li>Cập nhật tiến độ học của bé</li>
-                <li>Giúp ba mẹ theo sát bé trong quá trình học tập</li>
-                <li>Đánh giá chi tiết kỹ năng nói</li>
-                <li>Xác định mục tiêu cụ thể sau khi con hoàn thành lộ trình</li>
-                <li>Cập nhật trình độ hiện tại của con</li>
-              </ul>
+              <div class="content-wrapper">
+                <p class="top-content">Sau mỗi 6 buổi học Bitu sẽ gửi bảng đánh giá về kết quả học tập </p>
+                <ul class="detail-content">
+                  <li>
+                    <span class="dot"></span>
+                    Cập nhật tiến độ học của bé
+                  </li>
+                  <li>
+                    <span class="dot"></span>
+                    Giúp ba mẹ theo sát bé trong quá trình học tập
+                  </li>
+                  <li>
+                    <span class="dot"></span>
+                    Đánh giá chi tiết kỹ năng nói
+                  </li>
+                  <li>
+                    <span class="dot"></span>
+                    Xác định mục tiêu cụ thể sau khi con hoàn thành lộ trình
+                  </li>
+                  <li>
+                    <span class="dot"></span>
+                    Cập nhật trình độ hiện tại của con
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="right-content">
-              <img src="./images/survey-image.png" alt="">
-              <img src="./images/icon-bitu-7.png" alt="">
+              <img src="./images/survey-image.png" class="survey-image" alt="">
+              <img src="./images/icon-bitu-7.png" class="icon-bitu-7" alt="">
             </div>
           </div>
         </div>

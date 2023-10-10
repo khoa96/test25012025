@@ -1586,7 +1586,7 @@
     .register-block {
       @include mq(max_md) {
         display: flex;
-        width: 100%;;
+        width: 100%;
         justify-content: flex-start;
       }
     }
@@ -1607,8 +1607,8 @@
 
   // block 9 (survey)
   .survey-block-wrapper {
-     height: 887px;
-     width: 100%;
+    height: auto;
+    width: 100%;
     background-image: url("../images/survey-background.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -1620,7 +1620,7 @@
       padding: 45px 0px 38px;
       height: auto;
       background-image: none;
-      background-color: #FFB700;
+      background-color: #ffb700;
     }
 
     .survey-block-content {
@@ -1673,22 +1673,139 @@
       width: 100%;
       display: flex;
       justify-content: center;
-       border: 1px solid red;
+      border: 2px solid blue;
+
+      @include mq(max_md) {
+        flex-direction: column;
+      }
 
       .left-content {
         width: fit-content;
-        border: 1px solid red;
+        border: 3px solid green;
+        margin-right: 6px;
+        height: 398px;
+        min-width: 689px;
+        background-image: url("../images/message-background.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color:  #1A202C;
+        font-family: SF Pro Rounded Regular;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        text-align: left;
+        line-height: 32px; /* 160% */
+        @include mq(max_md) {
+          height: 497px;
+          min-width: 100%;
+          max-width: 100%;
+          font-size: 19px;
+          line-height: 24px;;
+          background-image: url("../images/message-background-mb.png");
+          
+        }
 
-         height: 398px;
-     min-width: 689px;
-    background-image: url("../images/message-background.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+        .content-wrapper {
+          width: 100%;
+          height: 100%;
+          border: 1px solid;
+          max-width: fit-content;
+          height: fit-content;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .top-content {
+          max-width: 450px;
+          margin-bottom: 12px;;
+          border: 1px solid red;
+          width: 100%;
+
+          @include mq(max_md) {
+            max-width: 85%;
+            margin-bottom: 6px;
+          }
+        }
+
+        .detail-content {
+          max-width: 510px;
+          border: 1px solid green;
+          list-style: none;
+          padding-top: 8px;
+          padding-left: 12px;
+
+          @include mq(max_md) {
+            padding: 0;
+            max-width: 72%;
+  
+          }
+
+          li {
+            display: flex;
+            align-items: center;
+
+            @include mq(max_md) {
+              align-items: flex-start;
+            }
+            .dot {
+              min-width: 6px;
+              max-width: 6px;
+              height: 6px;
+              border: none;
+              border-radius: 50%;
+              background-color: #1A202C;
+              margin-right: 12px;
+            }
+          }
+
+        }
+
+      }
+
+      .right-content {
+        max-width: fit-content;
+        min-width: fit-content;
+        position: relative;
+        border: 2px solid;
+
+        .survey-image {
+          min-width: 424px;
+          height: 610px;
+          max-width: 424px;
+          object-fit: cover;
+          position: relative;
+          border: 2px solid;
+
+          @include mq(max_md) {
+            min-width: 252px;
+            max-width: 252px;
+            height: 362px;
+          }
+        }
+
+        .icon-bitu-7 {
+          position: absolute;
+          top: 50%;
+          right: -12%;
+          min-width: 234px;
+          height: 250px;
+          max-width: 234px;
+          object-fit: contain;
+
+          @include mq(max_md) {
+            min-width: 204px;
+            max-width: 204px;
+            height: 203px;
+            right:-30%;
+          }
+        }
       }
     }
   }
