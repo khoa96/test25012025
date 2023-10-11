@@ -1664,6 +1664,11 @@
     right: 0;
   }
 }
+@media (max-width: 360px) {
+  .page-kids-wrapper .ensure-block-wrapper .ensure-text-wrapper .icon-bitu-6 {
+    display: none;
+  }
+}
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .ensure-block-wrapper .register-block {
     display: flex;
@@ -1696,9 +1701,15 @@
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .survey-block-wrapper {
     padding: 45px 0px 38px;
+    position: relative;
+    padding-bottom: 136px;
     height: auto;
     background-image: none;
     background-color: #ffb700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 .page-kids-wrapper .survey-block-wrapper .survey-block-content {
@@ -1773,8 +1784,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #1A202C;
-  font-family: SF Pro Rounded Regular;
+  color: #1a202c;
+  font-family: SF Pro Rounded Medium;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -1788,6 +1799,7 @@
     max-width: 100%;
     font-size: 19px;
     line-height: 24px;
+    margin-bottom: 24px;
     background-image: url("../images/message-background-mb.png");
   }
 }
@@ -1797,10 +1809,14 @@
   border: 1px solid;
   max-width: fit-content;
   height: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .left-content .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .page-kids-wrapper .survey-block-wrapper .main-content .left-content .top-content {
   max-width: 450px;
@@ -1810,7 +1826,7 @@
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .left-content .top-content {
-    max-width: 85%;
+    max-width: 237px;
     margin-bottom: 6px;
   }
 }
@@ -1842,14 +1858,42 @@
   height: 6px;
   border: none;
   border-radius: 50%;
-  background-color: #1A202C;
+  background-color: #1a202c;
   margin-right: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .left-content .detail-content li .dot {
+    margin-top: 10px;
+  }
+}
+.page-kids-wrapper .survey-block-wrapper .main-content .register-bottom {
+  width: 100%;
+  height: auto;
+  border: 2px solid green;
+  padding-top: 32px;
+}
+.page-kids-wrapper .survey-block-wrapper .main-content .register-bottom .btn-register {
+  background-color: #2971f0;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .register-bottom {
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    padding-top: 0;
+    width: 100%;
+  }
 }
 .page-kids-wrapper .survey-block-wrapper .main-content .right-content {
   max-width: fit-content;
   min-width: fit-content;
   position: relative;
   border: 2px solid;
+}
+@media (max-width: 360px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .right-content {
+    margin: auto;
+  }
 }
 .page-kids-wrapper .survey-block-wrapper .main-content .right-content .survey-image {
   min-width: 424px;
@@ -1881,6 +1925,373 @@
     max-width: 204px;
     height: 203px;
     right: -30%;
+  }
+}
+@media (max-width: 360px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .right-content .icon-bitu-7 {
+    display: none;
+  }
+}
+.page-kids-wrapper .price-block-wrapper {
+  width: 100%;
+  height: 950px;
+  border: 2px solid red;
+  background-image: url("../images/price-background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 83px 0px 101px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .price-block-wrapper {
+    padding: 61px 0px 94px;
+    height: auto;
+    background-image: none;
+    background-color: #2971f0;
+  }
+}
+.page-kids-wrapper .price-block-wrapper .list-option {
+  width: 100%;
+}
+.page-kids-wrapper .price-block-wrapper .list-option .option-item {
+  display: flex;
+  margin-bottom: 12px;
+}
+.page-kids-wrapper .price-block-wrapper .list-option .option-item:last-child {
+  margin-bottom: 0;
+}
+.page-kids-wrapper .price-block-wrapper .list-option .option-item .icon-tick {
+  min-width: 32px;
+  max-width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.page-kids-wrapper .price-block-wrapper .list-option .option-item .text {
+  color: #fff;
+  font-family: SF Pro Rounded Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.page-kids-wrapper .price-block-wrapper .title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-kids-wrapper .price-block-wrapper .title-1 {
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .price-block-wrapper .title-1 {
+    margin-bottom: 20px;
+  }
+}
+.page-kids-wrapper .price-block-wrapper .title-2 {
+  margin-bottom: 63px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .price-block-wrapper .title-2 {
+    margin-bottom: 20px;
+  }
+}
+.page-kids-wrapper .price-block-wrapper .list-option-for-mb {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .price-block-wrapper .list-option-for-mb {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+.page-kids-wrapper .price-block-wrapper .list-price {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .price-block-wrapper .list-price {
+    flex-direction: column;
+  }
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item {
+  min-width: 408px;
+  max-width: 408px;
+  height: auto;
+  margin-right: 24px;
+  border-radius: 32px;
+  padding: 24px 24px 40px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .price-block-wrapper .list-price .price-item {
+    min-width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 32px;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.3);
+  }
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item:first-child {
+  background: #f29744;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item:nth-child(2) {
+  background: #2cadd5;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item:last-child {
+  border-radius: 32px;
+  background: #e5485d;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .month {
+  min-width: 314px;
+  height: 67px;
+  background-image: url("../images/text-background-15.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .month .value {
+  color: #1a1a2c;
+  text-align: center;
+  font-family: SF Pro Rounded Black;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 24px 0px;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail .detail-value-item {
+  min-width: 168px;
+  max-width: 168px;
+  height: auto;
+  padding: 24px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  border: 2px solid #1a202c;
+  background: #fff;
+  margin-right: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail .detail-value-item {
+    min-width: 160px;
+    max-width: 160px;
+    margin-right: 16px;
+  }
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail .detail-value-item:last-child {
+  margin-right: 0;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail .detail-value-item .image-flag {
+  min-width: 32px;
+  max-width: 32px;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+  height: 32px;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail .detail-value-item .teacher-label {
+  color: #1a202c;
+  text-align: center;
+  min-width: max-content;
+  font-family: SF Pro Rounded Medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 8px 0px 10px;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail .detail-value-item .lesson-label {
+  color: #ff6d03;
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail .detail-value-item .lesson-count {
+  margin-bottom: 4px;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail .detail-value-item .lesson-price {
+  margin-bottom: 8px;
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .list-detail .detail-value-item .sub-value {
+  color: #1a202c;
+  text-align: center;
+  font-family: SF Pro Rounded Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .price-block-wrapper .list-price .price-item .list-option {
+    display: none;
+  }
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .item-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .price-block-wrapper .list-price .price-item .item-footer {
+    margin-top: 0;
+  }
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .item-footer .btn-choose {
+  min-width: 246px;
+  max-width: 246px;
+  color: #1a202c;
+  font-family: SF Pro Rounded Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px 0px;
+  text-align: center;
+  border-radius: 1000px;
+  border: 2px solid #1a202c;
+  background: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.page-kids-wrapper .price-block-wrapper .list-price .price-item .item-footer .btn-choose:focus {
+  outline: none;
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper {
+  width: 100%;
+  border: 1px solid;
+  height: auto;
+  padding: 105px 0px 43px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper {
+    padding: 75px 0px 72px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .top-content {
+  width: 100%;
+  border: 1px solid;
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .teacher-team-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: BeVietnamPro-Bold;
+  color: #f15a29;
+  text-align: center;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .teacher-team-title {
+    color: #FF6D03;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper {
+    flex-direction: column;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .left-icon {
+  margin-right: 50px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .left-icon {
+    display: none;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .left-icon .icon-bitu {
+  min-width: 234px;
+  max-width: 234px;
+  height: 313px;
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list {
+  list-style: none;
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 37px;
+  max-width: 650px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li {
+    max-width: 100%;
+    align-items: flex-start;
+    margin-bottom: 24px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li:last-child {
+  margin-bottom: 0;
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li .target-image {
+  min-width: 63px;
+  max-width: 63px;
+  height: 63px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li .target-image {
+    min-width: 44px;
+    max-width: 44px;
+    height: 44px;
+    margin-right: 16px;
+    position: relative;
+    top: 4px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li .text {
+  font-size: 24px;
+  line-height: 40px;
+  color: #282828;
+  font-family: BeVietnamPro-Medium;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li .text {
+    color: #1A202C;
+    font-family: SF Pro Rounded Medium;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 136.364% */
   }
 }
 

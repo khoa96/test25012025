@@ -561,25 +561,251 @@
       </div>
     </div>
     <!-- END PRICE BLOCK  -->
+
+
+    <!-- START TEACHER TEAMM OF BITU -->
+    <div class="teacher-team-of-bitu-wrapper">
+      <div class="container">
+        <div class="teacher-team-of-bitu-content">
+          <div class="top-content">
+            <h2 class="teacher-team-title">Đội ngũ giáo viên giàu kinh nghiệm của bitu</h2>
+            <div class="core-value-list-wrapper">
+              <div class="left-icon">
+                <img src="./images/icon-bitu-1.png" class="icon-bitu" alt="">
+              </div>
+              <ul class="core-value-list">
+                <li>
+                  <img src="./images/target-image.png" class="target-image" alt="">
+                  <p class="text">100% giáo viên là người nước ngoài, được tuyển chọn
+                    qua 4 vòng hồ sơ, phỏng vấn và training.</p>
+                </li>
+                <li>
+                  <img src="./images/target-image.png" class="target-image" alt="">
+                  <p class="text">Có nhiều năm kinh nghiệm giảng dạy tiếng Anh và
+                    hiểu tâm lý các bé.</p>
+                </li>
+                <li>
+                  <img src="./images/target-image.png" class="target-image" alt="">
+                  <p class="text">Tất cả giáo viên đều có chứng chỉ sư phạm quốc tế uy tín như TESOL, TEFL và CELTA.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <!-- START LIST TEACHER NATIVE -->
+          <div class="list-teach-wrapper">
+            <div class="list-teach-block">
+              <div class="title-wrapper">
+                <div class="country-flag">
+                  <img src="./images/country-flag.png" class="flag-image" alt="">
+                </div>
+                <h1 class="text-title"> Giáo Viên Bản xứ</h1>
+              </div>
+              <div class="slider-wrapper native-teacher-slider teacher-team-of-bitu-slider-1">
+                <button class="btn-slider btn-prev">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_5877_8811)">
+                      <path d="M15 6L9 12L15 18" stroke="#1A202C" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_5877_8811">
+                        <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                </button>
+                <div class="native-teacher-list teacher-team-of-bitu-1">
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./images/country-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">+ 5 Year, since 2019</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./images/certificate-image.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./images/country-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">+ 5 Year, since 2019</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./images/certificate-image.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./images/country-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">+ 5 Year, since 2019</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./images/certificate-image.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./images/country-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">+ 5 Year, since 2019</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./images/certificate-image.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./images/country-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">+ 5 Year, since 2019</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./images/certificate-image.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./images/country-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">+ 5 Year, since 2019</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./images/certificate-image.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./images/country-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">+ 5 Year, since 2019</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./images/certificate-image.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./images/country-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">+ 5 Year, since 2019</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./images/certificate-image.png" class="certificate-image" />
+
+                  </div>
+                </div>
+                <button class="btn-slider btn-next">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_5877_8806)">
+                      <path d="M9 6L15 12L9 18" stroke="#1A202C" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_5877_8806">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+
+              </div>
+            </div>
+          </div>
+          <!-- END LIST TEACHER NATIVE -->
+        </div>
+      </div>
+    </div>
+
+    <!-- END TEACHER TEAMM OF BITU -->
   </div>
 
 
   <?php include "templates/footer.php"; ?>
   <script>
-    $(function () {
-      // PC
-      var nativeTeacherSlider = $('.list-class-of-student').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: false,
-        swipe: false,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [{
+  $(function() {
+    // PC
+    var listClassOfStudent = $('.list-class-of-student').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: false,
+      swipe: false,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 1,
@@ -609,109 +835,144 @@
             arrows: false,
           }
         }
-        ]
-      });
-
-      $('.list-class-of-kid-wrapper .btn-next').on('click', function () {
-        nativeTeacherSlider.slick('next');
-      });
-
-      var bituRecommend = $('.bitu-recommend-list-1').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: false,
-        swipe: false,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            autoplay: true,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            slidesToScroll: 1,
-            autoplay: false,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        }
-        ]
-      });
-
-      $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function () {
-        bituRecommend.slick('next');
-      });
-
-      var bituRecommend2 = $('.bitu-recommend-list-2').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: false,
-        swipe: false,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            autoplay: true,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            slidesToScroll: 1,
-            autoplay: false,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        }
-        ]
-      });
-
-      $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function () {
-        bituRecommend2.slick('next');
-      });
+      ]
     });
+
+    $('.list-class-of-kid-wrapper .btn-next').on('click', function() {
+      listClassOfStudent.slick('next');
+    });
+
+    var bituRecommend = $('.bitu-recommend-list-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: false,
+      swipe: false,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            autoplay: true,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            slidesToScroll: 1,
+            autoplay: false,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        }
+      ]
+    });
+
+    $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function() {
+      bituRecommend.slick('next');
+    });
+
+    var bituRecommend2 = $('.bitu-recommend-list-2').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: false,
+      swipe: false,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            autoplay: true,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            slidesToScroll: 1,
+            autoplay: false,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        }
+      ]
+    });
+
+    $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function() {
+      bituRecommend2.slick('next');
+    });
+
+    var teacherTeamOfBitu1 = $('.teacher-team-of-bitu-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.teacher-team-of-bitu-slider-1 .btn-next').on('click', function() {
+      teacherTeamOfBitu1.slick('next');
+    });
+
+
+    $('.teacher-team-of-bitu-slider-1 .btn-prev').on('click', function() {
+      teacherTeamOfBitu1.slick('prev');
+    });
+  });
   </script>
 </body>
 
