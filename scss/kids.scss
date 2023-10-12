@@ -2129,25 +2129,48 @@
     height: auto;
     padding: 105px 0px 43px;
 
+    .btn-slider {
+      display: block !important;
+
+      @include mq(max_md) {
+        display: block;
+        top: 45%;
+        right: 20px;
+      }
+    }
+
     @include mq(max_md) {
       padding: 75px 0px 72px;
     }
 
-    .top-content{
+    .list-foreigner-teacher {
+      margin-top: 90px;
+
+      @include mq(max_md) {
+        margin-top: 40px;
+      }
+    }
+
+    .top-content {
       width: 100%;
       border: 1px solid;
+      margin-bottom: 40px;
+
+      @include mq(max_md) {
+        margin-bottom: 30px;
+      }
     }
 
     .teacher-team-title {
       font-size: 36px;
       text-transform: uppercase;
       font-family: BeVietnamPro-Bold;
-      color:#f15a29;
+      color: #f15a29;
       text-align: center;
       margin-bottom: 50px;
 
       @include mq(max_md) {
-        color: #FF6D03;
+        color: #ff6d03;
         text-align: center;
         font-family: SF Pro Rounded;
         font-size: 24px;
@@ -2168,7 +2191,6 @@
         flex-direction: column;
       }
 
-
       .left-icon {
         margin-right: 50px;
 
@@ -2188,7 +2210,7 @@
           display: flex;
           align-items: center;
           margin-bottom: 37px;
-          max-width: 650px;;
+          max-width: 650px;
 
           @include mq(max_md) {
             max-width: 100%;
@@ -2206,7 +2228,7 @@
             margin-right: 20px;
 
             @include mq(max_md) {
-               min-width: 44px;
+              min-width: 44px;
               max-width: 44px;
               height: 44px;
               margin-right: 16px;
@@ -2222,19 +2244,16 @@
             font-family: BeVietnamPro-Medium;
 
             @include mq(max_md) {
-              color: #1A202C;
+              color: #1a202c;
               font-family: SF Pro Rounded Medium;
               font-size: 22px;
               font-style: normal;
               font-weight: 500;
               line-height: 30px; /* 136.364% */
-
             }
           }
         }
       }
     }
-
   }
-
 }

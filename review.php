@@ -388,23 +388,23 @@
 
   <?php include "templates/footer.php"; ?>
   <script>
-  /* -----------------------------------------------------------
-                                                                                                                      Effective slider
-                                                                                                                --    --------------------------------------------------------- */
-  $(function() {
-    // PC
-    var parentsFeedBackList = $('.parents-feedback-list').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: true,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      responsive: [{
+    /* -----------------------------------------------------------
+                                                                                                                        Effective slider
+                                                                                                                  --    --------------------------------------------------------- */
+    $(function () {
+      // PC
+      var parentsFeedBackList = $('.parents-feedback-list').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -416,24 +416,24 @@
             slidesToShow: 1
           }
         }
-      ]
-    });
-    $('.parents-feed-back-list-wrapper .btn-next').on('click', function() {
-      parentsFeedBackList.slick('next');
-    });
+        ]
+      });
+      $('.parents-feed-back-list-wrapper .btn-next').on('click', function () {
+        parentsFeedBackList.slick('next');
+      });
 
-    var studentFeedBackList = $('.student-feedback-list').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: true,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      responsive: [{
+      var studentFeedBackList = $('.student-feedback-list').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -445,12 +445,12 @@
             slidesToShow: 1
           }
         }
-      ]
+        ]
+      });
+      $('.student-feed-back-list-wrapper .btn-next').on('click', function () {
+        studentFeedBackList.slick('next');
+      });
     });
-    $('.student-feed-back-list-wrapper .btn-next').on('click', function() {
-      studentFeedBackList.slick('next');
-    });
-  });
   </script>
 
 </body>

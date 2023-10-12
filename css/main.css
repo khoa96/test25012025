@@ -205,17 +205,6 @@ button,
   right: 30px;
 }
 
-.list-teach-wrapper {
-  width: 100%;
-  border: 1px solid red;
-  margin-top: 80px;
-}
-@media only screen and (max-width: 991px) {
-  .list-teach-wrapper {
-    margin-top: 40px;
-  }
-}
-
 .list-teach-block {
   width: 100%;
   height: auto;

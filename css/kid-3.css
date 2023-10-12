@@ -2183,5 +2183,140 @@
 .page-kids-wrapper .price-block-wrapper .list-price .price-item .item-footer .btn-choose:focus {
   outline: none;
 }
+.page-kids-wrapper .teacher-team-of-bitu-wrapper {
+  width: 100%;
+  border: 1px solid;
+  height: auto;
+  padding: 105px 0px 43px;
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .btn-slider {
+  display: block !important;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .btn-slider {
+    display: block;
+    top: 45%;
+    right: 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper {
+    padding: 75px 0px 72px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .list-foreigner-teacher {
+  margin-top: 90px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .list-foreigner-teacher {
+    margin-top: 40px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .top-content {
+  width: 100%;
+  border: 1px solid;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .top-content {
+    margin-bottom: 30px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .teacher-team-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: BeVietnamPro-Bold;
+  color: #f15a29;
+  text-align: center;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .teacher-team-title {
+    color: #ff6d03;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper {
+    flex-direction: column;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .left-icon {
+  margin-right: 50px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .left-icon {
+    display: none;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .left-icon .icon-bitu {
+  min-width: 234px;
+  max-width: 234px;
+  height: 313px;
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list {
+  list-style: none;
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 37px;
+  max-width: 650px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li {
+    max-width: 100%;
+    align-items: flex-start;
+    margin-bottom: 24px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li:last-child {
+  margin-bottom: 0;
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li .target-image {
+  min-width: 63px;
+  max-width: 63px;
+  height: 63px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li .target-image {
+    min-width: 44px;
+    max-width: 44px;
+    height: 44px;
+    margin-right: 16px;
+    position: relative;
+    top: 4px;
+  }
+}
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li .text {
+  font-size: 24px;
+  line-height: 40px;
+  color: #282828;
+  font-family: BeVietnamPro-Medium;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li .text {
+    color: #1a202c;
+    font-family: SF Pro Rounded Medium;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 136.364% */
+  }
+}
 
 /*# sourceMappingURL=kid-3.css.map */
