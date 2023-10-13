@@ -2318,5 +2318,19 @@
     line-height: 30px; /* 136.364% */
   }
 }
+.page-kids-wrapper .register-block-2-wrapper {
+  width: 100%;
+  min-height: 750px;
+  background-image: url("../images/register-background-image-2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .register-block-2-wrapper {
+    margin-top: 60px;
+  }
+}
 
 /*# sourceMappingURL=kid-3.css.map */
