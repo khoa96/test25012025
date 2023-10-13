@@ -189,6 +189,8 @@ button,
   height: 40px;
   border: 2px solid #fff;
   background-color: #ffb700;
+  position: absolute;
+  top: 50%;
   display: flex;
   z-index: 999;
   align-items: center;
@@ -203,6 +205,11 @@ button,
 
 .btn-next {
   right: 30px;
+}
+
+.list-teach-wrapper {
+  width: 100%;
+  border: 1px solid red;
 }
 
 .list-teach-block {
@@ -277,6 +284,11 @@ button,
   display: flex;
   margin-top: 40px;
   justify-content: center;
+}
+@media only screen and (max-width: 991px) {
+  .list-teach-block .slider-wrapper {
+    margin-top: 30px;
+  }
 }
 .list-teach-block .slider-wrapper .native-teacher-list {
   max-width: 1296px;

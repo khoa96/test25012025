@@ -571,7 +571,7 @@
             <h2 class="teacher-team-title">Đội ngũ giáo viên giàu kinh nghiệm của bitu</h2>
             <div class="core-value-list-wrapper">
               <div class="left-icon">
-                <img src="./images/icon-bitu-1.png" class="icon-bitu" alt="">
+                <img src="./images/icon-bitu-8.png" class="icon-bitu" alt="">
               </div>
               <ul class="core-value-list">
                 <li>

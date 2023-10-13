@@ -2189,14 +2189,38 @@
   height: auto;
   padding: 105px 0px 43px;
 }
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .btn-slider {
+  display: block !important;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .btn-slider {
+    display: block;
+    top: 45%;
+    right: 20px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .teacher-team-of-bitu-wrapper {
     padding: 75px 0px 72px;
   }
 }
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .list-foreigner-teacher {
+  margin-top: 90px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .list-foreigner-teacher {
+    margin-top: 40px;
+  }
+}
 .page-kids-wrapper .teacher-team-of-bitu-wrapper .top-content {
   width: 100%;
   border: 1px solid;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .top-content {
+    margin-bottom: 30px;
+  }
 }
 .page-kids-wrapper .teacher-team-of-bitu-wrapper .teacher-team-title {
   font-size: 36px;
@@ -2208,7 +2232,7 @@
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .teacher-team-of-bitu-wrapper .teacher-team-title {
-    color: #FF6D03;
+    color: #ff6d03;
     text-align: center;
     font-family: SF Pro Rounded;
     font-size: 24px;
@@ -2286,7 +2310,7 @@
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper .core-value-list li .text {
-    color: #1A202C;
+    color: #1a202c;
     font-family: SF Pro Rounded Medium;
     font-size: 22px;
     font-style: normal;
