@@ -2256,4 +2256,19 @@
       }
     }
   }
+
+  // block 15 (register2)
+  .register-block-2-wrapper {
+    width: 100%;
+    min-height: 750px;
+    background-image: url("../images/register-background-image-2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 90px;
+
+    @include mq(max_md) {
+      margin-top: 60px;
+    }
+  }
 }
