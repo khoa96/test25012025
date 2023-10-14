@@ -41,7 +41,7 @@
 }
 @font-face {
   font-family: "SF Pro Rounded";
-  src: url("../fonts/SF-Pro-Rounded-Bold.otf");
+  src: url("../fonts/SF-Pro-Rounded-Black.otf");
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -78,7 +78,7 @@
 }
 @font-face {
   font-family: "BeVietnamPro-Bold";
-  src: url("../fonts/BeVietnamPro-Black.ttf");
+  src: url("../fonts/BeVietnamPro-Bold.ttf");
   font-style: normal;
   font-display: swap;
   font-weight: 800;
