@@ -61,7 +61,7 @@
   font-weight: bold;
 }
 /* -----------------------------------------------------------
-	font-face 
+	font-face BeVietnamPro
 ----------------------------------------------------------- */
 @font-face {
   font-family: "BeVietnamPro-Light";
@@ -91,11 +91,21 @@
   font-weight: 500;
 }
 @font-face {
-  font-family: "BeVietnamPro-Regular";
-  src: url("../fonts/BeVietnamPro-Regular.ttf");
+  font-family: "Ephesis-Regular";
+  src: url("../fonts/Ephesis-Regular.ttf");
   font-style: normal;
   font-display: swap;
-  font-weight: 500;
+  font-weight: normal;
+}
+/* -----------------------------------------------------------
+	font-face 
+----------------------------------------------------------- */
+@font-face {
+  font-family: "SVN-Anastasia";
+  src: url("../fonts/SVN-Anastasia.ttf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
 }
 /* -----------------------------------------------------------
 	common
