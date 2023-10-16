@@ -132,7 +132,7 @@ h6 {
 
 body {
   font-family: "Circular Std", serif;
-  color: #1A202C;
+  color: #1a202c;
 }
 
 img {
@@ -369,6 +369,22 @@ button,
   height: 156px;
   max-width: 110px;
   object-fit: cover;
+}
+
+.common-list-slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.common-list-slider-wrapper .common-list-slider {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.common-list-slider-wrapper .common-list-slider .common-list-slider-item:last-child {
+  margin-right: 0 !important;
 }
 
 /*# sourceMappingURL=common-3.css.map */
