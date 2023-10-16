@@ -387,4 +387,28 @@ button,
   margin-right: 0 !important;
 }
 
+.banner-kids-title {
+  color: #2971f0;
+  text-align: center;
+  font-family: SF Pro Rounded Black;
+  font-size: 55px;
+  font-style: normal;
+  line-height: 72px; /* 144% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  filter: drop-shadow(-3px 0 0 #fff) drop-shadow(3px 0 0 #fff) drop-shadow(0 -3px 0 #fff) drop-shadow(0 3px 0 #fff) drop-shadow(-3px 0 0 #ffb700) drop-shadow(3px 0 0 #ffb700) drop-shadow(0 -3px 0 #ffb700) drop-shadow(0 3px 0 #ffb700) drop-shadow(8px 8px rgba(0, 0, 0, 0.15));
+}
+@media only screen and (max-width: 991px) {
+  .banner-kids-title {
+    max-width: 100%;
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    filter: drop-shadow(-2px 0 0 #fff) drop-shadow(2px 0 0 #fff) drop-shadow(0 -2px 0 #fff) drop-shadow(0 2px 0 #fff) drop-shadow(-2px 0 0 #ffb700) drop-shadow(2px 0 0 #ffb700) drop-shadow(0 -2px 0 #ffb700) drop-shadow(0 2px 0 #ffb700);
+  }
+}
+
 /*# sourceMappingURL=common-2.css.map */

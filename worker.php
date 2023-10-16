@@ -127,7 +127,7 @@
                 </g>
                 <defs>
                   <clipPath id="clip0_5877_8811">
-                    <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)" />
+                    <rect width="24" height="24" fill="whie" transform="matrix(-1 0 0 1 24 0)" />
                   </clipPath>
                 </defs>
               </svg>
@@ -517,14 +517,57 @@
       <button class="btn-common-trial-register w-100">đăng ký học thử</button>
     </div>
     <!-- END LIST CLASS BLOCK WRAPPER -->
+
+    <!-- START RECEIVE GIFT BLOCK -->
+    <div class="received-gift-block-wrapper">
+      <div class="container">
+        <div class="received-gift-block-content">
+          <div class="top-content">
+            <div class="received-title-1-wrapper">
+              <h2 class="received-title-1">nhận ngay bộ quà tặng</h2>
+            </div>
+            <h2 class="banner-kids-title received-title-2 received-title-for-pc">khi mua khóa học <br />
+              1 kèm 1 cùng giáo viên người nước ngoài</h2>
+            <h2 class="banner-kids-title received-title-2 received-title-for-mb">khi mua khóa học</h2>
+
+          </div>
+
+          <div class="main-content">
+            <div class="left-content">
+              <div class="block-item small-block"></div>
+              <div class="block-item small-block"></div>
+              <div class="block-item big-block"></div>
+            </div>
+            <div class="right-content">
+              <div class="wrapper-content">
+                <div class="top-header">
+                  <p class="text-header">Đăng ký học thử chỉ từ <span class="hight-light-text">83k/buổi</span></p>
+                </div>
+                <div class="form-content">
+                  <input type="text" class="form-item" placeholder="Họ tên" name="" id="">
+                  <input type="text" class="form-item" placeholder="Số điện thoại" name="" id="">
+                  <input type="text" class="form-item" placeholder="Các khóa học tại Bitu" name="" id="">
+                </div>
+                <button class="btn-common-trial-register w-100 mt-16">đăng ký học thử</button>
+              </div>
+
+              <div class="footer-image">
+                <img src="./images/icon-bitu-18.png" class="icon-bitu-18" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END RECEIVE GIFT BLOCK -->
   </div>
 
   <?php include "templates/footer.php"; ?>
 
   <script>
     /* -----------------------------------------------------------
-                                                                  Effective slider
-                                                                ----------------------------------------------------------- */
+                                                                                                Effective slider
+                                                                                              ----------------------------------------------------------- */
     $(function () {
       // PC
       var vtvRecommendSlider = $('.vtv-recommend-list-wrapper .vtv-recommend-list-slider').slick({
