@@ -560,30 +560,356 @@
       </div>
     </div>
     <!-- END RECEIVE GIFT BLOCK -->
+
+    <!-- START FEED BACK FROM STUDENT 1 BLOCK -->
+    <div class="feed-back-from-student-1-wrapper">
+      <div class="container">
+        <div class="feed-back-from-student-1-content">
+          <h2 class="worker-common-title feedback-student-title">Học viên nói gì về Giáo viên của Bitu</h2>
+          <!-- LIST FEED BACK  -->
+          <div class="common-list-slider-wrapper feedback-student-list-1-wrapper">
+            <button class="btn-slider btn-prev">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_5877_8811)">
+                  <path d="M15 6L9 12L15 18" stroke="#1A202C" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_5877_8811">
+                    <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+            <div class="common-list-slider feedback-student-list-1-slider">
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-5.png" class="feedback-student-image vertical-image" alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-6.png" class="feedback-student-image horizontal-image "
+                  alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-7.png" class="feedback-student-image" alt="">
+              </div>
+            </div>
+            <button class="btn-slider btn-next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0_5877_8806)">
+                  <path d="M9 6L15 12L9 18" stroke="#1A202C" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_5877_8806">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <button class="btn-common-trial-register btn-trial-register align-center">đăng ký học thử</button>
+        </div>
+      </div>
+    </div>
+    <!-- END FEED BACK FROM STUDENT 1 BLOCK -->
+
+    <!-- START PRICE BLOCK  -->
+    <div class="price-block-wrapper">
+      <div class="container">
+        <div class="price-content-block">
+          <div class="title-wrapper">
+            <h2 class="title-1 common-primary-title">các chương trình học 1 kèm 1 tại bitu</h2>
+            <h2 class="title-2 common-primary-title">cam kết đầu ra chuẩn cerf và cambridge</h2>
+          </div>
+          <ul class="list-option list-option-for-mb">
+            <div class="option-item">
+              <img src="./images/icon-tick.png" class="icon-tick" alt="">
+              <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+            </div>
+            <div class="option-item">
+              <img src="./images/icon-tick.png" class="icon-tick" alt="">
+              <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+            </div>
+          </ul>
+
+
+          <div class="list-price">
+            <div class="price-item">
+              <div class="month">
+                <span class="value">1 tháng</span>
+              </div>
+              <div class="list-detail">
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+              </div>
+
+              <ul class="list-option">
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+                </div>
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+                </div>
+              </ul>
+
+              <div class="item-footer">
+                <button class="btn-choose">chọn gói</button>
+              </div>
+            </div>
+            <div class="price-item">
+              <div class="month">
+                <span class="value">3 tháng</span>
+              </div>
+              <div class="list-detail">
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+              </div>
+
+              <ul class="list-option">
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+                </div>
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+                </div>
+              </ul>
+
+              <div class="item-footer">
+                <button class="btn-choose">chọn gói</button>
+              </div>
+            </div>
+            <div class="price-item">
+              <div class="month">
+                <span class="value">6 tháng</span>
+              </div>
+              <div class="list-detail">
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+              </div>
+
+              <ul class="list-option">
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+                </div>
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+                </div>
+              </ul>
+
+              <div class="item-footer">
+                <button class="btn-choose">chọn gói</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PRICE BLOCK  -->
+
+    <!--START NEWS OF BITU START -->
+    <div class="news-of-bitu-wrapper">
+      <div class="news-of-bitu-content-wrapper">
+        <div class="container main-content">
+          <h2 class="worker-common-title news-of-bitu-title">Truyền thông nói gì về bitu</h2>
+          <div class="list-news-of-bitu">
+            <a class="news-of-bitu-item" href="#">
+              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+              <div class="news-content">
+                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <div class="branch-wrapper">
+                  <img src="./images/branch-image.png" class="branch-image" alt="">
+                  <span class="branch-name">VTV2 SOCIAL</span>
+                </div>
+              </div>
+            </a>
+            <a class="news-of-bitu-item" href="#">
+              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+              <div class="news-content">
+                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <div class="branch-wrapper">
+                  <img src="./images/branch-image.png" class="branch-image" alt="">
+                  <span class="branch-name">VTV2 SOCIAL</span>
+                </div>
+              </div>
+            </a>
+            <a class="news-of-bitu-item" href="#">
+              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+              <div class="news-content">
+                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <div class="branch-wrapper">
+                  <img src="./images/branch-image.png" class="branch-image" alt="">
+                  <span class="branch-name">VTV2 SOCIAL</span>
+                </div>
+              </div>
+            </a>
+            <a class="news-of-bitu-item" href="#">
+              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+              <div class="news-content">
+                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <div class="branch-wrapper">
+                  <img src="./images/branch-image.png" class="branch-image" alt="">
+                  <span class="branch-name">VTV2 SOCIAL</span>
+                </div>
+              </div>
+            </a>
+            <a class="news-of-bitu-item" href="#">
+              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+              <div class="news-content">
+                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <div class="branch-wrapper">
+                  <img src="./images/branch-image.png" class="branch-image" alt="">
+                  <span class="branch-name">VTV2 SOCIAL</span>
+                </div>
+              </div>
+            </a>
+            <a class="news-of-bitu-item" href="#">
+              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+              <div class="news-content">
+                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <div class="branch-wrapper">
+                  <img src="./images/branch-image.png" class="branch-image" alt="">
+                  <span class="branch-name">VTV2 SOCIAL</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- END NEWS OF BITU START -->
+
+    <!-- START FEED BACK FROM STUDENT 2 BLOCK -->
+    <div class="feed-back-from-student-2-wrapper">
+      <div class="container">
+        <div class="feed-back-from-student-2-content column-center">
+          <div class="top-content column-center">
+            <img src="/images/worker-title-3.png" class="image-title" alt="" />
+            <h2 class="worker-common-title feedback-student-title">Học viên học tiếng Anh giao tiếp thành công nói gì về
+              Bitu?</h2>
+          </div>
+          <!-- LIST FEED BACK  -->
+          <div class="common-list-slider-wrapper feedback-student-list-2-wrapper">
+            <button class="btn-slider btn-prev">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_5877_8811)">
+                  <path d="M15 6L9 12L15 18" stroke="#1A202C" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_5877_8811">
+                    <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+            <div class="common-list-slider feedback-student-list-2-slider">
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-1.png" class="feedback-student-image" alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-2.png" class="feedback-student-image" alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-3.png" class="feedback-student-image" alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-4.png" class="feedback-student-image" alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-1.png" class="feedback-student-image" alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-2.png" class="feedback-student-image" alt="">
+              </div>
+            </div>
+            <button class="btn-slider btn-next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0_5877_8806)">
+                  <path d="M9 6L15 12L9 18" stroke="#1A202C" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_5877_8806">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+
+          </div>
+          <button class="btn-common-trial-register btn-trial-register">đăng ký học thử</button>
+        </div>
+      </div>
+    </div>
+    <!-- END FEED BACK FROM STUDENT 2 BLOCK -->
   </div>
 
   <?php include "templates/footer.php"; ?>
 
   <script>
-    /* -----------------------------------------------------------
+  /* -----------------------------------------------------------
                                                                                                 Effective slider
                                                                                               ----------------------------------------------------------- */
-    $(function () {
-      // PC
-      var vtvRecommendSlider = $('.vtv-recommend-list-wrapper .vtv-recommend-list-slider').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        variableWidth: true,
-        responsive: [{
+  $(function() {
+    // PC
+    var vtvRecommendSlider = $('.vtv-recommend-list-wrapper .vtv-recommend-list-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -595,132 +921,208 @@
             slidesToShow: 1
           }
         }
-        ]
-      });
-
-      $('.vtv-recommend-list-wrapper .btn-prev').on('click', function () {
-        vtvRecommendSlider.slick('prev');
-      });
-      $('.vtv-recommend-list-wrapper .btn-next').on('click', function () {
-        vtvRecommendSlider.slick('next');
-      });
+      ]
     });
 
-    $(function () {
-      // PC
-      var speakEnglishDifficultSlider = $(
-        '.speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          adaptiveHeight: true,
-          variableWidth: true,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
+    $('.vtv-recommend-list-wrapper .btn-prev').on('click', function() {
+      vtvRecommendSlider.slick('prev');
+    });
+    $('.vtv-recommend-list-wrapper .btn-next').on('click', function() {
+      vtvRecommendSlider.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var speakEnglishDifficultSlider = $(
+      '.speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
           }
-          ]
-        });
-
-      $('.speak-english-difficult-slider-wrapper .btn-prev').on('click', function () {
-        speakEnglishDifficultSlider.slick('prev');
-      });
-      $('.speak-english-difficult-slider-wrapper .btn-next').on('click', function () {
-        speakEnglishDifficultSlider.slick('next');
-      });
-    });
-
-    $(function () {
-      // PC
-      var listClassSlider1 = $(
-        '.list-class-slider-1-wrapper .list-class-slider-1').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          adaptiveHeight: true,
-          variableWidth: true,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
           }
-          ]
-        });
-
-      $('.list-class-slider-1-wrapper .btn-prev').on('click', function () {
-        listClassSlider1.slick('prev');
-      });
-      $('.list-class-slider-1-wrapper .btn-next').on('click', function () {
-        listClassSlider1.slick('next');
-      });
+        }
+      ]
     });
-    $(function () {
-      // PC
-      var listClassSlider2 = $(
-        '.list-class-slider-2-wrapper .list-class-slider-2').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          adaptiveHeight: true,
-          variableWidth: true,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
+
+    $('.speak-english-difficult-slider-wrapper .btn-prev').on('click', function() {
+      speakEnglishDifficultSlider.slick('prev');
+    });
+    $('.speak-english-difficult-slider-wrapper .btn-next').on('click', function() {
+      speakEnglishDifficultSlider.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var listClassSlider1 = $(
+      '.list-class-slider-1-wrapper .list-class-slider-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
           }
-          ]
-        });
-
-      $('.list-class-slider-2-wrapper .btn-prev').on('click', function () {
-        listClassSlider2.slick('prev');
-      });
-      $('.list-class-slider-2-wrapper .btn-next').on('click', function () {
-        listClassSlider2.slick('next');
-      });
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
     });
+
+    $('.list-class-slider-1-wrapper .btn-prev').on('click', function() {
+      listClassSlider1.slick('prev');
+    });
+    $('.list-class-slider-1-wrapper .btn-next').on('click', function() {
+      listClassSlider1.slick('next');
+    });
+  });
+  $(function() {
+    // PC
+    var listClassSlider2 = $(
+      '.list-class-slider-2-wrapper .list-class-slider-2').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.list-class-slider-2-wrapper .btn-prev').on('click', function() {
+      listClassSlider2.slick('prev');
+    });
+    $('.list-class-slider-2-wrapper .btn-next').on('click', function() {
+      listClassSlider2.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.feedback-student-list-2-wrapper .btn-prev').on('click', function() {
+      feedbackStudent2Slider.slick('prev');
+    });
+    $('.feedback-student-list-2-wrapper .btn-next').on('click', function() {
+      feedbackStudent2Slider.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.feedback-student-list-1-wrapper .btn-prev').on('click', function() {
+      feedbackStudent2Slider.slick('prev');
+    });
+    $('.feedback-student-list-1-wrapper .btn-next').on('click', function() {
+      feedbackStudent2Slider.slick('next');
+    });
+  });
   </script>
 </body>
 

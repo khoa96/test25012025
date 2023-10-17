@@ -8,6 +8,18 @@
   border: 2px solid;
 
   // common style
+  .column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .align-center {
+    display: block;
+    width: fit-content;
+    margin: auto;
+  }
   .worker-common-title {
     color: #ffc700;
     text-align: center;
@@ -22,6 +34,7 @@
       drop-shadow(0 -2px 0 #1a202c) drop-shadow(0 2px 0 #1a202c);
 
     @include mq(max_lg) {
+      max-width: 343px;
       color: #ffc700;
       text-align: center;
       text-shadow: 2px 2px 0px #000, 3px 3px 3px rgba(0, 0, 0, 0.45);
@@ -870,6 +883,10 @@
 
         .speak-english-difficult-list-slider {
           max-width: 1296px;
+          @media (max-width: 1300px) {
+            max-width: 1200px;
+            border: 1px solid;
+          }
 
           @include mq(max_lg) {
             max-width: 350px;
@@ -897,7 +914,7 @@
           height: 101px;
         }
         .common-list-slider-item {
-          min-width: 300px;
+          width: calc((100% - 48px) / 4);
           max-width: 300px;
           margin-right: 24px;
           border: 1px solid green;
@@ -906,6 +923,7 @@
           background: #fff0da;
           position: relative;
           min-height: 426px;
+          border: 1px solid;
 
           padding: 118px 20px 0px 24px;
 
@@ -1075,6 +1093,7 @@
       justify-content: center;
       align-items: center;
       margin: auto;
+      min-width: max-content;
       @include mq(max_lg) {
         margin-top: 50px;
         padding: 15px 53px;
@@ -1269,6 +1288,293 @@
           }
         }
       }
+    }
+  }
+
+  .news-of-bitu-wrapper {
+    padding: 118px 0px 80px;
+    @include mq(max_lg) {
+      padding: 60px 0px 60px;
+    }
+
+    .news-of-bitu-content-wrapper {
+      width: 100%;
+      min-height: 755px;
+      background-image: url("../images/banner-teacher-background.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @include mq(max_lg) {
+        min-height: fit-content;
+        background-image: none;
+        height: auto;
+      }
+
+      .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .news-of-bitu-title {
+        margin-bottom: 48px;
+        @include mq(max_lg) {
+          margin-bottom: 32px;
+          max-width: 343px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .list-news-of-bitu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 1px solid green;
+
+        @include mq(max_lg) {
+          flex-direction: column;
+        }
+
+        .news-of-bitu-item {
+          text-decoration: none;
+          display: flex;
+          flex-direction: column;
+          width: calc((100% - 72px) / 3);
+          max-width: 378px;
+          height: auto;
+          border: 1px solid red;
+          margin-right: 36px;
+          margin-bottom: 36px;
+
+          &:nth-child(3),
+          &:nth-child(6) {
+            margin-right: 0;
+          }
+
+          &:last-child {
+            @include mq(max_lg) {
+              margin-bottom: 0;
+            }
+          }
+          @include mq(max_lg) {
+            width: 100%;
+            max-width: 343px;
+            margin: 0;
+            margin-bottom: 32px;
+          }
+
+          .news-image {
+            min-width: 100%;
+            max-width: 100%;
+            height: 250px;
+            object-fit: cover;
+          }
+
+          .news-content {
+            width: 100%;
+            margin-top: 16px;
+
+            .news-title {
+              color: #1a202c;
+              font-family: SF Pro Rounded Medium;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              margin-bottom: 16px;
+            }
+
+            .branch-wrapper {
+              display: flex;
+              align-items: center;
+
+              .branch-image {
+                min-width: 79px;
+                max-width: 79px;
+                height: 29px;
+                object-fit: cover;
+                margin-right: 15px;
+              }
+
+              .branch-name {
+                color: #000;
+                font-family: SF Pro Rounded Regular;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // block 6 (feed back from student 2)
+  .feed-back-from-student-2-wrapper {
+    min-height: max-content;
+    width: 100%;
+    background-image: url("../images/grid-background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 0px 70px;
+
+    @include mq(max_lg) {
+      min-height: auto;
+      background-image: none;
+      background-color: #ff6d03;
+      padding: 60px 0px 50px;
+    }
+    .top-content {
+      .image-title {
+        min-width: 550px;
+        max-width: 550px;
+        height: 104px;
+        object-fit: contain;
+        margin-bottom: 16px;
+
+        @include mq(max_lg) {
+          min-width: 316px;
+          max-width: 316px;
+          height: 60px;
+          margin-bottom: 12px;
+        }
+      }
+
+      .feedback-student-title {
+        max-width: 950px;
+      }
+    }
+
+    .feedback-student-list-2-wrapper {
+      margin-top: 55px;
+
+      .btn-prev {
+        display: none;
+      }
+
+      @include mq(max_lg) {
+        margin-top: 30px;
+      }
+
+      .feedback-student-list-2-slider {
+        max-width: 1260px;
+        @include mq(max_lg) {
+          max-width: 320px;
+        }
+
+        .common-list-slider-item {
+          border-radius: 16px;
+          border: 10px solid #fff;
+          background: #fff;
+          width: fit-content;
+          margin-right: 32px;
+          box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.18);
+
+          @include mq(max_lg) {
+            border-radius: 12px;
+            border: 6px solid #fff;
+            background: #fff;
+            box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.18);
+          }
+          img {
+            min-width: 287px;
+            max-width: 287px;
+            height: 480px;
+            object-fit: contain;
+
+            @include mq(max_lg) {
+              min-width: 252px;
+              max-width: 252px;
+              height: 450px;
+            }
+          }
+        }
+      }
+    }
+    .btn-trial-register {
+      border-radius: 1000px;
+      background: #2971f0;
+      padding: 15px 114px 14px 113px;
+      margin-top: 32px;
+    }
+  }
+
+  // block 7 (feed back from student 1)
+  .feed-back-from-student-1-wrapper {
+    min-height: max-content;
+    width: 100%;
+    background-image: url("../images/worker-background-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:max-content;
+    padding: 85px 0px 70px;
+
+    @include mq(max_lg) {
+      min-height: auto;
+      background-image: none;
+      background-color: #ff6d03;
+      padding: 60px 0px 50px;
+    }
+
+    .feedback-student-list-1-wrapper {
+      margin-top: 32px;
+
+      @include mq(max_lg) {
+        margin-top: 24px;
+      }
+
+      .feedback-student-list-1-slider {
+        max-width: 1260px;
+        @include mq(max_lg) {
+          max-width: 320px;
+        }
+
+        .common-list-slider-item {
+          border-radius: 16px;
+          border: 10px solid #fff;
+          background: #fff;
+          margin-right: 32px;
+          min-height: 630px;
+          max-width: 400px;
+          width: fit-content;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.18);
+          @include mq(max_lg) {
+            border-radius: unset;
+            border: none;
+            background: unset;
+            box-shadow: unset;
+          }
+
+          .feedback-student-image  {
+            max-width: 100%;
+            display: block;
+          }
+          .vertical-image {
+            height: 432.389px;
+          }
+
+          .horizontal-image {
+            height: 238.38px;
+          }
+        }
+      }
+    }
+    .btn-trial-register {
+      border-radius: 1000px;
+      background: #2971f0;
+      padding: 15px 114px 14px 113px;
+      margin-top: 32px;
     }
   }
 }
