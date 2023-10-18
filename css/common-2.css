@@ -735,7 +735,7 @@ button,
 }
 .router-for-kids-wrapper .main-route-content {
   width: 100%;
-  height: 655px;
+  height: auto;
   border: 2px solid #1a3869;
   border-radius: 6px;
   padding: 0px 26px 34px 19px;
@@ -802,10 +802,10 @@ button,
   border-radius: 0px 0px 10px 10px;
 }
 .router-for-kids-wrapper .main-route-content .first-line .first-column {
-  margin-right: 36px;
+  margin-right: 32px;
 }
 .router-for-kids-wrapper .main-route-content .first-line .second-column {
-  margin-right: 36px;
+  margin-right: 32px;
 }
 .router-for-kids-wrapper .main-route-content .first-line .third-column {
   flex-grow: 1;
@@ -833,7 +833,7 @@ button,
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 32px;
   font-size: 20.5px;
   line-height: 29px;
   color: #fff;
