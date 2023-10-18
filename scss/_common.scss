@@ -596,8 +596,11 @@ button,
 .router-for-kids-wrapper {
   width: 100%;
   height: auto;
-  border: 2px solid blue;
-  padding: 115px 0px 85px;
+  padding: 0px 0px 85px;
+
+  @include mq(max_lg) {
+    display: none;
+  }
   .route-block-content {
     width: 100%;
     min-height: 984px;
@@ -606,6 +609,36 @@ button,
     background-size: cover;
     background-repeat: no-repeat;
     border: 3px solid #000;
+  }
+
+  .header-title-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+
+    .head-title-content {
+      min-width: 710px;
+      max-width: max-content;
+      height: 100px;
+      background-image: url("../images/text-background-20.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .text-title {
+        color: #1a1a2c;
+        text-align: center;
+        font-family: SF Pro Rounded Black;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+      }
+    }
   }
 
   .top-header-content-wrapper {
@@ -671,7 +704,8 @@ button,
     height: auto;
     border: 2px solid #1a3869;
     border-radius: 6px;
-    padding: 0px 26px 20px 19px;
+    background-color: #fff;
+    padding: 0px 26px 30px 19px;
     position: relative;
     z-index: 10;
 
@@ -733,10 +767,10 @@ button,
         }
 
         .blue-left-ribbon {
-          border-right: 15px solid blue;
+          border-right: 15px solid #15389a;
         }
         .blue-right-ribbon {
-          border-left: 15px solid blue;
+          border-left: 15px solid #15389a;
         }
       }
 
@@ -765,28 +799,27 @@ button,
         flex-grow: 1;
       }
     }
-     .max-100 {
+    .max-100 {
       max-width: 100%;
-      }
-      .max-95 {
-        max-width: 95%;
-      }
-      .max-90 {
-        max-width: 90%;
-      }
-      .max-85 {
-        max-width: 85%;
-      }
-      .max-80 {
-        max-width: 80%;
-      }
-      .max-75 {
-        max-width: 75%;
-
-      }
-      .max-70 {
-        max-width: 70%;
-      }
+    }
+    .max-95 {
+      max-width: 95%;
+    }
+    .max-90 {
+      max-width: 90%;
+    }
+    .max-85 {
+      max-width: 85%;
+    }
+    .max-80 {
+      max-width: 80%;
+    }
+    .max-75 {
+      max-width: 75%;
+    }
+    .max-70 {
+      max-width: 70%;
+    }
     .line-item {
       width: 100%;
       margin-top: 18px;
@@ -842,4 +875,3 @@ button,
     }
   }
 }
-

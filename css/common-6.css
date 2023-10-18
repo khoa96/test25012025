@@ -666,8 +666,12 @@ button,
 .router-for-kids-wrapper {
   width: 100%;
   height: auto;
-  border: 2px solid blue;
-  padding: 115px 0px 85px;
+  padding: 0px 0px 85px;
+}
+@media only screen and (max-width: 1199px) {
+  .router-for-kids-wrapper {
+    display: none;
+  }
 }
 .router-for-kids-wrapper .route-block-content {
   width: 100%;
@@ -677,6 +681,33 @@ button,
   background-size: cover;
   background-repeat: no-repeat;
   border: 3px solid #000;
+}
+.router-for-kids-wrapper .header-title-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+.router-for-kids-wrapper .header-title-wrapper .head-title-content {
+  min-width: 710px;
+  max-width: max-content;
+  height: 100px;
+  background-image: url("../images/text-background-20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.router-for-kids-wrapper .header-title-wrapper .head-title-content .text-title {
+  color: #1a1a2c;
+  text-align: center;
+  font-family: SF Pro Rounded Black;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 .router-for-kids-wrapper .top-header-content-wrapper {
   width: 100%;
@@ -735,7 +766,8 @@ button,
   height: auto;
   border: 2px solid #1a3869;
   border-radius: 6px;
-  padding: 0px 26px 20px 19px;
+  background-color: #fff;
+  padding: 0px 26px 30px 19px;
   position: relative;
   z-index: 10;
 }
@@ -793,10 +825,10 @@ button,
   border-bottom: 10px solid transparent;
 }
 .router-for-kids-wrapper .main-route-content .first-line .wrapper .blue-left-ribbon {
-  border-right: 15px solid blue;
+  border-right: 15px solid #15389a;
 }
 .router-for-kids-wrapper .main-route-content .first-line .wrapper .blue-right-ribbon {
-  border-left: 15px solid blue;
+  border-left: 15px solid #15389a;
 }
 .router-for-kids-wrapper .main-route-content .first-line .top-column-item {
   max-height: 70px;

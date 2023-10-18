@@ -666,12 +666,15 @@ button,
 .router-for-kids-wrapper {
   width: 100%;
   height: auto;
-  border: 2px solid blue;
-  padding: 115px 0px 85px;
+  padding: 0px 0px 85px;
+}
+@media only screen and (max-width: 1199px) {
+  .router-for-kids-wrapper {
+    display: none;
+  }
 }
 .router-for-kids-wrapper .route-block-content {
   width: 100%;
-  border: 1px solid red;
   min-height: 984px;
   background-image: url("../images/kid-route-background.png");
   background-position: center center;
@@ -679,9 +682,35 @@ button,
   background-repeat: no-repeat;
   border: 3px solid #000;
 }
+.router-for-kids-wrapper .header-title-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+.router-for-kids-wrapper .header-title-wrapper .head-title-content {
+  min-width: 710px;
+  max-width: max-content;
+  height: 100px;
+  background-image: url("../images/text-background-20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.router-for-kids-wrapper .header-title-wrapper .head-title-content .text-title {
+  color: #1a1a2c;
+  text-align: center;
+  font-family: SF Pro Rounded Black;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 .router-for-kids-wrapper .top-header-content-wrapper {
   width: 100%;
-  border: 2px solid red;
   margin-top: 90px;
   padding-right: 48px;
   display: flex;
@@ -690,7 +719,6 @@ button,
 .router-for-kids-wrapper .top-header-content {
   width: fit-content;
   height: fit-content;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -738,7 +766,8 @@ button,
   height: auto;
   border: 2px solid #1a3869;
   border-radius: 6px;
-  padding: 0px 26px 34px 19px;
+  background-color: #fff;
+  padding: 0px 26px 30px 19px;
   position: relative;
   z-index: 10;
 }
@@ -754,6 +783,14 @@ button,
   margin-bottom: -20px;
   display: flex;
 }
+.router-for-kids-wrapper .main-route-content .small-column {
+  min-width: 197px;
+  max-width: 197px;
+}
+.router-for-kids-wrapper .main-route-content .big-column {
+  min-width: 203px;
+  max-width: 203px;
+}
 .router-for-kids-wrapper .main-route-content .first-line {
   display: flex;
   width: 100%;
@@ -763,7 +800,7 @@ button,
 }
 .router-for-kids-wrapper .main-route-content .first-line .wrapper .left-ribbon {
   position: absolute;
-  top: 3px;
+  top: 4px;
   left: -10px;
   content: "";
   width: 0;
@@ -776,8 +813,8 @@ button,
 }
 .router-for-kids-wrapper .main-route-content .first-line .wrapper .right-ribbon {
   position: absolute;
-  right: 26px;
-  top: 3px;
+  right: 22px;
+  top: 4px;
   content: "";
   width: 0;
   height: 0;
@@ -787,10 +824,15 @@ button,
   border-left: 15px solid #ac4800;
   border-bottom: 10px solid transparent;
 }
+.router-for-kids-wrapper .main-route-content .first-line .wrapper .blue-left-ribbon {
+  border-right: 15px solid #15389a;
+}
+.router-for-kids-wrapper .main-route-content .first-line .wrapper .blue-right-ribbon {
+  border-left: 15px solid #15389a;
+}
 .router-for-kids-wrapper .main-route-content .first-line .top-column-item {
-  min-width: 197px;
-  min-height: 70px;
   max-height: 70px;
+  min-height: 70px;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -810,24 +852,37 @@ button,
 .router-for-kids-wrapper .main-route-content .first-line .third-column {
   flex-grow: 1;
 }
+.router-for-kids-wrapper .main-route-content .max-100 {
+  max-width: 100%;
+}
+.router-for-kids-wrapper .main-route-content .max-95 {
+  max-width: 95%;
+}
+.router-for-kids-wrapper .main-route-content .max-90 {
+  max-width: 90%;
+}
+.router-for-kids-wrapper .main-route-content .max-85 {
+  max-width: 85%;
+}
+.router-for-kids-wrapper .main-route-content .max-80 {
+  max-width: 80%;
+}
+.router-for-kids-wrapper .main-route-content .max-75 {
+  max-width: 75%;
+}
+.router-for-kids-wrapper .main-route-content .max-70 {
+  max-width: 70%;
+}
 .router-for-kids-wrapper .main-route-content .line-item {
   width: 100%;
-  border: 1px solid red;
   margin-top: 18px;
   display: flex;
 }
 .router-for-kids-wrapper .main-route-content .line-item .third-column {
   flex-grow: 1;
   width: 100%;
-  border: 2px solid green;
-}
-.router-for-kids-wrapper .main-route-content .line-item .max-70 {
-  max-width: 70%;
-  border: 2px solid red;
 }
 .router-for-kids-wrapper .main-route-content .line-item .route-column {
-  min-width: 197px;
-  max-width: 197px;
   height: 64px;
   flex-direction: column;
   display: flex;
@@ -843,11 +898,10 @@ button,
 }
 .router-for-kids-wrapper .main-route-content .line-item .detail-wrapper {
   min-width: max-content;
-  max-width: max-content;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 70px;
+  height: 64px;
   padding-left: 12px;
   padding-right: 24px;
   border-radius: 8px;

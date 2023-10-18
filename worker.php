@@ -534,9 +534,51 @@
 
           <div class="main-content">
             <div class="left-content">
-              <div class="block-item small-block"></div>
-              <div class="block-item small-block"></div>
-              <div class="block-item big-block"></div>
+              <div class="block-item small-block">
+                <div class="gift-image-wrapper">
+                  <img src="./images/image-detail-1.png" class="image-detail-1" alt="">
+                </div>
+                <div class="content-detail-wrapper">
+                  <p class="text-detail">Khóa luyện ngữ pháp và
+                    từ vựng tiếng anh cấp tốc
+                    Với giáo viên top 3 Việt Nam</p>
+                </div>
+              </div>
+              <div class="block-item small-block">
+                <div class="gift-image-wrapper">
+                  <img src="./images/image-detail-2.png" class="image-detail-2" alt="">
+                </div>
+                <div class="content-detail-wrapper">
+                  <p class="text-detail">Tài khoảng trọn đời tham gia cộng đồng nói tiếng Anh
+                    của học viên toàn
+                    Đông Nam Á</p>
+                </div>
+              </div>
+              <div class="block-item big-block">
+                <div class="gift-image-wrapper-big">
+                  <img src="./images/image-detail-3.png" class="image-detail-3" alt="">
+                </div>
+                <div class="last-content-detail-wrapper">
+                  <h3 class="title-detail">Bộ sách tiếng Anh cho người đi làm trị giá <span
+                      class="hight-light-text">1.288.000đ
+                    </span>bao
+                    gồm:</h3>
+                  <ul class="list-detail">
+                    <li>
+                      <span class="dot"></span>
+                      Bộ sách tiếng Anh cho người đi làm
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Bộ sách 300 từ vựng tiếng Anh cho dân công sở
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Bộ sách 300 mẫu câu giao tiếp tiếng Anh thông dụng
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <div class="right-content">
               <div class="wrapper-content">
@@ -560,6 +602,242 @@
       </div>
     </div>
     <!-- END RECEIVE GIFT BLOCK -->
+
+
+    <!-- START WORKER ROUTE BLOCK WRAPPER -->
+    <div class="worker-route-block-wrapper">
+      <div class="container">
+        <div class="worker-route-block-content align-center">
+          <div class="header-wrapper">
+            <img src="./images/cefr-image.png" class="cefr-image" alt="">
+            <img src="./images/worker-title-4.png" class="route-title-image worker-title-pc" alt="">
+            <div class="title-mb-wrapper">
+              <img src="./images/worker-title-5.png" class="worker-title-5" alt="">
+              <img src="./images/worker-title-6.png" class="worker-title-6" alt="">
+            </div>
+          </div>
+          <h3 class="sub-title worker-common-title title-pc">sau 36 buổi</h3>
+        </div>
+        <div class="sub-content-wrapper">
+          <div class="left-content">
+            <ul class="list-option">
+              <li>
+                <img src="./images/icon-tick.png" alt="">
+                <p class="text">Bitu cam kết hiệu quả - Lên Level sau khi hoàn thành 1 lộ trình 36 buổi</p>
+              </li>
+              <li>
+                <img src="./images/icon-tick.png" alt="">
+                <p class="text">Học viên đảm bảo đúng về tần suất học quy định</p>
+              </li>
+              <li>
+                <img src="./images/icon-tick.png" alt="">
+                <p class="text">Hoàn thiện đầy đủ số buổi trong chương trình</p>
+              </li>
+            </ul>
+
+            <div class="list-redicrect">
+              <button class="btn-redirect">
+                <span>Lộ trình cho người lớn</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_6815_12963)">
+                    <path d="M19 12L5 12" stroke="#FF6D03" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M19 12L13 6" stroke="#FF6D03" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M19 12L13 18" stroke="#FF6D03" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_6815_12963">
+                      <rect width="24" height="24" fill="white" transform="translate(24 24) rotate(-180)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+              <button class="btn-redirect">
+                <span>Lộ trình KIDS</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_6815_12963)">
+                    <path d="M19 12L5 12" stroke="#FF6D03" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M19 12L13 6" stroke="#FF6D03" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M19 12L13 18" stroke="#FF6D03" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_6815_12963">
+                      <rect width="24" height="24" fill="white" transform="translate(24 24) rotate(-180)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="right-content">
+            <p class="text-description">Nếu không lên được trình độ theo thang tính của Bitu, <span
+                class="text-hight-light">học viên sẽ được học
+                lại miễn phí </span>cho
+              đến khi lên được trình độ tiếp theo</p>
+            <img src="./images/icon-bitu-19.png" class="icon-bitu-19" alt="">
+          </div>
+        </div>
+
+        <div class="main-route-content-wrapper">
+          <div class="main-route-content">
+            <div class="first-line">
+              <div class="wrapper">
+                <div class="top-column-item orange-color first-column small-column">
+                  Level Bitu
+                </div>
+                <span class="ribbon left-ribbon orange-left-ribbon"></span>
+                <span class="ribbon right-ribbon orange-left-ribbon"></span>
+              </div>
+              <div class="wrapper">
+                <div class="top-column-item blue-color second-column big-column">
+                  <span>Level</span>
+                  <span>CEFR</span>
+                </div>
+                <span class="ribbon left-ribbon blue-left-ribbon"></span>
+                <span class="ribbon right-ribbon blue-right-ribbon"></span>
+              </div>
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column">Beginner</div>
+              <div class="cambridge-column-value route-column blue-color big-column">Pre-A1</div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-64">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên chỉ nói được từ đơn</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column ">Elementary</div>
+              <div class="cambridge-column-value route-column blue-color big-column">A1</div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-68">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên chỉ nói được những câu đơn</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column">Upper<br /> Elementary</div>
+              <div class="cambridge-column-value route-column blue-color big-column">A2</div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-72">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên có thể giao tiếp cơ bản về chủ đề <br />quen thuộc</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column">Pre- <br />Intermediate</div>
+              <div class="cambridge-column-value route-column blue-color big-column">
+                B1
+              </div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-76">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên nói được cơ bản về chủ đề ít <br /> thông dụng</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column ">Lower <br />Intermediate</div>
+              <div class="cambridge-column-value route-column blue-color big-column">
+                B1+
+              </div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-80">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên có thể bàn luận cơ bản về chủ để ít <br />
+                    thông dụng
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column ">Intermediate</div>
+              <div class="cambridge-column-value route-column blue-color big-column ">
+                B2
+              </div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-84">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên có thể giao tiếp tương đối khá
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column ">Upper<br />Intermediate</div>
+              <div class="cambridge-column-value route-column blue-color big-column ">
+                B2+
+              </div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-88">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên có thể giao tiếp khá trôi chảy và tự tin
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column ">Pre-<br />Advanced</div>
+              <div class="cambridge-column-value route-column blue-color big-column ">
+                C1
+              </div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-92">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên giao tiếp khá trôi chảy với các chủ đề khó
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column ">Advanced</div>
+              <div class="cambridge-column-value route-column blue-color big-column ">
+                C1+
+              </div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-96">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên giao tiếp trôi chảy và lưu loát
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line-item">
+              <div class="bitu-column-value route-column orange-color small-column ">Mastery</div>
+              <div class="cambridge-column-value route-column blue-color big-column ">
+                C2
+              </div>
+              <div class="third-column">
+                <div class="detail-wrapper orange-color max-100">
+                  <span class="dot"></span>
+                  <p class="text">Áp dụng cho học viên giao tiếp như người bản ngữ
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  START WORKER ROUTE BLOCK WRAPPER -->
 
     <!-- START FEED BACK FROM STUDENT 1 BLOCK -->
     <div class="feed-back-from-student-1-wrapper">
@@ -607,7 +885,7 @@
               </svg>
             </button>
           </div>
-          <button class="btn-common-trial-register btn-trial-register align-center">đăng ký học thử</button>
+          <button class="btn-common-trial-register blue-btn-trial-register align-center">đăng ký học thử</button>
         </div>
       </div>
     </div>
@@ -881,7 +1159,7 @@
             </button>
 
           </div>
-          <button class="btn-common-trial-register btn-trial-register">đăng ký học thử</button>
+          <button class="btn-common-trial-register blue-btn-trial-register">đăng ký học thử</button>
         </div>
       </div>
     </div>
@@ -891,25 +1169,25 @@
   <?php include "templates/footer.php"; ?>
 
   <script>
-  /* -----------------------------------------------------------
-                                                                                                Effective slider
-                                                                                              ----------------------------------------------------------- */
-  $(function() {
-    // PC
-    var vtvRecommendSlider = $('.vtv-recommend-list-wrapper .vtv-recommend-list-slider').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      adaptiveHeight: true,
-      variableWidth: true,
-      responsive: [{
+    /* -----------------------------------------------------------
+                                                                                                                                                                                                            Effective slider
+                                                                                                                                                                                                          ----------------------------------------------------------- */
+    $(function () {
+      // PC
+      var vtvRecommendSlider = $('.vtv-recommend-list-wrapper .vtv-recommend-list-slider').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        variableWidth: true,
+        responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -921,34 +1199,149 @@
             slidesToShow: 1
           }
         }
-      ]
+        ]
+      });
+
+      $('.vtv-recommend-list-wrapper .btn-prev').on('click', function () {
+        vtvRecommendSlider.slick('prev');
+      });
+      $('.vtv-recommend-list-wrapper .btn-next').on('click', function () {
+        vtvRecommendSlider.slick('next');
+      });
     });
 
-    $('.vtv-recommend-list-wrapper .btn-prev').on('click', function() {
-      vtvRecommendSlider.slick('prev');
-    });
-    $('.vtv-recommend-list-wrapper .btn-next').on('click', function() {
-      vtvRecommendSlider.slick('next');
-    });
-  });
+    $(function () {
+      // PC
+      var speakEnglishDifficultSlider = $(
+        '.speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider').slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: false,
+          infinite: true,
+          swipe: true,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          adaptiveHeight: true,
+          variableWidth: true,
+          responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+          ]
+        });
 
-  $(function() {
-    // PC
-    var speakEnglishDifficultSlider = $(
-      '.speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      adaptiveHeight: true,
-      variableWidth: true,
-      responsive: [{
+      $('.speak-english-difficult-slider-wrapper .btn-prev').on('click', function () {
+        speakEnglishDifficultSlider.slick('prev');
+      });
+      $('.speak-english-difficult-slider-wrapper .btn-next').on('click', function () {
+        speakEnglishDifficultSlider.slick('next');
+      });
+    });
+
+    $(function () {
+      // PC
+      var listClassSlider1 = $(
+        '.list-class-slider-1-wrapper .list-class-slider-1').slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: false,
+          infinite: true,
+          swipe: true,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          adaptiveHeight: true,
+          variableWidth: true,
+          responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+          ]
+        });
+
+      $('.list-class-slider-1-wrapper .btn-prev').on('click', function () {
+        listClassSlider1.slick('prev');
+      });
+      $('.list-class-slider-1-wrapper .btn-next').on('click', function () {
+        listClassSlider1.slick('next');
+      });
+    });
+    $(function () {
+      // PC
+      var listClassSlider2 = $(
+        '.list-class-slider-2-wrapper .list-class-slider-2').slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: false,
+          infinite: true,
+          swipe: true,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          adaptiveHeight: true,
+          variableWidth: true,
+          responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+          ]
+        });
+
+      $('.list-class-slider-2-wrapper .btn-prev').on('click', function () {
+        listClassSlider2.slick('prev');
+      });
+      $('.list-class-slider-2-wrapper .btn-next').on('click', function () {
+        listClassSlider2.slick('next');
+      });
+    });
+
+    $(function () {
+      // PC
+      var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        variableWidth: true,
+        responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -960,34 +1353,33 @@
             slidesToShow: 1
           }
         }
-      ]
+        ]
+      });
+
+      $('.feedback-student-list-2-wrapper .btn-prev').on('click', function () {
+        feedbackStudent2Slider.slick('prev');
+      });
+      $('.feedback-student-list-2-wrapper .btn-next').on('click', function () {
+        feedbackStudent2Slider.slick('next');
+      });
     });
 
-    $('.speak-english-difficult-slider-wrapper .btn-prev').on('click', function() {
-      speakEnglishDifficultSlider.slick('prev');
-    });
-    $('.speak-english-difficult-slider-wrapper .btn-next').on('click', function() {
-      speakEnglishDifficultSlider.slick('next');
-    });
-  });
-
-  $(function() {
-    // PC
-    var listClassSlider1 = $(
-      '.list-class-slider-1-wrapper .list-class-slider-1').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      adaptiveHeight: true,
-      variableWidth: true,
-      responsive: [{
+    $(function () {
+      // PC
+      var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        variableWidth: true,
+        responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -999,130 +1391,16 @@
             slidesToShow: 1
           }
         }
-      ]
-    });
+        ]
+      });
 
-    $('.list-class-slider-1-wrapper .btn-prev').on('click', function() {
-      listClassSlider1.slick('prev');
+      $('.feedback-student-list-1-wrapper .btn-prev').on('click', function () {
+        feedbackStudent2Slider.slick('prev');
+      });
+      $('.feedback-student-list-1-wrapper .btn-next').on('click', function () {
+        feedbackStudent2Slider.slick('next');
+      });
     });
-    $('.list-class-slider-1-wrapper .btn-next').on('click', function() {
-      listClassSlider1.slick('next');
-    });
-  });
-  $(function() {
-    // PC
-    var listClassSlider2 = $(
-      '.list-class-slider-2-wrapper .list-class-slider-2').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      adaptiveHeight: true,
-      variableWidth: true,
-      responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1
-          }
-        }
-      ]
-    });
-
-    $('.list-class-slider-2-wrapper .btn-prev').on('click', function() {
-      listClassSlider2.slick('prev');
-    });
-    $('.list-class-slider-2-wrapper .btn-next').on('click', function() {
-      listClassSlider2.slick('next');
-    });
-  });
-
-  $(function() {
-    // PC
-    var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      adaptiveHeight: true,
-      variableWidth: true,
-      responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1
-          }
-        }
-      ]
-    });
-
-    $('.feedback-student-list-2-wrapper .btn-prev').on('click', function() {
-      feedbackStudent2Slider.slick('prev');
-    });
-    $('.feedback-student-list-2-wrapper .btn-next').on('click', function() {
-      feedbackStudent2Slider.slick('next');
-    });
-  });
-
-  $(function() {
-    // PC
-    var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      adaptiveHeight: true,
-      variableWidth: true,
-      responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1
-          }
-        }
-      ]
-    });
-
-    $('.feedback-student-list-1-wrapper .btn-prev').on('click', function() {
-      feedbackStudent2Slider.slick('prev');
-    });
-    $('.feedback-student-list-1-wrapper .btn-next').on('click', function() {
-      feedbackStudent2Slider.slick('next');
-    });
-  });
   </script>
 </body>
 
