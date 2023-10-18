@@ -828,13 +828,13 @@ button,
 .router-for-kids-wrapper .main-route-content .line-item .route-column {
   min-width: 197px;
   max-width: 197px;
-  height: 70px;
+  height: 64px;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 32px;
-  font-size: 20.5px;
+  font-size: 20px;
   line-height: 29px;
   color: #fff;
   text-align: center;
