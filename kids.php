@@ -1234,26 +1234,24 @@
             <div class="main-route-content">
               <div class="first-line">
                 <div class="wrapper">
-                  <div class="top-column-item orange-color first-column">
+                  <div class="top-column-item orange-color first-column small-column">
                     Level Bitu
                   </div>
-                  <span class="ribbon left-ribbon"></span>
-                  <span class="ribbon right-ribbon"></span>
+                  <span class="ribbon left-ribbon orange-left-ribbon"></span>
+                  <span class="ribbon right-ribbon orange-left-ribbon"></span>
                 </div>
                 <div class="wrapper">
-                  <div class="top-column-item blue-color second-column">
+                  <div class="top-column-item blue-color second-column big-column">
                     <span>Level</span>
                     <span>Cambridge</span>
                   </div>
-                  <span class="ribbon left-ribbon"></span>
-                  <span class="ribbon right-ribbon"></span>
+                  <span class="ribbon left-ribbon blue-left-ribbon"></span>
+                  <span class="ribbon right-ribbon blue-right-ribbon"></span>
                 </div>
-
-                <div class="column third-column">3</div>
               </div>
               <div class="line-item">
-                <div class="bitu-column-value route-column orange-color">Starter</div>
-                <div class="cambridge-column-value route-column blue-color">Pre-A1 Starter</div>
+                <div class="bitu-column-value route-column orange-color small-column">Starter</div>
+                <div class="cambridge-column-value route-column blue-color big-column">Pre-A1 Starter</div>
                 <div class="third-column">
                   <div class="detail-wrapper orange-color max-70">
                     <span class="dot"></span>
@@ -1263,10 +1261,10 @@
 
               </div>
               <div class="line-item">
-                <div class="bitu-column-value route-column orange-color">Upper Starter</div>
-                <div class="cambridge-column-value route-column blue-color">A1 - Movers</div>
+                <div class="bitu-column-value route-column orange-color small-column ">Upper Starter</div>
+                <div class="cambridge-column-value route-column blue-color big-column">A1 - Movers</div>
                 <div class="third-column">
-                  <div class="detail-wrapper orange-color">
+                  <div class="detail-wrapper orange-color max-75">
                     <span class="dot"></span>
                     <p class="text">Áp dụng cho các bé trả lời được những câu hỏi đơn giản</p>
                   </div>
@@ -1274,10 +1272,10 @@
 
               </div>
               <div class="line-item">
-                <div class="bitu-column-value route-column orange-color">Mover</div>
-                <div class="cambridge-column-value route-column blue-color">A1 - Movers</div>
+                <div class="bitu-column-value route-column orange-color small-column">Mover</div>
+                <div class="cambridge-column-value route-column blue-color big-column">A1 - Movers</div>
                 <div class="third-column">
-                  <div class="detail-wrapper orange-color">
+                  <div class="detail-wrapper orange-color max-80">
                     <span class="dot"></span>
                     <p class="text">Áp dụng cho các bé có thể sử dụng câu phức đơn giản</p>
                   </div>
@@ -1285,12 +1283,12 @@
 
               </div>
               <div class="line-item">
-                <div class="bitu-column-value route-column orange-color">Upper Mover</div>
-                <div class="cambridge-column-value route-column blue-color">
+                <div class="bitu-column-value route-column orange-color small-column">Upper Mover</div>
+                <div class="cambridge-column-value route-column blue-color big-column">
                   A2 - Key for schools (KET)
                 </div>
                 <div class="third-column">
-                  <div class="detail-wrapper orange-color">
+                  <div class="detail-wrapper orange-color max-85">
                     <span class="dot"></span>
                     <p class="text">Áp dụng cho các bé có thể giao tiếp tương đối</p>
                   </div>
@@ -1298,12 +1296,12 @@
 
               </div>
               <div class="line-item">
-                <div class="bitu-column-value route-column orange-color">Flyer</div>
-                <div class="cambridge-column-value route-column blue-color">
+                <div class="bitu-column-value route-column orange-color small-column ">Flyer</div>
+                <div class="cambridge-column-value route-column blue-color big-column">
                   A2 - Flyers
                 </div>
                 <div class="third-column">
-                  <div class="detail-wrapper orange-color">
+                  <div class="detail-wrapper orange-color max-90">
                     <span class="dot"></span>
                     <p class="text">Áp dụng cho các bé có thể giao tiếp khá trôi chảy
                     </p>
@@ -1312,13 +1310,13 @@
 
               </div>
               <div class="line-item">
-                <div class="bitu-column-value route-column orange-color">Upper Flyer</div>
-                <div class="cambridge-column-value route-column blue-color">
-                  B1 - Preliminary
+                <div class="bitu-column-value route-column orange-color small-column ">Upper Flyer</div>
+                <div class="cambridge-column-value route-column blue-color big-column ">
+                  B1 - Preliminary <br />
                   for schools (PET)
                 </div>
                 <div class="third-column">
-                  <div class="detail-wrapper orange-color">
+                  <div class="detail-wrapper orange-color max-95">
                     <span class="dot"></span>
                     <p class="text">Áp dụng cho các bé có thể tự tin giao tiếp
                     </p>
@@ -1327,13 +1325,13 @@
 
               </div>
               <div class="line-item">
-                <div class="bitu-column-value route-column orange-color">Advanced</div>
-                <div class="cambridge-column-value route-column blue-color">
-                  B1 - Preliminary
+                <div class="bitu-column-value route-column orange-color small-column ">Advanced</div>
+                <div class="cambridge-column-value route-column blue-color big-column ">
+                  B1 - Preliminary <br />
                   for schools (PET)
                 </div>
                 <div class="third-column">
-                  <div class="detail-wrapper orange-color">
+                  <div class="detail-wrapper orange-color max-100">
                     <span class="dot"></span>
                     <p class="text">Áp dụng cho các bé giao tiếp rất tự nhiên và trôi chảy
                     </p>
@@ -1442,20 +1440,20 @@
 
     <?php include "templates/footer.php"; ?>
     <script>
-      $(function () {
-        // PC
-        var listClassOfStudent = $('.list-class-of-student').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: false,
-          swipe: false,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          responsive: [{
+    $(function() {
+      // PC
+      var listClassOfStudent = $('.list-class-of-student').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: false,
+        swipe: false,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
             breakpoint: 992,
             settings: {
               slidesToShow: 1,
@@ -1485,178 +1483,178 @@
               arrows: false,
             }
           }
-          ]
-        });
-
-        $('.list-class-of-kid-wrapper .btn-next').on('click', function () {
-          listClassOfStudent.slick('next');
-        });
-
-        var bituRecommend = $('.bitu-recommend-list-1').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: false,
-          swipe: false,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              autoplay: true,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              slidesToScroll: 1,
-              autoplay: false,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
-          }
-          ]
-        });
-
-        $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function () {
-          bituRecommend.slick('next');
-        });
-
-        var bituRecommend2 = $('.bitu-recommend-list-2').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: false,
-          swipe: false,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              autoplay: true,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              slidesToScroll: 1,
-              autoplay: false,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
-          }
-          ]
-        });
-
-        $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function () {
-          bituRecommend2.slick('next');
-        });
-
-        var teacherTeamOfBitu1 = $('.teacher-team-of-bitu-1').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: true,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
-          }
-          ]
-        });
-
-        $('.teacher-team-of-bitu-slider-1 .btn-next').on('click', function () {
-          teacherTeamOfBitu1.slick('next');
-        });
-
-
-        $('.teacher-team-of-bitu-slider-1 .btn-prev').on('click', function () {
-          teacherTeamOfBitu1.slick('prev');
-        });
-        var teacherTeamOfBitu2 = $('.teacher-team-of-bitu-2').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: true,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
-          }
-          ]
-        });
-
-        $('.teacher-team-of-bitu-slider-2 .btn-next').on('click', function () {
-          teacherTeamOfBitu2.slick('next');
-        });
-
-
-        $('.teacher-team-of-bitu-slider-2 .btn-prev').on('click', function () {
-          teacherTeamOfBitu2.slick('prev');
-        });
+        ]
       });
+
+      $('.list-class-of-kid-wrapper .btn-next').on('click', function() {
+        listClassOfStudent.slick('next');
+      });
+
+      var bituRecommend = $('.bitu-recommend-list-1').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: false,
+        swipe: false,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              autoplay: true,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              slidesToScroll: 1,
+              autoplay: false,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
+          }
+        ]
+      });
+
+      $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function() {
+        bituRecommend.slick('next');
+      });
+
+      var bituRecommend2 = $('.bitu-recommend-list-2').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: false,
+        swipe: false,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              autoplay: true,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              slidesToScroll: 1,
+              autoplay: false,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
+          }
+        ]
+      });
+
+      $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function() {
+        bituRecommend2.slick('next');
+      });
+
+      var teacherTeamOfBitu1 = $('.teacher-team-of-bitu-1').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+
+      $('.teacher-team-of-bitu-slider-1 .btn-next').on('click', function() {
+        teacherTeamOfBitu1.slick('next');
+      });
+
+
+      $('.teacher-team-of-bitu-slider-1 .btn-prev').on('click', function() {
+        teacherTeamOfBitu1.slick('prev');
+      });
+      var teacherTeamOfBitu2 = $('.teacher-team-of-bitu-2').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+
+      $('.teacher-team-of-bitu-slider-2 .btn-next').on('click', function() {
+        teacherTeamOfBitu2.slick('next');
+      });
+
+
+      $('.teacher-team-of-bitu-slider-2 .btn-prev').on('click', function() {
+        teacherTeamOfBitu2.slick('prev');
+      });
+    });
     </script>
 </body>
 
