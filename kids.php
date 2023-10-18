@@ -362,29 +362,29 @@
               <img src="./images/parent-feedback-1.png" class="parent-feedback-1" alt="">
             </div>
             <div class="image-wrapper">
-               <img src="./images/icon-pin.png" class="icon-pin" alt="">
-              <img src="./images/parent-feedback-2.png"  class="parent-feedback-2" alt="">
+              <img src="./images/icon-pin.png" class="icon-pin" alt="">
+              <img src="./images/parent-feedback-2.png" class="parent-feedback-2" alt="">
             </div>
           </div>
 
           <div class="column-2-wrapper">
             <div class="top-column">
               <div class="feedback-message-wrapper">
-                <p class="text-message">"99% Ba mẹ sau khi cho con luyện nói 
-tại Bitu đều hài lòng và cho con gắn bó 
-lâu dài với lớp học"</p>
+                <p class="text-message">"99% Ba mẹ sau khi cho con luyện nói
+                  tại Bitu đều hài lòng và cho con gắn bó
+                  lâu dài với lớp học"</p>
               </div>
               <img src="./images/paint-iamge.png" class="paint-image" alt="">
             </div>
             <div class="bottom-column">
               <div class="image-wrapper mr-24">
-               <img src="./images/icon-pin.png" class="icon-pin" alt="">
-              <img src="./images/parent-feedback-3.png"  class="parent-feedback-3" alt="">
-            </div>
-            <div class="image-wrapper">
-               <img src="./images/icon-pin.png" class="icon-pin" alt="">
-              <img src="./images/parent-feedback-4.png"  class="parent-feedback-4" alt="">
-            </div>
+                <img src="./images/icon-pin.png" class="icon-pin" alt="">
+                <img src="./images/parent-feedback-3.png" class="parent-feedback-3" alt="">
+              </div>
+              <div class="image-wrapper">
+                <img src="./images/icon-pin.png" class="icon-pin" alt="">
+                <img src="./images/parent-feedback-4.png" class="parent-feedback-4" alt="">
+              </div>
             </div>
           </div>
 
@@ -1212,317 +1212,452 @@ lâu dài với lớp học"</p>
     </div>
     <!-- END TOPIC BLOCK  -->
 
-    <!-- START REGISTER BLOCK 2 -->
-    <div class="register-block-2-wrapper">
+
+    <!-- START ROUTE BLOCK  -->
+    <div class="route-block-wrapper router-for-kids-wrapper">
       <div class="container">
-        <div class="register-block-2-content">
-          <div class="left-content">
-            <h2 class="discount-title-1">Ưu đãi lớn</h2>
-            <h3 class="discount-title-2"> cuối cùng trong năm</h3>
-            <img src="./images/girl-2-image.png" class="girl-image" alt="">
+        <div class="route-block-content">
+          <div class="top-header-content-wrapper">
+            <div class="top-header-content">
+              <h2 class="title-1">Level tiếng anh giao tiếp</h2>
+              <div class="title-2-wrapper">
+                <span class="letter">c</span>
+                <span class="letter">h</span>
+                <span class="letter">o</span>
+                <span class="space"></span>
+                <span class="letter">b</span>
+                <span class="letter">é</span>
+              </div>
+            </div>
           </div>
-          <div class="right-content">
-            <div class="main-content">
-              <div class="top-content">
-                <h3 class="top-title-1">quà độc quyền </h3>
-                <h2 class="top-title-2">100 suất</h2>
+          <div class="main-route-content-wrapper">
+            <div class="main-route-content">
+              <div class="first-line">
+                <div class="wrapper">
+                  <div class="top-column-item orange-color first-column">
+                    Level Bitu
+                  </div>
+                  <span class="ribbon left-ribbon"></span>
+                  <span class="ribbon right-ribbon"></span>
+                </div>
+                <div class="wrapper">
+                  <div class="top-column-item blue-color second-column">
+                    <span>Level</span>
+                    <span>Cambridge</span>
+                  </div>
+                  <span class="ribbon left-ribbon"></span>
+                  <span class="ribbon right-ribbon"></span>
+                </div>
+
+                <div class="column third-column">3</div>
               </div>
-              <div class="timer-count-down">
-                <div class="day-timer timer-item">
-                  <span class="value">00</span>
-                  <span class="label">Ngày</span>
+              <div class="line-item">
+                <div class="bitu-column-value route-column orange-color">Starter</div>
+                <div class="cambridge-column-value route-column blue-color">Pre-A1 Starter</div>
+                <div class="third-column">
+                  <div class="detail-wrapper orange-color max-70">
+                    <span class="dot"></span>
+                    <p class="text">Áp dụng cho các bé nói được từ đơn hoặc câu ngắn</p>
+                  </div>
                 </div>
-                <div class="hour-timer timer-item">
-                  <span class="value">12</span>
-                  <span class="label">Giờ</span>
-                </div>
-                <div class="minute-timer timer-item">
-                  <span class="value">30</span>
-                  <span class="label">Phút</span>
-                </div>
-                <div class="second-timer timer-item">
-                  <span class="value">09</span>
-                  <span class="label">Giây</span>
-                </div>
+
               </div>
-              <p class="description">Ba mẹ đăng ký nhận ưu đãi tại đây</p>
-              <div class="register-form-wrapper">
-                <input type="text" name="" value="" placeholder="Họ và tên..." class="input-item" />
-                <input type="text" name="" value="" placeholder="Số điện thoại..." class="input-item" />
-                <input type="text" name="" value="" placeholder="Tuổi con..." class="input-item" />
+              <div class="line-item">
+                <div class="bitu-column-value route-column orange-color">Upper Starter</div>
+                <div class="cambridge-column-value route-column blue-color">A1 - Movers</div>
+                <div class="third-column">
+                  <div class="detail-wrapper orange-color">
+                    <span class="dot"></span>
+                    <p class="text">Áp dụng cho các bé trả lời được những câu hỏi đơn giản</p>
+                  </div>
+                </div>
+
               </div>
-              <button class="btn-register">Đăng ký ngay</button>
+              <div class="line-item">
+                <div class="bitu-column-value route-column orange-color">Mover</div>
+                <div class="cambridge-column-value route-column blue-color">A1 - Movers</div>
+                <div class="third-column">
+                  <div class="detail-wrapper orange-color">
+                    <span class="dot"></span>
+                    <p class="text">Áp dụng cho các bé có thể sử dụng câu phức đơn giản</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="line-item">
+                <div class="bitu-column-value route-column orange-color">Upper Mover</div>
+                <div class="cambridge-column-value route-column blue-color">
+                  A2 - Key for schools (KET)
+                </div>
+                <div class="third-column">
+                  <div class="detail-wrapper orange-color">
+                    <span class="dot"></span>
+                    <p class="text">Áp dụng cho các bé có thể giao tiếp tương đối</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="line-item">
+                <div class="bitu-column-value route-column orange-color">Flyer</div>
+                <div class="cambridge-column-value route-column blue-color">
+                  A2 - Flyers
+                </div>
+                <div class="third-column">
+                  <div class="detail-wrapper orange-color">
+                    <span class="dot"></span>
+                    <p class="text">Áp dụng cho các bé có thể giao tiếp khá trôi chảy
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="line-item">
+                <div class="bitu-column-value route-column orange-color">Upper Flyer</div>
+                <div class="cambridge-column-value route-column blue-color">
+                  B1 - Preliminary
+                  for schools (PET)
+                </div>
+                <div class="third-column">
+                  <div class="detail-wrapper orange-color">
+                    <span class="dot"></span>
+                    <p class="text">Áp dụng cho các bé có thể tự tin giao tiếp
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="line-item">
+                <div class="bitu-column-value route-column orange-color">Advanced</div>
+                <div class="cambridge-column-value route-column blue-color">
+                  B1 - Preliminary
+                  for schools (PET)
+                </div>
+                <div class="third-column">
+                  <div class="detail-wrapper orange-color">
+                    <span class="dot"></span>
+                    <p class="text">Áp dụng cho các bé giao tiếp rất tự nhiên và trôi chảy
+                    </p>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- END REGISTER BLOCK 2 -->
+      <!-- START ROUTE BLOCK  -->
 
-
-    <!-- START TALK ABOUT BITU BLOCK -->
-    <div class="talk-about-bitu-block-wrapper">
-      <div class="container">
-        <div class="talk-about-bitu-content">
-          <div class="top-title-block">
-            <img src="./images/icon-star-3.png" class="icon-star-3" alt="" />
-            <div class="main-title">
-              <div class="mask"></div>
-              <h3 class="title-content">
-                Báo chí nói gì về Bitu
-              </h3>
+      <!-- START REGISTER BLOCK 2 -->
+      <div class="register-block-2-wrapper">
+        <div class="container">
+          <div class="register-block-2-content">
+            <div class="left-content">
+              <h2 class="discount-title-1">Ưu đãi lớn</h2>
+              <h3 class="discount-title-2"> cuối cùng trong năm</h3>
+              <img src="./images/girl-2-image.png" class="girl-image" alt="">
             </div>
-            <img src="./images/icon-star-3.png" class="icon-star-3" alt="" />
-          </div>
-
-          <div class="list-news-wrapper">
-            <div class="news-item">
-              <div class="video-wrapper">1</div>
-              <div class="news-content">
-                <span class="branch-name">VTV2 Social</span>
-                <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
-              </div>
-            </div>
-            <div class="news-item">
-              <div class="video-wrapper">2</div>
-              <div class="news-content">
-                <span class="branch-name">VTV2 Social</span>
-                <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
-              </div>
-            </div>
-            <div class="news-item">
-              <div class="video-wrapper">3</div>
-              <div class="news-content">
-                <span class="branch-name">VTV2 Social</span>
-                <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
+            <div class="right-content">
+              <div class="main-content">
+                <div class="top-content">
+                  <h3 class="top-title-1">quà độc quyền </h3>
+                  <h2 class="top-title-2">100 suất</h2>
+                </div>
+                <div class="timer-count-down">
+                  <div class="day-timer timer-item">
+                    <span class="value">00</span>
+                    <span class="label">Ngày</span>
+                  </div>
+                  <div class="hour-timer timer-item">
+                    <span class="value">12</span>
+                    <span class="label">Giờ</span>
+                  </div>
+                  <div class="minute-timer timer-item">
+                    <span class="value">30</span>
+                    <span class="label">Phút</span>
+                  </div>
+                  <div class="second-timer timer-item">
+                    <span class="value">09</span>
+                    <span class="label">Giây</span>
+                  </div>
+                </div>
+                <p class="description">Ba mẹ đăng ký nhận ưu đãi tại đây</p>
+                <div class="register-form-wrapper">
+                  <input type="text" name="" value="" placeholder="Họ và tên..." class="input-item" />
+                  <input type="text" name="" value="" placeholder="Số điện thoại..." class="input-item" />
+                  <input type="text" name="" value="" placeholder="Tuổi con..." class="input-item" />
+                </div>
+                <button class="btn-register">Đăng ký ngay</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- END REGISTER BLOCK 2 -->
+
+
+      <!-- START TALK ABOUT BITU BLOCK -->
+      <div class="talk-about-bitu-block-wrapper">
+        <div class="container">
+          <div class="talk-about-bitu-content">
+            <div class="top-title-block">
+              <img src="./images/icon-star-3.png" class="icon-star-3" alt="" />
+              <div class="main-title">
+                <div class="mask"></div>
+                <h3 class="title-content">
+                  Báo chí nói gì về Bitu
+                </h3>
+              </div>
+              <img src="./images/icon-star-3.png" class="icon-star-3" alt="" />
+            </div>
+
+            <div class="list-news-wrapper">
+              <div class="news-item">
+                <div class="video-wrapper">1</div>
+                <div class="news-content">
+                  <span class="branch-name">VTV2 Social</span>
+                  <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
+                </div>
+              </div>
+              <div class="news-item">
+                <div class="video-wrapper">2</div>
+                <div class="news-content">
+                  <span class="branch-name">VTV2 Social</span>
+                  <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
+                </div>
+              </div>
+              <div class="news-item">
+                <div class="video-wrapper">3</div>
+                <div class="news-content">
+                  <span class="branch-name">VTV2 Social</span>
+                  <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END TALK ABOUT BITU BLOCK -->
     </div>
-    <!-- END TALK ABOUT BITU BLOCK -->
-  </div>
 
 
-  <?php include "templates/footer.php"; ?>
-  <script>
-  $(function() {
-    // PC
-    var listClassOfStudent = $('.list-class-of-student').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: false,
-      swipe: false,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            autoplay: true,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
+    <?php include "templates/footer.php"; ?>
+    <script>
+      $(function () {
+        // PC
+        var listClassOfStudent = $('.list-class-of-student').slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: false,
+          infinite: false,
+          swipe: false,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              autoplay: true,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              slidesToScroll: 1,
+              autoplay: false,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
           }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            slidesToScroll: 1,
-            autoplay: false,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
+          ]
+        });
+
+        $('.list-class-of-kid-wrapper .btn-next').on('click', function () {
+          listClassOfStudent.slick('next');
+        });
+
+        var bituRecommend = $('.bitu-recommend-list-1').slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: false,
+          infinite: false,
+          swipe: false,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              autoplay: true,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              slidesToScroll: 1,
+              autoplay: false,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
           }
-        }
-      ]
-    });
+          ]
+        });
 
-    $('.list-class-of-kid-wrapper .btn-next').on('click', function() {
-      listClassOfStudent.slick('next');
-    });
+        $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function () {
+          bituRecommend.slick('next');
+        });
 
-    var bituRecommend = $('.bitu-recommend-list-1').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: false,
-      swipe: false,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            autoplay: true,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
+        var bituRecommend2 = $('.bitu-recommend-list-2').slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: false,
+          infinite: false,
+          swipe: false,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              autoplay: true,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              speed: 600,
+              autoplaySpeed: 6000,
+              slidesToScroll: 1,
+              autoplay: false,
+              infinite: true,
+              swipe: true,
+              fade: false,
+              dots: false,
+              arrows: false,
+            }
           }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            slidesToScroll: 1,
-            autoplay: false,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
+          ]
+        });
+
+        $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function () {
+          bituRecommend2.slick('next');
+        });
+
+        var teacherTeamOfBitu1 = $('.teacher-team-of-bitu-1').slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: true,
+          infinite: true,
+          swipe: true,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
           }
-        }
-      ]
-    });
+          ]
+        });
 
-    $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function() {
-      bituRecommend.slick('next');
-    });
+        $('.teacher-team-of-bitu-slider-1 .btn-next').on('click', function () {
+          teacherTeamOfBitu1.slick('next');
+        });
 
-    var bituRecommend2 = $('.bitu-recommend-list-2').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: false,
-      infinite: false,
-      swipe: false,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            autoplay: true,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
+
+        $('.teacher-team-of-bitu-slider-1 .btn-prev').on('click', function () {
+          teacherTeamOfBitu1.slick('prev');
+        });
+        var teacherTeamOfBitu2 = $('.teacher-team-of-bitu-2').slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: true,
+          infinite: true,
+          swipe: true,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
           }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            slidesToScroll: 1,
-            autoplay: false,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        }
-      ]
-    });
+          ]
+        });
 
-    $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function() {
-      bituRecommend2.slick('next');
-    });
-
-    var teacherTeamOfBitu1 = $('.teacher-team-of-bitu-1').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: true,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1
-          }
-        }
-      ]
-    });
-
-    $('.teacher-team-of-bitu-slider-1 .btn-next').on('click', function() {
-      teacherTeamOfBitu1.slick('next');
-    });
+        $('.teacher-team-of-bitu-slider-2 .btn-next').on('click', function () {
+          teacherTeamOfBitu2.slick('next');
+        });
 
 
-    $('.teacher-team-of-bitu-slider-1 .btn-prev').on('click', function() {
-      teacherTeamOfBitu1.slick('prev');
-    });
-    var teacherTeamOfBitu2 = $('.teacher-team-of-bitu-2').slick({
-      speed: 600,
-      autoplaySpeed: 6000,
-      autoplay: true,
-      infinite: true,
-      swipe: true,
-      fade: false,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1
-          }
-        }
-      ]
-    });
-
-    $('.teacher-team-of-bitu-slider-2 .btn-next').on('click', function() {
-      teacherTeamOfBitu2.slick('next');
-    });
-
-
-    $('.teacher-team-of-bitu-slider-2 .btn-prev').on('click', function() {
-      teacherTeamOfBitu2.slick('prev');
-    });
-  });
-  </script>
+        $('.teacher-team-of-bitu-slider-2 .btn-prev').on('click', function () {
+          teacherTeamOfBitu2.slick('prev');
+        });
+      });
+    </script>
 </body>
 
 </html>
