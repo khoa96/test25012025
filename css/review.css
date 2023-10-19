@@ -51,6 +51,14 @@
   max-width: 318px;
   height: 73px;
 }
+.page-review-wrapper .review-title-mb-8 {
+  width: 308px;
+  height: 78px;
+}
+.page-review-wrapper .review-title-mb-9 {
+  width: 251px;
+  height: 78px;
+}
 .page-review-wrapper .title-image-for-mb {
   display: none;
 }
@@ -247,7 +255,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  border: 1px solid red;
 }
 @media only screen and (max-width: 1199px) {
   .page-review-wrapper .success-story-block .list-story .story-item {
@@ -307,7 +315,7 @@
 @media only screen and (max-width: 1199px) {
   .page-review-wrapper .parents-feed-back-block {
     background-image: none;
-    background-color: #FF6D03;
+    background-color: #ff6d03;
     padding: 54px 0px 73px;
   }
 }
@@ -319,6 +327,7 @@
   .page-review-wrapper .student-feed-back-block {
     background-image: none;
     padding: 0;
+    padding: 56px 0px 110px;
   }
 }
 .page-review-wrapper .feedback-block {
@@ -328,16 +337,14 @@
   background-position: center center;
   background-repeat: no-repeat;
 }
-.page-review-wrapper .feedback-block .title-3 {
-  min-width: 820px;
-  max-width: 820px;
+.page-review-wrapper .feedback-block .review-title-7 {
+  width: 712.348px;
   height: 100px;
-  object-fit: cover;
+  margin-bottom: 12px;
 }
 .page-review-wrapper .feedback-block .feed-back-list-wrapper {
   margin-top: 55px;
   display: flex;
-  border: 1px solid green;
   justify-content: center;
   position: relative;
 }
@@ -351,7 +358,6 @@
   display: flex;
   overflow-y: hidden;
   justify-content: center;
-  border: 1px solid red;
 }
 .page-review-wrapper .feedback-block .feed-back-list .feed-back-item {
   min-width: 300px;

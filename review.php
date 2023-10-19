@@ -366,7 +366,11 @@
       <div class="container">
         <div class="feeback-content-wrapper">
           <div class="review-title-block">
-            <img src="./images/parent-title.png" class="review-title-image title-3 mr-b-12" />
+            <img src="./images/review-title-7.png" class="review-title-7 mr-b-12 title-for-pc" />
+            <div class="title-image-for-mb mr-b-16">
+              <img src="./images/review-title-mb-8.png" class="review-title-mb-8" alt="">
+              <img src="./images/review-title-mb-9.png" class="review-title-mb-9" alt="">
+            </div>
             <h2 class="review-title common-primary-title ">luyện nói tiếng Anh thành công nói gì về Bitu?</h2>
           </div>
 
@@ -440,7 +444,8 @@
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 1
+            slidesToShow: 1,
+            dots: true,
           }
         }
       ]
@@ -471,7 +476,8 @@
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 1
+            slidesToShow: 1,
+            dots: true,
           }
         }
       ]
@@ -504,7 +510,8 @@
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 1
+            slidesToShow: 1,
+            dots: true,
           }
         }
       ]
@@ -533,7 +540,8 @@
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 1
+            slidesToShow: 1,
+            dots: true,
           }
         }
       ]

@@ -56,12 +56,21 @@
   }
 
   .review-title-mb-5 {
-     max-width: 275px;
+    max-width: 275px;
     height: 73px;
   }
-   .review-title-mb-6 {
-     max-width: 318px;
+  .review-title-mb-6 {
+    max-width: 318px;
     height: 73px;
+  }
+
+  .review-title-mb-8 {
+   width: 308px;
+height: 78px;
+  }
+  .review-title-mb-9 {
+    width: 251px;
+height: 78px;
   }
 
   .title-image-for-mb {
@@ -277,7 +286,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        border: 1px solid red;
         @include mq(max_lg) {
           min-width: unset;
           max-width: 343px;
@@ -341,10 +350,9 @@
 
     @include mq(max_lg) {
       background-image: none;
-      background-color: #FF6D03;;
+      background-color: #ff6d03;
       padding: 54px 0px 73px;
     }
-
   }
 
   // block 4
@@ -354,6 +362,7 @@
     @include mq(max_lg) {
       background-image: none;
       padding: 0;
+      padding: 56px 0px 110px;
     }
   }
 
@@ -368,22 +377,20 @@
       // change here
     }
 
-    .title-3 {
-      min-width: 820px;
-      max-width: 820px;
+    .review-title-7 {
+      width: 712.348px;
       height: 100px;
-      object-fit: cover;
+      margin-bottom: 12px;
     }
 
     .feed-back-list-wrapper {
       margin-top: 55px;
       display: flex;
-      border: 1px solid green;
       justify-content: center;
       position: relative;
 
       @include mq(max_lg) {
-        margin-top: 32px;;
+        margin-top: 32px;
       }
     }
 
@@ -392,7 +399,6 @@
       display: flex;
       overflow-y: hidden;
       justify-content: center;
-      border: 1px solid red;
 
       .feed-back-item {
         min-width: 300px;
