@@ -128,7 +128,6 @@
 }
 
 .con-about-intro {
-  border: 1px solid red;
   margin: 0 0 !important;
 }
 @media only screen and (max-width: 991px) {
@@ -136,7 +135,6 @@
     min-width: 100%;
     max-width: 100%;
     padding: 0 !important;
-    border: 2px solid green;
   }
 }
 .con-about-intro .intro-wrapper {
@@ -149,7 +147,6 @@
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
-  border: 2px solid green;
 }
 @media only screen and (max-width: 991px) {
   .con-about-intro .intro-wrapper {
@@ -160,7 +157,6 @@
   }
 }
 .con-about-intro .intro-wrapper .intro-content {
-  border: 1px solid green;
   margin-right: 24px;
 }
 @media only screen and (max-width: 991px) {
@@ -244,7 +240,6 @@
 
 .vision-block-wrapper {
   width: 100%;
-  border: 1px solid;
   height: auto;
   padding: 98px 0px 72px;
 }
@@ -256,7 +251,6 @@
 .vision-block-wrapper .vision-content-wrapper .list-vision-and-mission {
   width: 100%;
   height: auto;
-  border: 1px solid blue;
   display: flex;
   justify-content: center;
 }
@@ -269,7 +263,6 @@
   min-width: 360px;
   max-width: 360px;
   height: auto;
-  border: 1px solid;
   margin-right: 72px;
 }
 @media only screen and (max-width: 991px) {
@@ -325,7 +318,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
   width: 100%;
 }
 @media only screen and (max-width: 991px) {
@@ -362,7 +354,6 @@
 }
 
 .con-about-core {
-  border: 1px solid red;
   padding: 80px 0px 160px;
 }
 @media only screen and (max-width: 991px) {
@@ -439,7 +430,6 @@
 
 .con-about-creative {
   width: 100%;
-  border: 1px solid red;
 }
 .con-about-creative .img {
   box-shadow: none;

@@ -9,12 +9,15 @@
     margin-top: 28px;
   }
 }
+.page-teacher-wrapper .main-content-wrapper {
+  position: relative;
+}
 .page-teacher-wrapper .top-content {
   width: 100%;
   height: auto;
   background-image: url("../images/banner-teacher-background.png");
   width: 100%;
-  min-height: 755px;
+  min-height: max-content;
   max-height: auto;
   background-repeat: no-repeat;
   background-position: center center;

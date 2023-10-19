@@ -29,7 +29,11 @@
           </div>
         </div>
         <!-- END LIST OPTION  -->
+      </div>
+    </div>
 
+    <div class="main-content-wrapper">
+      <div class="container">
         <!-- START LIST TEACHER NATIVE -->
         <div class="list-teach-wrapper">
           <div class="list-teach-block">
@@ -410,89 +414,90 @@
         <!-- END LIST TEACHER PHILIPPINES -->
       </div>
     </div>
+  </div>
 
-    <?php include "templates/footer.php"; ?>
+  <?php include "templates/footer.php"; ?>
 
-    <script>
-      /* -----------------------------------------------------------
-                                                                                                                                                              Effective slider
-                                                                                                                                                        --    --------------------------------------------------------- */
-      $(function () {
-        // PC
-        var nativeTeacherSlider = $('.list-teacher-1').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: true,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          variableWidth: true,
-          adaptiveHeight: true,
-          slidesToScroll: 1,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
+  <script>
+  /* -----------------------------------------------------------
+                                                                                                                                                                        Effective slider
+                                                                                                                                                                  --    --------------------------------------------------------- */
+  $(function() {
+    // PC
+    var nativeTeacherSlider = $('.list-teacher-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      variableWidth: true,
+      adaptiveHeight: true,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
           }
-          ]
-        });
-
-        $('.native-teacher-slider .btn-prev').on('click', function () {
-          nativeTeacherSlider.slick('prev');
-        });
-        $('.native-teacher-slider .btn-next').on('click', function () {
-          nativeTeacherSlider.slick('next');
-        });
-      });
-
-      $(function () {
-        // PC
-        var philippineTeacherSlider = $('.list-teacher-2').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: true,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          variableWidth: true,
-          adaptiveHeight: true,
-          slidesToScroll: 1,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
           }
-          ]
-        });
+        }
+      ]
+    });
 
-        $('.philippine-teacher-list-wrapper .btn-prev').on('click', function () {
-          philippineTeacherSlider.slick('prev');
-        });
-        $('.philippine-teacher-list-wrapper .btn-next').on('click', function () {
-          philippineTeacherSlider.slick('next');
-        });
-      });
-    </script>
+    $('.native-teacher-slider .btn-prev').on('click', function() {
+      nativeTeacherSlider.slick('prev');
+    });
+    $('.native-teacher-slider .btn-next').on('click', function() {
+      nativeTeacherSlider.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var philippineTeacherSlider = $('.list-teacher-2').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      variableWidth: true,
+      adaptiveHeight: true,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.philippine-teacher-list-wrapper .btn-prev').on('click', function() {
+      philippineTeacherSlider.slick('prev');
+    });
+    $('.philippine-teacher-list-wrapper .btn-next').on('click', function() {
+      philippineTeacherSlider.slick('next');
+    });
+  });
+  </script>
 </body>
 
 </html>

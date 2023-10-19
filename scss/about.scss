@@ -26,7 +26,6 @@
 }
 // block 1
 .con-about-intro {
-  border: 1px solid red;
   margin: 0 0 !important;
 
   .container {
@@ -34,7 +33,6 @@
       min-width: 100%;
       max-width: 100%;
       padding: 0 !important;
-      border: 2px solid green;
     }
   }
   .intro-wrapper {
@@ -47,7 +45,6 @@
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    border: 2px solid green;
 
     @include mq(max_md) {
       padding: 22px 0px 0px;
@@ -57,7 +54,6 @@
     }
 
     .intro-content {
-      border: 1px solid green;
       margin-right: 24px;
 
       @include mq(max_md) {
@@ -145,7 +141,6 @@
 // block 2
 .vision-block-wrapper {
   width: 100%;
-  border: 1px solid;
   height: auto;
   padding: 98px 0px 72px;
 
@@ -157,7 +152,6 @@
     .list-vision-and-mission {
       width: 100%;
       height: auto;
-      border: 1px solid blue;
       display: flex;
       justify-content: center;
 
@@ -169,7 +163,6 @@
         min-width: 360px;
         max-width: 360px;
         height: auto;
-        border: 1px solid;
         margin-right: 72px;
 
         @include mq(max_md) {
@@ -227,7 +220,6 @@
           list-style: none;
           margin: 0;
           padding: 0;
-          border: 1px solid red;
           width: 100%;
 
           @include mq(max_md) {
@@ -271,7 +263,6 @@
 
 // block 3
 .con-about-core {
-  border: 1px solid red;
   padding: 80px 0px 160px;
 
   @include mq(max_md) {
@@ -350,7 +341,6 @@
 // block 6
 .con-about-creative {
   width: 100%;
-  border: 1px solid red;
 
   .img {
     box-shadow: none;

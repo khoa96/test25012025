@@ -5,7 +5,6 @@
 .page-worker-wrapper {
   width: 100%;
   height: auto;
-  border: 2px solid;
 
   // common style
   .column-center {
@@ -262,7 +261,6 @@
       height: 100%;
       top: 0;
       left: 0;
-      border: 2px solid green;
       z-index: 10;
       padding-top: 40px;
     }
@@ -349,8 +347,6 @@
         max-width: 455px;
         height: 173px;
         object-fit: cover;
-        border: 1px solid green;
-
         @include mq(max_lg) {
           min-width: 330px;
           max-width: 100%;
@@ -370,12 +366,10 @@
       width: 100%;
       display: flex;
       justify-content: center;
-      border: 2px solid green;
       margin-top: 50px;
       .left-content,
       .right-content {
         width: 50%;
-        border: 2px solid red;
 
         @include mq(max_lg) {
           width: 100%;
@@ -387,7 +381,6 @@
         align-items: flex-end;
         .list-option {
           list-style: none;
-          border: 2px solid blue;
 
           .option-item {
             display: flex;
@@ -521,7 +514,6 @@
 
           .list-gift {
             margin: 40px 0px 32px;
-            border: 1px solid;
             display: flex;
             justify-content: center;
 
@@ -712,7 +704,6 @@
   // block 2 ( vtv recommend)
   .vtv-recommend-block-wrapper {
     padding: 90px 0px 160px;
-    border: 1px solid red;
 
     @include mq(max_lg) {
       padding: 30px 0px 70px;
@@ -780,13 +771,11 @@
         min-width: 670px;
         max-width: 670px;
         height: 412px;
-        border: 1px solid;
 
         @include mq(max_lg) {
           min-width: 303px;
           max-width: 303px;
           height: 186px;
-          border: 1px solid red;
         }
         img {
           display: block;
@@ -844,7 +833,6 @@
 
   // block 3 (speak english difficult)
   .speak-english-difficult-wrapper {
-    border: 1px solid blue;
     min-height: 755px;
     background-image: url("../images/banner-teacher-background.png");
     background-position: center center;
@@ -858,7 +846,6 @@
     }
     .speak-english-difficult-content {
       width: 100%;
-      border: 1px solid green;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -896,7 +883,6 @@
           max-width: 1296px;
           @media (max-width: 1300px) {
             max-width: 1200px;
-            border: 1px solid;
           }
 
           @include mq(max_lg) {
@@ -928,13 +914,11 @@
           width: calc((100% - 48px) / 4);
           max-width: 300px;
           margin-right: 24px;
-          border: 1px solid green;
           border-radius: 32px;
           border: 2px solid #ffb700;
           background: #fff0da;
           position: relative;
           min-height: 426px;
-          border: 1px solid;
 
           padding: 118px 20px 0px 24px;
 
@@ -1549,7 +1533,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        border: 1px solid green;
 
         @include mq(max_lg) {
           flex-direction: column;
@@ -1562,7 +1545,6 @@
           width: calc((100% - 72px) / 3);
           max-width: 378px;
           height: auto;
-          border: 1px solid red;
           margin-right: 36px;
           margin-bottom: 36px;
 
@@ -1854,7 +1836,6 @@
     .sub-content-wrapper {
       margin-top: 50px;
       width: 100%;
-      border: 1px solid;
       display: flex;
       justify-content: center;
 
@@ -1865,7 +1846,6 @@
 
       .left-content {
         width: fit-content;
-        border: 1px solid red;
 
         @include mq(max_lg) {
           width: 100%;
@@ -2219,6 +2199,31 @@
             }
           }
         }
+      }
+    }
+  }
+
+  // block list teacher
+  .page-teacher-wrapper {
+    .top-content {
+      min-height: max-content;
+      background-image: none;
+    }
+    .list-option {
+      margin-bottom: 64px;
+
+      @include mq(max_lg) {
+        display: none;
+      }
+    }
+    .option-item {
+      background-color: transparent !important;
+      box-shadow: none !important;
+    }
+
+    .main-content-wrapper {
+      @include mq(max_lg) {
+        margin-top: 32px;
       }
     }
   }

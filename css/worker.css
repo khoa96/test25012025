@@ -1,7 +1,6 @@
 .page-worker-wrapper {
   width: 100%;
   height: auto;
-  border: 2px solid;
 }
 .page-worker-wrapper .column-center {
   display: flex;
@@ -251,7 +250,6 @@
   height: 100%;
   top: 0;
   left: 0;
-  border: 2px solid green;
   z-index: 10;
   padding-top: 40px;
 }
@@ -337,7 +335,6 @@
   max-width: 455px;
   height: 173px;
   object-fit: cover;
-  border: 1px solid green;
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .worker-banner-block-wrapper .bottom-title-wrapper .worker-title-1 {
@@ -356,13 +353,11 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  border: 2px solid green;
   margin-top: 50px;
 }
 .page-worker-wrapper .worker-banner-block-wrapper .main-content .left-content,
 .page-worker-wrapper .worker-banner-block-wrapper .main-content .right-content {
   width: 50%;
-  border: 2px solid red;
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .worker-banner-block-wrapper .main-content .left-content,
@@ -376,7 +371,6 @@
 }
 .page-worker-wrapper .worker-banner-block-wrapper .main-content .left-content .list-option {
   list-style: none;
-  border: 2px solid blue;
 }
 .page-worker-wrapper .worker-banner-block-wrapper .main-content .left-content .list-option .option-item {
   display: flex;
@@ -505,7 +499,6 @@
 }
 .page-worker-wrapper .worker-banner-block-wrapper .main-content .right-content .form-register-wrapper .list-gift {
   margin: 40px 0px 32px;
-  border: 1px solid;
   display: flex;
   justify-content: center;
 }
@@ -682,7 +675,6 @@
 }
 .page-worker-wrapper .vtv-recommend-block-wrapper {
   padding: 90px 0px 160px;
-  border: 1px solid red;
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .vtv-recommend-block-wrapper {
@@ -752,14 +744,12 @@
   min-width: 670px;
   max-width: 670px;
   height: 412px;
-  border: 1px solid;
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .vtv-recommend-block-wrapper .top-content .video-item {
     min-width: 303px;
     max-width: 303px;
     height: 186px;
-    border: 1px solid red;
   }
 }
 .page-worker-wrapper .vtv-recommend-block-wrapper .top-content .video-item img {
@@ -811,7 +801,6 @@
   }
 }
 .page-worker-wrapper .speak-english-difficult-wrapper {
-  border: 1px solid blue;
   min-height: 755px;
   background-image: url("../images/banner-teacher-background.png");
   background-position: center center;
@@ -828,7 +817,6 @@
 }
 .page-worker-wrapper .speak-english-difficult-wrapper .speak-english-difficult-content {
   width: 100%;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -868,7 +856,6 @@
 @media (max-width: 1300px) {
   .page-worker-wrapper .speak-english-difficult-wrapper .speak-english-difficult-content .speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider {
     max-width: 1200px;
-    border: 1px solid;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -900,13 +887,11 @@
   width: calc((100% - 48px) / 4);
   max-width: 300px;
   margin-right: 24px;
-  border: 1px solid green;
   border-radius: 32px;
   border: 2px solid #ffb700;
   background: #fff0da;
   position: relative;
   min-height: 426px;
-  border: 1px solid;
   padding: 118px 20px 0px 24px;
 }
 .page-worker-wrapper .speak-english-difficult-wrapper .speak-english-difficult-content .speak-english-difficult-slider-wrapper .common-list-slider-item .header-content {
@@ -1513,7 +1498,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 1px solid green;
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .news-of-bitu-wrapper .news-of-bitu-content-wrapper .list-news-of-bitu {
@@ -1527,7 +1511,6 @@
   width: calc((100% - 72px) / 3);
   max-width: 378px;
   height: auto;
-  border: 1px solid red;
   margin-right: 36px;
   margin-bottom: 36px;
 }
@@ -1807,7 +1790,6 @@
 .page-worker-wrapper .worker-route-block-wrapper .sub-content-wrapper {
   margin-top: 50px;
   width: 100%;
-  border: 1px solid;
   display: flex;
   justify-content: center;
 }
@@ -1819,7 +1801,6 @@
 }
 .page-worker-wrapper .worker-route-block-wrapper .sub-content-wrapper .left-content {
   width: fit-content;
-  border: 1px solid red;
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .worker-route-block-wrapper .sub-content-wrapper .left-content {
@@ -2151,6 +2132,27 @@
   line-height: 22px;
   color: #fff;
   font-family: BeVietnamPro-Medium;
+}
+.page-worker-wrapper .page-teacher-wrapper .top-content {
+  min-height: max-content;
+  background-image: none;
+}
+.page-worker-wrapper .page-teacher-wrapper .list-option {
+  margin-bottom: 64px;
+}
+@media only screen and (max-width: 1199px) {
+  .page-worker-wrapper .page-teacher-wrapper .list-option {
+    display: none;
+  }
+}
+.page-worker-wrapper .page-teacher-wrapper .option-item {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 1199px) {
+  .page-worker-wrapper .page-teacher-wrapper .main-content-wrapper {
+    margin-top: 32px;
+  }
 }
 
 /*# sourceMappingURL=worker.css.map */
