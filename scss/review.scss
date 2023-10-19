@@ -65,12 +65,44 @@
   }
 
   .review-title-mb-8 {
-   width: 308px;
-height: 78px;
+    width: 308px;
+    height: 78px;
   }
   .review-title-mb-9 {
     width: 251px;
-height: 78px;
+    height: 78px;
+  }
+
+  .slick-dots {
+    display: flex;
+    margin-top: 24px;
+    justify-content: center;
+
+    margin: 0;
+    padding: 1rem 0;
+
+    list-style-type: none;
+
+    li {
+      margin: 0 4px;
+    }
+
+    button {
+      display: block;
+      width: 12px;
+      height: 12px;
+      padding: 0;
+
+      border: none;
+      border-radius: 100%;
+      background-color: #ff8e46;
+
+      text-indent: -9999px;
+    }
+
+    li.slick-active button {
+      background-color: white;
+    }
   }
 
   .title-image-for-mb {
@@ -155,7 +187,7 @@ height: 78px;
       width: 100%;
       display: flex;
       justify-content: center;
-
+      flex-direction: column;
       .feed-back-item {
         min-width: 300px;
         max-width: 300px;
@@ -186,9 +218,13 @@ height: 78px;
           font-size: 20px;
           font-style: normal;
           line-height: normal;
-          font-family: SF Pro Rounded Medium;
+          font-family: SF Pro Rounded Regular;
           text-transform: uppercase;
           margin-bottom: 8px;
+
+          strong {
+            font-family: SF Pro Rounded Medium;
+          }
         }
 
         .info {
@@ -236,9 +272,11 @@ height: 78px;
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-
-            .feed-back-detail {
-              margin-bottom: 36px;
+            position: relative;
+            svg {
+              position: absolute;
+              right: 16px;
+              bottom: 16px;
             }
           }
         }
@@ -286,7 +324,6 @@ height: 78px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border: 1px solid red;
         @include mq(max_lg) {
           min-width: unset;
           max-width: 343px;
@@ -314,6 +351,12 @@ height: 78px;
           font-weight: 500;
           line-height: 28px;
           color: #1a202c;
+          min-height: 84px;
+          max-width: 356px;
+          @include mq(max_lg) {
+            min-height: max-content;
+            max-width: 100%;
+          }
         }
 
         .btn-view-more {
@@ -329,6 +372,7 @@ height: 78px;
           color: #ff6d03;
           display: flex;
           align-items: center;
+          justify-content: center;
           text-decoration: none;
 
           cursor: pointer;
@@ -364,6 +408,16 @@ height: 78px;
       padding: 0;
       padding: 56px 0px 110px;
     }
+
+    .slick-dots {
+      button {
+        background-color: #ffcdaa;
+      }
+
+      li.slick-active button {
+        background-color: #fe6205;
+      }
+    }
   }
 
   .feedback-block {
@@ -385,21 +439,19 @@ height: 78px;
 
     .feed-back-list-wrapper {
       margin-top: 55px;
-      display: flex;
-      justify-content: center;
       position: relative;
 
       @include mq(max_lg) {
         margin-top: 32px;
       }
+      .btn-slider {
+        top: 40%;
+      }
     }
 
     .feed-back-list {
       max-width: 1296px;
-      display: flex;
       overflow-y: hidden;
-      justify-content: center;
-
       .feed-back-item {
         min-width: 300px;
         max-width: 300px;

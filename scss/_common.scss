@@ -100,13 +100,11 @@ button,
 
 .list-teach-wrapper {
   width: 100%;
-  border: 1px solid red;
 }
 
 .list-teach-block {
   width: 100%;
   height: auto;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,7 +114,6 @@ button,
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid green;
     background-size: cover;
     width: 740px;
     height: 82px;
@@ -172,17 +169,27 @@ button,
   .slider-wrapper {
     width: 100%;
     overflow: hidden;
-    border: 1px solid green;
     position: relative;
     display: flex;
     margin-top: 40px;
     justify-content: center;
+
+    @include mq(max_lg) {
+      .btn-prev {
+        display: none;
+        right: 15px;
+      }
+    }
 
     @include mq(max_md) {
       margin-top: 30px;
     }
     .native-teacher-list {
       max-width: 1296px;
+
+      @include mq(max_lg) {
+        max-width: 340px !important;
+      }
       display: flex;
       .slider-item {
         width: 300px;
@@ -225,7 +232,7 @@ button,
         }
         .teacher-name {
           text-align: center;
-          font-family: SF Pro Rounded;
+          font-family: SF Pro Rounded Medium;
           font-size: 24px;
           font-style: normal;
           font-weight: 700;
@@ -237,7 +244,7 @@ button,
         .teacher-info-wrapper {
           display: flex;
           align-items: center;
-          font-family: SF Pro Rounded;
+          font-family: SF Pro Rounded Regular;
           font-size: 18px;
           font-style: normal;
           line-height: normal;

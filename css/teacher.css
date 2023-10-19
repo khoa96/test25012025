@@ -1,6 +1,5 @@
 .page-teacher-wrapper {
   width: 100%;
-  border: 1px solid red;
   margin-top: 45px;
   padding-bottom: 145px;
   background-color: transparent;
@@ -20,7 +19,6 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  border: 1px solid red;
 }
 .page-teacher-wrapper .title-block {
   display: flex;
@@ -31,25 +29,30 @@
   min-width: 324px;
   max-width: 324px;
   height: 100px;
-  object-fit: cover;
+  object-fit: contain;
   margin-bottom: 16px;
+}
+@media only screen and (max-width: 1199px) {
+  .page-teacher-wrapper .icon-1000 {
+    width: 226.8px;
+    height: 70px;
+  }
 }
 .page-teacher-wrapper .list-top-wrapper {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 .page-teacher-wrapper .list-option {
   width: 100%;
   height: auto;
-  border: 1px solid red;
   margin-top: 48px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 110px;
 }
 @media only screen and (max-width: 991px) {
   .page-teacher-wrapper .list-option {
-    margin-top: 48px;
+    margin-bottom: 48px;
     flex-direction: column;
     margin-top: 24px;
   }
@@ -58,7 +61,6 @@
   min-width: 408px;
   max-width: 408px;
   max-height: 157px;
-  border: 1px solid red;
   padding: 40px 14px;
   border-radius: 32px;
   background: #fff0da;
@@ -93,11 +95,20 @@
 }
 .page-teacher-wrapper .list-option .option-item .option-content {
   color: #1a202c;
-  font-family: SF Pro Rounded;
+  font-family: SF Pro Rounded Regular;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.page-teacher-wrapper .philippine-teacher-list-wrapper {
+  margin-top: 95px;
+  position: relative;
+}
+@media only screen and (max-width: 1199px) {
+  .page-teacher-wrapper .philippine-teacher-list-wrapper {
+    margin-top: 42px;
+  }
 }
 
 /*# sourceMappingURL=teacher.css.map */
