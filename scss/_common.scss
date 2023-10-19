@@ -882,3 +882,64 @@ button,
     }
   }
 }
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  @include mq(max_md) {
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  .video-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    video {
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .main-video {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+
+      video {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .mask-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .btn-play {
+      cursor: pointer;
+    }
+  }
+}

@@ -929,4 +929,58 @@ button,
   font-family: BeVietnamPro-Medium;
 }
 
+.video-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media only screen and (max-width: 991px) {
+  .video-item {
+    margin: 0;
+    margin-bottom: 24px;
+  }
+}
+.video-item:last-of-type {
+  margin-right: 0;
+}
+.video-item .video-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.video-item .video-content video {
+  width: 100%;
+  height: 100%;
+}
+.video-item .video-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-item .video-content .main-video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.video-item .video-content .main-video video {
+  width: 100%;
+  height: 100%;
+}
+.video-item .mask-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.video-item .mask-video .btn-play {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=common-8.css.map */

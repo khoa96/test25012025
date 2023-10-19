@@ -1019,10 +1019,12 @@
 }
 .page-worker-wrapper .list-class-block-wrapper .block-item-wrapper .block-item-title-2 {
   max-width: max-content;
+  margin-bottom: 40px;
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .list-class-block-wrapper .block-item-wrapper .block-item-title-2 {
     max-width: 343px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (max-width: 991px) {

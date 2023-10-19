@@ -1061,8 +1061,10 @@
       }
       .block-item-title-2 {
         max-width: max-content;
+        margin-bottom: 40px;
         @include mq(max_lg) {
           max-width: 343px;
+          margin-bottom: 30px;
         }
       }
 

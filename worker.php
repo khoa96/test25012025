@@ -109,7 +109,31 @@
             <img src="./images/vtv-quang-minh.png" class="person-image" alt="">
             <div class="video-wrapper">
               <div class="video-item">
-                <img src="./images/preview-video-image.png" alt="">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-1.png">
+                      <source src="./videos/video-1.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -136,7 +160,35 @@
               <div class="common-list-slider-item">
                 <div class="video-wrapper">
                   <div class="video-content">
-                    <img src="./images/video-preview-2.png" alt="">
+                    <div class="video-item">
+                      <div class="video-item">
+                        <div class="video-content">
+                          <video class="video-element" poster="./images/video-preview-2.png">
+                            <source src="./videos/video-2.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                          </video>
+                          <div class="mask-video">
+                            <span class="btn-play">
+                              <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                                <g clip-path="url(#clip0_4121_24118)">
+                                  <path
+                                    d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                    fill="white" />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_4121_24118">
+                                    <rect width="13.95" height="18.6" fill="white"
+                                      transform="translate(24.8008 21.6992)" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="description-wrapper">
@@ -148,7 +200,36 @@
               <div class="common-list-slider-item">
                 <div class="video-wrapper">
                   <div class="video-content">
-                    <img src="./images/video-preview-2.png" alt="">
+                    <div class="video-item">
+                      <div class="video-item">
+                        <div class="video-content">
+                          <video class="video-element" poster="./images/video-preview-3.png">
+                            <source src="./videos/video-3.mp4" type="video/mp4" />
+
+                            Your browser does not support the video tag.
+                          </video>
+                          <div class="mask-video">
+                            <span class="btn-play">
+                              <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                                <g clip-path="url(#clip0_4121_24118)">
+                                  <path
+                                    d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                    fill="white" />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_4121_24118">
+                                    <rect width="13.95" height="18.6" fill="white"
+                                      transform="translate(24.8008 21.6992)" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="description-wrapper">
@@ -160,43 +241,35 @@
               <div class="common-list-slider-item">
                 <div class="video-wrapper">
                   <div class="video-content">
-                    <img src="./images/video-preview-2.png" alt="">
-                  </div>
-                </div>
-                <div class="description-wrapper">
-                  <p class="text-description">
-                    MC Hạnh Phúc VTV đang là học viên của Bitu
-                  </p>
-                </div>
-              </div>
-              <div class="common-list-slider-item">
-                <div class="video-wrapper">
-                  <div class="video-content">
-                    <img src="./images/video-preview-2.png" alt="">
-                  </div>
-                </div>
-                <div class="description-wrapper">
-                  <p class="text-description">
-                    MC Hạnh Phúc VTV đang là học viên của Bitu
-                  </p>
-                </div>
-              </div>
-              <div class="common-list-slider-item">
-                <div class="video-wrapper">
-                  <div class="video-content">
-                    <img src="./images/video-preview-2.png" alt="">
-                  </div>
-                </div>
-                <div class="description-wrapper">
-                  <p class="text-description">
-                    MC Hạnh Phúc VTV đang là học viên của Bitu
-                  </p>
-                </div>
-              </div>
-              <div class="common-list-slider-item">
-                <div class="video-wrapper">
-                  <div class="video-content">
-                    <img src="./images/video-preview-2.png" alt="">
+                    <div class="video-item">
+                      <div class="video-item">
+                        <div class="video-content">
+                          <video class="video-element" poster="./images/video-preview-4.png">
+                            <source src="./videos/video-4.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                          </video>
+                          <div class="mask-video">
+                            <span class="btn-play">
+                              <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                                <g clip-path="url(#clip0_4121_24118)">
+                                  <path
+                                    d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                    fill="white" />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_4121_24118">
+                                    <rect width="13.95" height="18.6" fill="white"
+                                      transform="translate(24.8008 21.6992)" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="description-wrapper">
@@ -347,7 +420,35 @@
                 <div class="common-list-slider-item">
                   <div class="video-wrapper">
                     <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
+                      <div class="video-item">
+                        <div class="video-item">
+                          <div class="video-content">
+                            <video class="video-element" poster="./images/video-preview-5.png">
+                              <source src="./videos/video-5.mp4" type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                            <div class="mask-video">
+                              <span class="btn-play">
+                                <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                                  <g clip-path="url(#clip0_4121_24118)">
+                                    <path
+                                      d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                      fill="white" />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_4121_24118">
+                                      <rect width="13.95" height="18.6" fill="white"
+                                        transform="translate(24.8008 21.6992)" />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -355,28 +456,70 @@
                 <div class="common-list-slider-item">
                   <div class="video-wrapper">
                     <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
+                      <div class="video-item">
+                        <div class="video-item">
+                          <div class="video-content">
+                            <video class="video-element" poster="./images/video-preview-6.png">
+                              <source src="./videos/video-6.mp4" type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                            <div class="mask-video">
+                              <span class="btn-play">
+                                <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                                  <g clip-path="url(#clip0_4121_24118)">
+                                    <path
+                                      d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                      fill="white" />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_4121_24118">
+                                      <rect width="13.95" height="18.6" fill="white"
+                                        transform="translate(24.8008 21.6992)" />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="common-list-slider-item">
                   <div class="video-wrapper">
                     <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="common-list-slider-item">
-                  <div class="video-wrapper">
-                    <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="common-list-slider-item">
-                  <div class="video-wrapper">
-                    <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
+                      <div class="video-item">
+                        <div class="video-item">
+                          <div class="video-content">
+                            <video class="video-element" poster="./images/video-preview-7.png">
+                              <source src="./videos/video-7.mp4" type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                            <div class="mask-video">
+                              <span class="btn-play">
+                                <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                                  <g clip-path="url(#clip0_4121_24118)">
+                                    <path
+                                      d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                      fill="white" />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_4121_24118">
+                                      <rect width="13.95" height="18.6" fill="white"
+                                        transform="translate(24.8008 21.6992)" />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -425,75 +568,124 @@
                 <div class="common-list-slider-item">
                   <div class="video-wrapper">
                     <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
+                      <div class="video-item">
+                        <div class="video-item">
+                          <div class="video-content">
+                            <video class="video-element" poster="./images/video-preview-8.png">
+                              <source src="./videos/video-8.mp4" type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                            <div class="mask-video">
+                              <span class="btn-play">
+                                <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                                  <g clip-path="url(#clip0_4121_24118)">
+                                    <path
+                                      d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                      fill="white" />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_4121_24118">
+                                      <rect width="13.95" height="18.6" fill="white"
+                                        transform="translate(24.8008 21.6992)" />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="description-wrapper">
                     <p class="text-description">
-                      VTC ĐÃ NÓI VỀ BITU - APP LUYỆN NÓI TIẾNG ANH 1 KÈM 1
+                      Thăng tiến trong sự nghiệp nhờ giao tiếp tiếng Anh tốt
                     </p>
                   </div>
                 </div>
                 <div class="common-list-slider-item">
                   <div class="video-wrapper">
                     <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
+                      <div class="video-item">
+                        <div class="video-item">
+                          <div class="video-content">
+                            <video class="video-element" poster="./images/video-preview-9.png">
+                              <source src="./videos/video-9.mp4" type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                            <div class="mask-video">
+                              <span class="btn-play">
+                                <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                                  <g clip-path="url(#clip0_4121_24118)">
+                                    <path
+                                      d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                      fill="white" />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_4121_24118">
+                                      <rect width="13.95" height="18.6" fill="white"
+                                        transform="translate(24.8008 21.6992)" />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="description-wrapper">
                     <p class="text-description">
-                      VTV3 NÓI GÌ VỀ BITU
+                      Hảo Phí Marketing bật mí bí mật ứng tuyển vào các tập đoàn đa quốc gia
                     </p>
                   </div>
                 </div>
                 <div class="common-list-slider-item">
                   <div class="video-wrapper">
                     <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
+                      <div class="video-item">
+                        <div class="video-item">
+                          <div class="video-content">
+                            <video class="video-element" poster="./images/video-preview-10.png">
+                              <source src="./videos/video-10.mp4" type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                            <div class="mask-video">
+                              <span class="btn-play">
+                                <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                                  <g clip-path="url(#clip0_4121_24118)">
+                                    <path
+                                      d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                      fill="white" />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_4121_24118">
+                                      <rect width="13.95" height="18.6" fill="white"
+                                        transform="translate(24.8008 21.6992)" />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="description-wrapper">
                     <p class="text-description">
-                      MC Hạnh Phúc VTV đang là học viên của Bitu
+                      Baro San học sâu nhớ lâu cùng Bitu
                     </p>
                   </div>
                 </div>
-                <div class="common-list-slider-item">
-                  <div class="video-wrapper">
-                    <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
-                    </div>
-                  </div>
-                  <div class="description-wrapper">
-                    <p class="text-description">
-                      MC Hạnh Phúc VTV đang là học viên của Bitu
-                    </p>
-                  </div>
-                </div>
-                <div class="common-list-slider-item">
-                  <div class="video-wrapper">
-                    <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
-                    </div>
-                  </div>
-                  <div class="description-wrapper">
-                    <p class="text-description">
-                      MC Hạnh Phúc VTV đang là học viên của Bitu
-                    </p>
-                  </div>
-                </div>
-                <div class="common-list-slider-item">
-                  <div class="video-wrapper">
-                    <div class="video-content">
-                      <img src="./images/video-preview-2.png" alt="">
-                    </div>
-                  </div>
-                  <div class="description-wrapper">
-                    <p class="text-description">
-                      MC Hạnh Phúc VTV đang là học viên của Bitu
-                    </p>
-                  </div>
-                </div>
+
               </div>
               <button class="btn-slider btn-next">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1448,8 +1640,10 @@
         <div class="container main-content">
           <h2 class="worker-common-title news-of-bitu-title">Truyền thông nói gì về bitu</h2>
           <div class="list-news-of-bitu">
-            <a class="news-of-bitu-item" href="#">
-              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+            <a class="news-of-bitu-item"
+              href="https://vnexpress.net/ung-dung-luyen-noi-tieng-anh-cung-nguoi-nuoc-ngoai-4383789.html"
+              target="_blank">
+              <img src="./images/news-1.png" class="news-image" alt="" />
               <div class="news-content">
                 <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
                 <div class="branch-wrapper">
@@ -1458,56 +1652,140 @@
                 </div>
               </div>
             </a>
-            <a class="news-of-bitu-item" href="#">
-              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+            <a class="news-of-bitu-item"
+              href="http://nhipsongkinhte.toquoc.vn/ung-dung-luyen-noi-tieng-anh-bitu-su-khac-biet-tao-nen-thanh-cong-2022091710182252.htm"
+              target="_blank">
+              <img src="./images/news-2.png" class="news-image" alt="" />
               <div class="news-content">
-                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh BITU: Sự khác biệt tạo nên thành công</h3>
                 <div class="branch-wrapper">
                   <img src="./images/branch-image.png" class="branch-image" alt="">
                   <span class="branch-name">VTV2 SOCIAL</span>
                 </div>
               </div>
             </a>
-            <a class="news-of-bitu-item" href="#">
-              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+            <a class="news-of-bitu-item"
+              href="https://genk.vn/bitu-ky-lan-cong-nghe-the-he-moi-but-pha-20220909204637085.chn" target="_blank">
+              <img src="./images/news-3.png" class="news-image" alt="" />
               <div class="news-content">
-                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <h3 class="news-title"> Bitu Kỳ lân công nghệ thế hệ mới bứt phá</h3>
                 <div class="branch-wrapper">
                   <img src="./images/branch-image.png" class="branch-image" alt="">
                   <span class="branch-name">VTV2 SOCIAL</span>
                 </div>
               </div>
             </a>
-            <a class="news-of-bitu-item" href="#">
-              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+            <div class="news-of-bitu-item">
+              <div class="video-item">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-11.jpeg">
+                      <source src="./videos/video-11.mp4" type="video/mp4" />
+                      <source src="./videos/video-11.webm" type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="news-content">
-                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
                 <div class="branch-wrapper">
                   <img src="./images/branch-image.png" class="branch-image" alt="">
                   <span class="branch-name">VTV2 SOCIAL</span>
                 </div>
               </div>
-            </a>
-            <a class="news-of-bitu-item" href="#">
-              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+            </div>
+            <div class="news-of-bitu-item">
+              <div class="video-item">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-12.jpeg">
+                      <source src="./videos/video-12.mp4" type="video/mp4" />
+                      <source src="./videos/video-12.webm" type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="news-content">
-                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <h3 class="news-title">VTC gợi ý Bitu là ứng dụng giúp nâng cao trình độ nói tiếng Anh</h3>
                 <div class="branch-wrapper">
                   <img src="./images/branch-image.png" class="branch-image" alt="">
                   <span class="branch-name">VTV2 SOCIAL</span>
                 </div>
               </div>
-            </a>
-            <a class="news-of-bitu-item" href="#">
-              <img src="./images/news-of-bitu-1.png" class="news-image" alt="" />
+            </div>
+            <div class="news-of-bitu-item">
+              <div class="video-item">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-13.jpeg">
+                      <source src="./videos/video-13.mp4" type="video/mp4" />
+                      <source src="./videos/video-13.webm" type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="news-content">
-                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <h3 class="news-title">Đài truyền hình Việt Nam VTV kiểm chứng chất lượng của Bitu</h3>
                 <div class="branch-wrapper">
                   <img src="./images/branch-image.png" class="branch-image" alt="">
                   <span class="branch-name">VTV2 SOCIAL</span>
                 </div>
               </div>
-            </a>
+            </div>
 
           </div>
         </div>
@@ -1585,25 +1863,25 @@
   <?php include "templates/footer.php"; ?>
 
   <script>
-    /* -----------------------------------------------------------
-                                                                                                                                                                                                                                Effective slider
-                                                                                                                                                                                                                              ----------------------------------------------------------- */
-    $(function () {
-      // PC
-      var vtvRecommendSlider = $('.vtv-recommend-list-wrapper .vtv-recommend-list-slider').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        variableWidth: true,
-        responsive: [{
+  /* -----------------------------------------------------------
+                                                                                                                                                                                                                                                                                                                Effective slider
+                                                                                                                                                                                                                                                                                                              ----------------------------------------------------------- */
+  $(function() {
+    // PC
+    var vtvRecommendSlider = $('.vtv-recommend-list-wrapper .vtv-recommend-list-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -1615,149 +1893,34 @@
             slidesToShow: 1
           }
         }
-        ]
-      });
-
-      $('.vtv-recommend-list-wrapper .btn-prev').on('click', function () {
-        vtvRecommendSlider.slick('prev');
-      });
-      $('.vtv-recommend-list-wrapper .btn-next').on('click', function () {
-        vtvRecommendSlider.slick('next');
-      });
+      ]
     });
 
-    $(function () {
-      // PC
-      var speakEnglishDifficultSlider = $(
-        '.speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          adaptiveHeight: true,
-          variableWidth: true,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
-          }
-          ]
-        });
-
-      $('.speak-english-difficult-slider-wrapper .btn-prev').on('click', function () {
-        speakEnglishDifficultSlider.slick('prev');
-      });
-      $('.speak-english-difficult-slider-wrapper .btn-next').on('click', function () {
-        speakEnglishDifficultSlider.slick('next');
-      });
+    $('.vtv-recommend-list-wrapper .btn-prev').on('click', function() {
+      vtvRecommendSlider.slick('prev');
     });
-
-    $(function () {
-      // PC
-      var listClassSlider1 = $(
-        '.list-class-slider-1-wrapper .list-class-slider-1').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          adaptiveHeight: true,
-          variableWidth: true,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
-          }
-          ]
-        });
-
-      $('.list-class-slider-1-wrapper .btn-prev').on('click', function () {
-        listClassSlider1.slick('prev');
-      });
-      $('.list-class-slider-1-wrapper .btn-next').on('click', function () {
-        listClassSlider1.slick('next');
-      });
+    $('.vtv-recommend-list-wrapper .btn-next').on('click', function() {
+      vtvRecommendSlider.slick('next');
     });
-    $(function () {
-      // PC
-      var listClassSlider2 = $(
-        '.list-class-slider-2-wrapper .list-class-slider-2').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          adaptiveHeight: true,
-          variableWidth: true,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
-          }
-          ]
-        });
+  });
 
-      $('.list-class-slider-2-wrapper .btn-prev').on('click', function () {
-        listClassSlider2.slick('prev');
-      });
-      $('.list-class-slider-2-wrapper .btn-next').on('click', function () {
-        listClassSlider2.slick('next');
-      });
-    });
-
-    $(function () {
-      // PC
-      var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        variableWidth: true,
-        responsive: [{
+  $(function() {
+    // PC
+    var speakEnglishDifficultSlider = $(
+      '.speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -1769,33 +1932,34 @@
             slidesToShow: 1
           }
         }
-        ]
-      });
-
-      $('.feedback-student-list-2-wrapper .btn-prev').on('click', function () {
-        feedbackStudent2Slider.slick('prev');
-      });
-      $('.feedback-student-list-2-wrapper .btn-next').on('click', function () {
-        feedbackStudent2Slider.slick('next');
-      });
+      ]
     });
 
-    $(function () {
-      // PC
-      var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        variableWidth: true,
-        responsive: [{
+    $('.speak-english-difficult-slider-wrapper .btn-prev').on('click', function() {
+      speakEnglishDifficultSlider.slick('prev');
+    });
+    $('.speak-english-difficult-slider-wrapper .btn-next').on('click', function() {
+      speakEnglishDifficultSlider.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var listClassSlider1 = $(
+      '.list-class-slider-1-wrapper .list-class-slider-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -1807,33 +1971,33 @@
             slidesToShow: 1
           }
         }
-        ]
-      });
-
-      $('.feedback-student-list-1-wrapper .btn-prev').on('click', function () {
-        feedbackStudent2Slider.slick('prev');
-      });
-      $('.feedback-student-list-1-wrapper .btn-next').on('click', function () {
-        feedbackStudent2Slider.slick('next');
-      });
+      ]
     });
-    // slider list teacher
-    $(function () {
-      // PC
-      var nativeTeacherSlider = $('.list-teacher-1').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: true,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        variableWidth: true,
-        adaptiveHeight: true,
-        slidesToScroll: 1,
-        responsive: [{
+
+    $('.list-class-slider-1-wrapper .btn-prev').on('click', function() {
+      listClassSlider1.slick('prev');
+    });
+    $('.list-class-slider-1-wrapper .btn-next').on('click', function() {
+      listClassSlider1.slick('next');
+    });
+  });
+  $(function() {
+    // PC
+    var listClassSlider2 = $(
+      '.list-class-slider-2-wrapper .list-class-slider-2').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -1845,33 +2009,33 @@
             slidesToShow: 1
           }
         }
-        ]
-      });
-
-      $('.native-teacher-slider .btn-prev').on('click', function () {
-        nativeTeacherSlider.slick('prev');
-      });
-      $('.native-teacher-slider .btn-next').on('click', function () {
-        nativeTeacherSlider.slick('next');
-      });
+      ]
     });
 
-    $(function () {
-      // PC
-      var philippineTeacherSlider = $('.list-teacher-2').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: true,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        variableWidth: true,
-        adaptiveHeight: true,
-        slidesToScroll: 1,
-        responsive: [{
+    $('.list-class-slider-2-wrapper .btn-prev').on('click', function() {
+      listClassSlider2.slick('prev');
+    });
+    $('.list-class-slider-2-wrapper .btn-next').on('click', function() {
+      listClassSlider2.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -1883,17 +2047,132 @@
             slidesToShow: 1
           }
         }
-        ]
-      });
-
-      $('.philippine-teacher-list-wrapper .btn-prev').on('click', function () {
-        philippineTeacherSlider.slick('prev');
-      });
-      $('.philippine-teacher-list-wrapper .btn-next').on('click', function () {
-        philippineTeacherSlider.slick('next');
-      });
+      ]
     });
+
+    $('.feedback-student-list-2-wrapper .btn-prev').on('click', function() {
+      feedbackStudent2Slider.slick('prev');
+    });
+    $('.feedback-student-list-2-wrapper .btn-next').on('click', function() {
+      feedbackStudent2Slider.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.feedback-student-list-1-wrapper .btn-prev').on('click', function() {
+      feedbackStudent2Slider.slick('prev');
+    });
+    $('.feedback-student-list-1-wrapper .btn-next').on('click', function() {
+      feedbackStudent2Slider.slick('next');
+    });
+  });
+  // slider list teacher
+  $(function() {
+    // PC
+    var nativeTeacherSlider = $('.list-teacher-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      variableWidth: true,
+      adaptiveHeight: true,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.native-teacher-slider .btn-prev').on('click', function() {
+      nativeTeacherSlider.slick('prev');
+    });
+    $('.native-teacher-slider .btn-next').on('click', function() {
+      nativeTeacherSlider.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var philippineTeacherSlider = $('.list-teacher-2').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      variableWidth: true,
+      adaptiveHeight: true,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.philippine-teacher-list-wrapper .btn-prev').on('click', function() {
+      philippineTeacherSlider.slick('prev');
+    });
+    $('.philippine-teacher-list-wrapper .btn-next').on('click', function() {
+      philippineTeacherSlider.slick('next');
+    });
+  });
   </script>
+  <script src="js/video.js"></script>
 </body>
 
 </html>

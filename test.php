@@ -533,3 +533,34 @@
   </div>
 </div>
 <!-- END LIST TEACHER PHILIPPINES -->
+
+
+<!-- video item -->
+<div class="video-item">
+  <div class="video-item">
+    <div class="video-content">
+      <video class="video-element" poster="./images/video-preview-5.png">
+        <source src="./videos/video-5.mp4" type="video/mp4" />
+        <source src="./videos/video-5.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="mask-video">
+        <span class="btn-play">
+          <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+            <g clip-path="url(#clip0_4121_24118)">
+              <path
+                d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_4121_24118">
+                <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,24 +1,33 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const iconVideo = document.querySelector(".icon-play")
-  const video = document.querySelector(".video-experience");
-  const imageMobile = document.querySelector(".image-mobile")
-  const playVideo = (icon, video, image) => {
-    icon.addEventListener("click", (e) => {
-      e.preventDefault();
-      if(video.paused) {
-        video.play()
-        image.style.opacity = 0
-      }else {
-        video.pause();
-        image.style.opacity = 1
-      }
-    })
+$(".btn-play").on("click", function () {
+  const parent = $(this).parent();
+  const video = parent.prev().get(0);
+  const currentMaskVideo = $(this).parent().get(0);
+  // pause all video
+  const allVideos = $(".video-element");
+  const allMaskVideo = $(".mask-video");
+  for (let i = 0; i < allMaskVideo.length; i++) {
+    const maskItem = allMaskVideo[i];
+    maskItem.style.display = "flex";
   }
-  const listenEventPauseVideo = (icon, video) => {
-    video.addEventListener("ended", () => {
-      icon.style.opacity = 1
-    }, false)
+  for (let i = 0; i < allVideos.length; i++) {
+    const element = allVideos[i];
+    element.pause();
+    element.removeAttribute("controls");
   }
-  playVideo(iconVideo, video, iconVideo)
-  listenEventPauseVideo(iconVideo,video)
-}, false)
+  if (video) {
+    video.play();
+    video.setAttribute("controls", "");
+    currentMaskVideo.style.display = "none";
+  }
+});
+$(".video-element").on("click", function () {
+  const video = $(this).get(0);
+  const maskVideo = $(this).next()[0];
+  maskVideo.style.display = "flex";
+  if (video.paused) {
+    video.play();
+  } else {
+    video.pause();
+    video.removeAttribute("controls");
+  }
+});
