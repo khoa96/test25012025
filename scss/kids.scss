@@ -408,11 +408,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 1px solid red;
   }
   .bitu-for-block-wrapper {
     width: 100%;
-    border: 1px solid;
     height: 1234px;
     position: relative;
 
@@ -496,7 +494,6 @@
       .bitu-for-main {
         width: 434px;
         height: 525px;
-        border: 1px solid red;
         position: relative;
 
         @include mq(max_md) {
@@ -563,6 +560,13 @@
               }
             }
           }
+
+          .message-item {
+            min-width: 464px;
+            max-width: 464px;
+            height: 169px;
+            border: 1px solid red;
+          }
         }
 
         .main-image-wrapper {
@@ -600,7 +604,6 @@
       .bottom-icon-wrapper {
         width: 50%;
         height: auto;
-        border: 1px solid;
         display: flex;
         justify-content: flex-end;
 
@@ -626,7 +629,6 @@
 
   .learn-with-foreigner-teacher-wrapper {
     width: 100%;
-    border: 2px solid red;
 
     padding: 32px 0px;
 
@@ -638,7 +640,6 @@
       width: 100%;
       display: flex;
       justify-content: center;
-      border: 2px solid;
       flex-direction: column;
       align-items: center;
       position: relative;
@@ -663,7 +664,6 @@
     .title-1 {
       width: 457px;
       height: 84px;
-      border: 1px solid red;
       background-image: url("../images/text-background-2.png");
       transform: rotate(-4deg);
       top: 16px;
@@ -691,7 +691,6 @@
       height: 92px;
       position: relative;
       background-image: url("../images/text-background-3.png");
-      border: 1px solid green;
       left: 160px;
 
       @include mq(max_md) {
@@ -716,7 +715,6 @@
       width: 100%;
       display: flex;
       justify-content: center;
-      border: 2px solid green;
       margin: 56px 0px 51px;
 
       @include mq(max_md) {
@@ -728,7 +726,6 @@
         margin-right: 0;
         min-width: 536px;
         height: 322px;
-        border: 2px solid red;
         background-image: url("../images/video-1-background.png");
         background-position: center center;
         background-repeat: no-repeat;
@@ -743,6 +740,20 @@
           margin-bottom: 16px;
           min-width: 343px;
           height: 210px;
+          background-image: url("../images/video-1-background-mb.png");
+        }
+        .video-content {
+          min-width: 439px;
+          height: 247px;
+          position: relative;
+          left: 10px;
+
+          @include mq(max_lg) {
+            min-width: unset;
+            width: 275px;
+            height: 154px;
+            left: 5px;
+          }
         }
       }
 
@@ -817,7 +828,6 @@
     .title-block-wrapper {
       width: fit-content;
       display: flex;
-      border: 2px solid;
       flex-direction: column;
       position: relative;
       margin: auto;
@@ -831,7 +841,6 @@
     .title-1 {
       width: 460px;
       height: 98px;
-      border: 1px solid red;
       background-image: url("../images/text-background-4.png");
       background-size: 100% 100%;
       top: 28px;
@@ -867,7 +876,6 @@
       height: 98px;
       position: relative;
       background-image: url("../images/text-background-5.png");
-      border: 1px solid green;
       background-size: 100% 90%;
       // left: 160px;
       z-index: 10;
@@ -933,7 +941,6 @@
             min-width: 319px;
             max-width: 319px;
             height: 217px;
-            border: 1px solid;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -958,7 +965,6 @@
   .bitu-recommend-wrapper {
     width: 100%;
     height: auto;
-    border: 1px solid;
     position: relative;
     z-index: 1;
     padding-bottom: 60px;
@@ -1007,7 +1013,6 @@
         min-width: 1273px;
         max-width: 1273px;
         display: flex;
-        border: 1px solid red;
         @include mq(max_md) {
           min-width: 324px;
           max-width: 324px;
@@ -1037,7 +1042,6 @@
             min-width: 488px;
             max-width: 488px;
             height: 292px;
-            border: 1px solid;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1070,7 +1074,6 @@
     .title-block-wrapper {
       width: fit-content;
       display: flex;
-      border: 2px solid;
       flex-direction: column;
       position: relative;
       margin: auto;
@@ -1084,7 +1087,6 @@
     .title-1 {
       width: 770px;
       height: 98px;
-      border: 1px solid red;
       background-image: url("../images/text-background-5.png");
       background-size: 100% 100%;
       z-index: 9;
@@ -1115,7 +1117,6 @@
       height: 160px;
       position: relative;
       background-image: url("../images/text-background-6.png");
-      border: 1px solid green;
       background-size: 100% 90%;
       transform: rotate(2deg);
       left: 86px;
@@ -1147,7 +1148,6 @@
       }
     }
     .item-wrapper {
-      border: 1px solid;
       width: fit-content;
       height: fit-content;
       display: flex;
@@ -1357,7 +1357,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid red;
     padding: 127px 0px 74px;
 
     @include mq(max_md) {
@@ -1496,7 +1495,6 @@
       width: fit-content;
       max-width: 1096px;
       position: relative;
-      border: 1px solid red;
       margin: 46px auto 40px;
 
       @include mq(max_md) {
@@ -1648,7 +1646,6 @@
       width: 100%;
       display: flex;
       justify-content: center;
-      border: 2px solid blue;
 
       @include mq(max_md) {
         flex-direction: column;
@@ -1656,7 +1653,6 @@
 
       .left-content {
         width: fit-content;
-        border: 3px solid green;
         margin-right: 6px;
         height: 398px;
         min-width: 689px;
@@ -1688,7 +1684,6 @@
         .content-wrapper {
           width: 100%;
           height: 100%;
-          border: 1px solid;
           max-width: fit-content;
           height: fit-content;
 
@@ -1703,7 +1698,6 @@
         .top-content {
           max-width: 450px;
           margin-bottom: 12px;
-          border: 1px solid red;
           width: 100%;
 
           @include mq(max_md) {
@@ -1714,7 +1708,6 @@
 
         .detail-content {
           max-width: 510px;
-          border: 1px solid green;
           list-style: none;
           padding-top: 8px;
           padding-left: 12px;
@@ -1750,7 +1743,6 @@
       .register-bottom {
         width: 100%;
         height: auto;
-        border: 2px solid green;
         padding-top: 32px;
 
         .btn-register {
@@ -1770,7 +1762,6 @@
         max-width: fit-content;
         min-width: fit-content;
         position: relative;
-        border: 2px solid;
 
         @include mq(max_md) {
           // margin: auto;
@@ -1785,7 +1776,6 @@
           max-width: 424px;
           object-fit: cover;
           position: relative;
-          border: 2px solid;
 
           @include mq(max_md) {
             min-width: 252px;
@@ -1818,12 +1808,10 @@
     }
   }
 
-
   // block 11 (teacher team of bitu)
 
   .teacher-team-of-bitu-wrapper {
     width: 100%;
-    border: 1px solid;
     height: auto;
     padding: 105px 0px 43px;
 
@@ -1851,7 +1839,6 @@
 
     .top-content {
       width: 100%;
-      border: 1px solid;
       margin-bottom: 40px;
 
       @include mq(max_md) {
@@ -1883,7 +1870,6 @@
     .core-value-list-wrapper {
       display: flex;
       justify-content: center;
-      border: 1px solid green;
 
       @include mq(max_md) {
         flex-direction: column;
@@ -2335,7 +2321,6 @@
   .talk-about-bitu-block-wrapper {
     width: 100%;
     height: auto;
-    border: 1px solid;
     margin-top: 44px;
 
     @include mq(max_md) {
@@ -2346,7 +2331,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 1px solid;
     }
 
     .icon-star-3 {
@@ -2429,7 +2413,6 @@
 
     .list-news-wrapper {
       width: 100%;
-      border: 1px solid red;
       display: flex;
       justify-content: center;
       padding: 75px 0px 150px;
@@ -2445,7 +2428,6 @@
         min-width: 343px;
         max-width: 343px;
         height: auto;
-        border: 1px solid;
         margin-right: 20px;
 
         @include mq(max_md) {
@@ -2458,7 +2440,6 @@
         .video-wrapper {
           width: 100%;
           height: 188px;
-          border: 1px solid red;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -2466,7 +2447,6 @@
 
         .news-content {
           width: 100%;
-          border: 1px solid;
           margin-top: 12px;
           display: flex;
           flex-direction: column;
@@ -2501,7 +2481,6 @@
   // block 14 (value received )
   .value-received-block-wrapper {
     width: 100%;
-    border: 1px solid red;
     height: auto;
     height: 1450px;
     background-image: url("../images/wave-background-image-1.png");
@@ -2516,12 +2495,10 @@
 
     .value-received-content {
       width: 100%;
-      border: 1px solid red;
 
       .top-content {
         min-width: 782px;
         height: auto;
-        border: 1px solid red;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2555,7 +2532,6 @@
           display: flex;
           justify-content: flex-end;
           width: fit-content;
-          border: 2px solid green;
           position: relative;
           left: 150px;
 
@@ -2600,7 +2576,6 @@
           min-width: 874px;
           max-width: 874px;
           height: 896px;
-          border: 2px solid green;
           background-image: url("../images/time-line-background.png");
           background-position: center center;
           background-repeat: no-repeat;
@@ -2641,7 +2616,6 @@
 
       .qoute-message-wrapper {
         margin: 0 auto;
-        border: 1px solid red;
         min-width: 897px;
         max-width: 897px;
         height: 144px;
@@ -2700,7 +2674,6 @@
         justify-content: center;
 
         .left-content {
-          border: 1px solid green;
           position: relative;
           z-index: 4;
         }
@@ -2715,7 +2688,6 @@
 
         .bottom-title {
           width: 100%;
-          border: 1px solid;
           display: flex;
           position: relative;
           top: -20px;
@@ -2759,7 +2731,6 @@
           }
 
           .method-title-2 {
-            border: 1px solid green;
             font-size: 39px;
             line-height: 49px;
             color: #385fca;
@@ -2773,7 +2744,6 @@
           align-items: center;
           position: relative;
           z-index: 2;
-          border: 1px solid red;
 
           .icon-bitu-10 {
             min-width: 126px;
@@ -2808,7 +2778,6 @@
         width: 100%;
         max-width: 955px;
         margin: 40px auto 0px;
-        border: 1px solid;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2900,7 +2869,6 @@
         }
 
         .interact-method {
-          border: 1px solid red;
           background-image: url("../images/method-2-background.png");
           margin-top: -30px;
           margin-bottom: -30px;
@@ -2921,14 +2889,12 @@
     height: auto;
     padding: 155px 0px 135px;
     position: relative;
-    border: 2px solid green;
 
     @include mq(max_md) {
       padding: 0px 0px 50px;
     }
 
     .topic-block-content {
-      border: 2px solid blue;
     }
 
     .top-title-wrapper {
@@ -3233,8 +3199,11 @@
   //block 17 (feed back from parent)
   .feed-back-from-parent-block-wrapper {
     width: 100%;
-    border: 1px solid green;
     padding-bottom: 100px;
+
+    @include mq(max_lg) {
+      display: none;
+    }
 
     .title-content-wrapper {
       width: 100%;
@@ -3242,7 +3211,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border: 1px solid red;
 
       .top-title-wrapper {
         position: relative;
@@ -3388,7 +3356,6 @@
     }
 
     .feedback-content-wrapper-for-pc {
-      border: 1px solid;
       position: relative;
       margin: 40px auto 0px;
       min-width: 1150px;
@@ -3398,7 +3365,6 @@
       background-size: contain;
       background-position: center center;
       background-repeat: no-repeat;
-      border: 2px solid blue;
       display: flex;
       padding: 48px 124px;
       justify-content: center;
@@ -3478,7 +3444,6 @@
       .column-2-wrapper {
         margin-left: 24px;
         flex-grow: 1;
-        border: 1px solid green;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -3486,7 +3451,6 @@
         .top-column {
           width: 100%;
           height: auto;
-          border: 1px solid green;
           display: flex;
           justify-content: center;
           position: relative;
@@ -3524,7 +3488,6 @@
         .bottom-column {
           width: 100%;
           height: auto;
-          border: 1px solid blue;
           display: flex;
         }
         .parent-feedback-3 {

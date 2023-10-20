@@ -504,11 +504,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 .page-kids-wrapper .bitu-for-block-wrapper {
   width: 100%;
-  border: 1px solid;
   height: 1234px;
   position: relative;
 }
@@ -593,7 +591,6 @@
 .page-kids-wrapper .bitu-for-block-wrapper .bitu-for-content-wrapper .bitu-for-main {
   width: 434px;
   height: 525px;
-  border: 1px solid red;
   position: relative;
 }
 @media only screen and (max-width: 991px) {
@@ -668,6 +665,12 @@
     left: 0;
   }
 }
+.page-kids-wrapper .bitu-for-block-wrapper .bitu-for-content-wrapper .bitu-for-main .list-option .message-item {
+  min-width: 464px;
+  max-width: 464px;
+  height: 169px;
+  border: 1px solid red;
+}
 .page-kids-wrapper .bitu-for-block-wrapper .bitu-for-content-wrapper .bitu-for-main .main-image-wrapper {
   position: absolute;
   width: 100%;
@@ -703,7 +706,6 @@
 .page-kids-wrapper .bitu-for-block-wrapper .bitu-for-content-wrapper .bottom-icon-wrapper {
   width: 50%;
   height: auto;
-  border: 1px solid;
   display: flex;
   justify-content: flex-end;
 }
@@ -726,7 +728,6 @@
 }
 .page-kids-wrapper .learn-with-foreigner-teacher-wrapper {
   width: 100%;
-  border: 2px solid red;
   padding: 32px 0px;
 }
 @media only screen and (max-width: 991px) {
@@ -738,7 +739,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  border: 2px solid;
   flex-direction: column;
   align-items: center;
   position: relative;
@@ -765,7 +765,6 @@
 .page-kids-wrapper .learn-with-foreigner-teacher-wrapper .title-1 {
   width: 457px;
   height: 84px;
-  border: 1px solid red;
   background-image: url("../images/text-background-2.png");
   transform: rotate(-4deg);
   top: 16px;
@@ -795,7 +794,6 @@
   height: 92px;
   position: relative;
   background-image: url("../images/text-background-3.png");
-  border: 1px solid green;
   left: 160px;
 }
 @media only screen and (max-width: 991px) {
@@ -820,7 +818,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  border: 2px solid green;
   margin: 56px 0px 51px;
 }
 @media only screen and (max-width: 991px) {
@@ -833,7 +830,6 @@
   margin-right: 0;
   min-width: 536px;
   height: 322px;
-  border: 2px solid red;
   background-image: url("../images/video-1-background.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -849,6 +845,21 @@
     margin-bottom: 16px;
     min-width: 343px;
     height: 210px;
+    background-image: url("../images/video-1-background-mb.png");
+  }
+}
+.page-kids-wrapper .learn-with-foreigner-teacher-wrapper .list-feature-of-class .left-content .video-content {
+  min-width: 439px;
+  height: 247px;
+  position: relative;
+  left: 10px;
+}
+@media only screen and (max-width: 1199px) {
+  .page-kids-wrapper .learn-with-foreigner-teacher-wrapper .list-feature-of-class .left-content .video-content {
+    min-width: unset;
+    width: 275px;
+    height: 154px;
+    left: 5px;
   }
 }
 .page-kids-wrapper .learn-with-foreigner-teacher-wrapper .list-feature-of-class .right-content .list-option-of-class {
@@ -917,7 +928,6 @@
 .page-kids-wrapper .list-kid-student-wrapper .title-block-wrapper {
   width: fit-content;
   display: flex;
-  border: 2px solid;
   flex-direction: column;
   position: relative;
   margin: auto;
@@ -932,7 +942,6 @@
 .page-kids-wrapper .list-kid-student-wrapper .title-1 {
   width: 460px;
   height: 98px;
-  border: 1px solid red;
   background-image: url("../images/text-background-4.png");
   background-size: 100% 100%;
   top: 28px;
@@ -970,7 +979,6 @@
   height: 98px;
   position: relative;
   background-image: url("../images/text-background-5.png");
-  border: 1px solid green;
   background-size: 100% 90%;
   z-index: 10;
 }
@@ -1038,7 +1046,6 @@
   min-width: 319px;
   max-width: 319px;
   height: 217px;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1057,7 +1064,6 @@
 .page-kids-wrapper .bitu-recommend-wrapper {
   width: 100%;
   height: auto;
-  border: 1px solid;
   position: relative;
   z-index: 1;
   padding-bottom: 60px;
@@ -1108,7 +1114,6 @@
   min-width: 1273px;
   max-width: 1273px;
   display: flex;
-  border: 1px solid red;
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .bitu-recommend-wrapper .bitu-recommend-list-wrapper .bitu-recommend-list {
@@ -1141,7 +1146,6 @@
   min-width: 488px;
   max-width: 488px;
   height: 292px;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1168,7 +1172,6 @@
 .page-kids-wrapper .bitu-recommend-wrapper-2 .title-block-wrapper {
   width: fit-content;
   display: flex;
-  border: 2px solid;
   flex-direction: column;
   position: relative;
   margin: auto;
@@ -1183,7 +1186,6 @@
 .page-kids-wrapper .bitu-recommend-wrapper-2 .title-1 {
   width: 770px;
   height: 98px;
-  border: 1px solid red;
   background-image: url("../images/text-background-5.png");
   background-size: 100% 100%;
   z-index: 9;
@@ -1216,7 +1218,6 @@
   height: 160px;
   position: relative;
   background-image: url("../images/text-background-6.png");
-  border: 1px solid green;
   background-size: 100% 90%;
   transform: rotate(2deg);
   left: 86px;
@@ -1249,7 +1250,6 @@
   }
 }
 .page-kids-wrapper .bitu-recommend-wrapper-2 .item-wrapper {
-  border: 1px solid;
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -1455,7 +1455,6 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid red;
   padding: 127px 0px 74px;
 }
 @media only screen and (max-width: 991px) {
@@ -1590,7 +1589,6 @@
   width: fit-content;
   max-width: 1096px;
   position: relative;
-  border: 1px solid red;
   margin: 46px auto 40px;
 }
 @media only screen and (max-width: 991px) {
@@ -1741,7 +1739,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  border: 2px solid blue;
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .survey-block-wrapper .main-content {
@@ -1750,7 +1747,6 @@
 }
 .page-kids-wrapper .survey-block-wrapper .main-content .left-content {
   width: fit-content;
-  border: 3px solid green;
   margin-right: 6px;
   height: 398px;
   min-width: 689px;
@@ -1784,7 +1780,6 @@
 .page-kids-wrapper .survey-block-wrapper .main-content .left-content .content-wrapper {
   width: 100%;
   height: 100%;
-  border: 1px solid;
   max-width: fit-content;
   height: fit-content;
 }
@@ -1799,7 +1794,6 @@
 .page-kids-wrapper .survey-block-wrapper .main-content .left-content .top-content {
   max-width: 450px;
   margin-bottom: 12px;
-  border: 1px solid red;
   width: 100%;
 }
 @media only screen and (max-width: 991px) {
@@ -1810,7 +1804,6 @@
 }
 .page-kids-wrapper .survey-block-wrapper .main-content .left-content .detail-content {
   max-width: 510px;
-  border: 1px solid green;
   list-style: none;
   padding-top: 8px;
   padding-left: 12px;
@@ -1847,7 +1840,6 @@
 .page-kids-wrapper .survey-block-wrapper .main-content .register-bottom {
   width: 100%;
   height: auto;
-  border: 2px solid green;
   padding-top: 32px;
 }
 .page-kids-wrapper .survey-block-wrapper .main-content .register-bottom .btn-register {
@@ -1866,7 +1858,6 @@
   max-width: fit-content;
   min-width: fit-content;
   position: relative;
-  border: 2px solid;
 }
 @media (max-width: 360px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .right-content {
@@ -1879,7 +1870,6 @@
   max-width: 424px;
   object-fit: cover;
   position: relative;
-  border: 2px solid;
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .right-content .survey-image {
@@ -1912,7 +1902,6 @@
 }
 .page-kids-wrapper .teacher-team-of-bitu-wrapper {
   width: 100%;
-  border: 1px solid;
   height: auto;
   padding: 105px 0px 43px;
 }
@@ -1941,7 +1930,6 @@
 }
 .page-kids-wrapper .teacher-team-of-bitu-wrapper .top-content {
   width: 100%;
-  border: 1px solid;
   margin-bottom: 40px;
 }
 @media only screen and (max-width: 991px) {
@@ -1973,7 +1961,6 @@
 .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper {
   display: flex;
   justify-content: center;
-  border: 1px solid green;
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .teacher-team-of-bitu-wrapper .core-value-list-wrapper {
@@ -2419,7 +2406,6 @@
 .page-kids-wrapper .talk-about-bitu-block-wrapper {
   width: 100%;
   height: auto;
-  border: 1px solid;
   margin-top: 44px;
 }
 @media only screen and (max-width: 991px) {
@@ -2431,7 +2417,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid;
 }
 .page-kids-wrapper .talk-about-bitu-block-wrapper .icon-star-3 {
   min-width: 24px;
@@ -2512,7 +2497,6 @@
 }
 .page-kids-wrapper .talk-about-bitu-block-wrapper .list-news-wrapper {
   width: 100%;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   padding: 75px 0px 150px;
@@ -2529,7 +2513,6 @@
   min-width: 343px;
   max-width: 343px;
   height: auto;
-  border: 1px solid;
   margin-right: 20px;
 }
 @media only screen and (max-width: 991px) {
@@ -2543,14 +2526,12 @@
 .page-kids-wrapper .talk-about-bitu-block-wrapper .list-news-wrapper .news-item .video-wrapper {
   width: 100%;
   height: 188px;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .page-kids-wrapper .talk-about-bitu-block-wrapper .list-news-wrapper .news-item .news-content {
   width: 100%;
-  border: 1px solid;
   margin-top: 12px;
   display: flex;
   flex-direction: column;
@@ -2577,7 +2558,6 @@
 }
 .page-kids-wrapper .value-received-block-wrapper {
   width: 100%;
-  border: 1px solid red;
   height: auto;
   height: 1450px;
   background-image: url("../images/wave-background-image-1.png");
@@ -2593,12 +2573,10 @@
 }
 .page-kids-wrapper .value-received-block-wrapper .value-received-content {
   width: 100%;
-  border: 1px solid red;
 }
 .page-kids-wrapper .value-received-block-wrapper .value-received-content .top-content {
   min-width: 782px;
   height: auto;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2629,7 +2607,6 @@
   display: flex;
   justify-content: flex-end;
   width: fit-content;
-  border: 2px solid green;
   position: relative;
   left: 150px;
 }
@@ -2670,7 +2647,6 @@
   min-width: 874px;
   max-width: 874px;
   height: 896px;
-  border: 2px solid green;
   background-image: url("../images/time-line-background.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -2757,7 +2733,6 @@
   justify-content: center;
 }
 .page-kids-wrapper .method-learn-english-wrapper .method-learn-english-content .method-title-block .left-content {
-  border: 1px solid green;
   position: relative;
   z-index: 4;
 }
@@ -2771,7 +2746,6 @@
 }
 .page-kids-wrapper .method-learn-english-wrapper .method-learn-english-content .method-title-block .bottom-title {
   width: 100%;
-  border: 1px solid;
   display: flex;
   position: relative;
   top: -20px;
@@ -2811,7 +2785,6 @@
   left: -20px;
 }
 .page-kids-wrapper .method-learn-english-wrapper .method-learn-english-content .method-title-block .bottom-title .method-title-2 {
-  border: 1px solid green;
   font-size: 39px;
   line-height: 49px;
   color: #385fca;
@@ -2823,7 +2796,6 @@
   align-items: center;
   position: relative;
   z-index: 2;
-  border: 1px solid red;
 }
 .page-kids-wrapper .method-learn-english-wrapper .method-learn-english-content .method-title-block .right-content .icon-bitu-10 {
   min-width: 126px;
@@ -2854,7 +2826,6 @@
   width: 100%;
   max-width: 955px;
   margin: 40px auto 0px;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2938,7 +2909,6 @@
   background-image: url("../images/method-1-background.png");
 }
 .page-kids-wrapper .method-learn-english-wrapper .method-learn-english-content .list-method-wrapper .interact-method {
-  border: 1px solid red;
   background-image: url("../images/method-2-background.png");
   margin-top: -30px;
   margin-bottom: -30px;
@@ -2953,15 +2923,11 @@
   height: auto;
   padding: 155px 0px 135px;
   position: relative;
-  border: 2px solid green;
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .topic-block-wrapper {
     padding: 0px 0px 50px;
   }
-}
-.page-kids-wrapper .topic-block-wrapper .topic-block-content {
-  border: 2px solid blue;
 }
 .page-kids-wrapper .topic-block-wrapper .top-title-wrapper {
   width: 100%;
@@ -3271,8 +3237,12 @@
 }
 .page-kids-wrapper .feed-back-from-parent-block-wrapper {
   width: 100%;
-  border: 1px solid green;
   padding-bottom: 100px;
+}
+@media only screen and (max-width: 1199px) {
+  .page-kids-wrapper .feed-back-from-parent-block-wrapper {
+    display: none;
+  }
 }
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .title-content-wrapper {
   width: 100%;
@@ -3280,7 +3250,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .title-content-wrapper .top-title-wrapper {
   position: relative;
@@ -3424,7 +3393,6 @@
   height: 44px;
 }
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-pc {
-  border: 1px solid;
   position: relative;
   margin: 40px auto 0px;
   min-width: 1150px;
@@ -3434,7 +3402,6 @@
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  border: 2px solid blue;
   display: flex;
   padding: 48px 124px;
   justify-content: center;
@@ -3511,7 +3478,6 @@
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-pc .column-2-wrapper {
   margin-left: 24px;
   flex-grow: 1;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -3519,7 +3485,6 @@
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-pc .column-2-wrapper .top-column {
   width: 100%;
   height: auto;
-  border: 1px solid green;
   display: flex;
   justify-content: center;
   position: relative;
@@ -3554,7 +3519,6 @@
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-pc .column-2-wrapper .bottom-column {
   width: 100%;
   height: auto;
-  border: 1px solid blue;
   display: flex;
 }
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-pc .column-2-wrapper .parent-feedback-3 {

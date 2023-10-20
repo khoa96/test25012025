@@ -105,7 +105,7 @@
           <div class="common-title-with-background  bitu-for-title">
             <h1 class="title-text txt-uppercase">khoá học bitu dành cho</h1>
           </div>
-          <div class=" bitu-for-main">
+          <div class="bitu-for-main">
             <div class='list-option'>
               <img src="./images/bitu-for-1.png" class="option-item" alt="" />
               <img src="./images/bitu-for-2.png" class="option-item" alt="" />
@@ -141,7 +141,38 @@
           <div class="list-feature-of-class">
             <div class="left-content">
               <div class="video-wrapper">
-                <div>video content</div>
+                <div class="video-content">
+                  <div class="video-item">
+                    <div class="video-item">
+                      <div class="video-content">
+                        <video class="video-element" poster="./images/video-preview-14.png">
+                          <source src="./videos/video-14.mp4" type="video/mp4" />
+                          <source src="./videos/video-14.webm" type="video/webm" />
+                          Your browser does not support the video tag.
+                        </video>
+                        <div class="mask-video">
+                          <span class="btn-play">
+                            <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                              <g clip-path="url(#clip0_4121_24118)">
+                                <path
+                                  d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                  fill="white" />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_4121_24118">
+                                  <rect width="13.95" height="18.6" fill="white"
+                                    transform="translate(24.8008 21.6992)" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="right-content">
@@ -189,14 +220,94 @@
         <div class="list-class-of-kid-wrapper">
           <div class="list-class-of-student">
             <div class="class-item">
-              <div class="video-item">1</div>
+              <div class="video-item">
+                <div class="video-content">
+                  <video class="video-element" poster="./images/video-preview-15.jpeg">
+                    <source src="./videos/video-15.mp4" type="video/mp4" />
+                    <source src="./videos/video-15.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="mask-video">
+                    <span class="btn-play">
+                      <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                        <g clip-path="url(#clip0_4121_24118)">
+                          <path
+                            d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_4121_24118">
+                            <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="class-item">
-              <div class="video-item">2</div>
+              <div class="video-item">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-16.jpeg">
+                      <source src="./videos/video-16.mp4" type="video/mp4" />
+                      <source src="./videos/video-16.webm" type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="class-item">
-              <div class="video-item">3</div>
+              <div class="video-item">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-17.jpeg">
+                      <source src="./videos/video-17.mp4" type="video/mp4" />
+                      <source src="./videos/video-17.webm" type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
           <button class="btn-slider btn-next">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -229,10 +340,67 @@
         <div class="bitu-recommend-list-wrapper bitu-recommend-list-wrapper-1">
           <div class="bitu-recommend-list bitu-recommend-list-1">
             <div class="class-item">
-              <div class="video-item">1</div>
+              <div class="video-item">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-2.png">
+                      <source src="./videos/video-2.mp4" type="video/mp4" />
+                      <source src="./videos/video-2.webm" type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="class-item">
-              <div class="video-item">2</div>
+              <div class="video-item">
+                <div class="video-item">
+                  <div class="video-item">
+                    <div class="video-content">
+                      <video class="video-element" poster="./images/video-preview-3.png">
+                        <source src="./videos/video-3.mp4" type="video/mp4" />
+                        <source src="./videos/video-3.webm" type="video/webm" />
+                        Your browser does not support the video tag.
+                      </video>
+                      <div class="mask-video">
+                        <span class="btn-play">
+                          <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                            <g clip-path="url(#clip0_4121_24118)">
+                              <path
+                                d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                fill="white" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_4121_24118">
+                                <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <button class="btn-slider btn-next">
@@ -270,13 +438,72 @@
           <div class="bitu-recommend-list bitu-recommend-list-2">
             <div class="item-wrapper">
               <div class="class-item">
-                <div class="video-item">1</div>
+
+                <div class="video-item">
+                  <div class="video-item">
+                    <div class="video-content">
+                      <video class="video-element" poster="./images/video-preview-18.png">
+                        <source src="./videos/video-18.mp4" type="video/mp4" />
+                        <source src="./videos/video-18.webm" type="video/webm" />
+                        Your browser does not support the video tag.
+                      </video>
+                      <div class="mask-video">
+                        <span class="btn-play">
+                          <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                            <g clip-path="url(#clip0_4121_24118)">
+                              <path
+                                d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                fill="white" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_4121_24118">
+                                <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <h3 class="text-description">Hot mom Hằng nheo</h3>
             </div>
             <div class="item-wrapper">
               <div class="class-item">
-                <div class="video-item">2</div>
+                <div class="video-item">
+                  <div class="video-item">
+                    <div class="video-content">
+                      <video class="video-element" poster="./images/video-preview-19.png">
+                        <source src="./videos/video-19.mp4" type="video/mp4" />
+                        <source src="./videos/video-19.webm" type="video/webm" />
+                        Your browser does not support the video tag.
+                      </video>
+                      <div class="mask-video">
+                        <span class="btn-play">
+                          <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                            <g clip-path="url(#clip0_4121_24118)">
+                              <path
+                                d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                                fill="white" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_4121_24118">
+                                <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <h3 class="text-description">Hot mom MyanhLily</h3>
             </div>
@@ -397,354 +624,6 @@
       </div>
     </div>
     <!-- END FEEDBACK FROM PARENT BLOCK -->
-
-
-    <!--  START ENSURE BLOCK -->
-    <div class="ensure-block-wrapper">
-      <div class="container">
-        <div class="ensure-block-content">
-          <div class="title-block-wrapper">
-            <div class="common-title-with-background ensure-title">
-              <h1 class="title-text txt-uppercase">480.000 Bạn nhỏ đã học hiệu quả tại Bitu </h1>
-            </div>
-          </div>
-
-          <div class="ensure-description">
-            Cam Kết Lên Trình Độ Sau 36 Buổi <br /> Theo tiêu chuẩn CEFR và Cambridge
-          </div>
-
-          <div class="list-step-wrapper">
-            <div class="list-step">
-              <div class="step-item">
-                <p class="text">Bitu cam kết hiệu quả - Lên Level sau khi hoàn thành 1 lộ trình 36 buổi</p>
-              </div>
-              <div class="step-item">
-                <p class="text">Học viên đảm bảo đúng về tần suất học quy định</p>
-              </div>
-              <div class="step-item">
-                <p class="text">Hoàn thiện đầy đủ số buổi trong chương trình</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="ensure-text-wrapper">
-            <p class="text-description">Nếu không lên được trình độ theo thang tính của Bitu, học viên sẽ được học lại
-              miễn phí cho đến khi lên được trình độ tiếp theo</p>
-            <img src="./images/icon-bitu-6.png" class="icon-bitu-6" alt="" />
-          </div>
-          <div class="register-block">
-            <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--  END ENSURE BLOCK -->
-
-    <!-- START SURVEY IMAGE -->
-    <div class="survey-block-wrapper">
-      <div class="container">
-        <div class="survey-block-content">
-          <div class="title-block-wrapper">
-            <div class="common-title-with-background survey-title">
-              <h1 class="title-text txt-uppercase">Bảng đánh giá định kỳ cho ba mẹ thêm yên tâm</h1>
-            </div>
-          </div>
-
-          <div class="main-content">
-            <div>
-              <div class="left-content">
-                <div class="content-wrapper">
-                  <p class="top-content">Sau mỗi 6 buổi học Bitu sẽ gửi bảng đánh giá về kết quả học tập </p>
-                  <ul class="detail-content">
-                    <li>
-                      <span class="dot"></span>
-                      Cập nhật tiến độ học của bé
-                    </li>
-                    <li>
-                      <span class="dot"></span>
-                      Giúp ba mẹ theo sát bé trong quá trình học tập
-                    </li>
-                    <li>
-                      <span class="dot"></span>
-                      Đánh giá chi tiết kỹ năng nói
-                    </li>
-                    <li>
-                      <span class="dot"></span>
-                      Xác định mục tiêu cụ thể sau khi con hoàn thành lộ trình
-                    </li>
-                    <li>
-                      <span class="dot"></span>
-                      Cập nhật trình độ hiện tại của con
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="register-bottom">
-                <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
-              </div>
-            </div>
-            <div class="right-content">
-              <img src="./images/survey-image.png" class="survey-image" alt="">
-              <img src="./images/icon-bitu-7.png" class="icon-bitu-7" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- END SURVEY IMAGE -->
-
-    <!-- START VALUE RECEIVED BLOCK START -->
-    <div class="value-received-block-wrapper">
-      <div class="container">
-        <div class="value-received-content">
-          <div class="top-content">
-            <div class="title-1-wrapper">
-              <h3 class="text-title">Con sẽ nhận được gì</h3>
-              <img src="./images/icon-bitu-9.png" class="icon-bitu-9" alt="" />
-            </div>
-            <div class="title-2-wrapper">
-              <div class="mask"></div>
-              <div class="text-title-2">sau khi học cùng Bitu?</div>
-            </div>
-          </div>
-          <div class="main-content-wrapper">
-            <div class="time-line-content">
-              <p class="timeline-item">Yêu thích và tự giác luyện nói tiếng Anh.</p>
-              <p class="timeline-item"> Tự tin phát âm, tăng phản xạ ngôn ngữ nhạy bén.</p>
-              <p class="timeline-item">Tạo nền tảng vững chắc để con phát triển cao và xa hơn trong tương lai.</p>
-              <p class="timeline-item">x10 khả năng tư duy logic, giải quyết vấn đề nhờ những kỹ năng mềm học được.</p>
-            </div>
-          </div>
-
-          <div class="qoute-message-wrapper">
-            <p class="text-message"> Tương lai con bay xa tỏa sáng, niềm tự hào của bố mẹ</p>
-          </div>
-          <button class="btn-sign-up-for-trial">
-            đăng ký học thử
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- END VALUE RECEIVED BLOCK START -->
-
-    <!--START METHOD LEARN ENGLISH BLOCK -->
-    <div class="method-learn-english-wrapper">
-      <div class="container">
-        <div class="method-learn-english-content">
-          <div class="method-title-block">
-            <div class="left-content">
-              <h3 class="method-title-1">Phương pháp</h3>
-              <div class="bottom-title">
-                <ul class="list-character">
-                  <li class="character-item">F</li>
-                  <li class="character-item">I</li>
-                  <li class="character-item">T</li>
-                </ul>
-                <h3 class="method-title-2">giúp trẻ say mê luyện nói tiếng Anh</h3>
-              </div>
-            </div>
-            <div class="right-content">
-              <img src="./images/icon-bitu-10.png" class="icon-bitu-10" alt="">
-            </div>
-          </div>
-
-          <div class="method-description-block">
-            <p class="text-description">
-              F.I.T là viết tắt của Fun - Interact - Talk hiểu đơn giản là (Luyện nói thông qua
-              việc xây dựng lớp học vui vẻ, trẻ thấy thú vị và hào hứng, được tương tác với
-              thầy cô nên hứng thú học và nói nhiều hơn). <br />
-              Đây là phương pháp giúp các con luyện nói nhanh chóng & hiệu quả nhất.
-            </p>
-          </div>
-
-          <div class="list-method-wrapper">
-            <div class="method-item fun-method">
-              <span class="text-label fun-label">fun</span>
-              <img src="./images/icon-setting.png" class="icon-setting" alt="" />
-              <img src=" ./images/icon-cloud-4.png" class="icon-cloud-4" alt="" />
-              <p class="text-description"> Môi trường học chú trọng tạo không khí vui vẻ, thoải mái.
-                Các thầy cô giáo tại Bitu đều rất am hiểu tâm lý của trẻ, nhiệt huyết
-                và năng lượng nên luôn tạo không khí buổi học hào hứng, kích thích
-                trẻ ham học. Lớp học 1 kèm 1 nên thầy cô luôn động viên, giúp con
-                tự tin, loại bỏ tâm lý sợ sai, xấu hổ, tích cực nói tiếng Anh.</p>
-            </div>
-            <div class="clamp-wrapper">
-              <div class="left-clamp">
-                <img src="./images/icon-clamp.png" class="icon-clamp" alt="" />
-              </div>
-              <div class="right-clamp">
-                <img src="./images/icon-clamp.png" class="icon-clamp" alt="" />
-              </div>
-            </div>
-            <div class="method-item interact-method">
-              <span class="text-label interact-label">Interact</span>
-              <img src="./images/icon-setting.png" class="icon-setting" alt="" />
-              <img src=" ./images/icon-cloud-4.png" class="icon-cloud-4" alt="" />
-              <p class="text-description">Tương tác hai chiều xuyên suốt buổi học.
-                Việc tạo môi trường học vui vẻ sẽ giúp thúc đẩy tương tác hai chiều
-                giữa giáo viên và trẻ, nhờ đó thúc đẩy khả năng phản xạ và chủ động
-                nói tiếng Anh của trẻ. Đặc biệt, ở Bitu trẻ được học trực tiếp 1 kèm 1
-                với giáo viên nước ngoài chứ không phải học qua video thu sẵn.</p>
-            </div>
-            <div class="clamp-wrapper">
-              <div class="left-clamp">
-                <img src="./images/icon-clamp.png" class="icon-clamp" alt="" />
-              </div>
-              <div class="right-clamp">
-                <img src="./images/icon-clamp.png" class="icon-clamp" alt="" />
-              </div>
-            </div>
-            <div class="method-item talk-method">
-              <img src="./images/icon-setting.png" class="icon-setting" alt="" />
-              <img src=" ./images/icon-cloud-4.png" class="icon-cloud-4" alt="" />
-              <span class="text-label talk-label">Talk</span>
-              <p class="text-description">Cách nhanh nhất để nói tiếng Anh thuần thục là thực hành.
-                Nhờ có môi trường học vui vẻ, tương tác hai chiều giữa thầy/cô và
-                trò, con sẽ tích cực nói liên tục, với rất nhiều chủ đề thú vị, từ
-                cuộc sống hàng ngày, bài tập trên lớp cho đến chủ đề về khoa học,
-                kỹ năng mềm.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--END METHOD LEARN ENGLISH BLOCK -->
-
-    <!-- START PRICE BLOCK  -->
-    <div class="price-block-wrapper">
-      <div class="container">
-        <div class="price-content-block">
-          <div class="title-wrapper">
-            <h2 class="title-1 common-primary-title">các chương trình học 1 kèm 1 tại bitu</h2>
-            <h2 class="title-2 common-primary-title">cam kết đầu ra chuẩn cerf và cambridge</h2>
-          </div>
-          <ul class="list-option list-option-for-mb">
-            <div class="option-item">
-              <img src="./images/icon-tick.png" class="icon-tick" alt="">
-              <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
-            </div>
-            <div class="option-item">
-              <img src="./images/icon-tick.png" class="icon-tick" alt="">
-              <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
-            </div>
-          </ul>
-
-
-          <div class="list-price">
-            <div class="price-item">
-              <div class="month">
-                <span class="value">1 tháng</span>
-              </div>
-              <div class="list-detail">
-                <div class="detail-value-item">
-                  <img src="./images/philippine-flag.png" class="image-flag" alt="" />
-                  <span class="teacher-label">Giáo viên Philippines</span>
-                  <h3 class="lesson-count lesson-label">12 buổi</h3>
-                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
-                  <span class="sub-value">130.000đ/buổi</span>
-                </div>
-                <div class="detail-value-item">
-                  <img src="./images/country-flag.png" class="image-flag" alt="" />
-                  <span class="teacher-label">Giáo viên Bản xứ</span>
-                  <h3 class="lesson-count lesson-label">8 buổi</h3>
-                  <h3 class="lesson-price lesson-label">1.920.000đ</h3>
-                  <span class="sub-value">240.000đ/buổi</span>
-                </div>
-              </div>
-
-              <ul class="list-option">
-                <div class="option-item">
-                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
-                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
-                </div>
-                <div class="option-item">
-                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
-                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
-                </div>
-              </ul>
-
-              <div class="item-footer">
-                <button class="btn-choose">chọn gói</button>
-              </div>
-            </div>
-            <div class="price-item">
-              <div class="month">
-                <span class="value">3 tháng</span>
-              </div>
-              <div class="list-detail">
-                <div class="detail-value-item">
-                  <img src="./images/philippine-flag.png" class="image-flag" alt="" />
-                  <span class="teacher-label">Giáo viên Philippines</span>
-                  <h3 class="lesson-count lesson-label">36 buổi</h3>
-                  <h3 class="lesson-price lesson-label">3.960.000đ</h3>
-                  <span class="sub-value">110.000đ/buổi</span>
-                </div>
-                <div class="detail-value-item">
-                  <img src="./images/country-flag.png" class="image-flag" alt="" />
-                  <span class="teacher-label">Giáo viên Bản xứ</span>
-                  <h3 class="lesson-count lesson-label">30 buổi</h3>
-                  <h3 class="lesson-price lesson-label">6.900.000đ</h3>
-                  <span class="sub-value">230.000đ/buổi</span>
-                </div>
-              </div>
-
-              <ul class="list-option">
-                <div class="option-item">
-                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
-                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
-                </div>
-                <div class="option-item">
-                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
-                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
-                </div>
-              </ul>
-
-              <div class="item-footer">
-                <button class="btn-choose">chọn gói</button>
-              </div>
-            </div>
-            <div class="price-item">
-              <div class="month">
-                <span class="value">12 tháng</span>
-              </div>
-              <div class="list-detail">
-                <div class="detail-value-item">
-                  <img src="./images/philipine-flag.png" class="image-flag" alt="" />
-                  <span class="teacher-label">Giáo viên Philippines</span>
-                  <h3 class="lesson-count lesson-label">98 buổi</h3>
-                  <h3 class="lesson-price lesson-label">8.960.000đ</h3>
-                  <span class="sub-value">90.000đ/buổi</span>
-                </div>
-                <div class="detail-value-item">
-                  <img src="./images/country-flag.png" class="image-flag" alt="" />
-                  <span class="teacher-label">Giáo viên Bản xứ</span>
-                  <h3 class="lesson-count lesson-label">120 buổi</h3>
-                  <h3 class="lesson-price lesson-label">21.900.000đ</h3>
-                  <span class="sub-value">180.000đ/buổi</span>
-                </div>
-              </div>
-
-              <ul class="list-option">
-                <div class="option-item">
-                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
-                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
-                </div>
-                <div class="option-item">
-                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
-                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
-                </div>
-              </ul>
-
-              <div class="item-footer">
-                <button class="btn-choose">chọn gói</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- END PRICE BLOCK  -->
-
 
     <!-- START TEACHER TEAMM OF BITU -->
     <div class="teacher-team-of-bitu-wrapper">
@@ -1351,399 +1230,830 @@
           </div>
         </div>
       </div>
-      <!-- START ROUTE BLOCK  -->
+    </div>
+    <!-- END ROUTE BLOCK  -->
 
-      <!-- START REGISTER BLOCK 2 -->
-      <div class="register-block-2-wrapper">
-        <div class="container">
-          <div class="register-block-2-content">
-            <div class="left-content">
-              <h2 class="discount-title-1">Ưu đãi lớn</h2>
-              <h3 class="discount-title-2"> cuối cùng trong năm</h3>
-              <img src="./images/girl-2-image.png" class="girl-image" alt="">
+
+    <!--  START ENSURE BLOCK -->
+    <div class="ensure-block-wrapper">
+      <div class="container">
+        <div class="ensure-block-content">
+          <div class="title-block-wrapper">
+            <div class="common-title-with-background ensure-title">
+              <h1 class="title-text txt-uppercase">480.000 Bạn nhỏ đã học hiệu quả tại Bitu </h1>
+            </div>
+          </div>
+
+          <div class="ensure-description">
+            Cam Kết Lên Trình Độ Sau 36 Buổi <br /> Theo tiêu chuẩn CEFR và Cambridge
+          </div>
+
+          <div class="list-step-wrapper">
+            <div class="list-step">
+              <div class="step-item">
+                <p class="text">Bitu cam kết hiệu quả - Lên Level sau khi hoàn thành 1 lộ trình 36 buổi</p>
+              </div>
+              <div class="step-item">
+                <p class="text">Học viên đảm bảo đúng về tần suất học quy định</p>
+              </div>
+              <div class="step-item">
+                <p class="text">Hoàn thiện đầy đủ số buổi trong chương trình</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ensure-text-wrapper">
+            <p class="text-description">Nếu không lên được trình độ theo thang tính của Bitu, học viên sẽ được học lại
+              miễn phí cho đến khi lên được trình độ tiếp theo</p>
+            <img src="./images/icon-bitu-6.png" class="icon-bitu-6" alt="" />
+          </div>
+          <div class="register-block">
+            <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  END ENSURE BLOCK -->
+
+    <!-- START SURVEY IMAGE -->
+    <div class="survey-block-wrapper">
+      <div class="container">
+        <div class="survey-block-content">
+          <div class="title-block-wrapper">
+            <div class="common-title-with-background survey-title">
+              <h1 class="title-text txt-uppercase">Bảng đánh giá định kỳ cho ba mẹ thêm yên tâm</h1>
+            </div>
+          </div>
+
+          <div class="main-content">
+            <div>
+              <div class="left-content">
+                <div class="content-wrapper">
+                  <p class="top-content">Sau mỗi 6 buổi học Bitu sẽ gửi bảng đánh giá về kết quả học tập </p>
+                  <ul class="detail-content">
+                    <li>
+                      <span class="dot"></span>
+                      Cập nhật tiến độ học của bé
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Giúp ba mẹ theo sát bé trong quá trình học tập
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Đánh giá chi tiết kỹ năng nói
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Xác định mục tiêu cụ thể sau khi con hoàn thành lộ trình
+                    </li>
+                    <li>
+                      <span class="dot"></span>
+                      Cập nhật trình độ hiện tại của con
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="register-bottom">
+                <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
+              </div>
             </div>
             <div class="right-content">
-              <div class="main-content">
-                <div class="top-content">
-                  <h3 class="top-title-1">quà độc quyền </h3>
-                  <h2 class="top-title-2">100 suất</h2>
-                </div>
-                <div class="timer-count-down">
-                  <div class="day-timer timer-item">
-                    <span class="value">00</span>
-                    <span class="label">Ngày</span>
-                  </div>
-                  <div class="hour-timer timer-item">
-                    <span class="value">12</span>
-                    <span class="label">Giờ</span>
-                  </div>
-                  <div class="minute-timer timer-item">
-                    <span class="value">30</span>
-                    <span class="label">Phút</span>
-                  </div>
-                  <div class="second-timer timer-item">
-                    <span class="value">09</span>
-                    <span class="label">Giây</span>
-                  </div>
-                </div>
-                <p class="description">Ba mẹ đăng ký nhận ưu đãi tại đây</p>
-                <div class="register-form-wrapper">
-                  <input type="text" name="" value="" placeholder="Họ và tên..." class="input-item" />
-                  <input type="text" name="" value="" placeholder="Số điện thoại..." class="input-item" />
-                  <input type="text" name="" value="" placeholder="Tuổi con..." class="input-item" />
-                </div>
-                <button class="btn-register">Đăng ký ngay</button>
-              </div>
+              <img src="./images/survey-image.png" class="survey-image" alt="">
+              <img src="./images/icon-bitu-7.png" class="icon-bitu-7" alt="">
             </div>
           </div>
         </div>
       </div>
-      <!-- END REGISTER BLOCK 2 -->
-
-
-      <!-- START TALK ABOUT BITU BLOCK -->
-      <div class="talk-about-bitu-block-wrapper">
-        <div class="container">
-          <div class="talk-about-bitu-content">
-            <div class="top-title-block">
-              <img src="./images/icon-star-3.png" class="icon-star-3" alt="" />
-              <div class="main-title">
-                <div class="mask"></div>
-                <h3 class="title-content">
-                  Báo chí nói gì về Bitu
-                </h3>
-              </div>
-              <img src="./images/icon-star-3.png" class="icon-star-3" alt="" />
-            </div>
-
-            <div class="list-news-wrapper">
-              <div class="news-item">
-                <div class="video-wrapper">1</div>
-                <div class="news-content">
-                  <span class="branch-name">VTV2 Social</span>
-                  <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
-                </div>
-              </div>
-              <div class="news-item">
-                <div class="video-wrapper">2</div>
-                <div class="news-content">
-                  <span class="branch-name">VTV2 Social</span>
-                  <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
-                </div>
-              </div>
-              <div class="news-item">
-                <div class="video-wrapper">3</div>
-                <div class="news-content">
-                  <span class="branch-name">VTV2 Social</span>
-                  <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- END TALK ABOUT BITU BLOCK -->
     </div>
+    <!-- END SURVEY IMAGE -->
+
+    <!-- START VALUE RECEIVED BLOCK START -->
+    <div class="value-received-block-wrapper">
+      <div class="container">
+        <div class="value-received-content">
+          <div class="top-content">
+            <div class="title-1-wrapper">
+              <h3 class="text-title">Con sẽ nhận được gì</h3>
+              <img src="./images/icon-bitu-9.png" class="icon-bitu-9" alt="" />
+            </div>
+            <div class="title-2-wrapper">
+              <div class="mask"></div>
+              <div class="text-title-2">sau khi học cùng Bitu?</div>
+            </div>
+          </div>
+          <div class="main-content-wrapper">
+            <div class="time-line-content">
+              <p class="timeline-item">Yêu thích và tự giác luyện nói tiếng Anh.</p>
+              <p class="timeline-item"> Tự tin phát âm, tăng phản xạ ngôn ngữ nhạy bén.</p>
+              <p class="timeline-item">Tạo nền tảng vững chắc để con phát triển cao và xa hơn trong tương lai.</p>
+              <p class="timeline-item">x10 khả năng tư duy logic, giải quyết vấn đề nhờ những kỹ năng mềm học được.</p>
+            </div>
+          </div>
+
+          <div class="qoute-message-wrapper">
+            <p class="text-message"> Tương lai con bay xa tỏa sáng, niềm tự hào của bố mẹ</p>
+          </div>
+          <button class="btn-sign-up-for-trial">
+            đăng ký học thử
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- END VALUE RECEIVED BLOCK START -->
+
+    <!--START METHOD LEARN ENGLISH BLOCK -->
+    <div class="method-learn-english-wrapper">
+      <div class="container">
+        <div class="method-learn-english-content">
+          <div class="method-title-block">
+            <div class="left-content">
+              <h3 class="method-title-1">Phương pháp</h3>
+              <div class="bottom-title">
+                <ul class="list-character">
+                  <li class="character-item">F</li>
+                  <li class="character-item">I</li>
+                  <li class="character-item">T</li>
+                </ul>
+                <h3 class="method-title-2">giúp trẻ say mê luyện nói tiếng Anh</h3>
+              </div>
+            </div>
+            <div class="right-content">
+              <img src="./images/icon-bitu-10.png" class="icon-bitu-10" alt="">
+            </div>
+          </div>
+
+          <div class="method-description-block">
+            <p class="text-description">
+              F.I.T là viết tắt của Fun - Interact - Talk hiểu đơn giản là (Luyện nói thông qua
+              việc xây dựng lớp học vui vẻ, trẻ thấy thú vị và hào hứng, được tương tác với
+              thầy cô nên hứng thú học và nói nhiều hơn). <br />
+              Đây là phương pháp giúp các con luyện nói nhanh chóng & hiệu quả nhất.
+            </p>
+          </div>
+
+          <div class="list-method-wrapper">
+            <div class="method-item fun-method">
+              <span class="text-label fun-label">fun</span>
+              <img src="./images/icon-setting.png" class="icon-setting" alt="" />
+              <img src=" ./images/icon-cloud-4.png" class="icon-cloud-4" alt="" />
+              <p class="text-description"> Môi trường học chú trọng tạo không khí vui vẻ, thoải mái.
+                Các thầy cô giáo tại Bitu đều rất am hiểu tâm lý của trẻ, nhiệt huyết
+                và năng lượng nên luôn tạo không khí buổi học hào hứng, kích thích
+                trẻ ham học. Lớp học 1 kèm 1 nên thầy cô luôn động viên, giúp con
+                tự tin, loại bỏ tâm lý sợ sai, xấu hổ, tích cực nói tiếng Anh.</p>
+            </div>
+            <div class="clamp-wrapper">
+              <div class="left-clamp">
+                <img src="./images/icon-clamp.png" class="icon-clamp" alt="" />
+              </div>
+              <div class="right-clamp">
+                <img src="./images/icon-clamp.png" class="icon-clamp" alt="" />
+              </div>
+            </div>
+            <div class="method-item interact-method">
+              <span class="text-label interact-label">Interact</span>
+              <img src="./images/icon-setting.png" class="icon-setting" alt="" />
+              <img src=" ./images/icon-cloud-4.png" class="icon-cloud-4" alt="" />
+              <p class="text-description">Tương tác hai chiều xuyên suốt buổi học.
+                Việc tạo môi trường học vui vẻ sẽ giúp thúc đẩy tương tác hai chiều
+                giữa giáo viên và trẻ, nhờ đó thúc đẩy khả năng phản xạ và chủ động
+                nói tiếng Anh của trẻ. Đặc biệt, ở Bitu trẻ được học trực tiếp 1 kèm 1
+                với giáo viên nước ngoài chứ không phải học qua video thu sẵn.</p>
+            </div>
+            <div class="clamp-wrapper">
+              <div class="left-clamp">
+                <img src="./images/icon-clamp.png" class="icon-clamp" alt="" />
+              </div>
+              <div class="right-clamp">
+                <img src="./images/icon-clamp.png" class="icon-clamp" alt="" />
+              </div>
+            </div>
+            <div class="method-item talk-method">
+              <img src="./images/icon-setting.png" class="icon-setting" alt="" />
+              <img src=" ./images/icon-cloud-4.png" class="icon-cloud-4" alt="" />
+              <span class="text-label talk-label">Talk</span>
+              <p class="text-description">Cách nhanh nhất để nói tiếng Anh thuần thục là thực hành.
+                Nhờ có môi trường học vui vẻ, tương tác hai chiều giữa thầy/cô và
+                trò, con sẽ tích cực nói liên tục, với rất nhiều chủ đề thú vị, từ
+                cuộc sống hàng ngày, bài tập trên lớp cho đến chủ đề về khoa học,
+                kỹ năng mềm.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--END METHOD LEARN ENGLISH BLOCK -->
+
+    <!-- START PRICE BLOCK  -->
+    <div class="price-block-wrapper">
+      <div class="container">
+        <div class="price-content-block">
+          <div class="title-wrapper">
+            <h2 class="title-1 common-primary-title">các chương trình học 1 kèm 1 tại bitu</h2>
+            <h2 class="title-2 common-primary-title">cam kết đầu ra chuẩn cerf và cambridge</h2>
+          </div>
+          <ul class="list-option list-option-for-mb">
+            <div class="option-item">
+              <img src="./images/icon-tick.png" class="icon-tick" alt="">
+              <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+            </div>
+            <div class="option-item">
+              <img src="./images/icon-tick.png" class="icon-tick" alt="">
+              <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+            </div>
+          </ul>
 
 
-    <?php include "templates/footer.php"; ?>
-    <script>
-      $(function () {
-        // PC
-        var listClassOfStudent = $('.list-class-of-student').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: false,
-          swipe: false,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              autoplay: true,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              slidesToScroll: 1,
-              autoplay: false,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
+          <div class="list-price">
+            <div class="price-item">
+              <div class="month">
+                <span class="value">1 tháng</span>
+              </div>
+              <div class="list-detail">
+                <div class="detail-value-item">
+                  <img src="./images/philippine-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">12 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.590.000đ</h3>
+                  <span class="sub-value">130.000đ/buổi</span>
+                </div>
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Bản xứ</span>
+                  <h3 class="lesson-count lesson-label">8 buổi</h3>
+                  <h3 class="lesson-price lesson-label">1.920.000đ</h3>
+                  <span class="sub-value">240.000đ/buổi</span>
+                </div>
+              </div>
+
+              <ul class="list-option">
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+                </div>
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+                </div>
+              </ul>
+
+              <div class="item-footer">
+                <button class="btn-choose">chọn gói</button>
+              </div>
+            </div>
+            <div class="price-item">
+              <div class="month">
+                <span class="value">3 tháng</span>
+              </div>
+              <div class="list-detail">
+                <div class="detail-value-item">
+                  <img src="./images/philippine-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">36 buổi</h3>
+                  <h3 class="lesson-price lesson-label">3.960.000đ</h3>
+                  <span class="sub-value">110.000đ/buổi</span>
+                </div>
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Bản xứ</span>
+                  <h3 class="lesson-count lesson-label">30 buổi</h3>
+                  <h3 class="lesson-price lesson-label">6.900.000đ</h3>
+                  <span class="sub-value">230.000đ/buổi</span>
+                </div>
+              </div>
+
+              <ul class="list-option">
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+                </div>
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+                </div>
+              </ul>
+
+              <div class="item-footer">
+                <button class="btn-choose">chọn gói</button>
+              </div>
+            </div>
+            <div class="price-item">
+              <div class="month">
+                <span class="value">12 tháng</span>
+              </div>
+              <div class="list-detail">
+                <div class="detail-value-item">
+                  <img src="./images/philipine-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Philippines</span>
+                  <h3 class="lesson-count lesson-label">98 buổi</h3>
+                  <h3 class="lesson-price lesson-label">8.960.000đ</h3>
+                  <span class="sub-value">90.000đ/buổi</span>
+                </div>
+                <div class="detail-value-item">
+                  <img src="./images/country-flag.png" class="image-flag" alt="" />
+                  <span class="teacher-label">Giáo viên Bản xứ</span>
+                  <h3 class="lesson-count lesson-label">120 buổi</h3>
+                  <h3 class="lesson-price lesson-label">21.900.000đ</h3>
+                  <span class="sub-value">180.000đ/buổi</span>
+                </div>
+              </div>
+
+              <ul class="list-option">
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Học 1 kèm 1 với giáo viên người nước ngoài</p>
+                </div>
+                <div class="option-item">
+                  <img src="./images/icon-tick.png" class="icon-tick" alt="">
+                  <p class="text">Tặng khóa học tiền cơ bản: Ngữ Pháp và Từ Vựng Tiếng Anh cho người mới bắt đầu.</p>
+                </div>
+              </ul>
+
+              <div class="item-footer">
+                <button class="btn-choose">chọn gói</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PRICE BLOCK  -->
+
+
+    <!-- START REGISTER BLOCK 2 -->
+    <div class="register-block-2-wrapper">
+      <div class="container">
+        <div class="register-block-2-content">
+          <div class="left-content">
+            <h2 class="discount-title-1">Ưu đãi lớn</h2>
+            <h3 class="discount-title-2"> cuối cùng trong năm</h3>
+            <img src="./images/girl-2-image.png" class="girl-image" alt="">
+          </div>
+          <div class="right-content">
+            <div class="main-content">
+              <div class="top-content">
+                <h3 class="top-title-1">quà độc quyền </h3>
+                <h2 class="top-title-2">100 suất</h2>
+              </div>
+              <div class="timer-count-down">
+                <div class="day-timer timer-item">
+                  <span class="value">00</span>
+                  <span class="label">Ngày</span>
+                </div>
+                <div class="hour-timer timer-item">
+                  <span class="value">12</span>
+                  <span class="label">Giờ</span>
+                </div>
+                <div class="minute-timer timer-item">
+                  <span class="value">30</span>
+                  <span class="label">Phút</span>
+                </div>
+                <div class="second-timer timer-item">
+                  <span class="value">09</span>
+                  <span class="label">Giây</span>
+                </div>
+              </div>
+              <p class="description">Ba mẹ đăng ký nhận ưu đãi tại đây</p>
+              <div class="register-form-wrapper">
+                <input type="text" name="" value="" placeholder="Họ và tên..." class="input-item" />
+                <input type="text" name="" value="" placeholder="Số điện thoại..." class="input-item" />
+                <input type="text" name="" value="" placeholder="Tuổi con..." class="input-item" />
+              </div>
+              <button class="btn-register">Đăng ký ngay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END REGISTER BLOCK 2 -->
+
+
+    <!-- START TALK ABOUT BITU BLOCK -->
+    <div class="talk-about-bitu-block-wrapper">
+      <div class="container">
+        <div class="talk-about-bitu-content">
+          <div class="top-title-block">
+            <img src="./images/icon-star-3.png" class="icon-star-3" alt="" />
+            <div class="main-title">
+              <div class="mask"></div>
+              <h3 class="title-content">
+                Báo chí nói gì về Bitu
+              </h3>
+            </div>
+            <img src="./images/icon-star-3.png" class="icon-star-3" alt="" />
+          </div>
+
+          <div class="list-news-wrapper">
+            <div class="news-item">
+              <div class="video-wrapper">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-11.jpeg">
+                      <source src="./videos/video-11.mp4" type="video/mp4" />
+                      <source src="./videos/video-11.webm" type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="news-content">
+                <span class="branch-name">VTV2 Social</span>
+                <h3 class="news-title">Luyện nói tiếng Anh dễ dàng hơn nhờ ứng dụng Bitu</h3>
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="video-wrapper">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-12.jpeg">
+                      <source src="./videos/video-12.mp4" type="video/mp4" />
+                      <source src="./videos/video-12.webm" type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="news-content">
+                <span class="branch-name">VTC Social</span>
+                <h3 class="news-title">VTC gợi ý Bitu là ứng dụng giúp nâng cao trình độ nói tiếng Anh</h3>
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="video-wrapper">
+                <div class="video-item">
+                  <div class="video-content">
+                    <video class="video-element" poster="./images/video-preview-13.jpeg">
+                      <source src="./videos/video-13.mp4" type="video/mp4" />
+                      <source src="./videos/video-13.webm" type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="mask-video">
+                      <span class="btn-play">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect opacity="0.6" width="62" height="62" rx="31" fill="#1A202C" />
+                          <g clip-path="url(#clip0_4121_24118)">
+                            <path
+                              d="M38.2509 29.9216L26.1103 21.8275C25.9723 21.736 25.8191 21.693 25.6651 21.7025C25.5111 21.712 25.3615 21.7737 25.2304 21.8817C25.0993 21.9898 24.991 22.1407 24.9159 22.3201C24.8407 22.4995 24.8011 22.7015 24.8008 22.9071V39.0945C24.801 39.3 24.8406 39.5021 24.9158 39.6815C24.991 39.8609 25.0992 40.0118 25.2304 40.1198C25.3615 40.2279 25.5112 40.2895 25.6652 40.2988C25.8191 40.3082 25.9724 40.265 26.1103 40.1733L38.2509 32.08C38.4012 31.9797 38.5276 31.8257 38.6159 31.6351C38.7043 31.4445 38.751 31.2248 38.751 31.0008C38.751 30.7767 38.7043 30.5571 38.6159 30.3665C38.5276 30.1759 38.4012 30.0218 38.2509 29.9216Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_4121_24118">
+                              <rect width="13.95" height="18.6" fill="white" transform="translate(24.8008 21.6992)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="news-content">
+                <span class="branch-name">VTV3 Social</span>
+                <h3 class="news-title">Đài truyền hình Việt Nam VTV kiểm chứng chất lượng của Bitu</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END TALK ABOUT BITU BLOCK -->
+  </div>
+
+
+  <?php include "templates/footer.php"; ?>
+  <script>
+    $(function () {
+      // PC
+      var listClassOfStudent = $('.list-class-of-student').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: false,
+        swipe: false,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            autoplay: true,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
           }
-          ]
-        });
-
-        $('.list-class-of-kid-wrapper .btn-next').on('click', function () {
-          listClassOfStudent.slick('next');
-        });
-
-        var bituRecommend = $('.bitu-recommend-list-1').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: false,
-          swipe: false,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              autoplay: true,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              slidesToScroll: 1,
-              autoplay: false,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            slidesToScroll: 1,
+            autoplay: false,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
           }
-          ]
-        });
-
-        $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function () {
-          bituRecommend.slick('next');
-        });
-
-        var bituRecommend2 = $('.bitu-recommend-list-2').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: false,
-          infinite: false,
-          swipe: false,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              autoplay: true,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              speed: 600,
-              autoplaySpeed: 6000,
-              slidesToScroll: 1,
-              autoplay: false,
-              infinite: true,
-              swipe: true,
-              fade: false,
-              dots: false,
-              arrows: false,
-            }
-          }
-          ]
-        });
-
-        $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function () {
-          bituRecommend2.slick('next');
-        });
-
-        var teacherTeamOfBitu1 = $('.teacher-team-of-bitu-1').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: true,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
-          }
-          ]
-        });
-
-        $('.teacher-team-of-bitu-slider-1 .btn-next').on('click', function () {
-          teacherTeamOfBitu1.slick('next');
-        });
-
-
-        $('.teacher-team-of-bitu-slider-1 .btn-prev').on('click', function () {
-          teacherTeamOfBitu1.slick('prev');
-        });
-        var teacherTeamOfBitu2 = $('.teacher-team-of-bitu-2').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: true,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
-          }
-          ]
-        });
-
-        $('.teacher-team-of-bitu-slider-2 .btn-next').on('click', function () {
-          teacherTeamOfBitu2.slick('next');
-        });
-
-
-        $('.teacher-team-of-bitu-slider-2 .btn-prev').on('click', function () {
-          teacherTeamOfBitu2.slick('prev');
-        });
+        }
+        ]
       });
-    </script>
-    <script>
-      /* -----------------------------------------------------------
-                                                                                                                                                                          Effective slider
-                                                                                                                                                                    --    --------------------------------------------------------- */
-      $(function () {
-        // PC
-        var nativeTeacherSlider = $('.list-teacher-1').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: true,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          variableWidth: true,
-          adaptiveHeight: true,
-          slidesToScroll: 1,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
-          }
-          ]
-        });
 
-        $('.native-teacher-slider .btn-prev').on('click', function () {
-          nativeTeacherSlider.slick('prev');
-        });
-        $('.native-teacher-slider .btn-next').on('click', function () {
-          nativeTeacherSlider.slick('next');
-        });
+      $('.list-class-of-kid-wrapper .btn-next').on('click', function () {
+        listClassOfStudent.slick('next');
       });
 
-      $(function () {
-        // PC
-        var philippineTeacherSlider = $('.list-teacher-2').slick({
-          speed: 600,
-          autoplaySpeed: 6000,
-          autoplay: true,
-          infinite: true,
-          swipe: true,
-          fade: false,
-          dots: false,
-          arrows: false,
-          slidesToShow: 4,
-          variableWidth: true,
-          adaptiveHeight: true,
-          slidesToScroll: 1,
-          responsive: [{
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1
-            }
+      var bituRecommend = $('.bitu-recommend-list-1').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: false,
+        swipe: false,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            autoplay: true,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
           }
-          ]
-        });
-
-        $('.philippine-teacher-list-wrapper .btn-prev').on('click', function () {
-          philippineTeacherSlider.slick('prev');
-        });
-        $('.philippine-teacher-list-wrapper .btn-next').on('click', function () {
-          philippineTeacherSlider.slick('next');
-        });
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            slidesToScroll: 1,
+            autoplay: false,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        }
+        ]
       });
-    </script>
+
+      $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function () {
+        bituRecommend.slick('next');
+      });
+
+      var bituRecommend2 = $('.bitu-recommend-list-2').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: false,
+        infinite: false,
+        swipe: false,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            autoplay: true,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            slidesToScroll: 1,
+            autoplay: false,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        }
+        ]
+      });
+
+      $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function () {
+        bituRecommend2.slick('next');
+      });
+
+      var teacherTeamOfBitu1 = $('.teacher-team-of-bitu-1').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+        ]
+      });
+
+      $('.teacher-team-of-bitu-slider-1 .btn-next').on('click', function () {
+        teacherTeamOfBitu1.slick('next');
+      });
+
+
+      $('.teacher-team-of-bitu-slider-1 .btn-prev').on('click', function () {
+        teacherTeamOfBitu1.slick('prev');
+      });
+      var teacherTeamOfBitu2 = $('.teacher-team-of-bitu-2').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+        ]
+      });
+
+      $('.teacher-team-of-bitu-slider-2 .btn-next').on('click', function () {
+        teacherTeamOfBitu2.slick('next');
+      });
+
+
+      $('.teacher-team-of-bitu-slider-2 .btn-prev').on('click', function () {
+        teacherTeamOfBitu2.slick('prev');
+      });
+    });
+  </script>
+  <script>
+    /* -----------------------------------------------------------
+                                                                                                                                                                                                        Effective slider
+                                                                                                                                                                                                  --    --------------------------------------------------------- */
+    $(function () {
+      // PC
+      var nativeTeacherSlider = $('.list-teacher-1').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        variableWidth: true,
+        adaptiveHeight: true,
+        slidesToScroll: 1,
+        responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+        ]
+      });
+
+      $('.native-teacher-slider .btn-prev').on('click', function () {
+        nativeTeacherSlider.slick('prev');
+      });
+      $('.native-teacher-slider .btn-next').on('click', function () {
+        nativeTeacherSlider.slick('next');
+      });
+    });
+
+    $(function () {
+      // PC
+      var philippineTeacherSlider = $('.list-teacher-2').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        variableWidth: true,
+        adaptiveHeight: true,
+        slidesToScroll: 1,
+        responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+        ]
+      });
+
+      $('.philippine-teacher-list-wrapper .btn-prev').on('click', function () {
+        philippineTeacherSlider.slick('prev');
+      });
+      $('.philippine-teacher-list-wrapper .btn-next').on('click', function () {
+        philippineTeacherSlider.slick('next');
+      });
+    });
+  </script>
+  <script src="js/video.js"></script>
 </body>
 
 </html>
