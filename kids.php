@@ -106,11 +106,41 @@
             <h1 class="title-text txt-uppercase">khoá học bitu dành cho</h1>
           </div>
           <div class="bitu-for-main">
-            <div class='list-option'>
-              <img src="./images/bitu-for-1.png" class="option-item" alt="" />
-              <img src="./images/bitu-for-2.png" class="option-item" alt="" />
-              <img src="./images/bitu-for-3.png" class="option-item" alt="" />
-              <img src="./images/bitu-for-4.png" class="option-item" alt="" />
+            <div class="wrapper">
+              <div class="option-item left-option">
+                <p class="message-detail">
+                  Con chưa có hoặc cần thêm
+                  <strong>môi trường giao tiếp</strong> với người
+                  nước ngoài.
+                </p>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="option-item right-option">
+                <p class="message-detail">Các con chưa <br />
+                  <strong>tự tin</strong> nói tiếng Anh
+                </p>
+              </div>
+            </div>
+
+            <div class="wrapper">
+              <div class="option-item left-option">
+                <p class="message-detail">
+                  Bé <strong>thích nói tiếng Anh</strong> nhưng
+                  bố mẹ không có thời gian hoặc
+                  khả năng chỉ dạy.
+                </p>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="option-item right-option">
+                <p class="message-detail">
+                  Các bạn nhỏ đọc viết
+                  tiếng Anh tốt cần <strong>bổ sung
+                    thêm kỹ năng nói.</strong>
+                </p>
+
+              </div>
             </div>
             <div class="main-image-wrapper">
               <img src="./images/bitu-for-girl.png" class="girl-image " alt="">
@@ -620,6 +650,50 @@
           <div class="son-image-wrapper">
             <img src="./images/son-image.png" class="son-image" alt="">
           </div>
+        </div>
+
+        <div class="feedback-content-wrapper-for-mb">
+          <div class="top-content">
+            <div class="message-box-wrapper">
+              <p class="text-message">"99% Ba mẹ sau khi cho con luyện nói
+                tại Bitu đều hài lòng và cho con gắn bó
+                lâu dài với lớp học"</p>
+              <div class="son-image-wrapper">
+                <img src="./images/son-image.png" class="son-image" alt="">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="message-list-slider-wrapper">
+            <div class="message-list-slider">
+              <div class="message-item">
+                <img src="./images/parent-feedback-3.png" class="parent-feedback-3" alt="">
+              </div>
+              <div class="message-item">
+                <img src="./images/parent-feedback-3.png" class="parent-feedback-3" alt="">
+              </div>
+            </div>
+            <button class="btn-slider btn-next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0_5877_8806)">
+                  <path d="M9 6L15 12L9 18" stroke="#1A202C" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_5877_8806">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+
+          <div class="register-block">
+            <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
+          </div>
+
+
         </div>
       </div>
     </div>
@@ -1757,20 +1831,20 @@
 
   <?php include "templates/footer.php"; ?>
   <script>
-    $(function () {
-      // PC
-      var listClassOfStudent = $('.list-class-of-student').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: false,
-        swipe: false,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [{
+  $(function() {
+    // PC
+    var listClassOfStudent = $('.list-class-of-student').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: false,
+      swipe: false,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 1,
@@ -1800,199 +1874,196 @@
             arrows: false,
           }
         }
-        ]
-      });
-
-      $('.list-class-of-kid-wrapper .btn-next').on('click', function () {
-        listClassOfStudent.slick('next');
-      });
-
-      var bituRecommend = $('.bitu-recommend-list-1').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: false,
-        swipe: false,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            autoplay: true,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            slidesToScroll: 1,
-            autoplay: false,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        }
-        ]
-      });
-
-      $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function () {
-        bituRecommend.slick('next');
-      });
-
-      var bituRecommend2 = $('.bitu-recommend-list-2').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: false,
-        swipe: false,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            autoplay: true,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            speed: 600,
-            autoplaySpeed: 6000,
-            slidesToScroll: 1,
-            autoplay: false,
-            infinite: true,
-            swipe: true,
-            fade: false,
-            dots: false,
-            arrows: false,
-          }
-        }
-        ]
-      });
-
-      $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function () {
-        bituRecommend2.slick('next');
-      });
-
-      var teacherTeamOfBitu1 = $('.teacher-team-of-bitu-1').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: true,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1
-          }
-        }
-        ]
-      });
-
-      $('.teacher-team-of-bitu-slider-1 .btn-next').on('click', function () {
-        teacherTeamOfBitu1.slick('next');
-      });
-
-
-      $('.teacher-team-of-bitu-slider-1 .btn-prev').on('click', function () {
-        teacherTeamOfBitu1.slick('prev');
-      });
-      var teacherTeamOfBitu2 = $('.teacher-team-of-bitu-2').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: true,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [{
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1
-          }
-        }
-        ]
-      });
-
-      $('.teacher-team-of-bitu-slider-2 .btn-next').on('click', function () {
-        teacherTeamOfBitu2.slick('next');
-      });
-
-
-      $('.teacher-team-of-bitu-slider-2 .btn-prev').on('click', function () {
-        teacherTeamOfBitu2.slick('prev');
-      });
+      ]
     });
+
+    $('.list-class-of-kid-wrapper .btn-next').on('click', function() {
+      listClassOfStudent.slick('next');
+    });
+
+    var bituRecommend = $('.bitu-recommend-list-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: false,
+      swipe: false,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            autoplay: true,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            slidesToScroll: 1,
+            autoplay: false,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        }
+      ]
+    });
+
+    $('.bitu-recommend-list-wrapper-1 .btn-next').on('click', function() {
+      bituRecommend.slick('next');
+    });
+
+    var bituRecommend2 = $('.bitu-recommend-list-2').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: false,
+      swipe: false,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            autoplay: true,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            speed: 600,
+            autoplaySpeed: 6000,
+            slidesToScroll: 1,
+            autoplay: false,
+            infinite: true,
+            swipe: true,
+            fade: false,
+            dots: false,
+            arrows: false,
+          }
+        }
+      ]
+    });
+
+    $('.bitu-recommend-list-wrapper-2 .btn-next').on('click', function() {
+      bituRecommend2.slick('next');
+    });
+
+    var teacherTeamOfBitu1 = $('.teacher-team-of-bitu-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.teacher-team-of-bitu-slider-1 .btn-next').on('click', function() {
+      teacherTeamOfBitu1.slick('next');
+    });
+
+
+    $('.teacher-team-of-bitu-slider-1 .btn-prev').on('click', function() {
+      teacherTeamOfBitu1.slick('prev');
+    });
+    var teacherTeamOfBitu2 = $('.teacher-team-of-bitu-2').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.teacher-team-of-bitu-slider-2 .btn-next').on('click', function() {
+      teacherTeamOfBitu2.slick('next');
+    });
+
+
+    $('.teacher-team-of-bitu-slider-2 .btn-prev').on('click', function() {
+      teacherTeamOfBitu2.slick('prev');
+    });
+  });
   </script>
   <script>
-    /* -----------------------------------------------------------
-                                                                                                                                                                                                        Effective slider
-                                                                                                                                                                                                  --    --------------------------------------------------------- */
-    $(function () {
-      // PC
-      var nativeTeacherSlider = $('.list-teacher-1').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: true,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        variableWidth: true,
-        adaptiveHeight: true,
-        slidesToScroll: 1,
-        responsive: [{
+  $(function() {
+    // PC
+    var nativeTeacherSlider = $('.list-teacher-1').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      variableWidth: true,
+      adaptiveHeight: true,
+      slidesToScroll: 1,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -2004,33 +2075,33 @@
             slidesToShow: 1
           }
         }
-        ]
-      });
-
-      $('.native-teacher-slider .btn-prev').on('click', function () {
-        nativeTeacherSlider.slick('prev');
-      });
-      $('.native-teacher-slider .btn-next').on('click', function () {
-        nativeTeacherSlider.slick('next');
-      });
+      ]
     });
 
-    $(function () {
-      // PC
-      var philippineTeacherSlider = $('.list-teacher-2').slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: true,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 4,
-        variableWidth: true,
-        adaptiveHeight: true,
-        slidesToScroll: 1,
-        responsive: [{
+    $('.native-teacher-slider .btn-prev').on('click', function() {
+      nativeTeacherSlider.slick('prev');
+    });
+    $('.native-teacher-slider .btn-next').on('click', function() {
+      nativeTeacherSlider.slick('next');
+    });
+  });
+
+  $(function() {
+    // PC
+    var philippineTeacherSlider = $('.list-teacher-2').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      variableWidth: true,
+      adaptiveHeight: true,
+      slidesToScroll: 1,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2
@@ -2042,17 +2113,56 @@
             slidesToShow: 1
           }
         }
-        ]
-      });
-
-      $('.philippine-teacher-list-wrapper .btn-prev').on('click', function () {
-        philippineTeacherSlider.slick('prev');
-      });
-      $('.philippine-teacher-list-wrapper .btn-next').on('click', function () {
-        philippineTeacherSlider.slick('next');
-      });
+      ]
     });
+
+    $('.philippine-teacher-list-wrapper .btn-prev').on('click', function() {
+      philippineTeacherSlider.slick('prev');
+    });
+    $('.philippine-teacher-list-wrapper .btn-next').on('click', function() {
+      philippineTeacherSlider.slick('next');
+    });
+  });
   </script>
+  <script>
+  $(function() {
+    // PC
+    var messageListSlider = $('.message-list-slider-wrapper .message-list-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      variableWidth: true,
+      adaptiveHeight: true,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            dots: true,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            dots: true,
+          }
+        }
+      ]
+    });
+
+    $('.message-list-slider-wrapper .btn-next').on('click', function() {
+      messageListSlider.slick('next');
+    });
+  });
+  </script>
+
   <script src="js/video.js"></script>
 </body>
 

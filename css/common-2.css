@@ -91,6 +91,12 @@
   font-weight: 500;
 }
 @font-face {
+  font-family: "BeVietnamPro-Regular";
+  src: url("../fonts/BeVietnamPro-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "Ephesis-Regular";
   src: url("../fonts/Ephesis-Regular.ttf");
   font-style: normal;

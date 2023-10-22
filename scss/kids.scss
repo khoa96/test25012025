@@ -441,6 +441,7 @@
       background-size: 100% 100%;
       background-position: center center;
       z-index: 2;
+      background-size: cover;
     }
 
     .center {
@@ -501,6 +502,112 @@
           height: auto;
         }
 
+        .wrapper {
+          position: absolute;
+          width: fit-content;
+          height: max-content;
+          z-index: 99;
+
+          @include mq(max_lg) {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: flex;
+            width: 100%;
+
+            &:nth-child(2n) {
+              justify-content: flex-end;
+            }
+          }
+          &:first-child {
+            top: -50px;
+            right: 80%;
+
+            @include mq(max_md) {
+              top: 0;
+              left: 0;
+            }
+          }
+
+          &:nth-child(2) {
+            top: -100px;
+            left: 80%;
+            @include mq(max_md) {
+              top: 0;
+              left: 0;
+            }
+          }
+          &:nth-child(3) {
+            right: 80%;
+            bottom: 100px;
+            @include mq(max_md) {
+              top: 0;
+              left: 0;
+            }
+          }
+
+          &:nth-child(4) {
+            bottom: 150px;
+            left: 80%;
+            @include mq(max_md) {
+              top: 0;
+              left: 0;
+            }
+          }
+        }
+
+        .right-option {
+          padding-left: 48px !important;
+          background-image: url("../images/message-background-1.png");
+
+          @include mq(max_lg) {
+            padding-left: 24px !important;
+          }
+        }
+
+        .left-option {
+          background-image: url("../images/message-background-2.png");
+        }
+        .option-item {
+          min-width: 464px;
+          max-width: 464px;
+          height: 169px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          padding: 20px 48px 40px 30px;
+          @include mq(max_lg) {
+            min-width: 283px;
+            max-width: 283px;
+            height: 103px;
+            position: relative;
+            padding: 10px 24px 20px 15px;
+            display: flex;
+            align-items: center;
+          }
+
+          .message-detail {
+            font-size: 26px;
+            line-height: 40px;
+            color: #000;
+            font-family: BeVietnamPro-Regular;
+            strong {
+              font-family: BeVietnamPro-Bold;
+            }
+
+            @include mq(max_lg) {
+              font-size: 16px;
+              line-height: unset;
+            }
+          }
+        }
+
+        .message-item {
+          min-width: 464px;
+          max-width: 464px;
+          height: 169px;
+        }
+
         .list-option {
           position: absolute;
           width: 100%;
@@ -516,56 +623,6 @@
             display: flex;
             flex-direction: column;
             height: fit-content;
-          }
-
-          .option-item {
-            position: absolute;
-            @include mq(max_md) {
-              position: relative;
-            }
-
-            &:first-child {
-              top: -50px;
-              left: -80%;
-
-              @include mq(max_md) {
-                top: 0;
-                left: 0;
-              }
-            }
-
-            &:nth-child(2) {
-              top: -100px;
-              right: -80%;
-              @include mq(max_md) {
-                top: 0;
-                left: 0;
-              }
-            }
-            &:nth-child(3) {
-              left: -80%;
-              bottom: 100px;
-              @include mq(max_md) {
-                top: 0;
-                left: 0;
-              }
-            }
-
-            &:last-child {
-              bottom: 150px;
-              right: -80%;
-              @include mq(max_md) {
-                top: 0;
-                left: 0;
-              }
-            }
-          }
-
-          .message-item {
-            min-width: 464px;
-            max-width: 464px;
-            height: 169px;
-            border: 1px solid red;
           }
         }
 
@@ -877,13 +934,11 @@
       position: relative;
       background-image: url("../images/text-background-5.png");
       background-size: 100% 90%;
-      // left: 160px;
       z-index: 10;
 
       @include mq(max_md) {
         width: 319px;
         height: 71px;
-        // left: 70px;
       }
 
       .title-text {
@@ -895,7 +950,7 @@
         font-weight: 800;
         line-height: normal;
         @include mq(max_md) {
-          font-size: 21px;
+          font-size: 20px;
           line-height: 30px;
         }
       }
@@ -3200,9 +3255,10 @@
   .feed-back-from-parent-block-wrapper {
     width: 100%;
     padding-bottom: 100px;
+    border: 1px solid green;
 
     @include mq(max_lg) {
-      display: none;
+      padding: 40px 0px 0px;
     }
 
     .title-content-wrapper {
@@ -3368,7 +3424,7 @@
       display: flex;
       padding: 48px 124px;
       justify-content: center;
-      @include mq(max_md) {
+      @include mq(max_lg) {
         display: none;
       }
 
@@ -3520,6 +3576,116 @@
           transform: rotate(6.574deg);
           flex-shrink: 0;
         }
+      }
+    }
+
+    .feedback-content-wrapper-for-mb {
+      display: none;
+      overflow-x: hidden;
+      height: max-content;
+
+      @include mq(max_lg) {
+        display: block;
+      }
+
+      .top-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        min-height: 300px;
+        margin-top: 24px;
+        max-height: max-content;
+
+        .message-box-wrapper {
+          min-width: 328px;
+          max-width: 328px;
+          height: 182px;
+          background-image: url("../images/message-background-2-image.png");
+          position: relative;
+
+          background-size: cover;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-repeat: no-repeat;
+          padding: 0px 10px 0px 15px;
+
+          .text-message {
+            font-size: 20px;
+            line-height: unset;
+            font-family: SVN-Anastasia;
+            color: #333333;
+          }
+
+          .son-image-wrapper {
+            width: fit-content;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+
+            .son-image {
+              min-width: 210.22px;
+              max-width: 210.22px;
+              height: 183.253px;
+              transform: rotate(6.574deg);
+              // flex-shrink: 0;
+            }
+          }
+        }
+      }
+
+      .message-list-slider-wrapper {
+        margin-top: 48px;
+        position: relative;
+        .message-item {
+          min-width: 304px;
+          max-width: 304px;
+          height: 439px;
+          margin-right: 20px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+
+      .slick-dots {
+        display: flex;
+        margin-top: 24px;
+        justify-content: center;
+
+        margin: 0;
+        padding: 1rem 0;
+
+        list-style-type: none;
+
+        li {
+          margin: 0 4px;
+        }
+
+        button {
+          display: block;
+          width: 12px;
+          height: 12px;
+          padding: 0;
+
+          border: none;
+          border-radius: 100%;
+          background-color: #d9d9d9;
+
+          text-indent: -9999px;
+        }
+
+        li.slick-active button {
+          background-color: #ff6d03;
+        }
+      }
+
+      .register-block {
+        margin-top: 48px;
+        min-height: 60px;
       }
     }
   }
