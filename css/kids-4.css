@@ -3701,6 +3701,9 @@
   margin-top: 48px;
   position: relative;
 }
+.page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-mb .message-list-slider-wrapper .btn-next {
+  right: 0;
+}
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-mb .message-list-slider-wrapper .message-item {
   min-width: 304px;
   max-width: 304px;

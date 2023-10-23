@@ -3667,6 +3667,9 @@
       .message-list-slider-wrapper {
         margin-top: 48px;
         position: relative;
+        .btn-next {
+          right: 0;
+        }
         .message-item {
           min-width: 304px;
           max-width: 304px;

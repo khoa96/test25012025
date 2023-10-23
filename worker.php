@@ -1105,146 +1105,116 @@
                 <div class="native-teacher-list list-teacher-1">
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/native/teacher-1.HEIC" class="teacher-image" alt="">
                       <img src="./images/country-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">Tejiri Hope Ikide</h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2021</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/native/c1.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/native/teacher-2.jpg" class="teacher-image" alt="">
                       <img src="./images/country-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Karl Van Zyl
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2021</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/native/c2.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/native/teacher-3.jpg" class="teacher-image" alt="">
                       <img src="./images/country-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Lee Peter Oleary
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2019</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+                    <img src="./teachers/native/c2.jpeg" class="certificate-image" />
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./teachers/native/teacher-1.HEIC" class="teacher-image" alt="">
+                      <img src="./images/country-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">Tejiri Hope Ikide</h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">since 2021</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/native/c1.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/native/teacher-2.jpg" class="teacher-image" alt="">
                       <img src="./images/country-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Karl Van Zyl
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2021</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/native/c2.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/native/teacher-3.jpg" class="teacher-image" alt="">
                       <img src="./images/country-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Lee Peter Oleary
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2019</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
-
-                  </div>
-                  <div class="slider-item">
-                    <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
-                      <img src="./images/country-flag.png" class="flag-image" />
-                    </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
-                    <div class="teacher-info-wrapper">
-                      <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
-                    </div>
-                    <div class="teacher-info-wrapper">
-                      <span class="label">Certificate:</span>
-                      <span class="value certificate">TEFL</span>
-                    </div>
-
-                    <img src="./images/certificate-image.png" class="certificate-image" />
-
-                  </div>
-                  <div class="slider-item">
-                    <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
-                      <img src="./images/country-flag.png" class="flag-image" />
-                    </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
-                    <div class="teacher-info-wrapper">
-                      <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
-                    </div>
-                    <div class="teacher-info-wrapper">
-                      <span class="label">Certificate:</span>
-                      <span class="value certificate">TEFL</span>
-                    </div>
-
-                    <img src="./images/certificate-image.png" class="certificate-image" />
-
-                  </div>
-                  <div class="slider-item">
-                    <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
-                      <img src="./images/country-flag.png" class="flag-image" />
-                    </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
-                    <div class="teacher-info-wrapper">
-                      <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
-                    </div>
-                    <div class="teacher-info-wrapper">
-                      <span class="label">Certificate:</span>
-                      <span class="value certificate">TEFL</span>
-                    </div>
-
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/native/c2.jpeg" class="certificate-image" />
 
                   </div>
                 </div>
@@ -1295,146 +1265,299 @@
                 <div class="native-teacher-list list-teacher-2">
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/philippines/teacher-1.jpg" class="teacher-image" alt="">
                       <img src="./images/philippine-flag.png" class="flag-image" />
                     </div>
                     <h2 class="teacher-name">Jennifer Garganera</h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2019</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/philippines/c1.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/philippines/teacher-2.jpg" class="teacher-image" alt="">
                       <img src="./images/philippine-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">Roselyn Masucol</h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2019</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/philippines/c2.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/philippines/teacher-3.jpg" class="teacher-image" alt="">
                       <img src="./images/philippine-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Jessa Mae Lorica Obar
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2017</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/philippines/c3.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/philippines/teacher-4.jpg" class="teacher-image" alt="">
                       <img src="./images/philippine-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Angela Ysabelle D. Del Rosario.
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2022</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/philippines/c4.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/philippines/teacher-5.jpg" class="teacher-image" alt="">
                       <img src="./images/philippine-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Mary Jane Laurente
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2005</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/philippines/c5.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/philippines/teacher-6.jpg" class="teacher-image" alt="">
                       <img src="./images/philippine-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Cindy Ontuca
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2016</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/philippines/c6.png" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/philippines/teacher-7.png" class="teacher-image" alt="">
                       <img src="./images/philippine-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Shaira Lee
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2018</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/philippines/c7.jpeg" class="certificate-image" />
 
                   </div>
                   <div class="slider-item">
                     <div class="teacher-image-wrapper">
-                      <img src="./images/teacher.jpg" class="teacher-image" alt="">
+                      <img src="./teachers/philippines/teacher-8.jpg" class="teacher-image" alt="">
                       <img src="./images/philippine-flag.png" class="flag-image" />
                     </div>
-                    <h2 class="teacher-name">Jennifer Garganera</h2>
+                    <h2 class="teacher-name">
+                      Angel P. Gaviola
+                    </h2>
                     <div class="teacher-info-wrapper">
                       <span class="label">Experience:</span>
-                      <span class="value">+ 5 Year, since 2019</span>
+                      <span class="value">since 2019</span>
                     </div>
                     <div class="teacher-info-wrapper">
                       <span class="label">Certificate:</span>
                       <span class="value certificate">TEFL</span>
                     </div>
 
-                    <img src="./images/certificate-image.png" class="certificate-image" />
+                    <img src="./teachers/philippines/c8.jpeg" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./teachers/philippines/teacher-9.jpg" class="teacher-image" alt="">
+                      <img src="./images/philippine-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">
+                      WENDY GRACE
+                    </h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">since 2011</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./teachers/philippines/c9.jpeg" class="certificate-image" />
+
+                  </div>
+
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./teachers/philippines/teacher-10.jpg" class="teacher-image" alt="">
+                      <img src="./images/philippine-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">
+                      Viel Anna Baterisna
+                    </h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">since 2012</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./teachers/philippines/c10.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./teachers/philippines/teacher-11.jpg" class="teacher-image" alt="">
+                      <img src="./images/philippine-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">
+                      Heidi
+                    </h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">since 2022</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./teachers/philippines/c11.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./teachers/philippines/teacher-12.jpg" class="teacher-image" alt="">
+                      <img src="./images/philippine-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">
+                      Remelyn Sacote
+                    </h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">since 2020</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./teachers/philippines/c12.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./teachers/philippines/teacher-13.jpg" class="teacher-image" alt="">
+                      <img src="./images/philippine-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">
+                      Ivy Salibay
+                    </h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">since 2018</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./teachers/philippines/c13.jpeg" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./teachers/philippines/teacher-14.png" class="teacher-image" alt="">
+                      <img src="./images/philippine-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">
+                      Romel T. Bibano
+                    </h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">since 2022</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./teachers/philippines/c14.png" class="certificate-image" />
+
+                  </div>
+                  <div class="slider-item">
+                    <div class="teacher-image-wrapper">
+                      <img src="./teachers/philippines/teacher-15.jpg" class="teacher-image" alt="">
+                      <img src="./images/philippine-flag.png" class="flag-image" />
+                    </div>
+                    <h2 class="teacher-name">
+                      Neriza Sayson
+                    </h2>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Experience:</span>
+                      <span class="value">since 2022</span>
+                    </div>
+                    <div class="teacher-info-wrapper">
+                      <span class="label">Certificate:</span>
+                      <span class="value certificate">TEFL</span>
+                    </div>
+
+                    <img src="./teachers/philippines/c15.png" class="certificate-image" />
 
                   </div>
                 </div>
@@ -1491,6 +1614,15 @@
               </div>
               <div class="common-list-slider-item">
                 <img src="./images/worker-feedback-student-7.png" class="feedback-student-image" alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-8.png" class="feedback-student-image" alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-9.png" class="feedback-student-image" alt="">
+              </div>
+              <div class="common-list-slider-item">
+                <img src="./images/worker-feedback-student-10.png" class="feedback-student-image" alt="">
               </div>
             </div>
             <button class="btn-slider btn-next">
@@ -1863,11 +1995,10 @@
   <script>
   $(function() {
     // PC
-    console.log('====cal aaa =====')
     var vtvRecommendSlider = $('.vtv-recommend-list-wrapper .vtv-recommend-list-slider').slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: false,
+      autoplay: true,
       infinite: true,
       swipe: true,
       fade: false,
@@ -1907,7 +2038,7 @@
       '.speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider').slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: false,
+      autoplay: true,
       infinite: true,
       swipe: true,
       fade: false,
@@ -1948,7 +2079,7 @@
       '.list-class-slider-1-wrapper .list-class-slider-1').slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: false,
+      autoplay: true,
       infinite: true,
       swipe: true,
       fade: false,
@@ -1986,7 +2117,7 @@
       '.list-class-slider-2-wrapper .list-class-slider-2').slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: false,
+      autoplay: true,
       infinite: true,
       swipe: true,
       fade: false,
@@ -2024,7 +2155,7 @@
     var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: false,
+      autoplay: true,
       infinite: true,
       swipe: true,
       fade: false,
@@ -2062,7 +2193,7 @@
     var feedbackStudent2Slider = $('.feedback-student-list-2-wrapper .feedback-student-list-2-slider').slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: false,
+      autoplay: true,
       infinite: true,
       swipe: true,
       fade: false,
@@ -2100,7 +2231,7 @@
     var nativeTeacherSlider = $('.list-teacher-1').slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: false,
+      autoplay: true,
       infinite: true,
       swipe: true,
       fade: false,
@@ -2170,7 +2301,47 @@
       philippineTeacherSlider.slick('next');
     });
   });
+
+  // list feedback1 from student 
+  $(function() {
+    // PC
+    var feebackStudentList1Slider = $('.feedback-student-list-1-slider').slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 4,
+      variableWidth: true,
+      adaptiveHeight: true,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+    $('.feedback-student-list-1-wrapper .btn-prev').on('click', function() {
+      feebackStudentList1Slider.slick('prev');
+    });
+    $('.feedback-student-list-1-wrapper .btn-next').on('click', function() {
+      feebackStudentList1Slider.slick('next');
+    });
+  });
   </script>
+
   <script src="js/video.js"></script>
 </body>
 

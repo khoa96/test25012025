@@ -1790,16 +1790,39 @@
       background-color: #ff6d03;
       padding: 60px 0px 50px;
     }
+    .feed-back-from-student-1-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
     .feedback-student-list-1-wrapper {
       margin-top: 32px;
-
       @include mq(max_lg) {
         margin-top: 24px;
       }
 
+      .btn-prev {
+        @media (min-width: 1400px) {
+          left: -30px;
+        }
+        @include mq(max_md) {
+          left: 0;
+        }
+      }
+
+      .btn-next {
+        @media (min-width: 1400px) {
+          right: 0;
+        }
+        @include mq(max_md) {
+          right: 0;
+        }
+      }
+
       .feedback-student-list-1-slider {
-        max-width: 1260px;
+        max-width: 1296px;
+
         @include mq(max_lg) {
           max-width: 320px;
         }
@@ -1811,11 +1834,13 @@
           margin-right: 32px;
           min-height: 630px;
           max-width: 400px;
+          min-width: 400px;
           width: fit-content;
           display: flex;
           justify-content: center;
           align-items: center;
           box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.18);
+
           @include mq(max_lg) {
             border-radius: unset;
             border: none;
@@ -2320,8 +2345,6 @@
 
   // block price
   .price-block-wrapper {
-    border: 1px solid red;
-
     .list-price {
       .price-item {
         &:first-child {
