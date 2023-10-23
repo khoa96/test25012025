@@ -5,6 +5,18 @@
 
 // common
 
+.con-about-intro {
+  .intro-image {
+    img {
+      @media (max-width: 1400px) {
+        min-width: 726px !important;
+        max-width: 726px !important;
+        height: 477px !important;
+        object-fit: contain;
+      }
+    }
+  }
+}
 .btn-join-to-us {
   min-width: max-content;
   max-width: max-content;

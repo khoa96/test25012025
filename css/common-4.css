@@ -206,9 +206,25 @@ button,
   border-radius: 50%;
   cursor: pointer;
 }
+@media (max-width: 1440px) {
+  .btn-slider {
+    min-width: 48px;
+    max-width: 48x;
+    height: 48px;
+  }
+  .btn-slider svg {
+    width: 24px !important;
+    height: 24px !important;
+  }
+}
 
 .btn-prev {
   left: -62px;
+}
+@media (max-width: 1400px) {
+  .btn-prev {
+    left: -30px;
+  }
 }
 .btn-prev svg {
   width: 32px !important;
@@ -218,14 +234,14 @@ button,
 .btn-next {
   right: -40px;
 }
+@media (max-width: 1400px) {
+  .btn-next {
+    right: -30px;
+  }
+}
 .btn-next svg {
   width: 32px !important;
   height: 32px !important;
-}
-@media only screen and (max-width: 991px) {
-  .btn-next {
-    right: -20px;
-  }
 }
 
 .list-teach-wrapper {
@@ -296,16 +312,35 @@ button,
 }
 .list-teach-block .slider-wrapper {
   width: 100%;
-  overflow: hidden;
   position: relative;
   display: flex;
   margin-top: 40px;
   justify-content: center;
 }
-@media only screen and (max-width: 1199px) {
-  .list-teach-block .slider-wrapper .btn-prev {
-    display: none;
+.list-teach-block .slider-wrapper .btn-next {
+  right: 0;
+}
+@media (max-width: 1400px) {
+  .list-teach-block .slider-wrapper .btn-next {
+    right: -94px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .list-teach-block .slider-wrapper .btn-next {
     right: 15px;
+  }
+}
+.list-teach-block .slider-wrapper .btn-prev {
+  left: -22px;
+}
+@media (max-width: 1400px) {
+  .list-teach-block .slider-wrapper .btn-prev {
+    left: -120px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .list-teach-block .slider-wrapper .btn-prev {
+    display: none !important;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -317,14 +352,14 @@ button,
   max-width: 1296px;
   display: flex;
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 991px) {
   .list-teach-block .slider-wrapper .native-teacher-list {
     max-width: 340px !important;
   }
 }
 .list-teach-block .slider-wrapper .native-teacher-list .slider-item {
-  width: 300px;
   min-width: 300px;
+  max-width: 300px;
   height: auto;
   background-color: #fff0da;
   margin: 0px 12px;
@@ -334,6 +369,14 @@ button,
   align-items: center;
   justify-content: center;
   border-radius: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .list-teach-block .slider-wrapper .native-teacher-list .slider-item {
+    min-width: 264px;
+    max-width: 264px;
+    margin: 0px 8px;
+    padding: 24px 20px;
+  }
 }
 .list-teach-block .slider-wrapper .native-teacher-list .slider-item .teacher-image-wrapper {
   width: 192px;
@@ -357,7 +400,7 @@ button,
   border: 2px solid #ffb700;
   object-fit: cover;
   position: absolute;
-  right: 0;
+  right: 20px;
   bottom: 0;
 }
 .list-teach-block .slider-wrapper .native-teacher-list .slider-item .teacher-name {
@@ -390,8 +433,9 @@ button,
 .list-teach-block .slider-wrapper .native-teacher-list .slider-item .teacher-info-wrapper .certificate {
   text-transform: uppercase;
 }
-.list-teach-block .slider-wrapper .native-teacher-list .slider-item .teacher-info-wrapper .certificate-image {
+.list-teach-block .slider-wrapper .native-teacher-list .slider-item .certificate-image {
   min-width: 110px;
+  max-width: 110px;
   height: 156px;
   max-width: 110px;
   object-fit: cover;
@@ -946,6 +990,11 @@ button,
   line-height: 22px;
   color: #fff;
   font-family: BeVietnamPro-Medium;
+}
+@media (max-width: 1400px) {
+  .router-for-kids-wrapper .main-route-content .line-item .detail-wrapper .text {
+    font-size: 15.5px;
+  }
 }
 
 .video-item {

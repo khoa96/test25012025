@@ -5112,7 +5112,7 @@ End edit reason reflex
 }
 .con-about-milestone .box-lines .circle {
   position: absolute;
-  bottom: -10px;
+  bottom: 3px;
   border: 2px solid #ff6d03;
   width: 26px;
   height: 26px;

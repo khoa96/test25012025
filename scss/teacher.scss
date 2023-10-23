@@ -77,6 +77,11 @@
       align-items: flex-start;
       margin-right: 24px;
 
+      @media (max-width: 1400px) {
+        min-width: calc((100% - 48px) / 3);
+        max-width: calc((100% - 48px) / 3);
+      }
+
       @include mq(max_md) {
         min-width: 100%;
         max-width: 100%;

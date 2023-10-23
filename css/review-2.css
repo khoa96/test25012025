@@ -129,17 +129,25 @@
   z-index: 2;
   background: linear-gradient(95deg, #ff6d03 0%, #9591ec 100%);
 }
+.page-review-wrapper .real-people-and-things-block .btn-next {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .page-review-wrapper .real-people-and-things-block .btn-next {
+    display: block;
+  }
+}
 .page-review-wrapper .real-people-and-things-block .feedback-list-slider-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   position: relative;
 }
-.page-review-wrapper .real-people-and-things-block .feedback-list-slider-wrapper .slick-list {
+.page-review-wrapper .real-people-and-things-block .feedback-list-slider-wrapper .feed-back-list-wrapper {
   max-width: 1272px;
 }
 @media only screen and (max-width: 1199px) {
-  .page-review-wrapper .real-people-and-things-block .feedback-list-slider-wrapper .slick-list {
+  .page-review-wrapper .real-people-and-things-block .feedback-list-slider-wrapper .feed-back-list-wrapper {
     max-width: 100%;
   }
 }
@@ -162,13 +170,26 @@
 @media only screen and (max-width: 991px) {
   .page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper {
     margin-top: 32px;
+    max-width: 340px;
   }
 }
 .page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item {
   min-width: 300px;
   max-width: 300px;
-  height: 100%;
+  height: auto;
   margin-right: 24px;
+}
+@media (max-width: 1400px) {
+  .page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item {
+    min-width: 260px;
+    max-width: 260px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item {
+    min-width: 300px;
+    max-width: 300px;
+  }
 }
 .page-review-wrapper .real-people-and-things-block .feed-back-list-wrapper .feed-back-item:last-child {
   margin-right: 0;
@@ -331,16 +352,18 @@
   border-radius: 1000px;
   border: 1px solid #ff6d03;
   background: #fff;
-  font-family: SF Pro Rounded;
+  font-family: SF Pro Rounded Medium;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   color: #ff6d03;
   display: flex;
+  margin: auto;
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  max-width: max-content;
   cursor: pointer;
   box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
 }

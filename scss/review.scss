@@ -153,13 +153,20 @@
       background: linear-gradient(95deg, #ff6d03 0%, #9591ec 100%);
     }
 
+    .btn-next {
+      display: none;
+      @include mq(max_md) {
+        display: block;
+      }
+    }
+
     .feedback-list-slider-wrapper {
       width: 100%;
       display: flex;
       justify-content: center;
       position: relative;
 
-      .slick-list {
+      .feed-back-list-wrapper {
         max-width: 1272px;
         @include mq(max_lg) {
           max-width: 100%;
@@ -182,6 +189,7 @@
 
       @include mq(max_md) {
         margin-top: 32px;
+        max-width: 340px;
       }
 
       width: 100%;
@@ -191,8 +199,17 @@
       .feed-back-item {
         min-width: 300px;
         max-width: 300px;
-        height: 100%;
+        height: auto;
         margin-right: 24px;
+
+        @media (max-width: 1400px) {
+          min-width: 260px;
+          max-width: 260px;
+        }
+        @include mq(max_lg) {
+          min-width: 300px;
+          max-width: 300px;
+        }
 
         &:last-child {
           margin-right: 0;
@@ -364,16 +381,18 @@
           border-radius: 1000px;
           border: 1px solid #ff6d03;
           background: #fff;
-          font-family: SF Pro Rounded;
+          font-family: SF Pro Rounded Medium;
           font-size: 16px;
           font-style: normal;
           font-weight: 700;
           line-height: normal;
           color: #ff6d03;
           display: flex;
+          margin: auto;
           align-items: center;
           justify-content: center;
           text-decoration: none;
+          max-width: max-content;
 
           cursor: pointer;
           box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);

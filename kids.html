@@ -21,7 +21,7 @@
       href="css/font-awesome-all.min.css"
     />
     <link rel="stylesheet" type="text/css" href="css/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/common-8.css" />
+    <link rel="stylesheet" type="text/css" href="css/common-9.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 
     <link rel="stylesheet" type="text/css" href="css/header.css" />
@@ -336,11 +336,38 @@
               <h1 class="title-text txt-uppercase">khoá học bitu dành cho</h1>
             </div>
             <div class="bitu-for-main">
-              <div class="list-option">
-                <img src="./images/bitu-for-1.png" class="option-item" alt="" />
-                <img src="./images/bitu-for-2.png" class="option-item" alt="" />
-                <img src="./images/bitu-for-3.png" class="option-item" alt="" />
-                <img src="./images/bitu-for-4.png" class="option-item" alt="" />
+              <div class="wrapper">
+                <div class="option-item left-option">
+                  <p class="message-detail">
+                    Con chưa có hoặc cần thêm
+                    <strong>môi trường giao tiếp</strong> với người nước ngoài.
+                  </p>
+                </div>
+              </div>
+              <div class="wrapper">
+                <div class="option-item right-option">
+                  <p class="message-detail">
+                    Các con chưa <br />
+                    <strong>tự tin</strong> nói tiếng Anh
+                  </p>
+                </div>
+              </div>
+
+              <div class="wrapper">
+                <div class="option-item left-option">
+                  <p class="message-detail">
+                    Bé <strong>thích nói tiếng Anh</strong> nhưng bố mẹ không có
+                    thời gian hoặc khả năng chỉ dạy.
+                  </p>
+                </div>
+              </div>
+              <div class="wrapper">
+                <div class="option-item right-option">
+                  <p class="message-detail">
+                    Các bạn nhỏ đọc viết tiếng Anh tốt cần
+                    <strong>bổ sung thêm kỹ năng nói.</strong>
+                  </p>
+                </div>
               </div>
               <div class="main-image-wrapper">
                 <img
@@ -478,6 +505,8 @@
             <div class="register-block">
               <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
             </div>
+
+            <img src="./images/icon-cloud-1.png" class="icon-cloud-1" alt="" />
           </div>
         </div>
       </div>
@@ -1136,6 +1165,66 @@
             <div class="son-image-wrapper">
               <img src="./images/son-image.png" class="son-image" alt="" />
             </div>
+          </div>
+
+          <div class="feedback-content-wrapper-for-mb">
+            <div class="top-content">
+              <div class="message-box-wrapper">
+                <p class="text-message">
+                  "99% Ba mẹ sau khi cho con luyện nói tại Bitu đều hài lòng và
+                  cho con gắn bó lâu dài với lớp học"
+                </p>
+                <div class="son-image-wrapper">
+                  <img src="./images/son-image.png" class="son-image" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="message-list-slider-wrapper">
+              <div class="message-list-slider">
+                <div class="message-item">
+                  <img
+                    src="./images/parent-feedback-3.png"
+                    class="parent-feedback-3"
+                    alt=""
+                  />
+                </div>
+                <div class="message-item">
+                  <img
+                    src="./images/parent-feedback-3.png"
+                    class="parent-feedback-3"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <button class="btn-slider btn-next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_5877_8806)">
+                    <path
+                      d="M9 6L15 12L9 18"
+                      stroke="#1A202C"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_5877_8806">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="register-block">
+            <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
           </div>
         </div>
       </div>
@@ -1874,6 +1963,7 @@
             </div>
           </div>
           <div class="route-block-content">
+            <img src="./images/icon-bitu-route.png" class="icon-bitu" alt="" />
             <div class="top-header-content-wrapper">
               <div class="top-header-content">
                 <h2 class="title-1">Level tiếng anh giao tiếp</h2>
@@ -2157,7 +2247,7 @@
                   </div>
                 </div>
                 <div class="register-bottom">
-                  <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
+                  <button type="" class="btn-register">Xem chi tiết</button>
                 </div>
               </div>
               <div class="right-content">
@@ -2625,7 +2715,7 @@
                     class="input-item"
                   />
                 </div>
-                <button class="btn-register">Đăng ký ngay</button>
+                <button class="btn-register">Đăng ký học thử</button>
               </div>
             </div>
           </div>
@@ -3358,9 +3448,6 @@
       });
     </script>
     <script>
-      /* -----------------------------------------------------------
-                                                                                                                                                                                                        Effective slider
-                                                                                                                                                                                                  --    --------------------------------------------------------- */
       $(function () {
         // PC
         var nativeTeacherSlider = $(".list-teacher-1").slick({
@@ -3445,6 +3532,48 @@
         );
       });
     </script>
+    <script>
+      $(function () {
+        // PC
+        var messageListSlider = $(
+          ".message-list-slider-wrapper .message-list-slider"
+        ).slick({
+          speed: 600,
+          autoplaySpeed: 6000,
+          autoplay: true,
+          infinite: true,
+          swipe: true,
+          fade: false,
+          dots: false,
+          arrows: false,
+          slidesToShow: 4,
+          variableWidth: true,
+          adaptiveHeight: true,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 1,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                dots: true,
+              },
+            },
+          ],
+        });
+
+        $(".message-list-slider-wrapper .btn-next").on("click", function () {
+          messageListSlider.slick("next");
+        });
+      });
+    </script>
+
     <script src="js/video.js"></script>
   </body>
 </html>

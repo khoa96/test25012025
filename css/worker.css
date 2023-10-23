@@ -1025,7 +1025,7 @@
 }
 .page-worker-wrapper .list-class-block-wrapper .block-item-wrapper {
   width: 100%;
-  min-height: 755px;
+  min-height: 655px;
   background-image: url("../images/banner-teacher-background.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -1033,7 +1033,6 @@
   position: relative;
 }
 .page-worker-wrapper .list-class-block-wrapper .block-item-wrapper:first-of-type {
-  min-height: 655px;
   background-size: contain;
 }
 @media only screen and (max-width: 1199px) {
@@ -1049,6 +1048,7 @@
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .list-class-block-wrapper .block-item-wrapper:last-of-type {
     margin-top: 65px;
+    min-height: auto;
     top: 0;
     margin-bottom: 0;
   }
@@ -1609,8 +1609,14 @@
   min-width: 79px;
   max-width: 79px;
   height: 29px;
-  object-fit: cover;
+  object-fit: contain;
   margin-right: 15px;
+}
+.page-worker-wrapper .news-of-bitu-wrapper .news-of-bitu-content-wrapper .list-news-of-bitu .news-of-bitu-item .news-content .branch-wrapper .vtc6-image {
+  min-width: 80px;
+  max-width: 80px;
+  height: 30px;
+  object-fit: cover;
 }
 .page-worker-wrapper .news-of-bitu-wrapper .news-of-bitu-content-wrapper .list-news-of-bitu .news-of-bitu-item .news-content .branch-wrapper .branch-name {
   color: #000;
@@ -2185,6 +2191,23 @@
   color: #fff;
   font-family: BeVietnamPro-Medium;
 }
+@media (max-width: 1400px) {
+  .page-worker-wrapper .worker-route-block-wrapper .main-route-content-wrapper .main-route-content .line-item .detail-wrapper .text {
+    font-size: 15.5px;
+  }
+}
+.page-worker-wrapper .worker-route-block-wrapper .btn-common-trial-register {
+  max-width: max-content;
+  display: block;
+  margin: 28px auto 0px;
+  min-width: 388px;
+}
+@media only screen and (max-width: 991px) {
+  .page-worker-wrapper .worker-route-block-wrapper .btn-common-trial-register {
+    margin: 48px auto 0px;
+    min-width: 310px;
+  }
+}
 .page-worker-wrapper .page-teacher-wrapper .top-content {
   min-height: max-content;
   background-image: none;
@@ -2205,6 +2228,18 @@
   .page-worker-wrapper .page-teacher-wrapper .main-content-wrapper {
     margin-top: 32px;
   }
+}
+.page-worker-wrapper .price-block-wrapper {
+  border: 1px solid red;
+}
+.page-worker-wrapper .price-block-wrapper .list-price .price-item:first-child {
+  background-color: #f66a2e;
+}
+.page-worker-wrapper .price-block-wrapper .list-price .price-item:nth-child(2) {
+  background-color: #3fb567;
+}
+.page-worker-wrapper .price-block-wrapper .list-price .price-item:last-child {
+  background-color: #e5485d;
 }
 
 /*# sourceMappingURL=worker.css.map */

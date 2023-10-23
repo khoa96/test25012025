@@ -134,16 +134,6 @@
 .page-kids-wrapper .btn-register:focus {
   outline: none;
 }
-.page-kids-wrapper .btn-slider {
-  display: none;
-}
-@media only screen and (max-width: 991px) {
-  .page-kids-wrapper .btn-slider {
-    display: block;
-    top: 45%;
-    right: 20px;
-  }
-}
 .page-kids-wrapper .common-title-with-background {
   background-size: contain;
   background-position: center center;
@@ -573,6 +563,11 @@
   padding: 16px 0px;
   background-size: 100%;
 }
+@media (max-width: 1400px) {
+  .page-kids-wrapper .bitu-for-block-wrapper .bitu-for-content-wrapper .bitu-for-title {
+    margin-top: 60px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .bitu-for-block-wrapper .bitu-for-content-wrapper .bitu-for-title {
     width: 343px;
@@ -580,6 +575,7 @@
     font-size: 20px;
     font-weight: bold;
     word-spacing: 5px;
+    margin-top: 0;
   }
 }
 .page-kids-wrapper .bitu-for-block-wrapper .bitu-for-content-wrapper .bitu-for-title .title-text {
@@ -825,6 +821,22 @@
     display: none;
   }
 }
+.page-kids-wrapper .learn-with-foreigner-teacher-wrapper .learn-with-foreigner-teacher-content {
+  position: relative;
+}
+.page-kids-wrapper .learn-with-foreigner-teacher-wrapper .learn-with-foreigner-teacher-content .icon-cloud-1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-width: 128px;
+  max-width: 128px;
+  height: 78px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .learn-with-foreigner-teacher-wrapper .learn-with-foreigner-teacher-content .icon-cloud-1 {
+    display: none;
+  }
+}
 .page-kids-wrapper .learn-with-foreigner-teacher-wrapper .title-1 {
   width: 457px;
   height: 84px;
@@ -988,6 +1000,16 @@
     height: auto;
   }
 }
+.page-kids-wrapper .list-kid-student-wrapper .btn-slider {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .list-kid-student-wrapper .btn-slider {
+    display: block;
+    top: 45%;
+    right: 0;
+  }
+}
 .page-kids-wrapper .list-kid-student-wrapper .title-block-wrapper {
   width: fit-content;
   display: flex;
@@ -1134,6 +1156,16 @@
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .bitu-recommend-wrapper {
     padding-bottom: 40px;
+  }
+}
+.page-kids-wrapper .bitu-recommend-wrapper .btn-slider {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper .btn-slider {
+    display: block;
+    top: 45%;
+    right: 0;
   }
 }
 .page-kids-wrapper .bitu-recommend-wrapper .title-block-wrapper {
@@ -1717,15 +1749,18 @@
 }
 .page-kids-wrapper .ensure-block-wrapper .btn-register {
   color: #1a202c;
-  font-family: SF Pro Rounded;
+  font-family: SF Pro Rounded Medium;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  background-color: #ffb700;
+  min-width: 246px;
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .ensure-block-wrapper .btn-register {
     margin: unset;
+    min-width: unset;
   }
 }
 .page-kids-wrapper .survey-block-wrapper {
@@ -1907,6 +1942,12 @@
 }
 .page-kids-wrapper .survey-block-wrapper .main-content .register-bottom .btn-register {
   background-color: #2971f0;
+  min-width: 246px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .register-bottom .btn-register {
+    min-width: 213px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .register-bottom {
@@ -1968,26 +2009,16 @@
   height: auto;
   padding: 105px 0px 43px;
 }
-.page-kids-wrapper .teacher-team-of-bitu-wrapper .btn-slider {
-  display: block !important;
-}
-@media only screen and (max-width: 991px) {
-  .page-kids-wrapper .teacher-team-of-bitu-wrapper .btn-slider {
-    display: block;
-    top: 45%;
-    right: 20px;
-  }
-}
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .teacher-team-of-bitu-wrapper {
     padding: 75px 0px 72px;
   }
 }
-.page-kids-wrapper .teacher-team-of-bitu-wrapper .list-foreigner-teacher {
+.page-kids-wrapper .teacher-team-of-bitu-wrapper .philippine-teacher-list-wrapper {
   margin-top: 90px;
 }
 @media only screen and (max-width: 991px) {
-  .page-kids-wrapper .teacher-team-of-bitu-wrapper .list-foreigner-teacher {
+  .page-kids-wrapper .teacher-team-of-bitu-wrapper .philippine-teacher-list-wrapper {
     margin-top: 40px;
   }
 }
@@ -2212,6 +2243,11 @@
   position: relative;
   top: 50px;
   left: -180px;
+}
+@media (max-width: 1400px) {
+  .page-kids-wrapper .register-block-2-wrapper .register-block-2-content .right-content {
+    left: -120px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .register-block-2-wrapper .register-block-2-content .right-content {
@@ -2440,6 +2476,7 @@
   display: block;
   max-width: 288px;
   text-transform: uppercase;
+  min-width: max-content;
   margin: auto;
   background-color: #ffd600;
   box-shadow: none;
@@ -3702,6 +3739,18 @@
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .register-block {
   margin-top: 48px;
   min-height: 60px;
+}
+.page-kids-wrapper .router-for-kids-wrapper .route-block-content {
+  position: relative;
+}
+.page-kids-wrapper .router-for-kids-wrapper .icon-bitu {
+  min-width: 147px;
+  max-width: 147px;
+  height: 58px;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 48px;
 }
 
 /*# sourceMappingURL=kids.css.map */

@@ -25,15 +25,6 @@
       outline: none;
     }
   }
-  .btn-slider {
-    display: none;
-
-    @include mq(max_md) {
-      display: block;
-      top: 45%;
-      right: 20px;
-    }
-  }
 
   .common-title-with-background {
     background-size: contain;
@@ -469,6 +460,9 @@
         width: 748px;
         padding: 16px 0px;
         background-size: 100%;
+        @media (max-width: 1400px) {
+          margin-top: 60px;
+        }
 
         @include mq(max_md) {
           width: 343px;
@@ -476,6 +470,7 @@
           font-size: 20px;
           font-weight: bold;
           word-spacing: 5px;
+          margin-top: 0;
         }
 
         .title-text {
@@ -686,9 +681,7 @@
 
   .learn-with-foreigner-teacher-wrapper {
     width: 100%;
-
     padding: 32px 0px;
-
     @include mq(max_md) {
       padding: 50px 0px 48px;
     }
@@ -716,6 +709,23 @@
       z-index: 20;
       @include mq(max_md) {
         display: none;
+      }
+    }
+
+    .learn-with-foreigner-teacher-content {
+      position: relative;
+
+      .icon-cloud-1 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        min-width: 128px;
+        max-width: 128px;
+        height: 78px;
+
+        @include mq(max_md) {
+          display: none;
+        }
       }
     }
     .title-1 {
@@ -882,6 +892,16 @@
       height: auto;
     }
 
+    .btn-slider {
+      display: none;
+
+      @include mq(max_md) {
+        display: block;
+        top: 45%;
+        right: 0;
+      }
+    }
+
     .title-block-wrapper {
       width: fit-content;
       display: flex;
@@ -1026,6 +1046,16 @@
 
     @include mq(max_md) {
       padding-bottom: 40px;
+    }
+
+    .btn-slider {
+      display: none;
+
+      @include mq(max_md) {
+        display: block;
+        top: 45%;
+        right: 0;
+      }
     }
 
     .title-block-wrapper {
@@ -1615,14 +1645,17 @@
 
     .btn-register {
       color: #1a202c;
-      font-family: SF Pro Rounded;
+      font-family: SF Pro Rounded Medium;
       font-size: 20px;
       font-style: normal;
       font-weight: 600;
       line-height: normal;
+      background-color: #ffb700;
+      min-width: 246px;
 
       @include mq(max_md) {
         margin: unset;
+        min-width: unset;
       }
     }
   }
@@ -1802,6 +1835,10 @@
 
         .btn-register {
           background-color: #2971f0;
+          min-width: 246px;
+          @include mq(max_md) {
+            min-width: 213px;
+          }
         }
 
         @include mq(max_md) {
@@ -1870,21 +1907,11 @@
     height: auto;
     padding: 105px 0px 43px;
 
-    .btn-slider {
-      display: block !important;
-
-      @include mq(max_md) {
-        display: block;
-        top: 45%;
-        right: 20px;
-      }
-    }
-
     @include mq(max_md) {
       padding: 75px 0px 72px;
     }
 
-    .list-foreigner-teacher {
+    .philippine-teacher-list-wrapper {
       margin-top: 90px;
 
       @include mq(max_md) {
@@ -2114,6 +2141,10 @@
         top: 50px;
         left: -180px;
 
+        @media (max-width: 1400px) {
+          left: -120px;
+        }
+
         @include mq(max_md) {
           top: -180px;
           left: 0;
@@ -2341,6 +2372,7 @@
             display: block;
             max-width: 288px;
             text-transform: uppercase;
+            min-width: max-content;
             margin: auto;
             background-color: #ffd600;
             box-shadow: none;
@@ -3685,6 +3717,22 @@
     .register-block {
       margin-top: 48px;
       min-height: 60px;
+    }
+  }
+
+  .router-for-kids-wrapper {
+    .route-block-content {
+      position: relative;
+    }
+
+    .icon-bitu {
+      min-width: 147px;
+      max-width: 147px;
+      height: 58px;
+      object-fit: contain;
+      position: absolute;
+      top: 30px;
+      right: 48px;
     }
   }
 }

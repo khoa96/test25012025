@@ -230,6 +230,8 @@
           <div class="register-block">
             <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
           </div>
+
+          <img src="./images/icon-cloud-1.png" class="icon-cloud-1" alt="">
         </div>
       </div>
     </div>
@@ -1175,6 +1177,7 @@
           </div>
         </div>
         <div class="route-block-content">
+          <img src="./images/icon-bitu-route.png" class="icon-bitu" alt="">
           <div class="top-header-content-wrapper">
             <div class="top-header-content">
               <h2 class="title-1">Level tiếng anh giao tiếp</h2>
@@ -1386,7 +1389,7 @@
                 </div>
               </div>
               <div class="register-bottom">
-                <button type="" class="btn-register">ĐĂNG KÝ HỌC THỬ</button>
+                <button type="" class="btn-register">Xem chi tiết</button>
               </div>
             </div>
             <div class="right-content">
@@ -1692,7 +1695,8 @@
                 <input type="text" name="" value="" placeholder="Số điện thoại..." class="input-item" />
                 <input type="text" name="" value="" placeholder="Tuổi con..." class="input-item" />
               </div>
-              <button class="btn-register">Đăng ký ngay</button>
+              <button class="btn-register">Đăng ký học thử
+              </button>
             </div>
           </div>
         </div>

@@ -88,11 +88,25 @@ button,
   justify-content: center;
   border-radius: 50%;
   cursor: pointer;
+
+  @media (max-width: 1440px) {
+    min-width: 48px;
+    max-width: 48x;
+    height: 48px;
+
+    svg {
+      width: 24px !important;
+      height: 24px !important;
+    }
+  }
 }
 
 .btn-prev {
   left: -62px;
 
+  @media (max-width: 1400px) {
+    left: -30px;
+  }
   svg {
     width: 32px !important;
     height: 32px !important;
@@ -101,13 +115,13 @@ button,
 
 .btn-next {
   right: -40px;
+
+  @media (max-width: 1400px) {
+    right: -30px;
+  }
   svg {
     width: 32px !important;
     height: 32px !important;
-  }
-
-  @include mq(max_md) {
-    right: -20px;
   }
 }
 
@@ -181,16 +195,31 @@ button,
 
   .slider-wrapper {
     width: 100%;
-    overflow: hidden;
     position: relative;
     display: flex;
     margin-top: 40px;
     justify-content: center;
 
-    @include mq(max_lg) {
-      .btn-prev {
-        display: none;
+    .btn-next {
+      right: 0;
+
+      @media (max-width: 1400px) {
+        right: -94px;
+      }
+
+      @include mq(max_md) {
         right: 15px;
+      }
+    }
+
+    .btn-prev {
+      left: -22px;
+
+      @media (max-width: 1400px) {
+        left: -120px;
+      }
+      @include mq(max_md) {
+        display: none !important;
       }
     }
 
@@ -200,13 +229,13 @@ button,
     .native-teacher-list {
       max-width: 1296px;
 
-      @include mq(max_lg) {
+      @include mq(max_md) {
         max-width: 340px !important;
       }
       display: flex;
       .slider-item {
-        width: 300px;
         min-width: 300px;
+        max-width: 300px;
         height: auto;
         background-color: #fff0da;
         margin: 0px 12px;
@@ -216,6 +245,13 @@ button,
         align-items: center;
         justify-content: center;
         border-radius: 32px;
+
+        @include mq(max_md) {
+          min-width: 264px;
+          max-width: 264px;
+          margin: 0px 8px;
+          padding: 24px 20px;
+        }
 
         .teacher-image-wrapper {
           width: 192px;
@@ -239,7 +275,7 @@ button,
             border: 2px solid #ffb700;
             object-fit: cover;
             position: absolute;
-            right: 0;
+            right: 20px;
             bottom: 0;
           }
         }
@@ -274,13 +310,14 @@ button,
           .certificate {
             text-transform: uppercase;
           }
+        }
 
-          .certificate-image {
-            min-width: 110px;
-            height: 156px;
-            max-width: 110px;
-            object-fit: cover;
-          }
+        .certificate-image {
+          min-width: 110px;
+          max-width: 110px;
+          height: 156px;
+          max-width: 110px;
+          object-fit: cover;
         }
       }
     }
@@ -890,6 +927,10 @@ button,
           line-height: 22px;
           color: #fff;
           font-family: BeVietnamPro-Medium;
+
+          @media (max-width: 1400px) {
+            font-size: 15.5px;
+          }
         }
       }
     }

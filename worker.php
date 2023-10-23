@@ -1039,6 +1039,8 @@
             </div>
           </div>
         </div>
+
+        <button class="btn-common-trial-register w-100">đăng ký học thử</button>
       </div>
     </div>
     <!--  START WORKER ROUTE BLOCK WRAPPER -->
@@ -1652,41 +1654,6 @@
         <div class="container main-content">
           <h2 class="worker-common-title news-of-bitu-title">Truyền thông nói gì về bitu</h2>
           <div class="list-news-of-bitu">
-            <a class="news-of-bitu-item"
-              href="https://vnexpress.net/ung-dung-luyen-noi-tieng-anh-cung-nguoi-nuoc-ngoai-4383789.html"
-              target="_blank">
-              <img src="./images/news-1.png" class="news-image" alt="" />
-              <div class="news-content">
-                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
-                <div class="branch-wrapper">
-                  <img src="./images/branch-image.png" class="branch-image" alt="">
-                  <span class="branch-name">VTV2 SOCIAL</span>
-                </div>
-              </div>
-            </a>
-            <a class="news-of-bitu-item"
-              href="http://nhipsongkinhte.toquoc.vn/ung-dung-luyen-noi-tieng-anh-bitu-su-khac-biet-tao-nen-thanh-cong-2022091710182252.htm"
-              target="_blank">
-              <img src="./images/news-2.png" class="news-image" alt="" />
-              <div class="news-content">
-                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh BITU: Sự khác biệt tạo nên thành công</h3>
-                <div class="branch-wrapper">
-                  <img src="./images/branch-image.png" class="branch-image" alt="">
-                  <span class="branch-name">VTV2 SOCIAL</span>
-                </div>
-              </div>
-            </a>
-            <a class="news-of-bitu-item"
-              href="https://genk.vn/bitu-ky-lan-cong-nghe-the-he-moi-but-pha-20220909204637085.chn" target="_blank">
-              <img src="./images/news-3.png" class="news-image" alt="" />
-              <div class="news-content">
-                <h3 class="news-title"> Bitu Kỳ lân công nghệ thế hệ mới bứt phá</h3>
-                <div class="branch-wrapper">
-                  <img src="./images/branch-image.png" class="branch-image" alt="">
-                  <span class="branch-name">VTV2 SOCIAL</span>
-                </div>
-              </div>
-            </a>
             <div class="news-of-bitu-item">
               <div class="video-item">
                 <div class="video-content">
@@ -1754,8 +1721,8 @@
               <div class="news-content">
                 <h3 class="news-title">VTC gợi ý Bitu là ứng dụng giúp nâng cao trình độ nói tiếng Anh</h3>
                 <div class="branch-wrapper">
-                  <img src="./images/branch-image.png" class="branch-image" alt="">
-                  <span class="branch-name">VTV2 SOCIAL</span>
+                  <img src="./images/vtc.png" class="branch-image" alt="">
+                  <span class="branch-name">VTC6 SOCIAL</span>
                 </div>
               </div>
             </div>
@@ -1790,12 +1757,34 @@
               <div class="news-content">
                 <h3 class="news-title">Đài truyền hình Việt Nam VTV kiểm chứng chất lượng của Bitu</h3>
                 <div class="branch-wrapper">
-                  <img src="./images/branch-image.png" class="branch-image" alt="">
-                  <span class="branch-name">VTV2 SOCIAL</span>
+                  <img src="./images/vtv3.png" class="branch-image" alt="">
+                  <span class="branch-name">VTV3 SOCIAL</span>
                 </div>
               </div>
             </div>
-
+            <a class="news-of-bitu-item"
+              href="https://vnexpress.net/ung-dung-luyen-noi-tieng-anh-cung-nguoi-nuoc-ngoai-4383789.html"
+              target="_blank">
+              <img src="./images/news-1.png" class="news-image" alt="" />
+              <div class="news-content">
+                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+              </div>
+            </a>
+            <a class="news-of-bitu-item"
+              href="http://nhipsongkinhte.toquoc.vn/ung-dung-luyen-noi-tieng-anh-bitu-su-khac-biet-tao-nen-thanh-cong-2022091710182252.htm"
+              target="_blank">
+              <img src="./images/news-2.png" class="news-image" alt="" />
+              <div class="news-content">
+                <h3 class="news-title">Ứng dụng luyện nói tiếng Anh BITU: Sự khác biệt tạo nên thành công</h3>
+              </div>
+            </a>
+            <a class="news-of-bitu-item"
+              href="https://genk.vn/bitu-ky-lan-cong-nghe-the-he-moi-but-pha-20220909204637085.chn" target="_blank">
+              <img src="./images/news-3.png" class="news-image" alt="" />
+              <div class="news-content">
+                <h3 class="news-title"> Bitu Kỳ lân công nghệ thế hệ mới bứt phá</h3>
+              </div>
+            </a>
           </div>
         </div>
 
@@ -2111,7 +2100,7 @@
     var nativeTeacherSlider = $('.list-teacher-1').slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: true,
+      autoplay: false,
       infinite: true,
       swipe: true,
       fade: false,

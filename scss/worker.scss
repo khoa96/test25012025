@@ -1083,7 +1083,7 @@
 
     .block-item-wrapper {
       width: 100%;
-      min-height: 755px;
+      min-height: 655px;
       background-image: url("../images/banner-teacher-background.png");
       background-position: center center;
       background-repeat: no-repeat;
@@ -1091,7 +1091,6 @@
       position: relative;
 
       &:first-of-type {
-        min-height: 655px;
         background-size: contain;
 
         @include mq(max_lg) {
@@ -1105,6 +1104,7 @@
 
         @include mq(max_lg) {
           margin-top: 65px;
+          min-height: auto;
           top: 0;
           margin-bottom: 0;
         }
@@ -1661,8 +1661,15 @@
                 min-width: 79px;
                 max-width: 79px;
                 height: 29px;
-                object-fit: cover;
+                object-fit: contain;
                 margin-right: 15px;
+              }
+
+              .vtc6-image {
+                min-width: 80px;
+                max-width: 80px;
+                height: 30px;
+                object-fit: cover;
               }
 
               .branch-name {
@@ -2263,9 +2270,25 @@
               line-height: 22px;
               color: #fff;
               font-family: BeVietnamPro-Medium;
+
+              @media (max-width: 1400px) {
+                font-size: 15.5px;
+              }
             }
           }
         }
+      }
+    }
+
+    .btn-common-trial-register {
+      max-width: max-content;
+      display: block;
+      margin: 28px auto 0px;
+      min-width: 388px;
+
+      @include mq(max_md) {
+        margin: 48px auto 0px;
+        min-width: 310px;
       }
     }
   }
@@ -2291,6 +2314,26 @@
     .main-content-wrapper {
       @include mq(max_lg) {
         margin-top: 32px;
+      }
+    }
+  }
+
+  // block price
+  .price-block-wrapper {
+    border: 1px solid red;
+
+    .list-price {
+      .price-item {
+        &:first-child {
+          background-color: #f66a2e;
+        }
+        &:nth-child(2) {
+          background-color: #3fb567;
+        }
+
+        &:last-child {
+          background-color: #e5485d;
+        }
       }
     }
   }
