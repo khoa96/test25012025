@@ -126,23 +126,38 @@
       padding: 14px 70px;
     }
   }
-  .btn-prev {
-    left: 0;
+  // .btn-prev {
+  //   left: 0;
 
-    @include mq(max_lg) {
-      left: 0;
-    }
-  }
+  //   @include mq(max_lg) {
+  //     left: 0;
+  //   }
+  // }
 
-  .btn-next {
-    right: 0;
-  }
+  // .btn-next {
+  //   right: 0;
+  // }
 
   .vtv-recommend-list-wrapper {
     max-width: fit-content;
     margin: 50px auto;
+    display: flex;
+    align-items: center;
     @include mq(max_md) {
       margin: 24px auto 0px;
+    }
+
+    .btn-prev {
+      display: none;
+    }
+
+    .btn-next {
+      display: none;
+
+      @include mq(max_lg) {
+        display: block;
+        right: 0;
+      }
     }
   }
   .worker-common-list-slider {
@@ -263,6 +278,31 @@
       left: 0;
       z-index: 10;
       padding-top: 40px;
+
+      .list-contact {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        top: 70%;
+        right: 32px;
+        li {
+          margin-right: 16px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+
+        .image-contact {
+          min-width: 72px;
+          max-width: 72px;
+          height: 72px;
+          border-radius: 50%;
+        }
+
+        @include mq(max_lg) {
+          display: none;
+        }
+      }
     }
 
     .banner-layout {
@@ -875,6 +915,19 @@
       .speak-english-difficult-slider-wrapper {
         margin-top: 42px;
 
+        .btn-next {
+          right: -36px;
+          @include mq(max_md) {
+            display: none;
+          }
+        }
+
+        .btn-prev {
+          @include mq(max_md) {
+            display: none;
+          }
+        }
+
         @include mq(max_lg) {
           margin-top: 27px;
         }
@@ -1011,6 +1064,18 @@
     height: auto;
     background-color: #4d84e5;
     padding: 60px 0px;
+
+    .btn-prev {
+      @include mq(max_md) {
+        display: none;
+      }
+    }
+
+    .btn-next {
+      @include mq(max_md) {
+        right: -20px;
+      }
+    }
 
     @include mq(max_lg) {
       padding: 50px 0px;

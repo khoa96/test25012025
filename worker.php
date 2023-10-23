@@ -96,6 +96,19 @@
             </div>
           </div>
         </div>
+        <ul class="list-contact">
+          <li>
+            <a href="#">
+              <img src="./images/icon-messenger.png" class="image-contact" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/icon-zalo.png" class="image-contact" alt="">
+            </a>
+          </li>
+
+        </ul>
       </div>
     </div>
     <!-- END BANNER BLOCK -->
@@ -307,7 +320,6 @@
             <h2 class="worker-common-title">Nói tiếng anh khó</h2>
             <img src="./images/worker-title-2.png" class="worker-title-2" alt="">
           </div>
-
 
           <div class="common-list-slider-wrapper speak-english-difficult-slider-wrapper">
             <button class="btn-slider btn-prev">
@@ -1860,11 +1872,9 @@
   <?php include "templates/footer.php"; ?>
 
   <script>
-  /* -----------------------------------------------------------
-                                                                                                                                                                                                                                                                                                                Effective slider
-                                                                                                                                                                                                                                                                                                              ----------------------------------------------------------- */
   $(function() {
     // PC
+    console.log('====cal aaa =====')
     var vtvRecommendSlider = $('.vtv-recommend-list-wrapper .vtv-recommend-list-slider').slick({
       speed: 600,
       autoplaySpeed: 6000,
@@ -1887,7 +1897,8 @@
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 1
+            slidesToShow: 1,
+            autoplay: true,
           }
         }
       ]
@@ -1920,13 +1931,15 @@
       responsive: [{
           breakpoint: 992,
           settings: {
-            slidesToShow: 2
+            slidesToShow: 2,
+            autoplay: true,
           }
         },
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 1
+            slidesToShow: 1,
+            autoplay: true,
           }
         }
       ]

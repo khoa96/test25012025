@@ -3254,8 +3254,6 @@
   //block 17 (feed back from parent)
   .feed-back-from-parent-block-wrapper {
     width: 100%;
-    padding-bottom: 100px;
-    border: 1px solid green;
 
     @include mq(max_lg) {
       padding: 40px 0px 0px;
@@ -3682,11 +3680,11 @@
           background-color: #ff6d03;
         }
       }
+    }
 
-      .register-block {
-        margin-top: 48px;
-        min-height: 60px;
-      }
+    .register-block {
+      margin-top: 48px;
+      min-height: 60px;
     }
   }
 }
