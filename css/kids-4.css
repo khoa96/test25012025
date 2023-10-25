@@ -1488,7 +1488,7 @@
   .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .text {
     color: #1a202c;
     font-family: SF Pro Rounded Regular;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 136.364% */
@@ -1496,12 +1496,20 @@
     margin-left: 32px;
   }
 }
+@media only screen and (max-width: 991px) and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .text {
+    margin-left: 16px;
+  }
+}
 .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .highlight {
   color: #385fca;
+  font-family: BeVietnamPro-Bold;
+  font-weight: 800;
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .highlight {
-    font-family: SF Pro Rounded Medium;
+    font-family: SF Pro Rounded;
+    font-size: 21px;
   }
 }
 .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item:first-child img {

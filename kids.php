@@ -1742,7 +1742,7 @@
               </div>
               <div class="list-detail">
                 <div class="detail-value-item">
-                  <img src="./images/philipine-flag.png" class="image-flag" alt="" />
+                  <img src="./images/philippine-flag.png" class="image-flag" alt="" />
                   <span class="teacher-label">Giáo viên Philippines</span>
                   <h3 class="lesson-count lesson-label">98 buổi</h3>
                   <h3 class="lesson-price lesson-label">8.960.000đ</h3>

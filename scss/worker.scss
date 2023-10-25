@@ -1844,20 +1844,17 @@
           @include mq(max_lg) {
             border-radius: unset;
             border: none;
-            background: unset;
-            box-shadow: unset;
           }
 
           .feedback-student-image {
             max-width: 100%;
-            display: block;
           }
           .vertical-image {
-            height: 432.389px;
+            // height: 432.389px;
           }
 
           .horizontal-image {
-            height: 238.38px;
+            // height: 238.38px;
           }
         }
       }

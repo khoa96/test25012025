@@ -244,7 +244,7 @@ button,
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         border-radius: 32px;
 
         @include mq(max_md) {
@@ -317,7 +317,8 @@ button,
           min-width: 110px;
           max-width: 110px;
           object-fit: cover;
-          max-height: 200px;
+          max-height: 158px;
+          border: 1px solid red;
         }
       }
     }

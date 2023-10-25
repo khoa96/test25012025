@@ -1370,19 +1370,26 @@
             @include mq(max_md) {
               color: #1a202c;
               font-family: SF Pro Rounded Regular;
-              font-size: 22px;
+              font-size: 20px;
               font-style: normal;
               font-weight: 500;
               line-height: 30px; /* 136.364% */
               margin-top: 0;
               margin-left: 32px;
+
+              @include mq(max_md) {
+                margin-left: 16px;
+              }
             }
           }
           .highlight {
             color: #385fca;
+            font-family: BeVietnamPro-Bold;
+            font-weight: 800;
 
             @include mq(max_md) {
-              font-family: SF Pro Rounded Medium;
+              font-family: SF Pro Rounded;
+              font-size: 21px;
             }
           }
 

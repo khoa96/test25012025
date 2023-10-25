@@ -1787,19 +1787,10 @@
   .page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .feedback-student-list-1-slider .common-list-slider-item {
     border-radius: unset;
     border: none;
-    background: unset;
-    box-shadow: unset;
   }
 }
 .page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .feedback-student-list-1-slider .common-list-slider-item .feedback-student-image {
   max-width: 100%;
-  display: block;
-}
-.page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .feedback-student-list-1-slider .common-list-slider-item .vertical-image {
-  height: 432.389px;
-}
-.page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .feedback-student-list-1-slider .common-list-slider-item .horizontal-image {
-  height: 238.38px;
 }
 .page-worker-wrapper .worker-route-block-wrapper {
   width: 100%;
