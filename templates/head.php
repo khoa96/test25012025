@@ -13,13 +13,13 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome-all.min.css">
   <link rel="stylesheet" type="text/css" href="css/slick.min.css">
-  <link rel="stylesheet" type="text/css" href="css/common-9.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 
   <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" type="text/css" href="css/teacher.css">
-  <link rel="stylesheet" type="text/css" href="css/review-1.css">
-  <link rel="stylesheet" type="text/css" href="css/kids-4.css">
+  <link rel="stylesheet" type="text/css" href="css/review.css">
+  <link rel="stylesheet" type="text/css" href="css/kids.css">
   <link rel="stylesheet" type="text/css" href="css/worker.css">
   <link rel="stylesheet" type="text/css" href="css/about.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">

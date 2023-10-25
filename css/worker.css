@@ -135,6 +135,11 @@
     right: 0;
   }
 }
+@media only screen and (max-width: 991px) {
+  .page-worker-wrapper .vtv-recommend-list-wrapper .btn-next {
+    top: 90px !important;
+  }
+}
 .page-worker-wrapper .worker-common-list-slider {
   max-width: 1260px;
 }
@@ -1090,6 +1095,16 @@
 }
 .page-worker-wrapper .list-class-block-wrapper .list-class-slider-1-wrapper {
   margin-top: 40px;
+}
+@media only screen and (max-width: 991px) {
+  .page-worker-wrapper .list-class-block-wrapper .list-class-slider-1-wrapper .btn-next {
+    top: 90px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .page-worker-wrapper .list-class-block-wrapper .list-class-slider-2-wrapper .btn-next {
+    top: 90px !important;
+  }
 }
 .page-worker-wrapper .list-class-block-wrapper .btn-common-trial-register {
   max-width: 350px;

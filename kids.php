@@ -2016,6 +2016,8 @@
       dots: false,
       arrows: false,
       slidesToShow: 2,
+      variableWidth: true,
+      adaptiveHeight: true,
       slidesToScroll: 2,
       responsive: [{
           breakpoint: 992,
@@ -2065,6 +2067,8 @@
       arrows: false,
       slidesToShow: 2,
       slidesToScroll: 2,
+      variableWidth: true,
+      adaptiveHeight: true,
       responsive: [{
           breakpoint: 992,
           settings: {

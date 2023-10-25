@@ -126,17 +126,6 @@
       padding: 14px 70px;
     }
   }
-  // .btn-prev {
-  //   left: 0;
-
-  //   @include mq(max_lg) {
-  //     left: 0;
-  //   }
-  // }
-
-  // .btn-next {
-  //   right: 0;
-  // }
 
   .vtv-recommend-list-wrapper {
     max-width: fit-content;
@@ -157,6 +146,10 @@
       @include mq(max_lg) {
         display: block;
         right: 0;
+      }
+
+      @include mq(max_md) {
+        top: 90px !important;
       }
     }
   }
@@ -1147,6 +1140,20 @@
 
     .list-class-slider-1-wrapper {
       margin-top: 40px;
+
+      .btn-next {
+        @include mq(max_md) {
+          top: 90px !important
+        }
+      }
+    }
+
+    .list-class-slider-2-wrapper {
+       .btn-next {
+        @include mq(max_md) {
+          top: 90px !important
+        }
+      }
     }
 
     .btn-common-trial-register {

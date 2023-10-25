@@ -1006,7 +1006,7 @@
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .list-kid-student-wrapper .btn-slider {
     display: block;
-    top: 45%;
+    top: 40%;
     right: 0;
   }
 }
@@ -1205,6 +1205,11 @@
   justify-content: center;
   position: relative;
 }
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper .bitu-recommend-list-wrapper .btn-next {
+    top: 40%;
+  }
+}
 .page-kids-wrapper .bitu-recommend-wrapper .bitu-recommend-list-wrapper .bitu-recommend-list {
   min-width: 1273px;
   max-width: 1273px;
@@ -1263,6 +1268,11 @@
   background-repeat: no-repeat;
   min-height: 979px;
   padding-top: 105px;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .bitu-recommend-wrapper-2 .btn-next {
+    top: 80px !important;
+  }
 }
 .page-kids-wrapper .bitu-recommend-wrapper-2 .title-block-wrapper {
   width: fit-content;
@@ -1488,7 +1498,7 @@
   .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .text {
     color: #1a202c;
     font-family: SF Pro Rounded Regular;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 136.364% */
@@ -1496,12 +1506,20 @@
     margin-left: 32px;
   }
 }
+@media only screen and (max-width: 991px) and (max-width: 991px) {
+  .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .text {
+    margin-left: 16px;
+  }
+}
 .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .highlight {
   color: #385fca;
+  font-family: BeVietnamPro-Bold;
+  font-weight: 800;
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item .highlight {
-    font-family: SF Pro Rounded Medium;
+    font-family: SF Pro Rounded;
+    font-size: 21px;
   }
 }
 .page-kids-wrapper .learn-at-home-wrapper .list-advantage .advantage-content .advantage-item:first-child img {
@@ -3700,6 +3718,9 @@
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-mb .message-list-slider-wrapper {
   margin-top: 48px;
   position: relative;
+}
+.page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-mb .message-list-slider-wrapper .btn-next {
+  right: 0;
 }
 .page-kids-wrapper .feed-back-from-parent-block-wrapper .feedback-content-wrapper-for-mb .message-list-slider-wrapper .message-item {
   min-width: 304px;

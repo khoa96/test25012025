@@ -495,11 +495,13 @@
   }
 }
 
-.box-maxim .col-md-6:last-child img {
-  min-width: 118.87px;
-  max-width: 118.87px;
-  height: 142.771px;
-  object-fit: cover;
+@media only screen and (max-width: 991px) {
+  .box-maxim .col-md-6:last-child img {
+    min-width: 118.87px;
+    max-width: 118.87px;
+    height: 142.771px;
+    object-fit: cover;
+  }
 }
 
 /*# sourceMappingURL=about.css.map */

@@ -412,10 +412,12 @@
   .col-md-6 {
     &:last-child {
       img {
-        min-width: 118.87px;
-        max-width: 118.87px;
-        height: 142.771px;
-        object-fit: cover;
+        @include mq(max_md) {
+          min-width: 118.87px;
+          max-width: 118.87px;
+          height: 142.771px;
+          object-fit: cover;
+        }
       }
     }
   }

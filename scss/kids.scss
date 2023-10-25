@@ -897,7 +897,7 @@
 
       @include mq(max_md) {
         display: block;
-        top: 45%;
+        top: 40%;
         right: 0;
       }
     }
@@ -1094,6 +1094,12 @@
       align-items: center;
       justify-content: center;
       position: relative;
+
+      .btn-next {
+        @include mq(max_md) {
+          top: 40%;
+        }
+      }
       .bitu-recommend-list {
         min-width: 1273px;
         max-width: 1273px;
@@ -1155,6 +1161,12 @@
     background-repeat: no-repeat;
     min-height: 979px;
     padding-top: 105px;
+
+    .btn-next {
+      @include mq(max_md) {
+        top: 80px !important;
+      }
+    }
 
     .title-block-wrapper {
       width: fit-content;
