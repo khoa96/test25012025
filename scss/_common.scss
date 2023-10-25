@@ -229,8 +229,12 @@ button,
     .native-teacher-list {
       max-width: 1296px;
 
-      @include mq(max_md) {
-        max-width: 340px !important;
+      @include mq(max_lg) {
+        max-width: 600px;
+      }
+
+      @media (max-width: 500px) {
+        max-width: 340px;
       }
       display: flex;
       .slider-item {

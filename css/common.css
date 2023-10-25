@@ -352,9 +352,14 @@ button,
   max-width: 1296px;
   display: flex;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
   .list-teach-block .slider-wrapper .native-teacher-list {
-    max-width: 340px !important;
+    max-width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .list-teach-block .slider-wrapper .native-teacher-list {
+    max-width: 340px;
   }
 }
 .list-teach-block .slider-wrapper .native-teacher-list .slider-item {
