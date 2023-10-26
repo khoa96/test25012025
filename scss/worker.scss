@@ -1814,7 +1814,7 @@
           left: -30px;
         }
         @include mq(max_md) {
-          left: 0;
+          left: -20px;
         }
       }
 
@@ -1823,7 +1823,7 @@
           right: 0;
         }
         @include mq(max_md) {
-          right: 0;
+          right: -20px;
         }
       }
 
@@ -1855,6 +1855,12 @@
 
           .feedback-student-image {
             max-width: 100%;
+
+            @include mq(max_md) {
+              max-width: 80%;
+              position: relative;
+              left: -40px;
+            }
           }
           .vertical-image {
             // height: 432.389px;
