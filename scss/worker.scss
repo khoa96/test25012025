@@ -156,6 +156,9 @@
   .worker-common-list-slider {
     max-width: 1260px;
     @include mq(max_lg) {
+      max-width: 650px;
+    }
+    @include mq(max_sm) {
       max-width: 320px;
     }
     .common-list-slider-item {
@@ -931,7 +934,10 @@
             max-width: 1200px;
           }
 
-          @include mq(max_lg) {
+           @include mq(max_lg) {
+            max-width:  650px;
+          }
+          @include mq(max_sm) {
             max-width: 350px;
           }
         }
@@ -1127,7 +1133,10 @@
       }
 
       .worker-common-list-slider {
-        @include mq(max_md) {
+         @include mq(max_lg) {
+          max-width: 650px;
+        }
+        @include mq(max_sm) {
           max-width: 320px;
         }
       }
@@ -1745,7 +1754,10 @@
 
       .feedback-student-list-2-slider {
         max-width: 1260px;
-        @include mq(max_lg) {
+         @include mq(max_lg) {
+          max-width: 650px;
+        }
+        @include mq(max_sm) {
           max-width: 320px;
         }
 
@@ -1829,8 +1841,11 @@
 
       .feedback-student-list-1-slider {
         max-width: 1296px;
+         @include mq(max_lg) {
+            max-width: 650px;
+          }
 
-        @include mq(max_lg) {
+        @include mq(max_sm) {
           max-width: 320px;
         }
 

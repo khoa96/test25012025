@@ -768,7 +768,7 @@
   display: flex;
   justify-content: flex-end;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .page-kids-wrapper .bitu-for-block-wrapper .bitu-for-content-wrapper .bottom-icon-wrapper {
     width: 100%;
     justify-content: center;
@@ -779,7 +779,7 @@
   height: 332px;
   object-fit: cover;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .page-kids-wrapper .bitu-for-block-wrapper .bitu-for-content-wrapper .bottom-icon-wrapper img {
     width: 116px;
     height: 168px;
@@ -1901,7 +1901,7 @@
 .page-kids-wrapper .survey-block-wrapper .main-content .left-content {
   width: fit-content;
   margin-right: 6px;
-  height: 398px;
+  height: 400px;
   min-width: 689px;
   background-image: url("../images/message-background.png");
   background-position: center center;
@@ -1919,7 +1919,12 @@
   text-align: left;
   line-height: 32px; /* 160% */
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .left-content {
+    margin-bottom: 24px;
+  }
+}
+@media only screen and (max-width: 767px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .left-content {
     height: 497px;
     min-width: 100%;
@@ -1951,6 +1956,12 @@
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .left-content .top-content {
+    max-width: 400px;
+    margin-bottom: 6px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .left-content .top-content {
     max-width: 237px;
     margin-bottom: 6px;
   }
@@ -1960,6 +1971,12 @@
   list-style: none;
   padding-top: 8px;
   padding-left: 12px;
+}
+@media only screen and (max-width: 1199px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .left-content .detail-content {
+    padding: 0;
+    max-width: 100%;
+  }
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .left-content .detail-content {
@@ -2017,6 +2034,11 @@
   max-width: fit-content;
   min-width: fit-content;
   position: relative;
+}
+@media only screen and (max-width: 991px) {
+  .page-kids-wrapper .survey-block-wrapper .main-content .right-content {
+    margin: auto;
+  }
 }
 @media (max-width: 360px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .right-content {
@@ -2195,6 +2217,16 @@
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .register-block-2-wrapper {
+    background-position: unset;
+    height: 1700px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    background-image: url("../images/register-background-image-2-mb.png");
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-kids-wrapper .register-block-2-wrapper {
     padding: 0;
     background-size: cover;
     height: 1200px;
@@ -2236,6 +2268,13 @@
 }
 @media only screen and (max-width: 991px) {
   .page-kids-wrapper .register-block-2-wrapper .register-block-2-content .left-content {
+    padding-top: unset;
+    position: relative;
+    top: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-kids-wrapper .register-block-2-wrapper .register-block-2-content .left-content {
     min-width: 100%;
     max-width: 100%;
     padding-top: 0;
@@ -2257,7 +2296,7 @@
   margin-bottom: 15px;
   letter-spacing: 0.5px;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .page-kids-wrapper .register-block-2-wrapper .register-block-2-content .left-content .discount-title-1 {
     font-size: 32px;
     line-height: 35px;

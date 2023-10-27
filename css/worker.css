@@ -145,6 +145,11 @@
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .worker-common-list-slider {
+    max-width: 650px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-worker-wrapper .worker-common-list-slider {
     max-width: 320px;
   }
 }
@@ -905,6 +910,11 @@
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .speak-english-difficult-wrapper .speak-english-difficult-content .speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider {
+    max-width: 650px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-worker-wrapper .speak-english-difficult-wrapper .speak-english-difficult-content .speak-english-difficult-slider-wrapper .speak-english-difficult-list-slider {
     max-width: 350px;
   }
 }
@@ -1082,7 +1092,12 @@
     margin-bottom: 30px;
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
+  .page-worker-wrapper .list-class-block-wrapper .block-item-wrapper .worker-common-list-slider {
+    max-width: 650px;
+  }
+}
+@media only screen and (max-width: 767px) {
   .page-worker-wrapper .list-class-block-wrapper .block-item-wrapper .worker-common-list-slider {
     max-width: 320px;
   }
@@ -1693,6 +1708,11 @@
 }
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .feed-back-from-student-2-wrapper .feedback-student-list-2-wrapper .feedback-student-list-2-slider {
+    max-width: 650px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-worker-wrapper .feed-back-from-student-2-wrapper .feedback-student-list-2-wrapper .feedback-student-list-2-slider {
     max-width: 320px;
   }
 }
@@ -1780,6 +1800,11 @@
   max-width: 1296px;
 }
 @media only screen and (max-width: 1199px) {
+  .page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .feedback-student-list-1-slider {
+    max-width: 650px;
+  }
+}
+@media only screen and (max-width: 767px) {
   .page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .feedback-student-list-1-slider {
     max-width: 320px;
   }
