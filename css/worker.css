@@ -1763,7 +1763,7 @@
 }
 @media only screen and (max-width: 991px) {
   .page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .btn-prev {
-    left: 0;
+    left: -20px;
   }
 }
 @media (min-width: 1400px) {
@@ -1773,7 +1773,7 @@
 }
 @media only screen and (max-width: 991px) {
   .page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .btn-next {
-    right: 0;
+    right: -20px;
   }
 }
 .page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .feedback-student-list-1-slider {
@@ -1806,6 +1806,13 @@
 }
 .page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .feedback-student-list-1-slider .common-list-slider-item .feedback-student-image {
   max-width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .page-worker-wrapper .feed-back-from-student-1-wrapper .feedback-student-list-1-wrapper .feedback-student-list-1-slider .common-list-slider-item .feedback-student-image {
+    max-width: 80%;
+    position: relative;
+    left: -40px;
+  }
 }
 .page-worker-wrapper .worker-route-block-wrapper {
   width: 100%;

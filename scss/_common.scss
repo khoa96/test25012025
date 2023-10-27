@@ -366,7 +366,7 @@ button,
     drop-shadow(0 -3px 0 #ffb700) drop-shadow(0 3px 0 #ffb700)
     drop-shadow(8px 8px rgba(0, 0, 0, 0.15));
 
-  @include mq(max_md) {
+  @include mq(max_sm) {
     max-width: 100%;
     font-size: 28px;
     line-height: 44px;
@@ -948,7 +948,6 @@ button,
 
   @include mq(max_md) {
     margin: 0;
-    margin-bottom: 24px;
   }
 
   &:last-of-type {

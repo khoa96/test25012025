@@ -1900,6 +1900,10 @@
               <img src="./images/news-1.png" class="news-image" alt="" />
               <div class="news-content">
                 <h3 class="news-title">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h3>
+                <div class="branch-wrapper">
+                  <img src="./images/vnexpress.png" class="branch-image" alt="">
+                  <span class="branch-name">VNEXPRESS</span>
+                </div>
               </div>
             </a>
             <a class="news-of-bitu-item"
@@ -1908,6 +1912,10 @@
               <img src="./images/news-2.png" class="news-image" alt="" />
               <div class="news-content">
                 <h3 class="news-title">Ứng dụng luyện nói tiếng Anh BITU: Sự khác biệt tạo nên thành công</h3>
+                <div class="branch-wrapper">
+                  <img src="./images/nhipsongkinhte.webp" class="branch-image" alt="">
+                  <span class="branch-name">NHỊP SỐNG KINH TẾ</span>
+                </div>
               </div>
             </a>
             <a class="news-of-bitu-item"
@@ -1915,6 +1923,10 @@
               <img src="./images/news-3.png" class="news-image" alt="" />
               <div class="news-content">
                 <h3 class="news-title"> Bitu Kỳ lân công nghệ thế hệ mới bứt phá</h3>
+                <div class="branch-wrapper">
+                  <img src="./images/genk.png" class="branch-image" alt="">
+                  <span class="branch-name">GENK</span>
+                </div>
               </div>
             </a>
           </div>
@@ -2308,7 +2320,7 @@
     var feebackStudentList1Slider = $('.feedback-student-list-1-slider').slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: true,
+      autoplay: false,
       infinite: true,
       swipe: true,
       fade: false,

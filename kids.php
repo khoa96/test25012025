@@ -139,7 +139,6 @@
                   tiếng Anh tốt cần <strong>bổ sung
                     thêm kỹ năng nói.</strong>
                 </p>
-
               </div>
             </div>
             <div class="main-image-wrapper">

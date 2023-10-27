@@ -491,6 +491,9 @@
         position: relative;
 
         @include mq(max_md) {
+        }
+
+        @include mq(max_sm) {
           width: 100%;
           height: auto;
         }
@@ -657,7 +660,7 @@
         display: flex;
         justify-content: flex-end;
 
-        @include mq(max_md) {
+        @include mq(max_sm) {
           width: 100%;
           justify-content: center;
         }
@@ -666,7 +669,7 @@
           width: 227px;
           height: 332px;
           object-fit: cover;
-          @include mq(max_md) {
+          @include mq(max_sm) {
             width: 116px;
             height: 168px;
           }
