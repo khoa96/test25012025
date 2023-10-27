@@ -76,7 +76,6 @@
     }
     .title-for-pc {
       display: block;
-
       @include mq(max_md) {
         display: none;
       }
@@ -84,7 +83,6 @@
 
     .title-for-mb {
       display: none;
-
       @include mq(max_md) {
         display: block;
       }
@@ -493,6 +491,9 @@
         position: relative;
 
         @include mq(max_md) {
+        }
+
+        @include mq(max_sm) {
           width: 100%;
           height: auto;
         }
@@ -686,6 +687,15 @@
       padding: 50px 0px 48px;
     }
 
+    .learn-with-foreigner-teacher-content {
+      @include mq(max_md) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
     .title-block {
       width: 100%;
       display: flex;
@@ -695,7 +705,7 @@
       position: relative;
 
       @include mq(max_md) {
-        display: block;
+        left: -50px;
       }
     }
 
@@ -714,6 +724,10 @@
 
     .learn-with-foreigner-teacher-content {
       position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
 
       .icon-cloud-1 {
         position: absolute;
@@ -792,7 +806,9 @@
       .left-content {
         margin-right: 0;
         min-width: 536px;
-        height: 322px;
+        max-width: 536px;
+        min-height: 322px;
+        max-height: 322px;
         background-image: url("../images/video-1-background.png");
         background-position: center center;
         background-repeat: no-repeat;
@@ -802,11 +818,18 @@
         align-items: center;
         margin-right: 20px;
 
-        @include mq(max_md) {
-          margin-right: 0;
+        @media (max-width: 1200px) {
+          margin: 0 auto;
+          margin-bottom: 32px;
+        }
+
+        @include mq(max_sm) {
+          margin: 0 auto;
           margin-bottom: 16px;
           min-width: 343px;
-          height: 210px;
+          max-width: 343px;
+          min-height: 210px;
+          max-height: 210px;
           background-image: url("../images/video-1-background-mb.png");
         }
         .video-content {
@@ -815,7 +838,7 @@
           position: relative;
           left: 10px;
 
-          @include mq(max_lg) {
+          @include mq(max_sm) {
             min-width: unset;
             width: 275px;
             height: 154px;
@@ -827,6 +850,9 @@
       .right-content {
         .list-option-of-class {
           list-style: none;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
 
           .option-of-class-item {
             display: flex;
@@ -885,7 +911,7 @@
     padding: 60px 0px 66px;
     position: relative;
     z-index: 2;
-    @include mq(max_md) {
+    @include mq(max_lg) {
       padding: 52px 0px 47px;
       background-image: none;
       background-color: #ff6d03;
@@ -894,7 +920,6 @@
 
     .btn-slider {
       display: none;
-
       @include mq(max_md) {
         display: block;
         top: 40%;
@@ -986,8 +1011,11 @@
         min-width: 1278px;
         max-width: 1278px;
         display: flex;
-
-        @include mq(max_md) {
+        @include mq(max_lg) {
+          min-width: 650px;
+          max-width: 650px;
+        }
+        @include mq(max_sm) {
           min-width: 324px;
           max-width: 324px;
         }
@@ -1104,7 +1132,13 @@
         min-width: 1273px;
         max-width: 1273px;
         display: flex;
-        @include mq(max_md) {
+
+        @include mq(max_lg) {
+          min-width: 650px;
+          max-width: 650px;
+        }
+
+        @include mq(max_sm) {
           min-width: 324px;
           max-width: 324px;
         }
@@ -1687,7 +1721,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
     padding-top: 95px;
 
     @include mq(max_md) {
@@ -1761,7 +1794,7 @@
       .left-content {
         width: fit-content;
         margin-right: 6px;
-        height: 398px;
+        height: 400px;
         min-width: 689px;
         background-image: url("../images/message-background.png");
         background-position: center center;
@@ -1778,7 +1811,11 @@
         font-weight: 500;
         text-align: left;
         line-height: 32px; /* 160% */
-        @include mq(max_md) {
+
+        @include mq(max_lg) {
+          margin-bottom: 24px;;
+        }
+        @include mq(max_sm) {
           height: 497px;
           min-width: 100%;
           max-width: 100%;
@@ -1807,7 +1844,15 @@
           margin-bottom: 12px;
           width: 100%;
 
+          // @include mq(max_lg) {
+          //   max-width: 100%;
+          //   border: 2px solid red;
+          // }
           @include mq(max_md) {
+            max-width: 400px;
+            margin-bottom: 6px;
+          }
+            @include mq(max_sm) {
             max-width: 237px;
             margin-bottom: 6px;
           }
@@ -1819,6 +1864,10 @@
           padding-top: 8px;
           padding-left: 12px;
 
+           @include mq(max_lg) {
+            padding: 0;
+            max-width: 100%;
+          }
           @include mq(max_md) {
             padding: 0;
             max-width: 72%;
@@ -1875,7 +1924,7 @@
         position: relative;
 
         @include mq(max_md) {
-          // margin: auto;
+          margin: auto;
         }
 
         @media (max-width: 360px) {
@@ -2056,6 +2105,15 @@
     padding: 0px 24px 24px 24px;
 
     @include mq(max_md) {
+      background-position: unset;
+      height: 1700px;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0;
+      background-image: url("../images/register-background-image-2-mb.png");
+    }
+
+    @include mq(max_sm) {
       padding: 0;
       background-size: cover;
       height: 1200px;
@@ -2095,6 +2153,11 @@
         padding-top: 100px;
 
         @include mq(max_md) {
+          padding-top: unset;
+          position: relative;
+          top: 100px;
+        }
+        @include mq(max_sm) {
           min-width: 100%;
           max-width: 100%;
           padding-top: 0;
@@ -2116,7 +2179,7 @@
           margin-bottom: 15px;
           letter-spacing: 0.5px;
 
-          @include mq(max_md) {
+          @include mq(max_sm) {
             font-size: 32px;
             line-height: 35px;
             padding: 8px 24px;

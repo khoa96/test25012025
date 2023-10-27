@@ -352,9 +352,14 @@ button,
   max-width: 1296px;
   display: flex;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
   .list-teach-block .slider-wrapper .native-teacher-list {
-    max-width: 340px !important;
+    max-width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .list-teach-block .slider-wrapper .native-teacher-list {
+    max-width: 340px;
   }
 }
 .list-teach-block .slider-wrapper .native-teacher-list .slider-item {
@@ -471,7 +476,7 @@ button,
   margin: 0 auto;
   filter: drop-shadow(-3px 0 0 #fff) drop-shadow(3px 0 0 #fff) drop-shadow(0 -3px 0 #fff) drop-shadow(0 3px 0 #fff) drop-shadow(-3px 0 0 #ffb700) drop-shadow(3px 0 0 #ffb700) drop-shadow(0 -3px 0 #ffb700) drop-shadow(0 3px 0 #ffb700) drop-shadow(8px 8px rgba(0, 0, 0, 0.15));
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .banner-kids-title {
     max-width: 100%;
     font-size: 28px;
@@ -1006,7 +1011,6 @@ button,
 @media only screen and (max-width: 991px) {
   .video-item {
     margin: 0;
-    margin-bottom: 24px;
   }
 }
 .video-item:last-of-type {
@@ -1050,4 +1054,4 @@ button,
   cursor: pointer;
 }
 
-
+/*# sourceMappingURL=common.css.map */
