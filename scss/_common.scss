@@ -465,6 +465,7 @@ button,
 
     @include mq(max_md) {
       flex-direction: column;
+      align-items: center;
     }
 
     .price-item {
@@ -481,6 +482,12 @@ button,
       box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.3);
 
       @include mq(max_md) {
+        min-width: 520px;
+        max-width: 520px;
+        margin-right: 0;
+        margin-bottom: 32px;
+      }
+      @include mq(max_sm) {
         min-width: 100%;
         max-width: 100%;
         margin-right: 0;
@@ -546,6 +553,11 @@ button,
           margin-right: 24px;
 
           @include mq(max_md) {
+            min-width: 240px;
+            max-width: 240px;
+          }
+
+          @include mq(max_sm) {
             min-width: 160px;
             max-width: 160px;
             margin-right: 16px;
