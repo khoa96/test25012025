@@ -32,7 +32,8 @@
     filter: drop-shadow(-2px 0 0 #1a202c) drop-shadow(2px 0 0 #1a202c)
       drop-shadow(0 -2px 0 #1a202c) drop-shadow(0 2px 0 #1a202c);
 
-    @include mq(max_lg) {
+    @include mq(max_sm) {
+      border: 1px solid red;
       max-width: 343px;
       color: #ffc700;
       text-align: center;
@@ -746,7 +747,7 @@
     }
 
     .vtv-recommend-title {
-      @include mq(max_lg) {
+      @include mq(max_sm) {
         max-width: 343px;
         text-align: center;
         margin: 0 auto;
@@ -1119,14 +1120,14 @@
       .block-item-title-1 {
         max-width: 880px;
 
-        @include mq(max_lg) {
+        @include mq(max_sm) {
           max-width: 343px;
         }
       }
       .block-item-title-2 {
         max-width: max-content;
         margin-bottom: 40px;
-        @include mq(max_lg) {
+        @include mq(max_sm) {
           max-width: 343px;
           margin-bottom: 30px;
         }
@@ -1604,7 +1605,7 @@
 
       .news-of-bitu-title {
         margin-bottom: 48px;
-        @include mq(max_lg) {
+        @include mq(max_sm) {
           margin-bottom: 32px;
           max-width: 343px;
           margin-left: auto;
