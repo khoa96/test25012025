@@ -33,7 +33,6 @@
       drop-shadow(0 -2px 0 #1a202c) drop-shadow(0 2px 0 #1a202c);
 
     @include mq(max_sm) {
-      border: 1px solid red;
       max-width: 343px;
       color: #ffc700;
       text-align: center;

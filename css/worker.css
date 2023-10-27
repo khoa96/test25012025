@@ -27,7 +27,6 @@
 }
 @media only screen and (max-width: 767px) {
   .page-worker-wrapper .worker-common-title {
-    border: 1px solid red;
     max-width: 343px;
     color: #ffc700;
     text-align: center;
