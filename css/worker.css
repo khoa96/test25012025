@@ -490,11 +490,12 @@
 @media only screen and (max-width: 1199px) {
   .page-worker-wrapper .worker-banner-block-wrapper .main-content .right-content .form-register-wrapper {
     left: 0;
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 500px;
+    max-width: 500px;
+    margin: auto;
   }
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 767px) {
   .page-worker-wrapper .worker-banner-block-wrapper .main-content .right-content .form-register-wrapper {
     min-width: 100%;
     max-width: 100%;

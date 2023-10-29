@@ -61,21 +61,21 @@
               </div>
             </div>
             <div class="right-content">
-              <ul class="count-down-timer" id="coun-down-timer">
+              <ul class="count-down-timer" id="count-down-timer-1">
                 <li class="timer-item">
-                  <span class="number">00</span>
+                  <span class="number day-timer">00</span>
                   <span class="label">Ngày</span>
                 </li>
                 <li class="timer-item">
-                  <span class="number">05</span>
+                  <span class="number hour-timer">00</span>
                   <span class="label">Giờ</span>
                 </li>
                 <li class="timer-item">
-                  <span class="number">34</span>
+                  <span class="number minute-timer">00</span>
                   <span class="label">Phút</span>
                 </li>
                 <li class="timer-item">
-                  <span class="number">50</span>
+                  <span class="number second-timer">00</span>
                   <span class="label">Giây</span>
                 </li>
               </ul>
@@ -1793,7 +1793,7 @@
                 <h3 class="top-title-1">quà độc quyền </h3>
                 <h2 class="top-title-2">100 suất</h2>
               </div>
-              <div class="timer-count-down">
+              <div class="timer-count-down" id="count-down-timer-2">
                 <div class="day-timer timer-item">
                   <span class="value">00</span>
                   <span class="label">Ngày</span>
@@ -2292,6 +2292,85 @@
   </script>
 
   <script src="js/video.js"></script>
+  <script>
+  // dateString format: YYYY/MM/DD HH:mm:ss: example 2023/20/11 00:00:00
+  // dateSelector: selector select day element
+  // hourSelector: selector select hour element
+  // minuteSelector: selector select minutes element
+  // minuteSelector: selector select minutes element
+  // secondSelector: selector select minutes element
+  function countdownTimeStart(
+    dateString,
+    dateSelector,
+    hourSelector,
+    minuteSelector,
+    secondSelector
+  ) {
+    var countDownDate = new Date(dateString).getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now an the count down date
+      var distance = countDownDate - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      // Time calculations for days, hours, minutes and seconds
+      var hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.querySelector(dateSelector).innerHTML = String(days).padStart(
+        2,
+        "0"
+      );
+      document.querySelector(hourSelector).innerHTML = String(hours).padStart(
+        2,
+        "0"
+      );
+      document.querySelector(minuteSelector).innerHTML = String(minutes).padStart(
+        2,
+        "0"
+      );
+      document.querySelector(secondSelector).innerHTML = String(seconds).padStart(
+        2,
+        "0"
+      );
+
+      // If the count down is over, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.querySelector(dateSelector).innerHTML = "00";
+        document.querySelector(hourSelector).innerHTML = "00";
+        document.querySelector(minuteSelector).innerHTML = "00";
+        document.querySelector(secondSelector).innerHTML = "00";
+      }
+    }, 1000);
+  }
+  // countdown timer for banner
+  const dateStringForBanner = '2023/11/20 00:00:00'
+  countdownTimeStart(
+    dateStringForBanner,
+    '#count-down-timer-1 .day-timer',
+    '#count-down-timer-1 .hour-timer',
+    '#count-down-timer-1 .minute-timer',
+    '#count-down-timer-1 .second-timer'
+  )
+
+  // countdown timer for register
+  const dateStringForRegister = '2023/11/20 00:00:00'
+  countdownTimeStart(
+    dateStringForRegister,
+    '#count-down-timer-2 .day-timer .value',
+    '#count-down-timer-2 .hour-timer .value',
+    '#count-down-timer-2 .minute-timer .value',
+    '#count-down-timer-2 .second-timer .value'
+  )
+  </script>
 </body>
 
 </html>
