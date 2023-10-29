@@ -1813,7 +1813,7 @@
         line-height: 32px; /* 160% */
 
         @include mq(max_lg) {
-          margin-bottom: 24px;;
+          margin-bottom: 24px;
         }
         @include mq(max_sm) {
           height: 497px;
@@ -1852,7 +1852,7 @@
             max-width: 400px;
             margin-bottom: 6px;
           }
-            @include mq(max_sm) {
+          @include mq(max_sm) {
             max-width: 237px;
             margin-bottom: 6px;
           }
@@ -1864,7 +1864,7 @@
           padding-top: 8px;
           padding-left: 12px;
 
-           @include mq(max_lg) {
+          @include mq(max_lg) {
             padding: 0;
             max-width: 100%;
           }
@@ -3123,7 +3123,10 @@
         transform: rotate(-3deg);
         text-shadow: 2px 4px 0px #a9270e;
 
-        @include mq(max_md) {
+        @include mq(max_lg) {
+          font-size: 50px;
+        }
+        @include mq(max_sm) {
           font-size: 26px;
           padding: 8px 8px 20px 12px;
         }
@@ -3152,7 +3155,10 @@
       width: fit-content;
       top: -60px;
 
-      @include mq(max_md) {
+      @include mq(max_lg) {
+        top: -40px;
+      }
+      @include mq(max_sm) {
         top: -20px;
       }
       .blue-mask {
@@ -3179,8 +3185,10 @@
         background-color: #385fca;
         font-family: SVN-Bango;
         text-shadow: 2px 2px 0px #152c8b;
-
-        @include mq(max_md) {
+        @include mq(max_lg) {
+          font-size: 32px;
+        }
+        @include mq(max_sm) {
           font-size: 16px;
           padding: 10px 8px;
         }

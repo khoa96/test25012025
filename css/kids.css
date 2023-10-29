@@ -3181,7 +3181,12 @@
   transform: rotate(-3deg);
   text-shadow: 2px 4px 0px #a9270e;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
+  .page-kids-wrapper .topic-block-wrapper .title-1-wrapper .title-1-text {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
   .page-kids-wrapper .topic-block-wrapper .title-1-wrapper .title-1-text {
     font-size: 26px;
     padding: 8px 8px 20px 12px;
@@ -3209,7 +3214,12 @@
   width: fit-content;
   top: -60px;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
+  .page-kids-wrapper .topic-block-wrapper .title-2-wrapper {
+    top: -40px;
+  }
+}
+@media only screen and (max-width: 767px) {
   .page-kids-wrapper .topic-block-wrapper .title-2-wrapper {
     top: -20px;
   }
@@ -3238,7 +3248,12 @@
   font-family: SVN-Bango;
   text-shadow: 2px 2px 0px #152c8b;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
+  .page-kids-wrapper .topic-block-wrapper .title-2-wrapper .title-2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 767px) {
   .page-kids-wrapper .topic-block-wrapper .title-2-wrapper .title-2 {
     font-size: 16px;
     padding: 10px 8px;
