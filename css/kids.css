@@ -2052,7 +2052,7 @@
   object-fit: cover;
   position: relative;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .right-content .survey-image {
     min-width: 252px;
     max-width: 252px;
@@ -2068,7 +2068,7 @@
   max-width: 234px;
   object-fit: contain;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .page-kids-wrapper .survey-block-wrapper .main-content .right-content .icon-bitu-7 {
     min-width: 204px;
     max-width: 204px;

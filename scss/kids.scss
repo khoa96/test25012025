@@ -1937,7 +1937,7 @@
           object-fit: cover;
           position: relative;
 
-          @include mq(max_md) {
+          @include mq(max_sm) {
             min-width: 252px;
             max-width: 252px;
             height: 362px;
@@ -1953,7 +1953,7 @@
           max-width: 234px;
           object-fit: contain;
 
-          @include mq(max_md) {
+          @include mq(max_sm) {
             min-width: 204px;
             max-width: 204px;
             height: 203px;
