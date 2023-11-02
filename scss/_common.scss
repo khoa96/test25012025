@@ -83,7 +83,6 @@ button,
   position: absolute;
   top: 50%;
   display: flex;
-  z-index: 999;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
@@ -257,66 +256,6 @@ button,
           margin: 0px 8px;
           padding: 24px 20px;
         }
-
-        .teacher-image-wrapper {
-          width: 192px;
-          height: 192px;
-          position: relative;
-          margin-bottom: 12px;
-          .teacher-image {
-            min-width: 192px;
-            max-width: 192px;
-            border-radius: 50%;
-            border: 2px solid #ffb700;
-            height: 192px;
-            object-fit: cover;
-          }
-
-          .flag-image {
-            min-width: 40px;
-            max-width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            border: 2px solid #ffb700;
-            object-fit: cover;
-            position: absolute;
-            right: 20px;
-            bottom: 0;
-          }
-        }
-        .teacher-name {
-          text-align: center;
-          font-family: SF Pro Rounded Medium;
-          font-size: 24px;
-          font-style: normal;
-          font-weight: 700;
-          color: #ff6d03;
-          line-height: normal;
-          margin-bottom: 12px;
-        }
-
-        .teacher-info-wrapper {
-          display: flex;
-          align-items: center;
-          font-family: SF Pro Rounded Regular;
-          font-size: 18px;
-          font-style: normal;
-          line-height: normal;
-          color: #1a202c;
-          margin-bottom: 12px;
-          .label {
-            font-weight: bold;
-            margin-right: 6px;
-          }
-          .value {
-            min-width: max-content;
-          }
-
-          .certificate {
-            text-transform: uppercase;
-          }
-        }
-
         .certificate-image {
           min-width: 110px;
           max-width: 110px;
@@ -325,6 +264,65 @@ button,
         }
       }
     }
+  }
+}
+
+.teacher-image-wrapper {
+  width: 192px;
+  height: 192px;
+  position: relative;
+  margin-bottom: 12px;
+  .teacher-image {
+    min-width: 192px;
+    max-width: 192px;
+    border-radius: 50%;
+    border: 2px solid #ffb700;
+    height: 192px;
+    object-fit: cover;
+  }
+
+  .flag-image {
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ffb700;
+    object-fit: cover;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+  }
+}
+.teacher-name {
+  text-align: center;
+  font-family: SF Pro Rounded Medium;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ff6d03;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.teacher-info-wrapper {
+  display: flex;
+  align-items: center;
+  font-family: SF Pro Rounded Regular;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  color: #1a202c;
+  margin-bottom: 12px;
+  .label {
+    margin-right: 6px;
+    font-family: SF Pro Rounded Medium;
+  }
+  .value {
+    min-width: max-content;
+  }
+
+  .certificate {
+    text-transform: uppercase;
   }
 }
 
@@ -957,6 +955,8 @@ button,
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 100%;
+  height: 100%;
 
   @include mq(max_md) {
     margin: 0;
@@ -1009,4 +1009,129 @@ button,
       cursor: pointer;
     }
   }
+}
+
+// style common for popup
+.popup {
+  position: fixed;
+  z-index: -100;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  @include mq(max_md) {
+    display: none;
+  }
+}
+
+.popup__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+
+  @include mq(max_md) {
+    top: 8px;
+    right: 8px;
+  }
+}
+
+.popup__body {
+  position: relative;
+  max-width: 640px;
+  min-width: 640px;
+  background: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  border: none;
+
+  @include mq(max_md) {
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 24px;
+  }
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .list-certificate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .certificate-item {
+      min-width: 110px;
+      max-width: 110px;
+      height: 156px;
+      border: 2px solid #fff;
+      margin-right: 16px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .list-video-preview {
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+
+    .video-preview-item {
+      min-width: 275px;
+      max-width: 275px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-right: 24px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .video-wrapper {
+        width: 100%;
+        height: 180px;
+        margin-bottom: 16px;
+      }
+
+      .text-label {
+        text-align: center;
+        font-family: SF Pro Rounded Medium;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
+
+.popup--show {
+  z-index: 100;
+  opacity: 1;
 }
