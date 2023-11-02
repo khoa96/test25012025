@@ -1132,6 +1132,6 @@ button,
 }
 
 .popup--show {
-  z-index: 100;
+  z-index: 99999999;
   opacity: 1;
 }
