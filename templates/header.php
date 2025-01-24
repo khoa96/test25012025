@@ -1,9 +1,11 @@
+<!-- header for pc -->
 <header class="main-header">
   <div class="container-fluid">
     <div class="row g-0 justify-content-between align-items-center">
       <div class="col-auto col-logo">
+        <!-- logo for pv here -->
         <a href="index.html" class="logo">
-          <img src="./images/logo.svg" alt="Bitu" class=" d-none d-lg-block">
+          <img src="./images/logo.svg" alt="Bitu" class="d-none d-lg-block">
           <img src="./images/logo_sp.svg" alt="Bitu" class=" d-block d-lg-none">
         </a>
       </div>
@@ -70,14 +72,18 @@
 </header>
 <!-- /END .main-header -->
 
+
+<!-- header for mobile -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title">
+      <!-- logo mobile here -->
       <a href="index.html" class="logo"><img src="images/logo_sp.svg" alt="Bitu"></a>
     </h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
 
+  <!-- content of menu -mobile -->
   <div class="offcanvas-body">
     <ul class="main-nav">
       <li><a href="#" class="active">Người đi làm</a></li>

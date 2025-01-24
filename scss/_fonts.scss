@@ -2,128 +2,33 @@
 	font-face Circular Std
 ----------------------------------------------------------- */
 @font-face {
-  font-family: "Circular Std";
-  src: url("../fonts/CircularStd-Book.otf");
+  font-family: "Lexend Bold";
+  src: url("../fonts/Lexend-Bold.ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Circular Std";
-  src: url("../fonts/CircularStd-Medium.otf");
+  font-family: "Lexend Medium";
+  src: url("../fonts/Lexend-Medium.ttf");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Circular Std";
-  src: url("../fonts/CircularStd-Bold.otf");
-
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* -----------------------------------------------------------
-	font-face SF Pro Rounded
------------------------------------------------------------ */
-
-@font-face {
-  font-family: "SF Pro Rounded Regular";
-  src: url("../fonts/SF-Pro-Rounded-Regular.otf");
+  font-family: "Lexend Regular";
+  src: url("../fonts/Lexend-Regular.ttf");
   font-style: normal;
   font-display: swap;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "SF Pro Rounded Medium";
-  src: url("../fonts/SF-Pro-Rounded-Medium.otf");
+  font-family: "Lexend Light";
+  src: url("../fonts/Lexend-Light.ttf");
   font-style: normal;
   font-display: swap;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "SF Pro Rounded";
-  src: url("../fonts/SF-Pro-Rounded-Black.otf");
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "SF Pro Rounded Black";
-  src: url("../fonts/SF-Pro-Rounded-Black.otf");
-  font-style: normal;
-  font-display: swap;
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: SVN-Bango;
-  src: url("../fonts/SVN-Bango.otf");
-  font-style: normal;
-  font-display: swap;
-  font-weight: bold;
-}
-
-/* -----------------------------------------------------------
-	font-face BeVietnamPro
------------------------------------------------------------ */
-
-@font-face {
-  font-family: "BeVietnamPro-Light";
-  src: url("../fonts/BeVietnamPro-Light.ttf");
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "BeVietnamPro-Black";
-  src: url("../fonts/BeVietnamPro-Black.ttf");
-  font-style: normal;
-  font-display: swap;
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "BeVietnamPro-Bold";
-  src: url("../fonts/BeVietnamPro-Bold.ttf");
-  font-style: normal;
-  font-display: swap;
-  font-weight: 800;
-}
-@font-face {
-  font-family: "BeVietnamPro-Medium";
-  src: url("../fonts/BeVietnamPro-Medium.ttf");
-  font-style: normal;
-  font-display: swap;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "BeVietnamPro-Regular";
-  src: url("../fonts/BeVietnamPro-Regular.ttf");
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Ephesis-Regular";
-  src: url("../fonts/Ephesis-Regular.ttf");
-  font-style: normal;
-  font-display: swap;
-  font-weight: normal;
-}
-
-/* -----------------------------------------------------------
-	font-face 
------------------------------------------------------------ */
-@font-face {
-  font-family: "SVN-Anastasia";
-  src: url("../fonts/SVN-Anastasia.ttf");
-  font-style: normal;
-  font-display: swap;
-  font-weight: normal;
+  font-weight: 300;
 }

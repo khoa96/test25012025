@@ -1,16 +1,13 @@
 @charset "utf-8";
 $experimental-support-for-svg: true;
 
-$font_main: "Circular Std", serif;
+$font_main: "Lexend", serif;
 
 $sm: 576px;
-$md: 768px;
+$md: 768px; // tablet
 $lg: 992px;
 $xl: 1200px;
-$xxl: 1400px;
+$xxl: 1500px;
 
-$primary: #ff6d03;
-$body-color: #1a202c;
-$c-blue: #2971f0;
-$c-green: #48bb78;
-$c-yellow: #ffb700;
+$primary: '';
+$secondary: '';
