@@ -710,6 +710,7 @@ body {
     align-items: center;
     overflow: auto;
     margin-bottom: 20px;
+    min-width: unset;
   }
 }
 .our-feature__content .main-content .left-content .btn-tab {
